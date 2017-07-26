@@ -1,0 +1,443 @@
+{
+  "meta" : {
+    "view" : {
+      "id" : "9w3s-wzf4",
+      "name" : "Fenced Dog Parks",
+      "attribution" : "Territory and Municipal Services",
+      "attributionLink" : "http://www.tams.act.gov.au/city-services/pets/keeping_dogs_in_the_act/where_can_i_take_my_dog",
+      "averageRating" : 0,
+      "category" : "Sport and Recreation",
+      "createdAt" : 1425529648,
+      "description" : "Locations of the fenced dog parks across Canberra.",
+      "displayType" : "table",
+      "downloadCount" : 348,
+      "hideFromCatalog" : false,
+      "hideFromDataJson" : false,
+      "indexUpdatedAt" : 1499231292,
+      "licenseId" : "CC_40_BY",
+      "locale" : "",
+      "newBackend" : false,
+      "numberOfComments" : 0,
+      "oid" : 11943487,
+      "provenance" : "official",
+      "publicationAppendEnabled" : true,
+      "publicationDate" : 1435276008,
+      "publicationGroup" : 2405976,
+      "publicationStage" : "published",
+      "rowClass" : "",
+      "rowsUpdatedAt" : 1435275974,
+      "rowsUpdatedBy" : "m7km-7fxa",
+      "tableId" : 3304150,
+      "totalTimesRated" : 0,
+      "viewCount" : 264,
+      "viewLastModified" : 1500972500,
+      "viewType" : "tabular",
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":id",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":position",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : 210192621,
+        "name" : "ID",
+        "dataTypeName" : "number",
+        "fieldName" : "id",
+        "position" : 2,
+        "renderTypeName" : "number",
+        "tableColumnId" : 26075649,
+        "width" : 124,
+        "cachedContents" : {
+          "non_null" : 6,
+          "average" : "12.83333333333333",
+          "largest" : "44",
+          "null" : 0,
+          "top" : [ {
+            "item" : "1",
+            "count" : 20
+          }, {
+            "item" : "2",
+            "count" : 19
+          }, {
+            "item" : "4",
+            "count" : 18
+          }, {
+            "item" : "5",
+            "count" : 17
+          }, {
+            "item" : "21",
+            "count" : 16
+          }, {
+            "item" : "44",
+            "count" : 15
+          } ],
+          "smallest" : "1",
+          "sum" : "77"
+        },
+        "format" : { }
+      }, {
+        "id" : 210192623,
+        "name" : "DIVISION",
+        "dataTypeName" : "text",
+        "fieldName" : "division",
+        "position" : 3,
+        "renderTypeName" : "text",
+        "tableColumnId" : 26075650,
+        "width" : 196,
+        "cachedContents" : {
+          "non_null" : 6,
+          "largest" : "Yarralumla",
+          "null" : 0,
+          "top" : [ {
+            "item" : "Casey",
+            "count" : 20
+          }, {
+            "item" : "Forde",
+            "count" : 19
+          }, {
+            "item" : "Yarralumla",
+            "count" : 18
+          }, {
+            "item" : "Greenway",
+            "count" : 17
+          }, {
+            "item" : "Belconnen",
+            "count" : 16
+          }, {
+            "item" : "O'connor",
+            "count" : 15
+          } ],
+          "smallest" : "Belconnen"
+        },
+        "format" : { }
+      }, {
+        "id" : 210192625,
+        "name" : "LOCATION",
+        "dataTypeName" : "text",
+        "fieldName" : "location",
+        "position" : 4,
+        "renderTypeName" : "text",
+        "tableColumnId" : 26075651,
+        "width" : 196,
+        "cachedContents" : {
+          "non_null" : 6,
+          "largest" : "Yeend Avenue Pedestrian Parkland",
+          "null" : 0,
+          "top" : [ {
+            "item" : "Yeend Avenue Pedestrian Parkland",
+            "count" : 20
+          }, {
+            "item" : "Pooley Street Pedestrian Parkland",
+            "count" : 19
+          }, {
+            "item" : "Weston Park Road Pedestrian Parkland",
+            "count" : 18
+          }, {
+            "item" : "Mortimer Lewis Drive District Park",
+            "count" : 17
+          }, {
+            "item" : "Diddams Close Pedestrian Parkland",
+            "count" : 16
+          }, {
+            "item" : "Belconnen Way Pedestrian Parkland",
+            "count" : 15
+          } ],
+          "smallest" : "Belconnen Way Pedestrian Parkland"
+        },
+        "format" : { }
+      }, {
+        "id" : 210192628,
+        "name" : "IMAGE_LINK",
+        "dataTypeName" : "url",
+        "fieldName" : "image_link",
+        "position" : 5,
+        "renderTypeName" : "url",
+        "tableColumnId" : 26075652,
+        "width" : 220,
+        "cachedContents" : {
+          "non_null" : 0,
+          "null" : 6
+        },
+        "format" : { },
+        "subColumnTypes" : [ "url", "description" ]
+      }, {
+        "id" : 210192630,
+        "name" : "VIDEO_LINK",
+        "dataTypeName" : "url",
+        "fieldName" : "video_link",
+        "position" : 6,
+        "renderTypeName" : "url",
+        "tableColumnId" : 26075653,
+        "width" : 220,
+        "cachedContents" : {
+          "non_null" : 0,
+          "null" : 6
+        },
+        "format" : { },
+        "subColumnTypes" : [ "url", "description" ]
+      }, {
+        "id" : 210192631,
+        "name" : "LATITUDE",
+        "dataTypeName" : "number",
+        "fieldName" : "latitude",
+        "position" : 8,
+        "renderTypeName" : "number",
+        "tableColumnId" : 26075655,
+        "width" : 196,
+        "cachedContents" : {
+          "non_null" : 6,
+          "average" : "-35.25569083333333",
+          "largest" : "-35.167553",
+          "null" : 0,
+          "top" : [ {
+            "item" : "-35.167553",
+            "count" : 20
+          }, {
+            "item" : "-35.167574",
+            "count" : 19
+          }, {
+            "item" : "-35.298963",
+            "count" : 18
+          }, {
+            "item" : "-35.411595",
+            "count" : 17
+          }, {
+            "item" : "-35.228804",
+            "count" : 16
+          }, {
+            "item" : "-35.259656",
+            "count" : 15
+          } ],
+          "smallest" : "-35.411595",
+          "sum" : "-211.534145"
+        },
+        "format" : { }
+      }, {
+        "id" : 210192633,
+        "name" : "LONGITUDE",
+        "dataTypeName" : "number",
+        "fieldName" : "longitude",
+        "position" : 9,
+        "renderTypeName" : "number",
+        "tableColumnId" : 26075656,
+        "width" : 208,
+        "cachedContents" : {
+          "non_null" : 6,
+          "average" : "149.0984691666667",
+          "largest" : "149.144216",
+          "null" : 0,
+          "top" : [ {
+            "item" : "149.098844",
+            "count" : 20
+          }, {
+            "item" : "149.144216",
+            "count" : 19
+          }, {
+            "item" : "149.094421",
+            "count" : 18
+          }, {
+            "item" : "149.071984",
+            "count" : 17
+          }, {
+            "item" : "149.073311",
+            "count" : 16
+          }, {
+            "item" : "149.108039",
+            "count" : 15
+          } ],
+          "smallest" : "149.071984",
+          "sum" : "894.590815"
+        },
+        "format" : { }
+      }, {
+        "id" : 210192634,
+        "name" : "Location_1",
+        "dataTypeName" : "location",
+        "fieldName" : "location_1",
+        "position" : 10,
+        "renderTypeName" : "location",
+        "tableColumnId" : 28790293,
+        "width" : 100,
+        "cachedContents" : {
+          "non_null" : 6,
+          "largest" : {
+            "latitude" : "-35.259656",
+            "longitude" : "149.108039"
+          },
+          "null" : 0,
+          "top" : [ {
+            "item" : {
+              "latitude" : "-35.167553",
+              "longitude" : "149.098844"
+            },
+            "count" : 20
+          }, {
+            "item" : {
+              "latitude" : "-35.167574",
+              "longitude" : "149.144216"
+            },
+            "count" : 19
+          }, {
+            "item" : {
+              "latitude" : "-35.298963",
+              "longitude" : "149.094421"
+            },
+            "count" : 18
+          }, {
+            "item" : {
+              "latitude" : "-35.411595",
+              "longitude" : "149.071984"
+            },
+            "count" : 17
+          }, {
+            "item" : {
+              "latitude" : "-35.228804",
+              "longitude" : "149.073311"
+            },
+            "count" : 16
+          }, {
+            "item" : {
+              "latitude" : "-35.259656",
+              "longitude" : "149.108039"
+            },
+            "count" : 15
+          } ],
+          "smallest" : {
+            "latitude" : "-35.167553",
+            "longitude" : "149.098844"
+          }
+        },
+        "format" : { },
+        "subColumnTypes" : [ "human_address", "latitude", "longitude", "machine_address", "needs_recoding" ]
+      } ],
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "license" : {
+        "name" : "Creative Commons Attribution 4.0 International",
+        "logoUrl" : "images/licenses/cc30by.png",
+        "termsLink" : "http://creativecommons.org/licenses/by/4.0/legalcode"
+      },
+      "metadata" : {
+        "rdfSubject" : "0",
+        "rdfClass" : "",
+        "custom_fields" : {
+          "Contributing Agency" : {
+            "Contact Email" : "tamsdspatial@act.gov.au",
+            "Agency Name" : "Parks and City Services",
+            "Directorate" : "Transport Canberra and City Services"
+          }
+        },
+        "rowIdentifier" : "0",
+        "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+        "rowLabel" : "",
+        "renderTypeConfig" : {
+          "visible" : {
+            "table" : true
+          }
+        }
+      },
+      "owner" : {
+        "id" : "m7km-7fxa",
+        "displayName" : "TAMS",
+        "lastNotificationSeenAt" : 1496197272,
+        "profileImageUrlLarge" : "/api/users/m7km-7fxa/profile_images/LARGE",
+        "profileImageUrlMedium" : "/api/users/m7km-7fxa/profile_images/THUMB",
+        "profileImageUrlSmall" : "/api/users/m7km-7fxa/profile_images/TINY",
+        "roleName" : "editor",
+        "screenName" : "TAMS",
+        "rights" : [ "create_datasets", "view_domain", "create_pages", "view_goals", "view_dashboards", "view_story", "view_unpublished_story" ]
+      },
+      "query" : { },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "m7km-7fxa",
+        "displayName" : "TAMS",
+        "lastNotificationSeenAt" : 1496197272,
+        "profileImageUrlLarge" : "/api/users/m7km-7fxa/profile_images/LARGE",
+        "profileImageUrlMedium" : "/api/users/m7km-7fxa/profile_images/THUMB",
+        "profileImageUrlSmall" : "/api/users/m7km-7fxa/profile_images/TINY",
+        "roleName" : "editor",
+        "screenName" : "TAMS",
+        "rights" : [ "create_datasets", "view_domain", "create_pages", "view_goals", "view_dashboards", "view_story", "view_unpublished_story" ]
+      },
+      "tags" : [ "dog", "dog park", "pet", "off leash" ],
+      "flags" : [ "default", "restorable", "restorePossibleForType" ]
+    }
+  },
+  "data" : [ [ 1, "70C07A34-D8D1-4E95-BCDD-5FFF22609C1A", 1, 1435250760, "913938", 1435250760, "913938", "{\n}", "1", "Casey", "Yeend Avenue Pedestrian Parkland", [ null, null ], [ null, null ], "-35.167553", "149.098844", [ null, "-35.167553", "149.098844", null, false ] ]
+, [ 2, "66C8D1C4-82DC-4A6B-811C-5BCB228116F9", 2, 1435250760, "913938", 1435250760, "913938", "{\n}", "2", "Forde", "Pooley Street Pedestrian Parkland", [ null, null ], [ null, null ], "-35.167574", "149.144216", [ null, "-35.167574", "149.144216", null, false ] ]
+, [ 3, "562BA7D5-5D69-45BC-804E-C2D2F9344CBE", 3, 1435250760, "913938", 1435250760, "913938", "{\n}", "4", "Yarralumla", "Weston Park Road Pedestrian Parkland", [ null, null ], [ null, null ], "-35.298963", "149.094421", [ null, "-35.298963", "149.094421", null, false ] ]
+, [ 4, "67AF6D23-1304-47F0-90BA-D30F1FF83C13", 4, 1435250760, "913938", 1435250760, "913938", "{\n}", "5", "Greenway", "Mortimer Lewis Drive District Park", [ null, null ], [ null, null ], "-35.411595", "149.071984", [ null, "-35.411595", "149.071984", null, false ] ]
+, [ 5, "82BD7F42-1CA3-40C5-98C0-E8A4D979D17C", 5, 1435250760, "913938", 1435250760, "913938", "{\n}", "21", "Belconnen", "Diddams Close Pedestrian Parkland", [ null, null ], [ null, null ], "-35.228804", "149.073311", [ null, "-35.228804", "149.073311", null, false ] ]
+, [ 6, "D08F2227-41E2-4F46-8484-B9CCBECB9C50", 6, 1435250760, "913938", 1435250760, "913938", "{\n}", "44", "O'connor", "Belconnen Way Pedestrian Parkland", [ null, null ], [ null, null ], "-35.259656", "149.108039", [ null, "-35.259656", "149.108039", null, false ] ]
+ ]
+}

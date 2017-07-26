@@ -1,0 +1,874 @@
+{
+  "meta" : {
+    "view" : {
+      "id" : "fwth-mr9q",
+      "name" : "Town And District Playgrounds",
+      "attribution" : "ACT Government",
+      "attributionLink" : "http://www.tams.act.gov.au/parks-recreation/recreational_activities/play-spaces",
+      "averageRating" : 0,
+      "category" : "Sport and Recreation",
+      "createdAt" : 1425514325,
+      "description" : "Canberra has a great variety of fun play spaces that engage and challenge children in their play. These range in size from the neighborhood play spaces in local parks, to the larger play spaces in most district parks. This dataset identifies the locations of Canberra's town and district parks.",
+      "displayType" : "table",
+      "downloadCount" : 1409,
+      "hideFromCatalog" : false,
+      "hideFromDataJson" : false,
+      "indexUpdatedAt" : 1499231230,
+      "licenseId" : "CC_40_BY",
+      "locale" : "",
+      "newBackend" : false,
+      "numberOfComments" : 0,
+      "oid" : 11943431,
+      "provenance" : "official",
+      "publicationAppendEnabled" : true,
+      "publicationDate" : 1435275666,
+      "publicationGroup" : 2405038,
+      "publicationStage" : "published",
+      "rowClass" : "",
+      "rowsUpdatedAt" : 1498726077,
+      "rowsUpdatedBy" : "m7km-7fxa",
+      "tableId" : 3304099,
+      "totalTimesRated" : 0,
+      "viewCount" : 357,
+      "viewLastModified" : 1500972426,
+      "viewType" : "tabular",
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":id",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":position",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : 210192464,
+        "name" : "ASSET_ID",
+        "dataTypeName" : "text",
+        "fieldName" : "asset_id",
+        "position" : 2,
+        "renderTypeName" : "text",
+        "tableColumnId" : 26069693,
+        "width" : 196,
+        "cachedContents" : {
+          "largest" : "Plgr98",
+          "non_null" : 69,
+          "null" : 0,
+          "top" : [ {
+            "item" : "Plgr20",
+            "count" : 20
+          }, {
+            "item" : "Plgr327",
+            "count" : 19
+          }, {
+            "item" : "Plgr43",
+            "count" : 18
+          }, {
+            "item" : "Plgr405",
+            "count" : 17
+          }, {
+            "item" : "Plgr142",
+            "count" : 16
+          }, {
+            "item" : "Plgr189",
+            "count" : 15
+          }, {
+            "item" : "Plgr480",
+            "count" : 14
+          }, {
+            "item" : "Plgr404",
+            "count" : 13
+          }, {
+            "item" : "Plgr187",
+            "count" : 12
+          }, {
+            "item" : "Plgr451",
+            "count" : 11
+          }, {
+            "item" : "Plgr207",
+            "count" : 10
+          }, {
+            "item" : "Plgr185",
+            "count" : 9
+          }, {
+            "item" : "Plgr590",
+            "count" : 8
+          }, {
+            "item" : "Plgr116",
+            "count" : 7
+          }, {
+            "item" : "Plgr383",
+            "count" : 6
+          }, {
+            "item" : "Plgr398",
+            "count" : 5
+          }, {
+            "item" : "Plgr172",
+            "count" : 4
+          }, {
+            "item" : "Plgr271",
+            "count" : 3
+          }, {
+            "item" : "Plgr588",
+            "count" : 2
+          }, {
+            "item" : "Plgr202",
+            "count" : 1
+          } ],
+          "smallest" : "Plgr1"
+        },
+        "format" : { }
+      }, {
+        "id" : 210192466,
+        "name" : "EQUIPMENT",
+        "dataTypeName" : "text",
+        "fieldName" : "equipment",
+        "position" : 3,
+        "renderTypeName" : "text",
+        "tableColumnId" : 26069694,
+        "width" : 208,
+        "cachedContents" : {
+          "largest" : "This playground has no play structures.",
+          "non_null" : 69,
+          "null" : 0,
+          "top" : [ {
+            "item" : "This playground has 1 play area with a total of 4 structures, featuring 2 combinations of play structures a rocker a swing.",
+            "count" : 20
+          }, {
+            "item" : "This playground has 1 play area with a total of 2 structures, featuring a combination of play structures a swing.",
+            "count" : 19
+          }, {
+            "item" : "This playground has 1 play area with a total of 4 structures, featuring a combination of play structures 2 rockers a swing.",
+            "count" : 18
+          }, {
+            "item" : "This playground has 1 play area with a total of 3 structures, featuring 2 combinations of play structures a swing.",
+            "count" : 17
+          }, {
+            "item" : "This playground has 1 play area with a total of 3 structures, featuring a combination of play structures a rocker a swing.",
+            "count" : 16
+          }, {
+            "item" : "This playground has 2 play areas with a total of 2 structures, featuring a combination of play structures a swing.",
+            "count" : 15
+          }, {
+            "item" : "This playground has 1 play area with a total of 5 structures, featuring a combination of play structures 2 rockers a rotating item a swing.",
+            "count" : 14
+          }, {
+            "item" : "This playground has 1 play area with a total of 1 structure, featuring a combination of play structures.",
+            "count" : 13
+          }, {
+            "item" : "This playground has no play structures.",
+            "count" : 12
+          }, {
+            "item" : "This playground has 1 play area with a total of 5 structures, featuring 2 combinations of play structures 2 rockers a swing.",
+            "count" : 11
+          }, {
+            "item" : "This playground has 1 play area with a total of 2 structures, featuring a combination of play structures a rocker.",
+            "count" : 10
+          }, {
+            "item" : "This playground has 2 play areas with a total of 9 structures, featuring 4 climbing structures a goal a slide 2 sound tubes a swing.",
+            "count" : 9
+          }, {
+            "item" : "This playground has 1 play area with a total of 5 structures, featuring a bridge a combination of play structures a rocker a rotating item a swing.",
+            "count" : 8
+          }, {
+            "item" : "This playground has 1 play area with a total of 5 structures, featuring a climbing structure a combination of play structures 2 rockers a track glide.",
+            "count" : 7
+          }, {
+            "item" : "This playground has 1 play area with a total of 5 structures, featuring a combination of play structures 3 rockers a swing.",
+            "count" : 6
+          }, {
+            "item" : "This playground has 1 play area with a total of 9 structures, featuring a climbing structure a combination of play structures 3 rockers 3 rotating items a swing.",
+            "count" : 5
+          }, {
+            "item" : "This playground has 3 play areas with a total of 7 structures, featuring a combination of play structures a goal a rocker 2 rotating items 2 swings.",
+            "count" : 4
+          }, {
+            "item" : "This playground has 4 play areas with a total of 2 structures, featuring a combination of play structures a swing.",
+            "count" : 3
+          }, {
+            "item" : "This playground has 4 play areas with a total of 5 structures, featuring a climbing structure a combination of play structures a sculpture 2 swings.",
+            "count" : 2
+          }, {
+            "item" : "This playground has 4 play areas with a total of 10 structures, featuring 2 climbing structures 2 rockers a rotating item a slide 4 swings.",
+            "count" : 1
+          } ],
+          "smallest" : "This playground has 14 play areas with a total of 22 structures, featuring a balancing item 2 climbing structures a combination of play structures 2 flying foxes 4 rockers 4 rotating items 2 slides a sound tube 5 swings."
+        },
+        "format" : { }
+      }, {
+        "id" : 210192467,
+        "name" : "LOCATION",
+        "dataTypeName" : "text",
+        "fieldName" : "location",
+        "position" : 4,
+        "renderTypeName" : "text",
+        "tableColumnId" : 26069695,
+        "width" : 196,
+        "cachedContents" : {
+          "largest" : "Wunderlich Street",
+          "non_null" : 69,
+          "null" : 0,
+          "top" : [ {
+            "item" : "Cossington Smith Crescent",
+            "count" : 20
+          }, {
+            "item" : "Bayly Place",
+            "count" : 19
+          }, {
+            "item" : "Jamison Centre",
+            "count" : 18
+          }, {
+            "item" : "Wilkins Street",
+            "count" : 17
+          }, {
+            "item" : "Scarlett Street",
+            "count" : 16
+          }, {
+            "item" : "Carnegie Crescent",
+            "count" : 15
+          }, {
+            "item" : "Paul Coe Crescent",
+            "count" : 14
+          }, {
+            "item" : "Culgoa Circuit",
+            "count" : 13
+          }, {
+            "item" : "Railway Street",
+            "count" : 12
+          }, {
+            "item" : "Kosciuszko Avenue",
+            "count" : 11
+          }, {
+            "item" : "Golden Grove",
+            "count" : 10
+          }, {
+            "item" : "Geerilong Gardens",
+            "count" : 9
+          }, {
+            "item" : "Rivett Place",
+            "count" : 8
+          }, {
+            "item" : "Hancock Street",
+            "count" : 7
+          }, {
+            "item" : "Bunbury Street",
+            "count" : 6
+          }, {
+            "item" : "Torrens Place",
+            "count" : 5
+          }, {
+            "item" : "Condamine Street",
+            "count" : 4
+          }, {
+            "item" : "Sangster Place",
+            "count" : 3
+          }, {
+            "item" : "Dillon Close",
+            "count" : 2
+          }, {
+            "item" : "Mueller Street",
+            "count" : 1
+          } ],
+          "smallest" : "Anketell Street"
+        },
+        "format" : { }
+      }, {
+        "id" : 210192470,
+        "name" : "DIVISION_NAME",
+        "dataTypeName" : "text",
+        "fieldName" : "division_name",
+        "position" : 5,
+        "renderTypeName" : "text",
+        "tableColumnId" : 26069696,
+        "width" : 256,
+        "cachedContents" : {
+          "largest" : "Yarralumla",
+          "non_null" : 69,
+          "null" : 0,
+          "top" : [ {
+            "item" : "Belconnen",
+            "count" : 20
+          }, {
+            "item" : "Evatt",
+            "count" : 19
+          }, {
+            "item" : "Forde",
+            "count" : 18
+          }, {
+            "item" : "Greenway",
+            "count" : 17
+          }, {
+            "item" : "Gungahlin",
+            "count" : 16
+          }, {
+            "item" : "Kambah",
+            "count" : 15
+          }, {
+            "item" : "Palmerston",
+            "count" : 14
+          }, {
+            "item" : "Red Hill",
+            "count" : 13
+          }, {
+            "item" : "Reid",
+            "count" : 12
+          }, {
+            "item" : "Rivett",
+            "count" : 11
+          }, {
+            "item" : "Spence",
+            "count" : 10
+          }, {
+            "item" : "Stirling",
+            "count" : 9
+          }, {
+            "item" : "Torrens",
+            "count" : 8
+          }, {
+            "item" : "Turner",
+            "count" : 7
+          }, {
+            "item" : "Wanniassa",
+            "count" : 6
+          }, {
+            "item" : "Weston",
+            "count" : 5
+          }, {
+            "item" : "Yarralumla",
+            "count" : 4
+          }, {
+            "item" : "Franklin",
+            "count" : 3
+          }, {
+            "item" : "Phillip",
+            "count" : 2
+          }, {
+            "item" : "Gordon",
+            "count" : 1
+          } ],
+          "smallest" : "Acton"
+        },
+        "format" : { }
+      }, {
+        "id" : 210192472,
+        "name" : "IMAGE_LINK",
+        "dataTypeName" : "text",
+        "fieldName" : "image_link",
+        "position" : 6,
+        "renderTypeName" : "text",
+        "tableColumnId" : 26069697,
+        "width" : 220,
+        "cachedContents" : {
+          "non_null" : 0,
+          "null" : 69
+        },
+        "format" : { }
+      }, {
+        "id" : 210192474,
+        "name" : "VIDEO_LINK",
+        "dataTypeName" : "text",
+        "fieldName" : "video_link",
+        "position" : 7,
+        "renderTypeName" : "text",
+        "tableColumnId" : 26069698,
+        "width" : 220,
+        "cachedContents" : {
+          "non_null" : 0,
+          "null" : 69
+        },
+        "format" : { }
+      }, {
+        "id" : 210192476,
+        "name" : "LATITUDE",
+        "dataTypeName" : "number",
+        "fieldName" : "latitude",
+        "position" : 9,
+        "renderTypeName" : "number",
+        "tableColumnId" : 26069700,
+        "width" : 196,
+        "cachedContents" : {
+          "largest" : "-35.168284",
+          "non_null" : 69,
+          "average" : "-35.28707075362319",
+          "null" : 0,
+          "top" : [ {
+            "item" : "-35.240842",
+            "count" : 20
+          }, {
+            "item" : "-35.40824",
+            "count" : 19
+          }, {
+            "item" : "-35.253358",
+            "count" : 18
+          }, {
+            "item" : "-35.370296",
+            "count" : 17
+          }, {
+            "item" : "-35.211514",
+            "count" : 16
+          }, {
+            "item" : "-35.337691",
+            "count" : 15
+          }, {
+            "item" : "-35.17467",
+            "count" : 14
+          }, {
+            "item" : "-35.355149",
+            "count" : 13
+          }, {
+            "item" : "-35.341962",
+            "count" : 12
+          }, {
+            "item" : "-35.197304",
+            "count" : 11
+          }, {
+            "item" : "-35.335926",
+            "count" : 10
+          }, {
+            "item" : "-35.283074",
+            "count" : 9
+          }, {
+            "item" : "-35.347719",
+            "count" : 8
+          }, {
+            "item" : "-35.201657",
+            "count" : 7
+          }, {
+            "item" : "-35.347377",
+            "count" : 6
+          }, {
+            "item" : "-35.373002",
+            "count" : 5
+          }, {
+            "item" : "-35.267384",
+            "count" : 4
+          }, {
+            "item" : "-35.390615",
+            "count" : 3
+          }, {
+            "item" : "-35.337036",
+            "count" : 2
+          }, {
+            "item" : "-35.307112",
+            "count" : 1
+          } ],
+          "smallest" : "-35.464394",
+          "sum" : "-2434.807882"
+        },
+        "format" : { }
+      }, {
+        "id" : 210192478,
+        "name" : "LONGITUDE",
+        "dataTypeName" : "number",
+        "fieldName" : "longitude",
+        "position" : 10,
+        "renderTypeName" : "number",
+        "tableColumnId" : 26069701,
+        "width" : 208,
+        "cachedContents" : {
+          "largest" : "149.227517",
+          "non_null" : 69,
+          "average" : "149.0944925072464",
+          "null" : 0,
+          "top" : [ {
+            "item" : "149.124034",
+            "count" : 20
+          }, {
+            "item" : "149.128366",
+            "count" : 19
+          }, {
+            "item" : "149.071513",
+            "count" : 18
+          }, {
+            "item" : "149.098554",
+            "count" : 17
+          }, {
+            "item" : "149.053431",
+            "count" : 16
+          }, {
+            "item" : "149.137832",
+            "count" : 15
+          }, {
+            "item" : "149.1198",
+            "count" : 14
+          }, {
+            "item" : "149.106406",
+            "count" : 13
+          }, {
+            "item" : "149.227517",
+            "count" : 12
+          }, {
+            "item" : "149.119066",
+            "count" : 11
+          }, {
+            "item" : "149.126168",
+            "count" : 10
+          }, {
+            "item" : "149.143689",
+            "count" : 9
+          }, {
+            "item" : "149.038117",
+            "count" : 8
+          }, {
+            "item" : "149.064287",
+            "count" : 7
+          }, {
+            "item" : "149.052179",
+            "count" : 6
+          }, {
+            "item" : "149.087933",
+            "count" : 5
+          }, {
+            "item" : "149.123223",
+            "count" : 4
+          }, {
+            "item" : "149.085641",
+            "count" : 3
+          }, {
+            "item" : "149.055013",
+            "count" : 2
+          }, {
+            "item" : "149.10071",
+            "count" : 1
+          } ],
+          "smallest" : "148.941354",
+          "sum" : "10287.519983"
+        },
+        "format" : { }
+      }, {
+        "id" : 210192480,
+        "name" : "Location_1",
+        "dataTypeName" : "location",
+        "fieldName" : "location_1",
+        "position" : 11,
+        "renderTypeName" : "location",
+        "tableColumnId" : 28790539,
+        "width" : 100,
+        "cachedContents" : {
+          "largest" : {
+            "latitude" : "-35.291804",
+            "longitude" : "149.089487"
+          },
+          "non_null" : 69,
+          "null" : 0,
+          "top" : [ {
+            "item" : {
+              "latitude" : "-35.240842",
+              "longitude" : "149.124034"
+            },
+            "count" : 20
+          }, {
+            "item" : {
+              "latitude" : "-35.40824",
+              "longitude" : "149.128366"
+            },
+            "count" : 19
+          }, {
+            "item" : {
+              "latitude" : "-35.253358",
+              "longitude" : "149.071513"
+            },
+            "count" : 18
+          }, {
+            "item" : {
+              "latitude" : "-35.370296",
+              "longitude" : "149.098554"
+            },
+            "count" : 17
+          }, {
+            "item" : {
+              "latitude" : "-35.211514",
+              "longitude" : "149.053431"
+            },
+            "count" : 16
+          }, {
+            "item" : {
+              "latitude" : "-35.337691",
+              "longitude" : "149.137832"
+            },
+            "count" : 15
+          }, {
+            "item" : {
+              "latitude" : "-35.17467",
+              "longitude" : "149.1198"
+            },
+            "count" : 14
+          }, {
+            "item" : {
+              "latitude" : "-35.355149",
+              "longitude" : "149.106406"
+            },
+            "count" : 13
+          }, {
+            "item" : {
+              "latitude" : "-35.341962",
+              "longitude" : "149.227517"
+            },
+            "count" : 12
+          }, {
+            "item" : {
+              "latitude" : "-35.197304",
+              "longitude" : "149.119066"
+            },
+            "count" : 11
+          }, {
+            "item" : {
+              "latitude" : "-35.335926",
+              "longitude" : "149.126168"
+            },
+            "count" : 10
+          }, {
+            "item" : {
+              "latitude" : "-35.283074",
+              "longitude" : "149.143689"
+            },
+            "count" : 9
+          }, {
+            "item" : {
+              "latitude" : "-35.347719",
+              "longitude" : "149.038117"
+            },
+            "count" : 8
+          }, {
+            "item" : {
+              "latitude" : "-35.201657",
+              "longitude" : "149.064287"
+            },
+            "count" : 7
+          }, {
+            "item" : {
+              "latitude" : "-35.347377",
+              "longitude" : "149.052179"
+            },
+            "count" : 6
+          }, {
+            "item" : {
+              "latitude" : "-35.373002",
+              "longitude" : "149.087933"
+            },
+            "count" : 5
+          }, {
+            "item" : {
+              "latitude" : "-35.267384",
+              "longitude" : "149.123223"
+            },
+            "count" : 4
+          }, {
+            "item" : {
+              "latitude" : "-35.390615",
+              "longitude" : "149.085641"
+            },
+            "count" : 3
+          }, {
+            "item" : {
+              "latitude" : "-35.337036",
+              "longitude" : "149.055013"
+            },
+            "count" : 2
+          }, {
+            "item" : {
+              "latitude" : "-35.307112",
+              "longitude" : "149.10071"
+            },
+            "count" : 1
+          } ],
+          "smallest" : {
+            "latitude" : "-35.197584",
+            "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+            "longitude" : "149.14396"
+          }
+        },
+        "format" : { },
+        "subColumnTypes" : [ "human_address", "latitude", "longitude", "machine_address", "needs_recoding" ]
+      } ],
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "license" : {
+        "name" : "Creative Commons Attribution 4.0 International",
+        "logoUrl" : "images/licenses/cc30by.png",
+        "termsLink" : "http://creativecommons.org/licenses/by/4.0/legalcode"
+      },
+      "metadata" : {
+        "rdfClass" : "",
+        "rdfSubject" : "0",
+        "custom_fields" : {
+          "Contributing Agency" : {
+            "Contact Email" : "tamsdspatial@act.gov.au",
+            "Agency Name" : "Parks and City Services",
+            "Directorate" : "Transport Canberra and City Services"
+          }
+        },
+        "rowIdentifier" : "0",
+        "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+        "rowLabel" : "",
+        "renderTypeConfig" : {
+          "visible" : {
+            "table" : true
+          }
+        }
+      },
+      "owner" : {
+        "id" : "m7km-7fxa",
+        "displayName" : "TAMS",
+        "lastNotificationSeenAt" : 1496197272,
+        "profileImageUrlLarge" : "/api/users/m7km-7fxa/profile_images/LARGE",
+        "profileImageUrlMedium" : "/api/users/m7km-7fxa/profile_images/THUMB",
+        "profileImageUrlSmall" : "/api/users/m7km-7fxa/profile_images/TINY",
+        "roleName" : "editor",
+        "screenName" : "TAMS",
+        "rights" : [ "create_datasets", "view_domain", "create_pages", "view_goals", "view_dashboards", "view_story", "view_unpublished_story" ]
+      },
+      "query" : { },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "m7km-7fxa",
+        "displayName" : "TAMS",
+        "lastNotificationSeenAt" : 1496197272,
+        "profileImageUrlLarge" : "/api/users/m7km-7fxa/profile_images/LARGE",
+        "profileImageUrlMedium" : "/api/users/m7km-7fxa/profile_images/THUMB",
+        "profileImageUrlSmall" : "/api/users/m7km-7fxa/profile_images/TINY",
+        "roleName" : "editor",
+        "screenName" : "TAMS",
+        "rights" : [ "create_datasets", "view_domain", "create_pages", "view_goals", "view_dashboards", "view_story", "view_unpublished_story" ]
+      },
+      "tags" : [ "playground", "play", "children" ],
+      "flags" : [ "default", "restorable", "restorePossibleForType" ]
+    }
+  },
+  "data" : [ [ 1, "D88F2292-8F7F-4E4C-AD19-918A69E06FD0", 1, 1435250432, "913938", 1435250432, "913938", "{\n}", "Plgr492", "This playground has 3 play areas with a total of 9 structures, featuring a balancing item 2 combinations of play structures 2 rockers 4 swings.", "Garryowen Drive", "Acton", null, null, "-35.292293", "149.10113", [ null, "-35.292293", "149.10113", null, false ] ]
+, [ 2, "A7DAEF98-D675-47D5-B985-BBAB4134321C", 2, 1435250432, "913938", 1435250432, "913938", "{\n}", "Plgr1", "This playground has 3 play areas with a total of 5 structures, featuring a combination of play structures 2 rockers a rotating item a swing.", "Paterson Street", "Ainslie", null, null, "-35.268807", "149.141573", [ null, "-35.268807", "149.141573", null, false ] ]
+, [ 3, "15B2D004-54C0-4115-887F-9B4CBDDEA9C2", 3, 1435250432, "913938", 1435250432, "913938", "{\n}", "Plgr475", "This playground has 1 play area with a total of 4 structures, featuring 2 combinations of play structures a rocker a swing.", "Bizant Street", "Amaroo", null, null, "-35.173731", "149.135222", [ null, "-35.173731", "149.135222", null, false ] ]
+, [ 4, "95A95635-F686-4966-AB2D-12396CE468CA", 4, 1435250432, "913938", 1435250432, "913938", "{\n}", "Plgr195", "This playground has 1 play area with a total of 2 structures, featuring a combination of play structures a swing.", "Telopea Park", "Barton", null, null, "-35.315427", "149.137386", [ null, "-35.315427", "149.137386", null, false ] ]
+, [ 5, "B6812A8A-740F-4BA7-8B37-797E94CA2952", 5, 1435250432, "913938", 1435250432, "913938", "{\n}", "Plgr130", "This playground has 3 play areas with a total of 8 structures, featuring 2 combinations of play structures 4 rockers 2 swings.", "Diddams Close (West)", "Belconnen", null, null, "-35.226915", "149.071375", [ null, "-35.226915", "149.071375", null, false ] ]
+, [ 6, "2C83B3F6-C6CD-4587-9BC2-3F15148071BC", 6, 1435250432, "913938", 1435250432, "913938", "{\n}", "Plgr134", "This playground has 4 play areas with a total of 6 structures, featuring a bridge 2 combinations of play structures 2 rockers a swing.", "Macdermott Place", "Belconnen", null, null, "-35.226643", "149.06283", [ null, "-35.226643", "149.06283", null, false ] ]
+, [ 7, "720A8824-D026-4AC8-8D0C-DCB59CE992A8", 7, 1435250432, "913938", 1435250432, "913938", "{\n}", "Plgr533", "This playground has 3 play areas with a total of 9 structures, featuring a balancing item 3 combinations of play structures a flying fox 2 rockers 2 rotating items.", "Townsend Place", "Belconnen", null, null, "-35.236067", "149.075008", [ null, "-35.236067", "149.075008", null, false ] ]
+, [ 8, "378DECE0-A4DC-4046-B3BE-C3A05E85EEA6", 8, 1435250432, "913938", 1435250432, "913938", "{\n}", "Plgr535", "This playground has 3 play areas with a total of 8 structures, featuring 2 climbing structures a combination of play structures a fort a rocker 3 swings.", "Burgoyne Street", "Bonython", null, null, "-35.426458", "149.071626", [ null, "-35.426458", "149.071626", null, false ] ]
+, [ 9, "947C0DF5-65ED-4C6A-B0E1-4B60F1C38DFC", 9, 1435250432, "913938", 1435250432, "913938", "{\n}", "Plgr363", "This playground has 3 play areas with a total of 6 structures, featuring 3 combinations of play structures 2 rockers a swing.", "Tauchert Street", "Chapman", null, null, "-35.357473", "149.045936", [ null, "-35.357473", "149.045936", null, false ] ]
+, [ 10, "28AF3156-4C3D-48B9-9C53-B12946E5BDC0", 10, 1435250432, "913938", 1435250432, "913938", "{\n}", "Plgr372", "This playground has 3 play areas with a total of 11 structures, featuring 3 combinations of play structures a fort a rocker 3 rotating items 2 sculptures a swing.", "Chifley Place", "Chifley", null, null, "-35.352563", "149.076644", [ null, "-35.352563", "149.076644", null, false ] ]
+, [ 11, "9885B989-52D8-4A58-888E-8006E919B983", 11, 1435250432, "913938", 1435250432, "913938", "{\n}", "Plgr31", "This playground has 1 play area with a total of 4 structures, featuring a combination of play structures 2 rockers a swing.", "Glebe Park", "City", null, null, "-35.28103", "149.135986", [ null, "-35.28103", "149.135986", null, false ] ]
+, [ 12, "D2EC518B-46DC-4494-B8EB-8CA22D17DBE4", 12, 1435250432, "913938", 1435250432, "913938", "{\n}", "Plgr219", "This playground has 2 play areas with a total of 1 structure, featuring a combination of play structures.", "Cremone Place", "Conder", null, null, "-35.464394", "149.102993", [ null, "-35.464394", "149.102993", null, false ] ]
+, [ 13, "3ED0E3FA-C243-401C-891C-963AED6A7A4E", 13, 1435250432, "913938", 1435250432, "913938", "{\n}", "Plgr583", "This playground has 2 play areas with a total of 10 structures, featuring a balancing item 2 monkey bars a combination of play structures a fort a panel 2 rockers a rotating item a swing.", "Templeton Street", "Cook", null, null, "-35.258968", "149.061969", [ null, "-35.258968", "149.061969", null, false ] ]
+, [ 14, "B24ED896-1A45-4E95-99E8-2CF64AE2A5D2", 14, 1435250432, "913938", 1435250432, "913938", "{\n}", "Plgr626", "This playground has 5 play areas with a total of 7 structures, featuring a climbing structure 2 combinations of play structures a rocker a rotating item 2 swings.", "Narden Street Central Community Park (Crip)", "Crace", null, null, "-35.201696", "149.102457", [ null, "-35.201696", "149.102457", null, false ] ]
+, [ 15, "C917EA73-65E4-41E0-A7EC-E98737C90AEE", 15, 1435250432, "913938", 1435250432, "913938", "{\n}", "Plgr10", "This playground has 1 play area with a total of 3 structures, featuring a rocker a slide a swing.", "Hawdon Street", "Dickson", null, null, "-35.252691", "149.149211", [ null, "-35.252691", "149.149211", null, false ] ]
+, [ 16, "78597F7B-1DD6-4697-AC40-4341E67D0EFE", 16, 1435250432, "913938", 1435250432, "913938", "{\n}", "Plgr587", "This playground has 1 play area with a total of 5 structures, featuring a combination of play structures a fort a rocker a rotating item a swing.", "Cnr Bonython And Melba Sts", "Downer", null, null, "-35.2464", "149.143293", [ null, "-35.2464", "149.143293", null, false ] ]
+, [ 17, "815176AF-4388-4633-A8FD-E28A6D842A29", 17, 1435250432, "913938", 1435250432, "913938", "{\n}", "Plgr521", "This playground has 1 play area with a total of 3 structures, featuring a combination of play structures a rocker a swing.", "James Harrison Street", "Dunlop", null, null, "-35.191296", "149.017063", [ null, "-35.191296", "149.017063", null, false ] ]
+, [ 18, "0664BBB6-1D1A-4DA3-AC22-600B0A9CE02D", 18, 1435250432, "913938", 1435250432, "913938", "{\n}", "Plgr162", "This playground has 1 play area with a total of 5 structures, featuring a combination of play structures 3 rockers a swing.", "Read Place", "Evatt", null, null, "-35.217985", "149.067009", [ null, "-35.217985", "149.067009", null, false ] ]
+, [ 19, "1A1505AC-3974-418E-AB89-B3C1E503790A", 19, 1435250432, "913938", 1435250432, "913938", "{\n}", "Plgr443", "This playground has 2 play areas with a total of 6 structures, featuring 2 balancing items a climbing structure a combination of play structures a slide a swing.", "Levine Street", "Evatt", null, null, "-35.211358", "149.064837", [ null, "-35.211358", "149.064837", null, false ] ]
+, [ 20, "85A75B01-16C0-4817-9CE1-9313386715B7", 20, 1435250432, "913938", 1435250432, "913938", "{\n}", "Plgr228", "This playground has 3 play areas with a total of 6 structures, featuring 2 combinations of play structures 3 rockers a swing.", "Coyne Street", "Fadden", null, null, "-35.411023", "149.120537", [ null, "-35.411023", "149.120537", null, false ] ]
+, [ 22, "B7B0EEF6-8CFB-46DC-A0D1-08FC8EE196AD", 22, 1435250432, "913938", 1435250432, "913938", "{\n}", "Plgr89", "This playground has 1 play area with a total of 1 structure, featuring a combination of play structures.", "Kesteven Street", "Florey", null, null, "-35.226588", "149.054617", [ null, "-35.226588", "149.054617", null, false ] ]
+, [ 23, "E90AEEF9-ABB3-447F-9864-8D564B8308A4", 23, 1435250432, "913938", 1435250432, "913938", "{\n}", "Plgr594", "This playground has 2 play areas with a total of 9 structures, featuring 3 combinations of play structures an exercise item a rocker 3 rotating items a swing.", "Neil Harris Crescent", "Forde", null, null, "-35.172939", "149.141336", [ null, "-35.172939", "149.141336", null, false ] ]
+, [ 24, "584FA9CA-97CD-463F-95AE-0B6E7136D485", 24, 1435250432, "913938", 1435250432, "913938", "{\n}", "Plgr612", "This playground has 2 play areas with a total of 7 structures, featuring a climbing structure a combination of play structures 3 rockers a rotating item a swing.", "Bruce Dittmar Central Community Park", "Forde", null, null, "-35.176043", "149.145142", [ null, "-35.176043", "149.145142", null, false ] ]
+, [ 25, "EBA5E834-C3AD-4F2E-8056-F651CCB9AF3E", 25, 1435250432, "913938", 1435250432, "913938", "{\n}", "Plgr619", "This playground has 2 play areas with a total of 7 structures, featuring a balancing item 2 climbing structures a rocker 2 rotating items a swing.", "Pahlman Street Neighbourhood Park", "Forde", null, null, "-35.168284", "149.146402", [ null, "-35.168284", "149.146402", null, false ] ]
+, [ 26, "98ED6B4D-F48C-480A-BD89-EAF752814822", 26, 1435250432, "913938", 1435250432, "913938", "{\n}", "Plgr81", "This playground has 1 play area with a total of 4 structures, featuring 2 combinations of play structures a rocker a swing.", "Shakespheare Crescent", "Fraser", null, null, "-35.192023", "149.040595", [ null, "-35.192023", "149.040595", null, false ] ]
+, [ 28, "9B78CBF8-BF63-4D50-AAA9-F11A6570E47F", 28, 1435250432, "913938", 1435250432, "913938", "{\n}", "Plgr328", "This playground has 2 play areas with a total of 7 structures, featuring a climbing structure 2 rockers a rotating item 2 sculptures a swing.", "Jeffries Street", "Gowrie", null, null, "-35.414055", "149.110529", [ null, "-35.414055", "149.110529", null, false ] ]
+, [ 29, "74D74A2B-578D-42E5-9402-BCE22A4C8980", 29, 1435250432, "913938", 1435250432, "913938", "{\n}", "Plgr240", "This playground has 3 play areas with a total of 3 structures, featuring 2 combinations of play structures a swing.", "De Little Circuit", "Greenway", null, null, "-35.404298", "149.070756", [ null, "-35.404298", "149.070756", null, false ] ]
+, [ 30, "E560AB11-89D7-4948-ADF4-4878F51CDDFC", 30, 1435250432, "913938", 1435250432, "913938", "{\n}", "Plgr242", "This playground has 4 play areas with a total of 5 structures, featuring 2 combinations of play structures 3 swings.", "Anketell Street", "Greenway", null, null, "-35.411044", "149.065507", [ null, "-35.411044", "149.065507", null, false ] ]
+, [ 32, "191680BC-9BDC-4F80-BC78-71B50B5D1587", 32, 1435250432, "913938", 1435250432, "913938", "{\n}", "Plgr525", "This playground has 2 play areas with a total of 4 structures, featuring a balancing item a climbing structure 2 rockers.", "Gungahlin Central Linear Park", "Gungahlin", null, null, "-35.186477", "149.134717", [ null, "-35.186477", "149.134717", null, false ] ]
+, [ 33, "2902F753-216C-4DE8-A8A0-5678929DE959", 33, 1435250432, "913938", 1435250432, "913938", "{\n}", "Plgr546", "This playground has 5 play areas with a total of 11 structures, featuring a bridge a climbing structure 2 combinations of play structures a flying fox 3 rockers 3 swings.", "Wunderlich Street", "Gungahlin", null, null, "-35.179261", "149.13023", [ null, "-35.179261", "149.13023", null, false ] ]
+, [ 34, "1519F8A2-136B-4EA2-8156-007C79C3BE64", 34, 1435250432, "913938", 1435250432, "913938", "{\n}", "Plgr14", "This playground has 1 play area with a total of 2 structures, featuring a combination of play structures a swing.", "Tryon Street", "Hackett", null, null, "-35.24946", "149.165247", [ null, "-35.24946", "149.165247", null, false ] ]
+, [ 35, "A3BBD039-C2BA-4254-A9CA-666B3EBAE3DD", 35, 1435250432, "913938", 1435250432, "913938", "{\n}", "Plgr445", "This playground has 2 play areas with a total of 5 structures, featuring a combination of play structures 2 rockers 2 swings.", "Hall Park", "Hall", null, null, "-35.171626", "149.070163", [ null, "-35.171626", "149.070163", null, false ] ]
+, [ 36, "81EFBF66-3704-4DBE-A735-476C171487E0", 36, 1435250432, "913938", 1435250432, "913938", "{\n}", "Plgr526", "This playground has 2 play areas with a total of 13 structures, featuring a balancing item a bridge 2 combinations of play structures 5 rockers 3 rotating items a swing.", "Tanami Street (Nw)", "Harrison", null, null, "-35.198155", "149.15737", [ null, "-35.198155", "149.15737", null, false ] ]
+, [ 37, "6F0B1165-C026-49B4-BAC9-2466D4BF1B4E", 37, 1435250432, "913938", 1435250432, "913938", "{\n}", "Plgr357", "This playground has 2 play areas with a total of 5 structures, featuring 2 combinations of play structures 2 rockers a swing.", "Stapylton Street", "Holder", null, null, "-35.337189", "149.044642", [ null, "-35.337189", "149.044642", null, false ] ]
+, [ 38, "E6B115D3-A2B3-4DD0-A0A6-925BA7C526BC", 38, 1435250432, "913938", 1435250432, "913938", "{\n}", "Plgr584", "This playground has 2 play areas with a total of 3 structures, featuring a combination of play structures a rocker a swing.", "Beaurepaire Crescent", "Holt", null, null, "-35.222237", "149.012613", [ null, "-35.222237", "149.012613", null, false ] ]
+, [ 39, "0F200BFA-94C9-4145-B79C-4DD7D1EE3B2F", 39, 1435250432, "913938", 1435250432, "913938", "{\n}", "Plgr345", "This playground has 2 play areas with a total of 6 structures, featuring a combination of play structures 3 rockers a rotating item a swing.", "Dumolo Place", "Isaacs", null, null, "-35.368328", "149.111165", [ null, "-35.368328", "149.111165", null, false ] ]
+, [ 41, "995C992C-AD60-47E9-9642-06D863622D08", 41, 1435250432, "913938", 1435250432, "913938", "{\n}", "Plgr305", "This playground has 14 play areas with a total of 22 structures, featuring a balancing item 2 climbing structures a combination of play structures 2 flying foxes 4 rockers 4 rotating items 2 slides a sound tube 5 swings.", "Springbett Street", "Kambah", null, null, "-35.39234", "149.063373", [ null, "-35.39234", "149.063373", null, false ] ]
+, [ 42, "9004AE52-4C96-4144-A234-E559A347BCC8", 42, 1435250432, "913938", 1435250432, "913938", "{\n}", "Plgr580", "This playground has 5 play areas with a total of 9 structures, featuring a monkey bar 3 climbing structures 2 exercise items a rotating item a slide a swing.", "Summerland Circuit (North)", "Kambah", null, null, "-35.385617", "149.07126", [ null, "-35.385617", "149.07126", null, false ] ]
+, [ 43, "F0BE8567-A2F3-4B17-9A6B-A3E73E12609F", 43, 1435250432, "913938", 1435250432, "913938", "{\n}", "Plgr582", "This playground has 2 play areas with a total of 4 structures, featuring a climbing structure a combination of play structures a rotating item a swing.", "Boddington Crescent (North)", "Kambah", null, null, "-35.383321", "149.052145", [ null, "-35.383321", "149.052145", null, false ] ]
+, [ 44, "2662F9D4-11C4-42BB-BD24-651570EB2F58", 44, 1435250432, "913938", 1435250432, "913938", "{\n}", "Plgr500", "This playground has 1 play area with a total of 4 structures, featuring a combination of play structures 2 rockers a swing.", "Sandalwood Street", "Kingston", null, null, "-35.316802", "149.152744", [ null, "-35.316802", "149.152744", null, false ] ]
+, [ 45, "4E21FF5F-FDCB-46EC-A16C-4952AD7E9F9D", 45, 1435250432, "913938", 1435250432, "913938", "{\n}", "Plgr98", "This playground has 3 play areas with a total of 5 structures, featuring 3 combinations of play structures a rocker a swing.", "Florey Drive", "Latham", null, null, "-35.212681", "149.028527", [ null, "-35.212681", "149.028527", null, false ] ]
+, [ 46, "BF77588A-FD2B-4DC3-A26E-485CD1367BDB", 46, 1435250432, "913938", 1435250432, "913938", "{\n}", "Plgr20", "This playground has 2 play areas with a total of 5 structures, featuring a combination of play structures a rocker a rotating item 2 swings.", "Cossington Smith Crescent", "Lyneham", null, null, "-35.240842", "149.124034", [ null, "-35.240842", "149.124034", null, false ] ]
+, [ 47, "96606CA0-2BB0-4B02-8AB7-F4D3B1B9DDF7", 47, 1435250432, "913938", 1435250432, "913938", "{\n}", "Plgr327", "This playground has 2 play areas with a total of 12 structures, featuring a bridge a combination of play structures 3 rockers 3 rotating items 2 sound tubes 2 swings.", "Bayly Place", "Macarthur", null, null, "-35.40824", "149.128366", [ null, "-35.40824", "149.128366", null, false ] ]
+, [ 48, "D2D34EDA-FAEF-4FD2-8C1F-34FDBCD8AF51", 48, 1435250432, "913938", 1435250432, "913938", "{\n}", "Plgr43", "This playground has 1 play area with a total of 5 structures, featuring a combination of play structures 2 rotating items a sound tube a swing.", "Jamison Centre", "Macquarie", null, null, "-35.253358", "149.071513", [ null, "-35.253358", "149.071513", null, false ] ]
+, [ 49, "E944F4EE-5BDD-48B4-B8E3-3D4B556BB9D8", 49, 1435250432, "913938", 1435250432, "913938", "{\n}", "Plgr405", "This playground has 1 play area with a total of 3 structures, featuring 2 combinations of play structures a swing.", "Wilkins Street", "Mawson", null, null, "-35.370296", "149.098554", [ null, "-35.370296", "149.098554", null, false ] ]
+, [ 50, "F821BB1A-748A-4F4A-A553-444E4F7A5C8B", 50, 1435250432, "913938", 1435250432, "913938", "{\n}", "Plgr142", "This playground has 1 play area with a total of 3 structures, featuring a combination of play structures a rocker a swing.", "Scarlett Street", "Melba", null, null, "-35.211514", "149.053431", [ null, "-35.211514", "149.053431", null, false ] ]
+, [ 52, "5644AAEB-7FEF-46B1-89A1-60EE136D809F", 52, 1435250432, "913938", 1435250432, "913938", "{\n}", "Plgr189", "This playground has 2 play areas with a total of 2 structures, featuring a combination of play structures a swing.", "Carnegie Crescent", "Narrabundah", null, null, "-35.337691", "149.137832", [ null, "-35.337691", "149.137832", null, false ] ]
+, [ 53, "B7B38878-B3A6-4D89-AB7B-ABE6D5E727E3", 53, 1435250432, "913938", 1435250432, "913938", "{\n}", "Plgr480", "This playground has 1 play area with a total of 5 structures, featuring a combination of play structures 2 rockers a rotating item a swing.", "Paul Coe Crescent", "Ngunnawal", null, null, "-35.17467", "149.1198", [ null, "-35.17467", "149.1198", null, false ] ]
+, [ 55, "534A4B0E-2ABA-4F38-8FFD-BBE5FF4BE55D", 55, 1435250432, "913938", 1435250432, "913938", "{\n}", "Plgr404", "This playground has 1 play area with a total of 1 structure, featuring a combination of play structures.", "Culgoa Circuit", "O'malley", null, null, "-35.355149", "149.106406", [ null, "-35.355149", "149.106406", null, false ] ]
+, [ 56, "25BF92B0-3534-4C6C-9BEA-BEDDE5B75DD9", 56, 1435250432, "913938", 1435250432, "913938", "{\n}", "Plgr187", "This playground has no play structures.", "Railway Street", "Oaks Estate", null, null, "-35.341962", "149.227517", [ null, "-35.341962", "149.227517", null, false ] ]
+, [ 59, "F89B7E3C-9340-46A5-B165-45723B6A4A81", 59, 1435250432, "913938", 1435250432, "913938", "{\n}", "Plgr451", "This playground has 1 play area with a total of 5 structures, featuring 2 combinations of play structures 2 rockers a swing.", "Kosciuszko Avenue", "Palmerston", null, null, "-35.197304", "149.119066", [ null, "-35.197304", "149.119066", null, false ] ]
+, [ 61, "688A6D5C-9930-4979-B351-640F33138D05", 61, 1435250432, "913938", 1435250432, "913938", "{\n}", "Plgr207", "This playground has 1 play area with a total of 2 structures, featuring a combination of play structures a swing.", "Golden Grove", "Red Hill", null, null, "-35.335926", "149.126168", [ null, "-35.335926", "149.126168", null, false ] ]
+, [ 62, "3486519F-61F8-4B5C-AB77-23A7F4E2E155", 62, 1435250432, "913938", 1435250432, "913938", "{\n}", "Plgr185", "This playground has 1 play area with a total of 2 structures, featuring a combination of play structures a rocker.", "Geerilong Gardens", "Reid", null, null, "-35.283074", "149.143689", [ null, "-35.283074", "149.143689", null, false ] ]
+, [ 63, "24B509E3-D9E4-4D87-BB62-6C872EFAC69E", 63, 1435250432, "913938", 1435250432, "913938", "{\n}", "Plgr590", "This playground has 2 play areas with a total of 9 structures, featuring 4 climbing structures a goal a slide 2 sound tubes a swing.", "Rivett Place", "Rivett", null, null, "-35.347719", "149.038117", [ null, "-35.347719", "149.038117", null, false ] ]
+, [ 64, "AB261469-60AA-4A85-B12B-3D2EB2C89D6F", 64, 1435250432, "913938", 1435250432, "913938", "{\n}", "Plgr116", "This playground has 1 play area with a total of 5 structures, featuring a bridge a combination of play structures a rocker a rotating item a swing.", "Hancock Street", "Spence", null, null, "-35.201657", "149.064287", [ null, "-35.201657", "149.064287", null, false ] ]
+, [ 65, "D23346BB-E01B-4EA8-A7C9-1997FFB953BC", 65, 1435250432, "913938", 1435250432, "913938", "{\n}", "Plgr383", "This playground has 1 play area with a total of 5 structures, featuring a climbing structure a combination of play structures 2 rockers a track glide.", "Bunbury Street", "Stirling", null, null, "-35.347377", "149.052179", [ null, "-35.347377", "149.052179", null, false ] ]
+, [ 67, "CD11E31D-82A1-4713-91EB-605B12AC2E3D", 67, 1435250432, "913938", 1435250432, "913938", "{\n}", "Plgr398", "This playground has 2 play areas with a total of 2 structures, featuring a combination of play structures a swing.", "Torrens Place", "Torrens", null, null, "-35.373002", "149.087933", [ null, "-35.373002", "149.087933", null, false ] ]
+, [ 68, "A1FDE1C0-5ADF-4D07-95EE-7312B6C651EB", 68, 1435250432, "913938", 1435250432, "913938", "{\n}", "Plgr172", "This playground has 1 play area with a total of 5 structures, featuring a combination of play structures 3 rockers a swing.", "Condamine Street", "Turner", null, null, "-35.267384", "149.123223", [ null, "-35.267384", "149.123223", null, false ] ]
+, [ 69, "A75817E2-0546-41A3-A577-B41673E8F5B5", 69, 1435250432, "913938", 1435250432, "913938", "{\n}", "Plgr271", "This playground has 1 play area with a total of 9 structures, featuring a climbing structure a combination of play structures 3 rockers 3 rotating items a swing.", "Sangster Place", "Wanniassa", null, null, "-35.390615", "149.085641", [ null, "-35.390615", "149.085641", null, false ] ]
+, [ 70, "4341297B-A36B-4007-9F52-D4DEB7A3F1D4", 70, 1435250432, "913938", 1435250432, "913938", "{\n}", "Plgr588", "This playground has 3 play areas with a total of 7 structures, featuring a combination of play structures a goal a rocker 2 rotating items 2 swings.", "Dillon Close", "Weston", null, null, "-35.337036", "149.055013", [ null, "-35.337036", "149.055013", null, false ] ]
+, [ 71, "091EE10A-3BA9-440C-B54A-689FD1BF6434", 71, 1435250432, "913938", 1435250432, "913938", "{\n}", "Plgr202", "This playground has 4 play areas with a total of 2 structures, featuring a combination of play structures a swing.", "Mueller Street", "Yarralumla", null, null, "-35.307112", "149.10071", [ null, "-35.307112", "149.10071", null, false ] ]
+, [ 72, "4A84C3F3-D5DC-4DAE-85D9-E66C8F0EA158", 72, 1435250432, "913938", 1435250432, "913938", "{\n}", "Plgr211", "This playground has 4 play areas with a total of 5 structures, featuring a climbing structure a combination of play structures a sculpture 2 swings.", "Weston Park (East)", "Yarralumla", null, null, "-35.291804", "149.089487", [ null, "-35.291804", "149.089487", null, false ] ]
+, [ 75, "72670626-597C-49B9-870D-C36D5CAE6533", 75, 1441850613, "913938", 1441850613, "913938", null, "Plgr655", "This playground has 4 play areas with a total of 10 structures, featuring 2 climbing structures 2 rockers a rotating item a slide 4 swings.", "Kilmeny Close Community Park (Crip)", "Franklin", null, null, "-35.197584", "149.14396", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.197584", "149.14396", null, false ] ]
+, [ 77, "83D96D14-E4C5-45C3-92E6-068888032CE0", 77, 1452038634, "913938", 1452038634, "913938", null, "Plgr381", "This playground has 4 play areas with a total of 8 structures, featuring 2 climbing structures 2 combinations of play structures a rocker 3 swings.", "Launceston St", "Phillip", null, null, "-35.341087", "149.091251", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.341087", "149.091251", null, false ] ]
+, [ 80, "E97BB0FA-D8EF-46A5-8016-82AC5BD5450D", 80, 1481238927, "913938", 1481238927, "913938", null, "Plgr278", "This playground has 7 play areas with a total of 24 structures, featuring a balancing item a bridge 6 climbing structures 2 combinations of play structures a rocker 3 rotating items 2 sandy play areas a sculpture a slide 6 swings.", "Mcgilvray Close", "Gordon", null, null, "-35.456053", "149.08378", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.456053", "149.08378", null, false ] ]
+, [ 83, "E3C39116-EE98-4672-A8A8-65DAE905232D", 83, 1481788902, "913938", 1481788902, "913938", null, "Plgr620", "This playground has no play structures.", "Coree - Cotter Road", "Paddys River (Rural Dist.)", null, null, "-35.323777", "148.941354", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.323777", "148.941354", null, false ] ]
+, [ 85, "E043E007-9CC2-4637-A5EC-0ADCD17DA222", 85, 1485417725, "913938", 1485417725, "913938", null, "Plgr669", "This playground has 2 play areas with a total of 8 structures, featuring a combination of play structures 2 rockers a sound tube 2 swings.", "Wanderlight Avenue Neibourhood Park", "Lawson", null, null, "-35.229362", "149.091729", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.229362", "149.091729", null, false ] ]
+, [ 86, "CE53ED00-3EE4-4264-9B6C-74158F93EA99", 86, 1491901355, "913938", 1491901355, "913938", null, "Plgr493", "This playground has 1 play area with a total of 2 structures, featuring a combination of play structures a rocker.", "Hawker Shopping Centre", "Hawker", null, null, "-35.243443", "149.043895", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.243443", "149.043895", null, false ] ]
+, [ 87, "A18C6FDD-D28B-4C8A-A032-AF785A6DE7B6", 87, 1498726077, "913938", 1498726077, "913938", null, "Plgr178", "This playground has 4 play areas with a total of 5 structures, featuring 2 combinations of play structures a rotating item 2 swings.", "Finn Street", "O'connor", null, null, "-35.260858", "149.117883", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.260858", "149.117883", null, false ] ]
+ ]
+}

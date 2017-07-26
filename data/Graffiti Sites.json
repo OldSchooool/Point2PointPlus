@@ -1,0 +1,801 @@
+{
+  "meta" : {
+    "view" : {
+      "id" : "wdpz-r2ns",
+      "name" : "Graffiti Sites",
+      "attribution" : "Transport Canberra and City Services",
+      "attributionLink" : "http://www.tams.act.gov.au/city-services/public_areas/graffiti/graffiti_sites",
+      "averageRating" : 0,
+      "category" : "Arts, Culture and Events",
+      "createdAt" : 1426203034,
+      "description" : "There are currently 24 legal graffiti art sites around Canberra. Each wall will be signposted indicating that it is a legal site.",
+      "displayType" : "table",
+      "downloadCount" : 550,
+      "hideFromCatalog" : false,
+      "hideFromDataJson" : false,
+      "indexUpdatedAt" : 1499554718,
+      "licenseId" : "CC_40_BY",
+      "locale" : "",
+      "newBackend" : false,
+      "numberOfComments" : 0,
+      "oid" : 11943421,
+      "provenance" : "official",
+      "publicationAppendEnabled" : true,
+      "publicationDate" : 1435275556,
+      "publicationGroup" : 2471344,
+      "publicationStage" : "published",
+      "rowClass" : "",
+      "rowsUpdatedAt" : 1499244437,
+      "rowsUpdatedBy" : "m7km-7fxa",
+      "tableId" : 3304089,
+      "totalTimesRated" : 0,
+      "viewCount" : 491,
+      "viewLastModified" : 1500972356,
+      "viewType" : "tabular",
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":id",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":position",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : 210192420,
+        "name" : "REGION",
+        "dataTypeName" : "text",
+        "fieldName" : "region",
+        "position" : 2,
+        "renderTypeName" : "text",
+        "tableColumnId" : 26747805,
+        "width" : 172,
+        "cachedContents" : {
+          "largest" : "Woden Weston",
+          "non_null" : 25,
+          "null" : 0,
+          "top" : [ {
+            "item" : "Belconnen",
+            "count" : 20
+          }, {
+            "item" : "Tuggeranong",
+            "count" : 19
+          }, {
+            "item" : "Gungahlin",
+            "count" : 18
+          }, {
+            "item" : "Weston Creek",
+            "count" : 17
+          }, {
+            "item" : "Inner South",
+            "count" : 16
+          }, {
+            "item" : "Woden Weston",
+            "count" : 15
+          }, {
+            "item" : "Inner North",
+            "count" : 14
+          } ],
+          "smallest" : "Belconnen"
+        },
+        "format" : { }
+      }, {
+        "id" : 210192421,
+        "name" : "SUBURB",
+        "dataTypeName" : "text",
+        "fieldName" : "suburb",
+        "position" : 3,
+        "renderTypeName" : "text",
+        "tableColumnId" : 26747807,
+        "width" : 172,
+        "cachedContents" : {
+          "largest" : "Woden",
+          "non_null" : 25,
+          "null" : 0,
+          "top" : [ {
+            "item" : "Kaleen",
+            "count" : 20
+          }, {
+            "item" : "Melba",
+            "count" : 19
+          }, {
+            "item" : "Belconnen",
+            "count" : 18
+          }, {
+            "item" : "Isabella Plains",
+            "count" : 17
+          }, {
+            "item" : "Nicholls",
+            "count" : 16
+          }, {
+            "item" : "Forde",
+            "count" : 15
+          }, {
+            "item" : "Holder",
+            "count" : 14
+          }, {
+            "item" : "Narrabundah",
+            "count" : 13
+          }, {
+            "item" : "Greenway",
+            "count" : 12
+          }, {
+            "item" : "Curtin",
+            "count" : 11
+          }, {
+            "item" : "Latham",
+            "count" : 10
+          }, {
+            "item" : "Warramanga",
+            "count" : 9
+          }, {
+            "item" : "Calwell",
+            "count" : 8
+          }, {
+            "item" : "Lyneham",
+            "count" : 7
+          }, {
+            "item" : "Chifley",
+            "count" : 6
+          }, {
+            "item" : "Florey",
+            "count" : 5
+          }, {
+            "item" : "Hawker",
+            "count" : 4
+          }, {
+            "item" : "Ngunnawal",
+            "count" : 3
+          }, {
+            "item" : "Kambah",
+            "count" : 2
+          }, {
+            "item" : "Woden",
+            "count" : 1
+          } ],
+          "smallest" : "Belconnen"
+        },
+        "format" : { }
+      }, {
+        "id" : 210192422,
+        "name" : "LOCATION",
+        "dataTypeName" : "text",
+        "fieldName" : "location",
+        "position" : 4,
+        "renderTypeName" : "text",
+        "tableColumnId" : 26747809,
+        "width" : 196,
+        "cachedContents" : {
+          "largest" : "Yerrabi Spillway Mirrabei Dr",
+          "non_null" : 25,
+          "null" : 0,
+          "top" : [ {
+            "item" : "Maribrynong Ave Underpass Between Tyrrell And Moruya",
+            "count" : 20
+          }, {
+            "item" : "Old Depot Wall South Facing Tenis Court",
+            "count" : 19
+          }, {
+            "item" : "Lake Ginninderra Bridge West",
+            "count" : 18
+          }, {
+            "item" : "Road Bridge Narooma St",
+            "count" : 17
+          }, {
+            "item" : "Kelleway Ave Underpass",
+            "count" : 16
+          }, {
+            "item" : "Handbury Way Underpass",
+            "count" : 15
+          }, {
+            "item" : "Cotter Road Cycle Underpass",
+            "count" : 14
+          }, {
+            "item" : "Ashley Drive At Tuggeranong Creek",
+            "count" : 13
+          }, {
+            "item" : "Jerrabomberra Sports Ground",
+            "count" : 12
+          }, {
+            "item" : "Athllon Dr Underpass",
+            "count" : 11
+          }, {
+            "item" : "Mcculloch St Underpass",
+            "count" : 10
+          }, {
+            "item" : "Maribrynong Ave Underpass Between Diamantina And Daintree Cres",
+            "count" : 9
+          }, {
+            "item" : "Lake Ginninderra Bridge East",
+            "count" : 8
+          }, {
+            "item" : "Ginninderra Dr Underpass Ginninderra Ck",
+            "count" : 7
+          }, {
+            "item" : "Damala St Underpass",
+            "count" : 6
+          }, {
+            "item" : "Wall Of Bridge And Stormwater Drain Under Tharwa Dr",
+            "count" : 5
+          }, {
+            "item" : "Lyneham Primary School Oval",
+            "count" : 4
+          }, {
+            "item" : "Chifley Oval Toilet Block",
+            "count" : 3
+          }, {
+            "item" : "John Cleland Cres Underpass Near Florey Shops",
+            "count" : 2
+          }, {
+            "item" : "Florey Dr Underpass",
+            "count" : 1
+          } ],
+          "smallest" : "Ashley Drive At Tuggeranong Creek"
+        },
+        "format" : { }
+      }, {
+        "id" : 210192423,
+        "name" : "TYPE",
+        "dataTypeName" : "text",
+        "fieldName" : "type",
+        "position" : 5,
+        "renderTypeName" : "text",
+        "tableColumnId" : 26747811,
+        "width" : 148,
+        "cachedContents" : {
+          "largest" : "Underpass Walls",
+          "non_null" : 25,
+          "null" : 0,
+          "top" : [ {
+            "item" : "Underpass Walls",
+            "count" : 20
+          }, {
+            "item" : "Old Depot Building",
+            "count" : 19
+          }, {
+            "item" : "Underbridge",
+            "count" : 18
+          }, {
+            "item" : "Underpass",
+            "count" : 17
+          }, {
+            "item" : "Toilet Block",
+            "count" : 16
+          }, {
+            "item" : "Underpass Stormwater Drain",
+            "count" : 15
+          }, {
+            "item" : "Hit Up Wall",
+            "count" : 14
+          }, {
+            "item" : "Spillway",
+            "count" : 13
+          } ],
+          "smallest" : "Hit Up Wall"
+        },
+        "format" : { }
+      }, {
+        "id" : 210192424,
+        "name" : "SURFACE",
+        "dataTypeName" : "text",
+        "fieldName" : "surface",
+        "position" : 6,
+        "renderTypeName" : "text",
+        "tableColumnId" : 26747813,
+        "width" : 184,
+        "cachedContents" : {
+          "largest" : "Concrete",
+          "non_null" : 25,
+          "null" : 0,
+          "top" : [ {
+            "item" : "Concrete",
+            "count" : 20
+          }, {
+            "item" : "Brick",
+            "count" : 19
+          }, {
+            "item" : "Concete",
+            "count" : 18
+          } ],
+          "smallest" : "Brick"
+        },
+        "format" : { }
+      }, {
+        "id" : 210192425,
+        "name" : "IMAGE_LINK",
+        "dataTypeName" : "url",
+        "fieldName" : "image_link",
+        "position" : 7,
+        "renderTypeName" : "url",
+        "tableColumnId" : 26747815,
+        "width" : 220,
+        "cachedContents" : {
+          "largest" : {
+            "url" : "http://www.abc.net.au/reslib/201405/r1279159_17306753.jpg"
+          },
+          "non_null" : 25,
+          "null" : 0,
+          "top" : [ {
+            "item" : {
+              "url" : "http://www.abc.net.au/reslib/201405/r1279159_17306753.jpg"
+            },
+            "count" : 20
+          } ],
+          "smallest" : {
+            "url" : "http://www.abc.net.au/reslib/201405/r1279159_17306753.jpg"
+          }
+        },
+        "format" : { },
+        "subColumnTypes" : [ "url", "description" ]
+      }, {
+        "id" : 210192426,
+        "name" : "Location 1",
+        "dataTypeName" : "location",
+        "fieldName" : "location_1",
+        "position" : 8,
+        "renderTypeName" : "location",
+        "tableColumnId" : 26747817,
+        "width" : 220,
+        "cachedContents" : {
+          "largest" : {
+            "latitude" : "-35.22213891484769",
+            "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+            "longitude" : "149.1111269309649"
+          },
+          "non_null" : 25,
+          "null" : 0,
+          "top" : [ {
+            "item" : {
+              "latitude" : "-35.22213891484769",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "149.1111269309649"
+            },
+            "count" : 20
+          }, {
+            "item" : {
+              "latitude" : "-35.21422515376096",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "149.05274050900337"
+            },
+            "count" : 19
+          }, {
+            "item" : {
+              "latitude" : "-35.22892756879682",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "149.07646363655954"
+            },
+            "count" : 18
+          }, {
+            "item" : {
+              "latitude" : "-35.42873990010597",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "149.0865929168742"
+            },
+            "count" : 17
+          }, {
+            "item" : {
+              "latitude" : "-35.1785303858001",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "149.10598514662763"
+            },
+            "count" : 16
+          }, {
+            "item" : {
+              "latitude" : "-35.158836547443805",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "149.1493958254703"
+            },
+            "count" : 15
+          }, {
+            "item" : {
+              "latitude" : "-35.3272298024075",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "149.05127453591766"
+            },
+            "count" : 14
+          }, {
+            "item" : {
+              "latitude" : "-35.42531471260325",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "149.10322043041904"
+            },
+            "count" : 13
+          }, {
+            "item" : {
+              "latitude" : "-35.332428575575875",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "149.14617002224725"
+            },
+            "count" : 12
+          }, {
+            "item" : {
+              "latitude" : "-35.39779386689123",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "149.0687869796243"
+            },
+            "count" : 11
+          }, {
+            "item" : {
+              "latitude" : "-35.31664081840338",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "149.08181916127785"
+            },
+            "count" : 10
+          }, {
+            "item" : {
+              "latitude" : "-35.23284055754549",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "149.10679699531252"
+            },
+            "count" : 9
+          }, {
+            "item" : {
+              "latitude" : "-35.22989872279846",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "149.0777268794141"
+            },
+            "count" : 8
+          }, {
+            "item" : {
+              "latitude" : "-35.210592020398295",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "149.0369521675235"
+            },
+            "count" : 7
+          }, {
+            "item" : {
+              "latitude" : "-35.34938567290732",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "149.0572590008966"
+            },
+            "count" : 6
+          }, {
+            "item" : {
+              "latitude" : "-35.43782981922388",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "149.12366278834858"
+            },
+            "count" : 5
+          }, {
+            "item" : {
+              "latitude" : "-35.25087953136395",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "149.12913735345964"
+            },
+            "count" : 4
+          }, {
+            "item" : {
+              "latitude" : "-35.35081874360807",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "149.07779158768264"
+            },
+            "count" : 3
+          }, {
+            "item" : {
+              "latitude" : "-35.225452257669744",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "149.05539411384902"
+            },
+            "count" : 2
+          }, {
+            "item" : {
+              "latitude" : "-35.215151711452386",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "149.0197755181514"
+            },
+            "count" : 1
+          } ],
+          "smallest" : {
+            "latitude" : "-35.22213891484769",
+            "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+            "longitude" : "149.1111269309649"
+          }
+        },
+        "format" : { },
+        "subColumnTypes" : [ "human_address", "latitude", "longitude", "machine_address", "needs_recoding" ]
+      }, {
+        "id" : 210192427,
+        "name" : "LATITUDE",
+        "dataTypeName" : "number",
+        "fieldName" : "latitude",
+        "position" : 9,
+        "renderTypeName" : "number",
+        "tableColumnId" : 26747824,
+        "width" : 196,
+        "cachedContents" : {
+          "largest" : "-35.158836547443805",
+          "non_null" : 25,
+          "average" : "-35.28958747618239",
+          "null" : 0,
+          "top" : [ {
+            "item" : "-35.22213891484769",
+            "count" : 20
+          }, {
+            "item" : "-35.214225153760957",
+            "count" : 19
+          }, {
+            "item" : "-35.22892756879682",
+            "count" : 18
+          }, {
+            "item" : "-35.428739900105967",
+            "count" : 17
+          }, {
+            "item" : "-35.178530385800101",
+            "count" : 16
+          }, {
+            "item" : "-35.158836547443805",
+            "count" : 15
+          }, {
+            "item" : "-35.327229802407501",
+            "count" : 14
+          }, {
+            "item" : "-35.425314712603253",
+            "count" : 13
+          }, {
+            "item" : "-35.332428575575875",
+            "count" : 12
+          }, {
+            "item" : "-35.397793866891227",
+            "count" : 11
+          }, {
+            "item" : "-35.316640818403378",
+            "count" : 10
+          }, {
+            "item" : "-35.232840557545487",
+            "count" : 9
+          }, {
+            "item" : "-35.22989872279846",
+            "count" : 8
+          }, {
+            "item" : "-35.210592020398295",
+            "count" : 7
+          }, {
+            "item" : "-35.349385672907317",
+            "count" : 6
+          }, {
+            "item" : "-35.437829819223879",
+            "count" : 5
+          }, {
+            "item" : "-35.25087953136395",
+            "count" : 4
+          }, {
+            "item" : "-35.350818743608073",
+            "count" : 3
+          }, {
+            "item" : "-35.225452257669744",
+            "count" : 2
+          }, {
+            "item" : "-35.215151711452386",
+            "count" : 1
+          } ],
+          "smallest" : "-35.437829819223879",
+          "sum" : "-882.239686904559861"
+        },
+        "format" : { }
+      }, {
+        "id" : 210192428,
+        "name" : "LONGITUDE",
+        "dataTypeName" : "number",
+        "fieldName" : "longitude",
+        "position" : 10,
+        "renderTypeName" : "number",
+        "tableColumnId" : 26747826,
+        "width" : 208,
+        "cachedContents" : {
+          "largest" : "149.14939582547029",
+          "non_null" : 25,
+          "average" : "149.0834548497700",
+          "null" : 0,
+          "top" : [ {
+            "item" : "149.1111269309649",
+            "count" : 20
+          }, {
+            "item" : "149.05274050900337",
+            "count" : 19
+          }, {
+            "item" : "149.07646363655954",
+            "count" : 18
+          }, {
+            "item" : "149.0865929168742",
+            "count" : 17
+          }, {
+            "item" : "149.10598514662763",
+            "count" : 16
+          }, {
+            "item" : "149.14939582547029",
+            "count" : 15
+          }, {
+            "item" : "149.05127453591766",
+            "count" : 14
+          }, {
+            "item" : "149.10322043041904",
+            "count" : 13
+          }, {
+            "item" : "149.14617002224725",
+            "count" : 12
+          }, {
+            "item" : "149.06878697962429",
+            "count" : 11
+          }, {
+            "item" : "149.08181916127785",
+            "count" : 10
+          }, {
+            "item" : "149.10679699531252",
+            "count" : 9
+          }, {
+            "item" : "149.07772687941409",
+            "count" : 8
+          }, {
+            "item" : "149.03695216752351",
+            "count" : 7
+          }, {
+            "item" : "149.05725900089661",
+            "count" : 6
+          }, {
+            "item" : "149.12366278834858",
+            "count" : 5
+          }, {
+            "item" : "149.12913735345964",
+            "count" : 4
+          }, {
+            "item" : "149.07779158768264",
+            "count" : 3
+          }, {
+            "item" : "149.05539411384902",
+            "count" : 2
+          }, {
+            "item" : "149.01977551815139",
+            "count" : 1
+          } ],
+          "smallest" : "149.01977551815139",
+          "sum" : "3727.08637124425025"
+        },
+        "format" : { }
+      } ],
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "license" : {
+        "name" : "Creative Commons Attribution 4.0 International",
+        "logoUrl" : "images/licenses/cc30by.png",
+        "termsLink" : "http://creativecommons.org/licenses/by/4.0/legalcode"
+      },
+      "metadata" : {
+        "rdfClass" : "",
+        "rdfSubject" : "0",
+        "custom_fields" : {
+          "Contributing Agency" : {
+            "Contact Email" : "tamsdspatial@act.gov.au",
+            "Agency Name" : "City Presentation",
+            "Directorate" : "Transport Canberra and City Services"
+          }
+        },
+        "rowIdentifier" : "0",
+        "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+        "rowLabel" : "",
+        "renderTypeConfig" : {
+          "visible" : {
+            "table" : true
+          }
+        }
+      },
+      "owner" : {
+        "id" : "m7km-7fxa",
+        "displayName" : "TAMS",
+        "lastNotificationSeenAt" : 1496197272,
+        "profileImageUrlLarge" : "/api/users/m7km-7fxa/profile_images/LARGE",
+        "profileImageUrlMedium" : "/api/users/m7km-7fxa/profile_images/THUMB",
+        "profileImageUrlSmall" : "/api/users/m7km-7fxa/profile_images/TINY",
+        "roleName" : "editor",
+        "screenName" : "TAMS",
+        "rights" : [ "create_datasets", "view_domain", "create_pages", "view_goals", "view_dashboards", "view_story", "view_unpublished_story" ]
+      },
+      "query" : { },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "m7km-7fxa",
+        "displayName" : "TAMS",
+        "lastNotificationSeenAt" : 1496197272,
+        "profileImageUrlLarge" : "/api/users/m7km-7fxa/profile_images/LARGE",
+        "profileImageUrlMedium" : "/api/users/m7km-7fxa/profile_images/THUMB",
+        "profileImageUrlSmall" : "/api/users/m7km-7fxa/profile_images/TINY",
+        "roleName" : "editor",
+        "screenName" : "TAMS",
+        "rights" : [ "create_datasets", "view_domain", "create_pages", "view_goals", "view_dashboards", "view_story", "view_unpublished_story" ]
+      },
+      "tags" : [ "graffiti", "art", "legal", "street" ],
+      "flags" : [ "default", "restorable", "restorePossibleForType" ]
+    }
+  },
+  "data" : [ [ 1652, "186A0232-A083-46D5-9AD4-135457182305", 1652, 1499244434, "913938", 1499244434, "913938", null, "Belconnen", "Kaleen", "Maribrynong Ave Underpass Between Tyrrell And Moruya", "Underpass Walls", "Concrete", [ "http://www.abc.net.au/reslib/201405/r1279159_17306753.jpg", null ], [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.22213891484769", "149.1111269309649", null, false ], "-35.22213891484769", "149.1111269309649" ]
+, [ 1653, "C3BC039C-B314-4053-97BB-FBBE7CD4E1AC", 1653, 1499244434, "913938", 1499244434, "913938", null, "Belconnen", "Melba", "Old Depot Wall South Facing Tenis Court", "Old Depot Building", "Brick", [ "http://www.abc.net.au/reslib/201405/r1279159_17306753.jpg", null ], [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.214225153760957", "149.05274050900337", null, false ], "-35.214225153760957", "149.05274050900337" ]
+, [ 1654, "7AD255E8-B148-4D93-96A6-67589F6EFACD", 1654, 1499244434, "913938", 1499244434, "913938", null, "Belconnen", "Belconnen", "Lake Ginninderra Bridge West", "Underbridge", "Concrete", [ "http://www.abc.net.au/reslib/201405/r1279159_17306753.jpg", null ], [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.22892756879682", "149.07646363655954", null, false ], "-35.22892756879682", "149.07646363655954" ]
+, [ 1655, "9659384E-1609-460B-98FB-F9BCCAA176BA", 1655, 1499244434, "913938", 1499244434, "913938", null, "Tuggeranong", "Isabella Plains", "Road Bridge Narooma St", "Underpass", "Concrete", [ "http://www.abc.net.au/reslib/201405/r1279159_17306753.jpg", null ], [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.428739900105967", "149.0865929168742", null, false ], "-35.428739900105967", "149.0865929168742" ]
+, [ 1656, "0F4E42D7-03B4-4B12-B49B-9F8C6A6565C6", 1656, 1499244434, "913938", 1499244434, "913938", null, "Gungahlin", "Nicholls", "Kelleway Ave Underpass", "Underpass Walls", "Concrete", [ "http://www.abc.net.au/reslib/201405/r1279159_17306753.jpg", null ], [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.178530385800101", "149.10598514662763", null, false ], "-35.178530385800101", "149.10598514662763" ]
+, [ 1657, "63D7C942-7167-4C0A-8604-FF7E3E549BA5", 1657, 1499244434, "913938", 1499244434, "913938", null, "Gungahlin", "Forde", "Handbury Way Underpass", "Underpass", "Concrete", [ "http://www.abc.net.au/reslib/201405/r1279159_17306753.jpg", null ], [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.158836547443805", "149.14939582547029", null, false ], "-35.158836547443805", "149.14939582547029" ]
+, [ 1658, "7CBEAF5F-239B-4704-B733-D3263FD5A209", 1658, 1499244434, "913938", 1499244434, "913938", null, "Weston Creek", "Holder", "Cotter Road Cycle Underpass", "Underpass", "Concete", [ "http://www.abc.net.au/reslib/201405/r1279159_17306753.jpg", null ], [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.327229802407501", "149.05127453591766", null, false ], "-35.327229802407501", "149.05127453591766" ]
+, [ 1659, "576A940C-8CC2-4805-9696-4FBD6DFAA372", 1659, 1499244434, "913938", 1499244434, "913938", null, "Tuggeranong", "Isabella Plains", "Ashley Drive At Tuggeranong Creek", "Underpass", "Concrete", [ "http://www.abc.net.au/reslib/201405/r1279159_17306753.jpg", null ], [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.425314712603253", "149.10322043041904", null, false ], "-35.425314712603253", "149.10322043041904" ]
+, [ 1660, "13016B44-577C-44CD-8ABF-8282906FEB10", 1660, 1499244434, "913938", 1499244434, "913938", null, "Inner South", "Narrabundah", "Jerrabomberra Sports Ground", "Toilet Block", "Concrete", [ "http://www.abc.net.au/reslib/201405/r1279159_17306753.jpg", null ], [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.332428575575875", "149.14617002224725", null, false ], "-35.332428575575875", "149.14617002224725" ]
+, [ 1661, "B12F59BF-31B6-4B87-A526-A119B3F7C400", 1661, 1499244434, "913938", 1499244434, "913938", null, "Tuggeranong", "Greenway", "Athllon Dr Underpass", "Underpass", "Concrete", [ "http://www.abc.net.au/reslib/201405/r1279159_17306753.jpg", null ], [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.397793866891227", "149.06878697962429", null, false ], "-35.397793866891227", "149.06878697962429" ]
+, [ 1662, "B6850061-4382-4323-9F7C-AC97855628EE", 1662, 1499244434, "913938", 1499244434, "913938", null, "Woden Weston", "Curtin", "Mcculloch St Underpass", "Underpass", "Concrete", [ "http://www.abc.net.au/reslib/201405/r1279159_17306753.jpg", null ], [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.316640818403378", "149.08181916127785", null, false ], "-35.316640818403378", "149.08181916127785" ]
+, [ 1663, "0FDCC308-8009-46DC-BC37-D053257D9DE2", 1663, 1499244434, "913938", 1499244434, "913938", null, "Belconnen", "Kaleen", "Maribrynong Ave Underpass Between Diamantina And Daintree Cres", "Underpass Walls", "Concrete", [ "http://www.abc.net.au/reslib/201405/r1279159_17306753.jpg", null ], [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.232840557545487", "149.10679699531252", null, false ], "-35.232840557545487", "149.10679699531252" ]
+, [ 1664, "E7FE81CB-1970-4A4A-AC6F-C9AF7726E940", 1664, 1499244434, "913938", 1499244434, "913938", null, "Belconnen", "Belconnen", "Lake Ginninderra Bridge East", "Underbridge", "Concrete", [ "http://www.abc.net.au/reslib/201405/r1279159_17306753.jpg", null ], [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.22989872279846", "149.07772687941409", null, false ], "-35.22989872279846", "149.07772687941409" ]
+, [ 1665, "DE5AA602-92BC-430A-A065-6EA67F2E0910", 1665, 1499244434, "913938", 1499244434, "913938", null, "Belconnen", "Latham", "Ginninderra Dr Underpass Ginninderra Ck", "Underpass Walls", "Concrete", [ "http://www.abc.net.au/reslib/201405/r1279159_17306753.jpg", null ], [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.210592020398295", "149.03695216752351", null, false ], "-35.210592020398295", "149.03695216752351" ]
+, [ 1666, "1EA4A96F-6679-43A5-82F4-A4C88717721F", 1666, 1499244434, "913938", 1499244434, "913938", null, "Woden Weston", "Warramanga", "Damala St Underpass", "Underpass", "Concrete", [ "http://www.abc.net.au/reslib/201405/r1279159_17306753.jpg", null ], [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.349385672907317", "149.05725900089661", null, false ], "-35.349385672907317", "149.05725900089661" ]
+, [ 1667, "3C465B98-5136-4952-B81E-E9BF8CEAF9E9", 1667, 1499244434, "913938", 1499244434, "913938", null, "Tuggeranong", "Calwell", "Wall Of Bridge And Stormwater Drain Under Tharwa Dr", "Underpass Stormwater Drain", "Concrete", [ "http://www.abc.net.au/reslib/201405/r1279159_17306753.jpg", null ], [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.437829819223879", "149.12366278834858", null, false ], "-35.437829819223879", "149.12366278834858" ]
+, [ 1668, "C99449DD-9044-43D9-BBB1-9877537A030E", 1668, 1499244434, "913938", 1499244434, "913938", null, "Inner North", "Lyneham", "Lyneham Primary School Oval", "Toilet Block", "Concrete", [ "http://www.abc.net.au/reslib/201405/r1279159_17306753.jpg", null ], [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.25087953136395", "149.12913735345964", null, false ], "-35.25087953136395", "149.12913735345964" ]
+, [ 1669, "6B30B360-B3A5-40D7-86D7-42A06E858698", 1669, 1499244434, "913938", 1499244434, "913938", null, "Woden Weston", "Chifley", "Chifley Oval Toilet Block", "Toilet Block", "Brick", [ "http://www.abc.net.au/reslib/201405/r1279159_17306753.jpg", null ], [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.350818743608073", "149.07779158768264", null, false ], "-35.350818743608073", "149.07779158768264" ]
+, [ 1670, "9FC9B7CB-1A40-433C-83F6-8A8B32C632F8", 1670, 1499244434, "913938", 1499244434, "913938", null, "Belconnen", "Florey", "John Cleland Cres Underpass Near Florey Shops", "Underpass Walls", "Concrete", [ "http://www.abc.net.au/reslib/201405/r1279159_17306753.jpg", null ], [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.225452257669744", "149.05539411384902", null, false ], "-35.225452257669744", "149.05539411384902" ]
+, [ 1671, "A674B23E-07FA-440D-9F3A-61C6A3F0F750", 1671, 1499244434, "913938", 1499244434, "913938", null, "Belconnen", "Latham", "Florey Dr Underpass", "Underpass Walls", "Concrete", [ "http://www.abc.net.au/reslib/201405/r1279159_17306753.jpg", null ], [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.215151711452386", "149.01977551815139", null, false ], "-35.215151711452386", "149.01977551815139" ]
+, [ 1672, "97B8671E-31A0-4890-9BA4-87A1E3C97C9D", 1672, 1499244434, "913938", 1499244434, "913938", null, "Belconnen", "Hawker", "Hawker College Basketball Court, Murranji Street", "Hit Up Wall", "Brick", [ "http://www.abc.net.au/reslib/201405/r1279159_17306753.jpg", null ], [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.245808752531417", "149.03417326515699", null, false ], "-35.245808752531417", "149.03417326515699" ]
+, [ 1673, "12AC3DC1-C917-474E-955C-63C96CB2799B", 1673, 1499244434, "913938", 1499244434, "913938", null, "Woden Weston", "Chifley", "Tuggeranong Pwy Underpass Between Warramanga And Chifley", "Underpass Walls", "Concrete", [ "http://www.abc.net.au/reslib/201405/r1279159_17306753.jpg", null ], [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.357550035944421", "149.06946138447248", null, false ], "-35.357550035944421", "149.06946138447248" ]
+, [ 1674, "E3537DEA-6310-447F-BDA2-E45FE5EBC055", 1674, 1499244434, "913938", 1499244434, "913938", null, "Gungahlin", "Ngunnawal", "Yerrabi Spillway Mirrabei Dr", "Spillway", "Concrete", [ "http://www.abc.net.au/reslib/201405/r1279159_17306753.jpg", null ], [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.177800844895081", "149.12440893570235", null, false ], "-35.177800844895081", "149.12440893570235" ]
+, [ 1675, "7C148816-2663-4248-B6D4-46306CCDFB3A", 1675, 1499244434, "913938", 1499244434, "913938", null, "Tuggeranong", "Kambah", "Mount Neighbour Primary, Boddington Crescent", "Hit Up Wall", "Brick", [ "http://www.abc.net.au/reslib/201405/r1279159_17306753.jpg", null ], [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.383498654873165", "149.05255827975085", null, false ], "-35.383498654873165", "149.05255827975085" ]
+, [ 1676, "EE06075C-D09D-4247-87DB-B742F80B06B5", 1676, 1499244434, "913938", 1499244434, "913938", null, "Woden Weston", "Woden", "Launceston Street Underpass Near Phillip College", "Underpass Walls", "Concrete", [ "http://www.abc.net.au/reslib/201405/r1279159_17306753.jpg", null ], [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.341373332711612", "149.08769687954356", null, false ], "-35.341373332711612", "149.08769687954356" ]
+ ]
+}
