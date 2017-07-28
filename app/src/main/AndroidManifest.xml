@@ -49,10 +49,6 @@
             android:label="@string/title_activity_modifiers"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".test"
-            android:label="@string/title_activity_test"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
             android:name=".Nav"
             android:label="@string/title_activity_nav"
             android:theme="@style/AppTheme.NoActionBar" />
