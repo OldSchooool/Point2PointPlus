@@ -1,4 +1,16 @@
 <resources>
     <string name="app_name">PointToPointPlus</string>
     <string name="title_activity_maps">Map</string>
+    <string name="title_activity_point">Map</string>
+    <string name="title_activity_point_b">Map</string>
+    <string name="title_activity_modifiers">Modifiers</string>
+    <string name="large_text">hi</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_test">test</string>
+    <string name="title_activity_nav">Nav</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_tabbed">Tabbed</string>
+    <string name="section_format">Hello World from section: %1$d</string>
 </resources>

@@ -38,6 +38,28 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".PointA"
+            android:label="@string/title_activity_point" />
+        <activity
+            android:name=".PointB"
+            android:label="@string/title_activity_point_b" />
+        <activity
+            android:name=".Modifiers"
+            android:label="@string/title_activity_modifiers"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".test"
+            android:label="@string/title_activity_test"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Nav"
+            android:label="@string/title_activity_nav"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Tabbed"
+            android:label="@string/title_activity_tabbed"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
