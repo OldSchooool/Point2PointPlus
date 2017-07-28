@@ -1,0 +1,1023 @@
+{
+  "meta" : {
+    "view" : {
+      "id" : "h4qc-3txc",
+      "name" : "Fitness Sites",
+      "attribution" : "ACT Government",
+      "attributionLink" : "http://www.tams.act.gov.au/parks-recreation/recreational_activities/fitness-sites",
+      "averageRating" : 0,
+      "category" : "Sport and Recreation",
+      "createdAt" : 1425606809,
+      "description" : "There are 22 Canberra suburbs which have fitness equipment such as sit up benches, chin up bars and balance beams available at a local park or open space",
+      "displayType" : "table",
+      "downloadCount" : 1459,
+      "hideFromCatalog" : false,
+      "hideFromDataJson" : false,
+      "indexUpdatedAt" : 1499231178,
+      "licenseId" : "CC_40_BY",
+      "locale" : "",
+      "newBackend" : false,
+      "numberOfComments" : 0,
+      "oid" : 11943405,
+      "provenance" : "official",
+      "publicationAppendEnabled" : true,
+      "publicationDate" : 1435275495,
+      "publicationGroup" : 2424726,
+      "publicationStage" : "published",
+      "rowClass" : "",
+      "rowsUpdatedAt" : 1492074123,
+      "rowsUpdatedBy" : "m7km-7fxa",
+      "tableId" : 3304073,
+      "totalTimesRated" : 0,
+      "viewCount" : 557,
+      "viewLastModified" : 1500972363,
+      "viewType" : "tabular",
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":id",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":position",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : 210192373,
+        "name" : "ID",
+        "dataTypeName" : "number",
+        "fieldName" : "id",
+        "position" : 2,
+        "renderTypeName" : "number",
+        "tableColumnId" : 26117168,
+        "width" : 124,
+        "cachedContents" : {
+          "largest" : "306",
+          "non_null" : 194,
+          "average" : "160.0670103092784",
+          "null" : 0,
+          "top" : [ {
+            "item" : "32",
+            "count" : 20
+          }, {
+            "item" : "239",
+            "count" : 19
+          }, {
+            "item" : "238",
+            "count" : 18
+          }, {
+            "item" : "33",
+            "count" : 17
+          }, {
+            "item" : "237",
+            "count" : 16
+          }, {
+            "item" : "236",
+            "count" : 15
+          }, {
+            "item" : "34",
+            "count" : 14
+          }, {
+            "item" : "30",
+            "count" : 13
+          }, {
+            "item" : "31",
+            "count" : 12
+          }, {
+            "item" : "212",
+            "count" : 11
+          }, {
+            "item" : "150",
+            "count" : 10
+          }, {
+            "item" : "207",
+            "count" : 9
+          }, {
+            "item" : "302",
+            "count" : 8
+          }, {
+            "item" : "305",
+            "count" : 7
+          }, {
+            "item" : "141",
+            "count" : 6
+          }, {
+            "item" : "145",
+            "count" : 5
+          }, {
+            "item" : "142",
+            "count" : 4
+          }, {
+            "item" : "109",
+            "count" : 3
+          }, {
+            "item" : "144",
+            "count" : 2
+          }, {
+            "item" : "106",
+            "count" : 1
+          } ],
+          "smallest" : "1",
+          "sum" : "31053"
+        },
+        "format" : { }
+      }, {
+        "id" : 210192374,
+        "name" : "TYPE",
+        "dataTypeName" : "text",
+        "fieldName" : "type",
+        "position" : 3,
+        "renderTypeName" : "text",
+        "tableColumnId" : 26117169,
+        "width" : 148,
+        "cachedContents" : {
+          "largest" : "Vault",
+          "non_null" : 194,
+          "null" : 0,
+          "top" : [ {
+            "item" : "Sit Up Bench",
+            "count" : 20
+          }, {
+            "item" : "Chinup Bar",
+            "count" : 19
+          }, {
+            "item" : "Body Lift",
+            "count" : 18
+          }, {
+            "item" : "Parallel Bars",
+            "count" : 17
+          }, {
+            "item" : "Push Ups",
+            "count" : 16
+          }, {
+            "item" : "Log Hop",
+            "count" : 15
+          }, {
+            "item" : "Stretching Equipment",
+            "count" : 14
+          }, {
+            "item" : "Pull Ups",
+            "count" : 13
+          }, {
+            "item" : "Pull Downs",
+            "count" : 12
+          }, {
+            "item" : "Ping Pong Table",
+            "count" : 11
+          }, {
+            "item" : "Step Ups",
+            "count" : 10
+          }, {
+            "item" : "Vault",
+            "count" : 9
+          }, {
+            "item" : "Roman Rings",
+            "count" : 8
+          }, {
+            "item" : "Bench Dip",
+            "count" : 7
+          }, {
+            "item" : "Hurdles",
+            "count" : 6
+          }, {
+            "item" : "Horizontal Bar",
+            "count" : 5
+          }, {
+            "item" : "Balance Beam",
+            "count" : 4
+          }, {
+            "item" : "Leg Raises & Pull Ups",
+            "count" : 3
+          }, {
+            "item" : "Leg Press",
+            "count" : 2
+          }, {
+            "item" : "Star Jumps",
+            "count" : 1
+          } ],
+          "smallest" : "Aerobic Walker"
+        },
+        "format" : { }
+      }, {
+        "id" : 210192375,
+        "name" : "DIVISION",
+        "dataTypeName" : "text",
+        "fieldName" : "division",
+        "position" : 4,
+        "renderTypeName" : "text",
+        "tableColumnId" : 26117170,
+        "width" : 196,
+        "cachedContents" : {
+          "largest" : "Yarralumla",
+          "non_null" : 194,
+          "null" : 0,
+          "top" : [ {
+            "item" : "Ainslie",
+            "count" : 20
+          }, {
+            "item" : "Greenway",
+            "count" : 19
+          }, {
+            "item" : "Casey",
+            "count" : 18
+          }, {
+            "item" : "Kaleen",
+            "count" : 17
+          }, {
+            "item" : "Belconnen",
+            "count" : 16
+          }, {
+            "item" : "Phillip",
+            "count" : 15
+          }, {
+            "item" : "Wright",
+            "count" : 14
+          }, {
+            "item" : "Yarralumla",
+            "count" : 13
+          }, {
+            "item" : "Gungahlin",
+            "count" : 12
+          }, {
+            "item" : "Forde",
+            "count" : 11
+          }, {
+            "item" : "Franklin",
+            "count" : 10
+          }, {
+            "item" : "Chifley",
+            "count" : 9
+          }, {
+            "item" : "Cook",
+            "count" : 8
+          }, {
+            "item" : "Weston",
+            "count" : 7
+          }, {
+            "item" : "Rivett",
+            "count" : 6
+          }, {
+            "item" : "Holt",
+            "count" : 5
+          }, {
+            "item" : "Harrison",
+            "count" : 4
+          }, {
+            "item" : "Crace",
+            "count" : 3
+          }, {
+            "item" : "Kambah",
+            "count" : 2
+          }, {
+            "item" : "Coombs",
+            "count" : 1
+          } ],
+          "smallest" : "Acton"
+        },
+        "format" : { }
+      }, {
+        "id" : 210192376,
+        "name" : "LOCATION",
+        "dataTypeName" : "text",
+        "fieldName" : "location",
+        "position" : 5,
+        "renderTypeName" : "text",
+        "tableColumnId" : 26117171,
+        "width" : 196,
+        "cachedContents" : {
+          "largest" : "Zakharov Avenue Pedestrian Parkland",
+          "non_null" : 194,
+          "null" : 0,
+          "top" : [ {
+            "item" : "Ainslie Football Park",
+            "count" : 20
+          }, {
+            "item" : "Tuggeranong Town Park",
+            "count" : 19
+          }, {
+            "item" : "John Crawford Crescent Neighbourhood Park",
+            "count" : 18
+          }, {
+            "item" : "John Knight Memorial Park",
+            "count" : 17
+          }, {
+            "item" : "Swallowtail Road Road Verge",
+            "count" : 16
+          }, {
+            "item" : "Yerrabi District Park",
+            "count" : 15
+          }, {
+            "item" : "Dunphy Street Pedestrian Parkland",
+            "count" : 14
+          }, {
+            "item" : "Kilmeny Close Community Park (Crip)",
+            "count" : 13
+          }, {
+            "item" : "Alexandrina Drive - Pedestrian Parkland",
+            "count" : 12
+          }, {
+            "item" : "Peter Cullen Way Neighbourhood Park",
+            "count" : 11
+          }, {
+            "item" : "Woronora Street Pedestrian Parkland",
+            "count" : 10
+          }, {
+            "item" : "Shann Place Neighbourhood Park",
+            "count" : 9
+          }, {
+            "item" : "Templeton Crescent Neighbourhood Park",
+            "count" : 8
+          }, {
+            "item" : "Bangalay Crescent Neighbourhood Park",
+            "count" : 7
+          }, {
+            "item" : "Edison District Park",
+            "count" : 6
+          }, {
+            "item" : "Cotter Road Road Verge",
+            "count" : 5
+          }, {
+            "item" : "Summerland Circuit Neighbourhood Park",
+            "count" : 4
+          }, {
+            "item" : "Lawrence Wackett Crescent - Neighbourhood Park",
+            "count" : 3
+          }, {
+            "item" : "Kamb-1765",
+            "count" : 2
+          }, {
+            "item" : "Dillon Close Neighbourhood Park",
+            "count" : 1
+          } ],
+          "smallest" : "Ainslie Football Park"
+        },
+        "format" : { }
+      }, {
+        "id" : 210192377,
+        "name" : "IMAGE_LINK",
+        "dataTypeName" : "url",
+        "fieldName" : "image_link",
+        "position" : 6,
+        "renderTypeName" : "url",
+        "tableColumnId" : 26117172,
+        "width" : 220,
+        "cachedContents" : {
+          "non_null" : 0,
+          "null" : 194
+        },
+        "format" : { },
+        "subColumnTypes" : [ "url", "description" ]
+      }, {
+        "id" : 210192378,
+        "name" : "VIDEO_LINK",
+        "dataTypeName" : "url",
+        "fieldName" : "video_link",
+        "position" : 7,
+        "renderTypeName" : "url",
+        "tableColumnId" : 26117173,
+        "width" : 220,
+        "cachedContents" : {
+          "non_null" : 0,
+          "null" : 194
+        },
+        "format" : { },
+        "subColumnTypes" : [ "url", "description" ]
+      }, {
+        "id" : 210192379,
+        "name" : "LATITUDE",
+        "dataTypeName" : "number",
+        "fieldName" : "latitude",
+        "position" : 9,
+        "renderTypeName" : "number",
+        "tableColumnId" : 26117175,
+        "width" : 196,
+        "cachedContents" : {
+          "largest" : "-35.152422",
+          "non_null" : 194,
+          "average" : "-35.28587806185567",
+          "null" : 0,
+          "top" : [ {
+            "item" : "-35.19748",
+            "count" : 20
+          }, {
+            "item" : "-35.200686",
+            "count" : 19
+          }, {
+            "item" : "-35.200675",
+            "count" : 18
+          }, {
+            "item" : "-35.197447",
+            "count" : 17
+          }, {
+            "item" : "-35.200731",
+            "count" : 16
+          }, {
+            "item" : "-35.200725",
+            "count" : 15
+          }, {
+            "item" : "-35.197516",
+            "count" : 14
+          }, {
+            "item" : "-35.197515",
+            "count" : 13
+          }, {
+            "item" : "-35.197456",
+            "count" : 12
+          }, {
+            "item" : "-35.17807",
+            "count" : 11
+          }, {
+            "item" : "-35.315346",
+            "count" : 10
+          }, {
+            "item" : "-35.178025",
+            "count" : 9
+          }, {
+            "item" : "-35.263595",
+            "count" : 8
+          }, {
+            "item" : "-35.237129",
+            "count" : 7
+          }, {
+            "item" : "-35.315289",
+            "count" : 6
+          }, {
+            "item" : "-35.315317",
+            "count" : 5
+          }, {
+            "item" : "-35.315295",
+            "count" : 4
+          }, {
+            "item" : "-35.263009",
+            "count" : 3
+          }, {
+            "item" : "-35.31532",
+            "count" : 2
+          }, {
+            "item" : "-35.262629",
+            "count" : 1
+          } ],
+          "smallest" : "-35.445554",
+          "sum" : "-6845.460344"
+        },
+        "format" : { }
+      }, {
+        "id" : 210192380,
+        "name" : "LONGITUDE",
+        "dataTypeName" : "number",
+        "fieldName" : "longitude",
+        "position" : 10,
+        "renderTypeName" : "number",
+        "tableColumnId" : 26117176,
+        "width" : 208,
+        "cachedContents" : {
+          "largest" : "149.15276",
+          "non_null" : 194,
+          "average" : "149.0902212525773",
+          "null" : 0,
+          "top" : [ {
+            "item" : "149.144115",
+            "count" : 20
+          }, {
+            "item" : "149.103068",
+            "count" : 19
+          }, {
+            "item" : "149.103033",
+            "count" : 18
+          }, {
+            "item" : "149.144146",
+            "count" : 17
+          }, {
+            "item" : "149.103096",
+            "count" : 16
+          }, {
+            "item" : "149.10307",
+            "count" : 15
+          }, {
+            "item" : "149.144137",
+            "count" : 14
+          }, {
+            "item" : "149.144204",
+            "count" : 13
+          }, {
+            "item" : "149.144203",
+            "count" : 12
+          }, {
+            "item" : "149.130662",
+            "count" : 11
+          }, {
+            "item" : "149.095551",
+            "count" : 10
+          }, {
+            "item" : "149.130655",
+            "count" : 9
+          }, {
+            "item" : "149.1385",
+            "count" : 8
+          }, {
+            "item" : "149.073924",
+            "count" : 7
+          }, {
+            "item" : "149.095565",
+            "count" : 6
+          }, {
+            "item" : "149.095539",
+            "count" : 5
+          }, {
+            "item" : "149.095574",
+            "count" : 4
+          }, {
+            "item" : "149.138715",
+            "count" : 3
+          }, {
+            "item" : "149.095478",
+            "count" : 2
+          }, {
+            "item" : "149.138784",
+            "count" : 1
+          } ],
+          "smallest" : "149.013194",
+          "sum" : "28923.502923"
+        },
+        "format" : { }
+      }, {
+        "id" : 210192381,
+        "name" : "Location_1",
+        "dataTypeName" : "location",
+        "fieldName" : "location_1_2",
+        "position" : 11,
+        "renderTypeName" : "location",
+        "tableColumnId" : 28790150,
+        "width" : 100,
+        "cachedContents" : {
+          "largest" : {
+            "latitude" : "-35.263555",
+            "longitude" : "149.138529"
+          },
+          "non_null" : 194,
+          "null" : 0,
+          "top" : [ {
+            "item" : {
+              "latitude" : "-35.19748",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "149.144115"
+            },
+            "count" : 20
+          }, {
+            "item" : {
+              "latitude" : "-35.200686",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "149.103068"
+            },
+            "count" : 19
+          }, {
+            "item" : {
+              "latitude" : "-35.200675",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "149.103033"
+            },
+            "count" : 18
+          }, {
+            "item" : {
+              "latitude" : "-35.197447",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "149.144146"
+            },
+            "count" : 17
+          }, {
+            "item" : {
+              "latitude" : "-35.200731",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "149.103096"
+            },
+            "count" : 16
+          }, {
+            "item" : {
+              "latitude" : "-35.200725",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "149.10307"
+            },
+            "count" : 15
+          }, {
+            "item" : {
+              "latitude" : "-35.197516",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "149.144137"
+            },
+            "count" : 14
+          }, {
+            "item" : {
+              "latitude" : "-35.197515",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "149.144204"
+            },
+            "count" : 13
+          }, {
+            "item" : {
+              "latitude" : "-35.197456",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "149.144203"
+            },
+            "count" : 12
+          }, {
+            "item" : {
+              "latitude" : "-35.17807",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "149.130662"
+            },
+            "count" : 11
+          }, {
+            "item" : {
+              "latitude" : "-35.315346",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "149.095551"
+            },
+            "count" : 10
+          }, {
+            "item" : {
+              "latitude" : "-35.178025",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "149.130655"
+            },
+            "count" : 9
+          }, {
+            "item" : {
+              "latitude" : "-35.263595",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "149.1385"
+            },
+            "count" : 8
+          }, {
+            "item" : {
+              "latitude" : "-35.237129",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "149.073924"
+            },
+            "count" : 7
+          }, {
+            "item" : {
+              "latitude" : "-35.315289",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "149.095565"
+            },
+            "count" : 6
+          }, {
+            "item" : {
+              "latitude" : "-35.315317",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "149.095539"
+            },
+            "count" : 5
+          }, {
+            "item" : {
+              "latitude" : "-35.315295",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "149.095574"
+            },
+            "count" : 4
+          }, {
+            "item" : {
+              "latitude" : "-35.263009",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "149.138715"
+            },
+            "count" : 3
+          }, {
+            "item" : {
+              "latitude" : "-35.31532",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "149.095478"
+            },
+            "count" : 2
+          }, {
+            "item" : {
+              "latitude" : "-35.262629",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "149.138784"
+            },
+            "count" : 1
+          } ],
+          "smallest" : {
+            "latitude" : "-35.411585",
+            "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+            "longitude" : "149.067439"
+          }
+        },
+        "format" : { },
+        "subColumnTypes" : [ "human_address", "latitude", "longitude", "machine_address", "needs_recoding" ]
+      } ],
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "license" : {
+        "name" : "Creative Commons Attribution 4.0 International",
+        "logoUrl" : "images/licenses/cc30by.png",
+        "termsLink" : "http://creativecommons.org/licenses/by/4.0/legalcode"
+      },
+      "metadata" : {
+        "rdfSubject" : "0",
+        "rdfClass" : "",
+        "custom_fields" : {
+          "Contributing Agency" : {
+            "Contact Email" : "tamsdspatial@act.gov.au",
+            "Agency Name" : "Parks and City Services",
+            "Directorate" : "Transport Canberra and City Services"
+          }
+        },
+        "rowIdentifier" : "0",
+        "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+        "rowLabel" : "",
+        "renderTypeConfig" : {
+          "visible" : {
+            "table" : true
+          }
+        }
+      },
+      "owner" : {
+        "id" : "m7km-7fxa",
+        "displayName" : "TAMS",
+        "lastNotificationSeenAt" : 1496197272,
+        "profileImageUrlLarge" : "/api/users/m7km-7fxa/profile_images/LARGE",
+        "profileImageUrlMedium" : "/api/users/m7km-7fxa/profile_images/THUMB",
+        "profileImageUrlSmall" : "/api/users/m7km-7fxa/profile_images/TINY",
+        "roleName" : "editor",
+        "screenName" : "TAMS",
+        "rights" : [ "create_datasets", "view_domain", "create_pages", "view_goals", "view_dashboards", "view_story", "view_unpublished_story" ]
+      },
+      "query" : { },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "m7km-7fxa",
+        "displayName" : "TAMS",
+        "lastNotificationSeenAt" : 1496197272,
+        "profileImageUrlLarge" : "/api/users/m7km-7fxa/profile_images/LARGE",
+        "profileImageUrlMedium" : "/api/users/m7km-7fxa/profile_images/THUMB",
+        "profileImageUrlSmall" : "/api/users/m7km-7fxa/profile_images/TINY",
+        "roleName" : "editor",
+        "screenName" : "TAMS",
+        "rights" : [ "create_datasets", "view_domain", "create_pages", "view_goals", "view_dashboards", "view_story", "view_unpublished_story" ]
+      },
+      "tags" : [ "fitness", "exercise" ],
+      "flags" : [ "default", "restorable", "restorePossibleForType" ]
+    }
+  },
+  "data" : [ [ 17, "6DEF6344-71EC-4A0C-B6CC-F6A3FC587B7D", 17, 1435250262, "913938", 1435250262, "913938", "{\n}", "112", "Sit Up Bench", "Ainslie", "Ainslie Football Park", [ null, null ], [ null, null ], "-35.263555", "149.138529", [ null, "-35.263555", "149.138529", null, false ] ]
+, [ 199, "C794BA1F-F834-46CE-9735-444D2AC8C9FC", 199, 1483948893, "913938", 1483948893, "913938", null, "50", "Chinup Bar", "Greenway", "Tuggeranong Town Park", [ null, null ], [ null, null ], "-35.411585", "149.067439", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.411585", "149.067439", null, false ] ]
+, [ 200, "AF6CB80B-0B5F-41C8-B7A3-1DB8A9ACBE7D", 200, 1483948893, "913938", 1483948893, "913938", null, "11", "Body Lift", "Casey", "John Crawford Crescent Neighbourhood Park", [ null, null ], [ null, null ], "-35.171564", "149.094203", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.171564", "149.094203", null, false ] ]
+, [ 201, "8A24A896-5932-4F95-97A2-674E241757CD", 201, 1483948893, "913938", 1483948893, "913938", null, "139", "Parallel Bars", "Kaleen", "Maribyrnong Avenue Neighbourhood Park", [ null, null ], [ null, null ], "-35.2229", "149.111542", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.2229", "149.111542", null, false ] ]
+, [ 202, "CDBBEF0C-4D15-4767-BD1F-85767BFF0C70", 202, 1483948893, "913938", 1483948893, "913938", null, "23", "Parallel Bars", "Belconnen", "John Knight Memorial Park", [ null, null ], [ null, null ], "-35.236962", "149.074375", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.236962", "149.074375", null, false ] ]
+, [ 203, "A1DB4E10-2F4E-475B-8222-64C72BF63295", 203, 1483948893, "913938", 1483948893, "913938", null, "52", "Push Ups", "Greenway", "Tuggeranong Town Park", [ null, null ], [ null, null ], "-35.411576", "149.06748", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.411576", "149.06748", null, false ] ]
+, [ 204, "3AD539BF-8E70-4DC0-AD95-5D9C51CC54A2", 204, 1483948893, "913938", 1483948893, "913938", null, "268", "Log Hop", "Belconnen", "John Knight Memorial Park", [ null, null ], [ null, null ], "-35.237297", "149.073844", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.237297", "149.073844", null, false ] ]
+, [ 205, "4C416EC9-6FFE-4216-9D51-A47CEDF0F63D", 205, 1483948893, "913938", 1483948893, "913938", null, "9", "Stretching Equipment", "Phillip", "Eddison District Park", [ null, null ], [ null, null ], "-35.341363", "149.09114", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.341363", "149.09114", null, false ] ]
+, [ 206, "6B9A7F13-55DD-4984-AD69-26BDBEE004E1", 206, 1483948893, "913938", 1483948893, "913938", null, "39", "Stretching Equipment", "Wright", "Swallowtail Road Road Verge", [ null, null ], [ null, null ], "-35.32511", "149.030715", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.32511", "149.030715", null, false ] ]
+, [ 207, "7D8DFC9A-BA5B-4462-A3F6-05DA35EAFEBF", 207, 1483948893, "913938", 1483948893, "913938", null, "40", "Stretching Equipment", "Wright", "Swallowtail Road Road Verge", [ null, null ], [ null, null ], "-35.32511", "149.030731", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.32511", "149.030731", null, false ] ]
+, [ 208, "F6FFEAAC-25F0-46D2-B170-F72BC81EE492", 208, 1483948893, "913938", 1483948893, "913938", null, "153", "Stretching Equipment", "Yarralumla", "Flynn Drive - Road Verge", [ null, null ], [ null, null ], "-35.299468", "149.122135", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.299468", "149.122135", null, false ] ]
+, [ 210, "B6D45B20-15A4-4D67-B9EC-A144F2EB3810", 210, 1483948893, "913938", 1483948893, "913938", null, "53", "Parallel Bars", "Greenway", "Tuggeranong Town Park", [ null, null ], [ null, null ], "-35.411581", "149.067492", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.411581", "149.067492", null, false ] ]
+, [ 211, "F986E771-D0BA-4299-AEC2-7FB8B0B2B5F7", 211, 1483948893, "913938", 1483948893, "913938", null, "210", "Pull Ups", "Gungahlin", "Yerrabi District Park", [ null, null ], [ null, null ], "-35.178029", "149.130632", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.178029", "149.130632", null, false ] ]
+, [ 212, "E3E6D295-F5AD-4ABA-B414-04AA4898FEDB", 212, 1483948893, "913938", 1483948893, "913938", null, "198", "Stretching Equipment", "Wright", "Dunphy Street Pedestrian Parkland", [ null, null ], [ null, null ], "-35.324746", "149.038493", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.324746", "149.038493", null, false ] ]
+, [ 213, "81B67765-E3A3-4F8B-85A1-2B619D0AEB54", 213, 1483948893, "913938", 1483948893, "913938", null, "285", "Chinup Bar", "Forde", "Forde Linear Park", [ null, null ], [ null, null ], "-35.167647", "149.143776", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.167647", "149.143776", null, false ] ]
+, [ 216, "BCEE813C-2472-4D79-8FED-7410C47895A5", 216, 1483948893, "913938", 1483948893, "913938", null, "230", "Sit Up Bench", "Forde", "Zakharov Avenue Pedestrian Parkland", [ null, null ], [ null, null ], "-35.172773", "149.143759", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.172773", "149.143759", null, false ] ]
+, [ 217, "B3571C8B-8CA3-4471-BC2A-C8AFD4EACA9D", 217, 1483948893, "913938", 1483948893, "913938", null, "200", "Pull Downs", "Wright", "Dunphy Street Pedestrian Parkland", [ null, null ], [ null, null ], "-35.323809", "149.039454", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.323809", "149.039454", null, false ] ]
+, [ 219, "E54C4635-4006-4897-99EC-D3BD9A10031A", 219, 1483948893, "913938", 1483948893, "913938", null, "35", "Ping Pong Table", "Franklin", "Kilmeny Close Community Park (Crip)", [ null, null ], [ null, null ], "-35.197518", "149.14397", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.197518", "149.14397", null, false ] ]
+, [ 220, "FDCCA35F-2041-4D4B-A0FC-8E0BE34DAD8B", 220, 1483948893, "913938", 1483948893, "913938", null, "164", "Step Ups", "Yarralumla", "Alexandrina Drive - Pedestrian Parkland", [ null, null ], [ null, null ], "-35.299535", "149.112963", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.299535", "149.112963", null, false ] ]
+, [ 221, "4B8A5FBA-3764-468B-8433-46FD94D472E0", 221, 1483948893, "913938", 1483948893, "913938", null, "264", "Stretching Equipment", "Belconnen", "John Knight Memorial Park", [ null, null ], [ null, null ], "-35.237172", "149.073722", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.237172", "149.073722", null, false ] ]
+, [ 222, "85BD8941-8F64-42CF-B9DA-ADF11A6B5B56", 222, 1483948893, "913938", 1483948893, "913938", null, "274", "Vault", "Belconnen", "John Knight  Memorial Park", [ null, null ], [ null, null ], "-35.237148", "149.073737", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.237148", "149.073737", null, false ] ]
+, [ 223, "6ADE71F1-9B50-4601-BADF-FA0EE55BFA5D", 223, 1483948893, "913938", 1483948893, "913938", null, "201", "Step Ups", "Wright", "Dunphy Street Pedestrian Parkland", [ null, null ], [ null, null ], "-35.32383", "149.03939", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.32383", "149.03939", null, false ] ]
+, [ 224, "4D177486-11C0-4CF9-8FD5-A1E79524466A", 224, 1483948893, "913938", 1483948893, "913938", null, "46", "Pull Ups", "Greenway", "Tuggeranong Town Park", [ null, null ], [ null, null ], "-35.41157", "149.067424", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.41157", "149.067424", null, false ] ]
+, [ 226, "EBCE7A5A-FDCC-4BCC-B75E-74AC7778AEE6", 226, 1483948893, "913938", 1483948893, "913938", null, "188", "Step Ups", "Wright", "Peter Cullen Way Neighbourhood Park", [ null, null ], [ null, null ], "-35.32369", "149.033027", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.32369", "149.033027", null, false ] ]
+, [ 227, "314619D6-FCB5-44D6-A7FB-396CBC2B7060", 227, 1483948893, "913938", 1483948893, "913938", null, "49", "Roman Rings", "Greenway", "Tuggeranong Town Park", [ null, null ], [ null, null ], "-35.411578", "149.067443", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.411578", "149.067443", null, false ] ]
+, [ 228, "578A12F6-86CA-4A0A-9AA4-50F4AFF05176", 228, 1483948893, "913938", 1483948893, "913938", null, "221", "Sit Up Bench", "Phillip", "Ediosn District Park", [ null, null ], [ null, null ], "-35.341004", "149.09205", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.341004", "149.09205", null, false ] ]
+, [ 229, "FD1D2EBF-5F81-48F5-B842-15D93421314F", 229, 1483948893, "913938", 1483948893, "913938", null, "265", "Bench Dip", "Belconnen", "John Knight Memorial Park", [ null, null ], [ null, null ], "-35.237264", "149.073782", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.237264", "149.073782", null, false ] ]
+, [ 230, "BE844B73-7ABB-4914-A937-E4024D3DC965", 230, 1483948893, "913938", 1483948893, "913938", null, "197", "Sit Up Bench", "Wright", "Dunphy Street Pedestrian Parkland", [ null, null ], [ null, null ], "-35.324714", "149.038466", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.324714", "149.038466", null, false ] ]
+, [ 231, "177980D6-51A1-4658-9F1B-06E86EF40364", 231, 1483948893, "913938", 1483948893, "913938", null, "246", "Hurdles", "Yarralumla", "Alexandrina Drive - Road Verge", [ null, null ], [ null, null ], "-35.298986", "149.114236", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.298986", "149.114236", null, false ] ]
+, [ 232, "B4692292-49C0-4629-B870-F72585774253", 232, 1483948893, "913938", 1483948893, "913938", null, "193", "Stretching Equipment", "Wright", "Peter Cullen Way Neighbourhood Park", [ null, null ], [ null, null ], "-35.323733", "149.031441", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.323733", "149.031441", null, false ] ]
+, [ 233, "CB4A5ACA-327E-4DA5-8BC9-2DCC39483AFF", 233, 1483948893, "913938", 1483948893, "913938", null, "47", "Chinup Bar", "Greenway", "Tuggeranong Town Park", [ null, null ], [ null, null ], "-35.411574", "149.067434", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.411574", "149.067434", null, false ] ]
+, [ 234, "157C12E4-3452-4478-9F63-D82CCADE1301", 234, 1483948893, "913938", 1483948893, "913938", null, "134", "Parallel Bars", "Kaleen", "Woronora Street Pedestrian Parkland", [ null, null ], [ null, null ], "-35.221651", "149.112538", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.221651", "149.112538", null, false ] ]
+, [ 235, "6B3C7659-6304-466D-96B2-E97E65AB6956", 235, 1483948893, "913938", 1483948893, "913938", null, "245", "Chinup Bar", "Forde", "Amy Ackman Street Pedestrian Parkland", [ null, null ], [ null, null ], "-35.170142", "149.142171", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.170142", "149.142171", null, false ] ]
+, [ 236, "F6B9FA83-EBFF-4E1E-B987-7B16DD907314", 236, 1483948893, "913938", 1483948893, "913938", null, "45", "Horizontal Bar", "Greenway", "Tuggeranong Town Park", [ null, null ], [ null, null ], "-35.411555", "149.067435", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.411555", "149.067435", null, false ] ]
+, [ 237, "13E96CE7-4B73-4892-AFA3-F577CF8100DC", 237, 1483948893, "913938", 1483948893, "913938", null, "184", "Balance Beam", "Wright", "Lindsay Pryor Street Pedestrian Parkland", [ null, null ], [ null, null ], "-35.326959", "149.039967", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.326959", "149.039967", null, false ] ]
+, [ 238, "ACCFA3B0-4463-44A0-A1DD-AAF5F39794A7", 238, 1483948893, "913938", 1483948893, "913938", null, "254", "Chinup Bar", "Chifley", "Shann Place Neighbourhood Park", [ null, null ], [ null, null ], "-35.351399", "149.077925", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.351399", "149.077925", null, false ] ]
+, [ 240, "B516DA7D-6453-49E9-8DB2-97AD1DD8F4F0", 240, 1483948893, "913938", 1483948893, "913938", null, "158", "Stretching Equipment", "Yarralumla", "Mariner Place - Pedestrian Parkland", [ null, null ], [ null, null ], "-35.300453", "149.121029", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.300453", "149.121029", null, false ] ]
+, [ 241, "FBD1F5D4-DD04-46FA-9E02-B5FEFBF4983F", 241, 1483948893, "913938", 1483948893, "913938", null, "27", "Chinup Bar", "Belconnen", "John Knight Memorial Park", [ null, null ], [ null, null ], "-35.236961", "149.074335", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.236961", "149.074335", null, false ] ]
+, [ 242, "F4A98B58-EB6E-4E44-9F41-BCE02970EF96", 242, 1483948893, "913938", 1483948893, "913938", null, "262", "Stretching Equipment", "Belconnen", "John Knight Memorial Park", [ null, null ], [ null, null ], "-35.23716", "149.073709", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.23716", "149.073709", null, false ] ]
+, [ 244, "6E6767B2-EFAA-48DE-ADAF-4116D096516B", 244, 1483948893, "913938", 1483948893, "913938", null, "168", "Parallel Bars", "Yarralumla", "Alexandrina Drive - Native Grassland Site", [ null, null ], [ null, null ], "-35.298054", "149.111102", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.298054", "149.111102", null, false ] ]
+, [ 245, "49855DC8-8D84-47F0-BB1D-E0EC1AD46E88", 245, 1483948893, "913938", 1483948893, "913938", null, "280", "Parallel Bars", "Chifley", "Shann Place Neighbourhood Park", [ null, null ], [ null, null ], "-35.351354", "149.0779", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.351354", "149.0779", null, false ] ]
+, [ 246, "524ADEDF-6D72-47EA-9A26-94EAAE4CC3F5", 246, 1483948893, "913938", 1483948893, "913938", null, "253", "Chinup Bar", "Cook", "Templeton Crescent Neighbourhood Park", [ null, null ], [ null, null ], "-35.258394", "149.06219", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.258394", "149.06219", null, false ] ]
+, [ 247, "6F1EAAA4-D5AE-46CB-BDF4-51FB1A83CDA6", 247, 1483948893, "913938", 1483948893, "913938", null, "38", "Sit Up Bench", "Wright", "Swallowtail Road Road Verge", [ null, null ], [ null, null ], "-35.325071", "149.030727", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.325071", "149.030727", null, false ] ]
+, [ 249, "6B986CA0-E616-49DD-88BF-F0B804A111A4", 249, 1483948893, "913938", 1483948893, "913938", null, "3", "Stretching Equipment", "Weston", "Dillon Close Neighbourhood Park", [ null, null ], [ null, null ], "-35.33725", "149.054304", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.33725", "149.054304", null, false ] ]
+, [ 250, "5D1B6AED-F418-4B1B-93BB-85778FFAAA39", 250, 1483948893, "913938", 1483948893, "913938", null, "162", "Leg Raises & Pull Ups", "Yarralumla", "Alexandrina Drive - Pedestrian Parkland", [ null, null ], [ null, null ], "-35.299931", "149.115972", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.299931", "149.115972", null, false ] ]
+, [ 251, "2B13DA28-9F81-497B-8603-70040AB77B34", 251, 1483948893, "913938", 1483948893, "913938", null, "195", "Step Ups", "Wright", "Peter Cullen Way Neighbourhood Park", [ null, null ], [ null, null ], "-35.323717", "149.032437", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.323717", "149.032437", null, false ] ]
+, [ 252, "70C64A58-C2A1-40B9-B6DE-A54098ADBB92", 252, 1483948893, "913938", 1483948893, "913938", null, "48", "Chinup Bar", "Greenway", "Tuggeranong Town Park", [ null, null ], [ null, null ], "-35.411582", "149.067429", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.411582", "149.067429", null, false ] ]
+, [ 254, "4232F17E-5074-44D5-A20B-4EFBD16AE1C7", 254, 1483948893, "913938", 1483948893, "913938", null, "259", "Step Ups", "Rivett", "Bangalay Crescent Neighbourhood Park", [ null, null ], [ null, null ], "-35.347911", "149.03784", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.347911", "149.03784", null, false ] ]
+, [ 255, "D5D49CDF-4B3B-47D0-A528-CC53A5486F5A", 255, 1483948893, "913938", 1483948893, "913938", null, "25", "Chinup Bar", "Belconnen", "John Knight Memorial Park", [ null, null ], [ null, null ], "-35.236962", "149.074349", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.236962", "149.074349", null, false ] ]
+, [ 256, "631FB9DB-FFAF-466E-A078-A5FD6B269904", 256, 1483948893, "913938", 1483948893, "913938", null, "138", "Stretching Equipment", "Kaleen", "Woronora Street Pedestrian Parkland", [ null, null ], [ null, null ], "-35.221283", "149.111595", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.221283", "149.111595", null, false ] ]
+, [ 258, "002045A8-C14B-423E-BB3A-F0DED3770A87", 258, 1483948893, "913938", 1483948893, "913938", null, "258", "Parallel Bars", "Holt", "Beaurepaire Crescent Neighbourhood Park", [ null, null ], [ null, null ], "-35.222043", "149.013459", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.222043", "149.013459", null, false ] ]
+, [ 260, "E3685F29-8C99-4E56-B96C-2E7345B8219E", 260, 1483948893, "913938", 1483948893, "913938", null, "216", "Step Ups", "Phillip", "Edison District Park", [ null, null ], [ null, null ], "-35.341007", "149.092089", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.341007", "149.092089", null, false ] ]
+, [ 261, "0744480F-2AB9-42CD-89B3-6AFE9DB3E64F", 261, 1483948893, "913938", 1483948893, "913938", null, "190", "Step Ups", "Wright", "Peter Cullen Way Neighbourhood Park", [ null, null ], [ null, null ], "-35.323914", "149.031889", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.323914", "149.031889", null, false ] ]
+, [ 262, "51F11F48-01AB-4A79-A1F0-249F74D7C5A6", 262, 1483948893, "913938", 1483948893, "913938", null, "44", "Sit Up Bench", "Wright", "Cotter Road Road Verge", [ null, null ], [ null, null ], "-35.326435", "149.033627", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.326435", "149.033627", null, false ] ]
+, [ 263, "9E136B5B-3DF1-4021-920A-0AEEF18AB827", 263, 1483948893, "913938", 1483948893, "913938", null, "55", "Leg Press", "Greenway", "Tuggeranong Town Park", [ null, null ], [ null, null ], "-35.411604", "149.067451", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.411604", "149.067451", null, false ] ]
+, [ 264, "CBD2DADE-0D5A-4E0E-97EE-D6D3903746A3", 264, 1483948893, "913938", 1483948893, "913938", null, "242", "Chinup Bar", "Harrison", "Combo Circuit Harrison Pedsetrian Park Land", [ null, null ], [ null, null ], "-35.202556", "149.15276", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.202556", "149.15276", null, false ] ]
+, [ 265, "1A1125A7-D73E-4FA7-BA91-07F7E13862DE", 265, 1483948893, "913938", 1483948893, "913938", null, "160", "Star Jumps", "Yarralumla", "Mariner Place - Pedestrian Parkland", [ null, null ], [ null, null ], "-35.300668", "149.117922", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.300668", "149.117922", null, false ] ]
+, [ 266, "5739DAB4-34F3-4C4C-98B1-8761F8AFDAB6", 266, 1483948893, "913938", 1483948893, "913938", null, "191", "Stretching Equipment", "Wright", "Peter Cullen Way Neighbourhood Park", [ null, null ], [ null, null ], "-35.32391", "149.03183", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.32391", "149.03183", null, false ] ]
+, [ 267, "14B1373A-94A6-4226-A1EA-0DA4933FD9D1", 267, 1483948893, "913938", 1483948893, "913938", null, "36", "Ping Pong Table", "Franklin", "Kilmeny Close Community Park (Crip)", [ null, null ], [ null, null ], "-35.197479", "149.144007", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.197479", "149.144007", null, false ] ]
+, [ 268, "86E6CDEC-D6F2-4D72-A01B-D855F11E3915", 268, 1483948893, "913938", 1483948893, "913938", null, "235", "Stretching Equipment", "Crace", "Crace Crip Community Park", [ null, null ], [ null, null ], "-35.200718", "149.103043", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.200718", "149.103043", null, false ] ]
+, [ 269, "D1C279B1-CF77-4481-A431-9FF4936FCC20", 269, 1483948893, "913938", 1483948893, "913938", null, "6", "Exercise Bike", "Casey", "John Crawford Crescent Neighbourhood Park", [ null, null ], [ null, null ], "-35.171364", "149.093854", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.171364", "149.093854", null, false ] ]
+, [ 270, "EC2FDADC-DEB5-4DAB-A717-0C12354DBB8C", 270, 1483948893, "913938", 1483948893, "913938", null, "269", "Chinup Bar", "Belconnen", "John Knight Memorial Park", [ null, null ], [ null, null ], "-35.237121", "149.073929", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.237121", "149.073929", null, false ] ]
+, [ 272, "F5283D9C-382C-471F-BF3A-B65DF3809DBC", 272, 1483948893, "913938", 1483948893, "913938", null, "51", "Aerobic Walker", "Greenway", "Tuggeranong Town Park", [ null, null ], [ null, null ], "-35.411546", "149.067474", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.411546", "149.067474", null, false ] ]
+, [ 274, "EFBC8F9F-FC36-4104-B9B3-32D93FAFBAB0", 274, 1483948893, "913938", 1483948893, "913938", null, "266", "Sit Up Bench", "Belconnen", "John Knight Memorial Park", [ null, null ], [ null, null ], "-35.237291", "149.073796", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.237291", "149.073796", null, false ] ]
+, [ 275, "9A8D114F-AE2D-4142-8BCE-A0FEA8E2C5E5", 275, 1483948893, "913938", 1483948893, "913938", null, "277", "Chinup Bar", "Kambah", "Summerland Circuit Neighbourhood Park", [ null, null ], [ null, null ], "-35.385692", "149.071178", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.385692", "149.071178", null, false ] ]
+, [ 276, "4B55FA08-1517-40AC-B0C0-19FD2BBA53A9", 276, 1483948893, "913938", 1483948893, "913938", null, "217", "Step Ups", "Phillip", "Edison District Park", [ null, null ], [ null, null ], "-35.341016", "149.09208", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.341016", "149.09208", null, false ] ]
+, [ 277, "6F66519B-11ED-4C00-9868-4534F2BD7F7C", 277, 1483948893, "913938", 1483948893, "913938", null, "233", "Balance Beam", "Forde", "Loma Rudduck Street Pedestrian Parkland", [ null, null ], [ null, null ], "-35.171472", "149.146057", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.171472", "149.146057", null, false ] ]
+, [ 278, "971AA4AA-99BE-42C1-8804-7DA7CDB09A72", 278, 1483948893, "913938", 1483948893, "913938", null, "279", "Horizontal Bar", "Kambah", "Summerland Circuit Neighbourhood Park", [ null, null ], [ null, null ], "-35.385719", "149.071203", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.385719", "149.071203", null, false ] ]
+, [ 279, "4DCAB84A-2F95-42B4-927F-8DC4E0903E80", 279, 1483948893, "913938", 1483948893, "913938", null, "250", "Jump To Touch", "Cook", "Templeton Crescent Neighbourhood Park", [ null, null ], [ null, null ], "-35.258412", "149.062102", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.258412", "149.062102", null, false ] ]
+, [ 280, "DCBF136C-129D-4856-9BC2-7454F6170879", 280, 1483948893, "913938", 1483948893, "913938", null, "220", "Other", "Phillip", "Edison District Park", [ null, null ], [ null, null ], "-35.340995", "149.092057", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.340995", "149.092057", null, false ] ]
+, [ 281, "9E07EE48-B0BA-49D1-9C28-1F9EA6DDF157", 281, 1483948893, "913938", 1483948893, "913938", null, "273", "Sit Up Bench", "Belconnen", "John Knight Memorial Park", [ null, null ], [ null, null ], "-35.23719", "149.073964", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.23719", "149.073964", null, false ] ]
+, [ 282, "7ABE3885-DD39-40B0-A80B-7BA6B7016DAF", 282, 1483948893, "913938", 1483948893, "913938", null, "223", "Step Ups", "Coombs", "Noffs Crescent Pedestrian Parkland", [ null, null ], [ null, null ], "-35.322999", "149.050726", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.322999", "149.050726", null, false ] ]
+, [ 283, "EE2DF096-937D-4161-8817-B19846BE9A66", 283, 1483948893, "913938", 1483948893, "913938", null, "229", "Sit Up Bench", "Phillip", "Eddison District Park", [ null, null ], [ null, null ], "-35.341924", "149.090391", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.341924", "149.090391", null, false ] ]
+, [ 284, "F7E277BD-96CB-44C4-98B5-4894B7C8BFA4", 284, 1483948893, "913938", 1483948893, "913938", null, "199", "Chest Press", "Wright", "Dunphy Street Pedestrian Parkland", [ null, null ], [ null, null ], "-35.32377", "149.039466", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.32377", "149.039466", null, false ] ]
+, [ 285, "61819082-26E2-4C2B-A3B9-8B9613F05169", 285, 1483948893, "913938", 1483948893, "913938", null, "194", "Stretching Equipment", "Wright", "Peter Cullen Way Neighbourhood Park", [ null, null ], [ null, null ], "-35.323742", "149.03138", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.323742", "149.03138", null, false ] ]
+, [ 286, "4FCB2387-5ED0-4305-BD5F-A3019BDAA985", 286, 1483948893, "913938", 1483948893, "913938", null, "41", "Stretching Equipment", "Wright", "Swallowtail Road Road Verge", [ null, null ], [ null, null ], "-35.32511", "149.030703", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.32511", "149.030703", null, false ] ]
+, [ 287, "AF3B6325-E5D2-4CEA-A58E-75E6BECB56A2", 287, 1483948893, "913938", 1483948893, "913938", null, "7", "Chinup Bar", "Phillip", "Edison District Park", [ null, null ], [ null, null ], "-35.341331", "149.09114", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.341331", "149.09114", null, false ] ]
+, [ 288, "B9BC93EE-A666-48F5-8F9A-BBAD6D6B73F8", 288, 1483948893, "913938", 1483948893, "913938", null, "192", "Stretching Equipment", "Wright", "Peter Cullen Way Neighbourhood Park", [ null, null ], [ null, null ], "-35.323918", "149.031828", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.323918", "149.031828", null, false ] ]
+, [ 290, "56D2C1FD-E110-4948-BC93-DCDB484AF55D", 290, 1483948893, "913938", 1483948893, "913938", null, "21", "Shoulder Press", "Belconnen", "John Knight Memorial Park", [ null, null ], [ null, null ], "-35.236921", "149.074346", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.236921", "149.074346", null, false ] ]
+, [ 291, "ADA51C49-878F-4532-9E20-385FD7682D96", 291, 1483948893, "913938", 1483948893, "913938", null, "241", "Parallel Bars", "Harrison", "Bungle Bungle Cres Pedestrian Park Land", [ null, null ], [ null, null ], "-35.206582", "149.151939", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.206582", "149.151939", null, false ] ]
+, [ 292, "C6D63C48-C424-42C6-8134-78924DF662EB", 292, 1483948893, "913938", 1483948893, "913938", null, "204", "Push Ups", "Campbell", "Campbell Sect 5 Fitness Site A", [ null, null ], [ null, null ], "-35.288681", "149.144923", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.288681", "149.144923", null, false ] ]
+, [ 293, "2B622B9D-022D-4749-9FD3-3E8F61FDB685", 293, 1483948893, "913938", 1483948893, "913938", null, "222", "Step Ups", "Coombs", "Noffs Crescent Pedestrian Parkland", [ null, null ], [ null, null ], "-35.322953", "149.050719", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.322953", "149.050719", null, false ] ]
+, [ 295, "F03DB5CC-3A0B-47F2-9C71-E9F6AB21267D", 295, 1483948893, "913938", 1483948893, "913938", null, "186", "Sit Up Bench", "Wright", "Lindsay Pryor Street Pedestrian Parkland", [ null, null ], [ null, null ], "-35.32696", "149.040064", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.32696", "149.040064", null, false ] ]
+, [ 297, "3B835E74-0DDD-497B-B4DA-E29B58F91471", 297, 1483948893, "913938", 1483948893, "913938", null, "8", "Balance Beam", "Forde", "Loma Rudduck Street Pedestrian Parkland", [ null, null ], [ null, null ], "-35.171475", "149.146077", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.171475", "149.146077", null, false ] ]
+, [ 298, "FB56AE0C-130F-4209-869C-250877FB56CE", 298, 1483948893, "913938", 1483948893, "913938", null, "255", "Push Ups", "Chifley", "Shann Place Neighbourhood Park", [ null, null ], [ null, null ], "-35.351356", "149.077969", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.351356", "149.077969", null, false ] ]
+, [ 299, "D5BF584B-014D-4253-9736-BB3F3C6CCB71", 299, 1483948893, "913938", 1483948893, "913938", null, "189", "Aerobic Walker", "Wright", "Peter Cullen Way Neighbourhood Park", [ null, null ], [ null, null ], "-35.323684", "149.033067", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.323684", "149.033067", null, false ] ]
+, [ 301, "DA9B9C20-05C2-4984-97AB-2D51A5806C98", 301, 1483948893, "913938", 1483948893, "913938", null, "18", "Push Ups", "Theodore", "Lawrence Wackett Crescent - Neighbourhood Park", [ null, null ], [ null, null ], "-35.445547", "149.1218", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.445547", "149.1218", null, false ] ]
+, [ 302, "05BB7125-0A78-46DD-8A53-5A9C8D1C8806", 302, 1483948893, "913938", 1483948893, "913938", null, "284", "Horizontal Ladder", "Forde", "Forde Linear Park", [ null, null ], [ null, null ], "-35.169103", "149.142332", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.169103", "149.142332", null, false ] ]
+, [ 303, "2BFEDBC2-8FB7-414C-8DB8-9D936CED85C2", 303, 1483948893, "913938", 1483948893, "913938", null, "225", "Step Ups", "Coombs", "Terry Connolly Street Pedestrian Parkland", [ null, null ], [ null, null ], "-35.32111", "149.045285", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.32111", "149.045285", null, false ] ]
+, [ 304, "6226F5FC-D1DA-4104-85F4-4C2A9A36DE9C", 304, 1483948893, "913938", 1483948893, "913938", null, "260", "Sit Up Bench", "Rivett", "Bangalay Crescent Neighbourhood Park", [ null, null ], [ null, null ], "-35.347981", "149.037607", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.347981", "149.037607", null, false ] ]
+, [ 306, "505E78FF-7293-479F-A833-D75768008588", 306, 1483948893, "913938", 1483948893, "913938", null, "270", "Sit Up Bench", "Belconnen", "John Knight Memorial Park", [ null, null ], [ null, null ], "-35.237144", "149.073958", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.237144", "149.073958", null, false ] ]
+, [ 307, "1234008D-F014-478F-B6F7-A693157DD15F", 307, 1483948893, "913938", 1483948893, "913938", null, "17", "Horizontal Ladder", "Theodore", "Lawrence Wackett Crescent - Neighbourhood Park", [ null, null ], [ null, null ], "-35.44553", "149.121796", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.44553", "149.121796", null, false ] ]
+, [ 309, "300A0960-B1CF-48C3-BDCA-65837BA2404B", 309, 1483948893, "913938", 1483948893, "913938", null, "161", "Parallel Bars", "Yarralumla", "Alexandrina Drive - Pedestrian Parkland", [ null, null ], [ null, null ], "-35.300346", "149.116812", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.300346", "149.116812", null, false ] ]
+, [ 310, "A0ED70D2-1FB8-427C-B3CF-8758AC6DE868", 310, 1483948893, "913938", 1483948893, "913938", null, "113", "Bench Dip", "Acton", "Lake Burley Griffin Foreshore", [ null, null ], [ null, null ], "-35.2871", "149.115482", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.2871", "149.115482", null, false ] ]
+, [ 311, "7AD4B32D-DF94-42EC-90BF-D10490E4E38E", 311, 1483948893, "913938", 1483948893, "913938", null, "54", "Sit Up Bench", "Greenway", "Tuggeranong Town Park", [ null, null ], [ null, null ], "-35.411594", "149.067483", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.411594", "149.067483", null, false ] ]
+, [ 312, "EDA22D53-F614-467B-B530-D46EDC8BD38A", 312, 1483948893, "913938", 1483948893, "913938", null, "211", "Leg Raises & Pull Ups", "Gungahlin", "Yerrabi District Park", [ null, null ], [ null, null ], "-35.178049", "149.130635", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.178049", "149.130635", null, false ] ]
+, [ 313, "04F19148-D1FC-4A3A-8B14-9B300D6C4D42", 313, 1483948893, "913938", 1483948893, "913938", null, "43", "Stretching Equipment", "Wright", "Cotter Road Road Verge", [ null, null ], [ null, null ], "-35.326446", "149.033629", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.326446", "149.033629", null, false ] ]
+, [ 314, "E849E3CD-042C-4DC6-8381-32D5E8EA6463", 314, 1483948893, "913938", 1483948893, "913938", null, "108", "Chinup Bar", "Ainslie", "Ainslie Football Park", [ null, null ], [ null, null ], "-35.262985", "149.138734", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.262985", "149.138734", null, false ] ]
+, [ 316, "6C5485EF-3A8E-4115-831A-DA997E7C7DBA", 316, 1483948893, "913938", 1483948893, "913938", null, "247", "Chinup Bar", "Kambah", "Boddington Crescent Neighbourhood Park", [ null, null ], [ null, null ], "-35.38348", "149.052062", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.38348", "149.052062", null, false ] ]
+, [ 318, "2FED2085-E7C8-46E6-B50D-91B62AF1DE7C", 318, 1483948893, "913938", 1483948893, "913938", null, "248", "Stretching Equipment", "Kambah", "Kamb-1765", [ null, null ], [ null, null ], "-35.383497", "149.051897", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.383497", "149.051897", null, false ] ]
+, [ 319, "F28E372C-7F75-4475-8022-6F7BF339215A", 319, 1483948893, "913938", 1483948893, "913938", null, "5", "Stretching Equipment", "Casey", "John Crawford Crescent Neighbourhood Park", [ null, null ], [ null, null ], "-35.171404", "149.094132", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.171404", "149.094132", null, false ] ]
+, [ 320, "E38CDD17-CFE6-4657-9E5D-378356006554", 320, 1483948893, "913938", 1483948893, "913938", null, "22", "Aerobic Walker", "Belconnen", "John Knight Memorial Park", [ null, null ], [ null, null ], "-35.236927", "149.074377", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.236927", "149.074377", null, false ] ]
+, [ 322, "05DA075C-26A7-4C0E-9A55-EE8E8D019E7D", 322, 1483948893, "913938", 1483948893, "913938", null, "231", "Jump To Touch", "Forde", "Leslie Dwyer Street Pedestrian Parkland", [ null, null ], [ null, null ], "-35.173937", "149.142986", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.173937", "149.142986", null, false ] ]
+, [ 323, "9FA3451D-C033-494D-B135-6CE04139904B", 323, 1483948893, "913938", 1483948893, "913938", null, "208", "Step Ups", "Gungahlin", "Yerrabi District Park", [ null, null ], [ null, null ], "-35.178035", "149.130659", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.178035", "149.130659", null, false ] ]
+, [ 324, "8DDA4A16-60E1-4D59-89BC-BD4985F3BB08", 324, 1483948893, "913938", 1483948893, "913938", null, "14", "Aerobic Walker", "Theodore", "Lawrence Wackett Crescent - Neighbourhood Park", [ null, null ], [ null, null ], "-35.445504", "149.121843", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.445504", "149.121843", null, false ] ]
+, [ 326, "02B9884E-8FBC-47EA-8B66-A2AFF4CB96CB", 326, 1483948893, "913938", 1483948893, "913938", null, "137", "Chinup Bar", "Kaleen", "Woronora Street Pedestrian Parkland", [ null, null ], [ null, null ], "-35.22111", "149.113211", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.22111", "149.113211", null, false ] ]
+, [ 327, "6975F493-9AC7-45A5-8B44-94FC819D25E0", 327, 1483948893, "913938", 1483948893, "913938", null, "111", "Step Ups", "Ainslie", "Ainslie Football Park", [ null, null ], [ null, null ], "-35.263536", "149.138549", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.263536", "149.138549", null, false ] ]
+, [ 330, "BA5C3445-5538-4B03-A15C-2575AAF6D553", 330, 1483948893, "913938", 1483948893, "913938", null, "183", "Chinup Bar", "Greenway", "Tuggeranong Town Park", [ null, null ], [ null, null ], "-35.412334", "149.068039", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.412334", "149.068039", null, false ] ]
+, [ 331, "553B07FC-048F-42D6-9B92-D28A8181790A", 331, 1483948893, "913938", 1483948893, "913938", null, "19", "Leg Raises & Pull Ups", "Theodore", "Lawrence Wackett Crescent Neighbourhood Park", [ null, null ], [ null, null ], "-35.445554", "149.121793", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.445554", "149.121793", null, false ] ]
+, [ 332, "D28F9150-296A-4736-8CD3-0BD81E61BB27", 332, 1483948893, "913938", 1483948893, "913938", null, "29", "Horizontal Ladder", "Belconnen", "John Knight Memorial Park", [ null, null ], [ null, null ], "-35.236951", "149.074314", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.236951", "149.074314", null, false ] ]
+, [ 333, "25210F91-0917-4FB3-87CD-780B08AEA708", 333, 1483948893, "913938", 1483948893, "913938", null, "218", "Leg Raises & Pull Ups", "Phillip", "Edison District Park", [ null, null ], [ null, null ], "-35.34097", "149.092037", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.34097", "149.092037", null, false ] ]
+, [ 334, "989F6722-81CF-463E-8A0F-E20CF7C4CB44", 334, 1483948893, "913938", 1483948893, "913938", null, "205", "Sit Up Bench", "Campbell", "Campbell Fitness Site A", [ null, null ], [ null, null ], "-35.288708", "149.144915", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.288708", "149.144915", null, false ] ]
+, [ 335, "7AE8D23C-D270-4D14-A4D2-F152DFC7715A", 335, 1483948893, "913938", 1483948893, "913938", null, "1", "Sit Up Bench", "Weston", "Dillon Close Neighbourhood Park", [ null, null ], [ null, null ], "-35.337115", "149.054415", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.337115", "149.054415", null, false ] ]
+, [ 336, "A7161944-061D-4129-8631-36E8DA30585E", 336, 1483948893, "913938", 1483948893, "913938", null, "107", "Parallel Bars", "Ainslie", "Ainslie Football Park", [ null, null ], [ null, null ], "-35.262681", "149.138779", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.262681", "149.138779", null, false ] ]
+, [ 337, "E73B6861-7CD3-4EA4-902E-DA1FA0488719", 337, 1483948893, "913938", 1483948893, "913938", null, "232", "Horizontal Ladder", "Forde", "Horse Park Drive Pedestrian Parkland", [ null, null ], [ null, null ], "-35.175346", "149.14212", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.175346", "149.14212", null, false ] ]
+, [ 338, "85CC1CAA-4641-4B70-930D-D8C64DE5A8BC", 338, 1483948893, "913938", 1483948893, "913938", null, "282", "Jump To Touch", "Chifley", "Shann Place Neighbourhood Park", [ null, null ], [ null, null ], "-35.3512", "149.077829", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.3512", "149.077829", null, false ] ]
+, [ 339, "B7CD0B26-9541-42B7-BC31-79294E50EC1A", 339, 1483948893, "913938", 1483948893, "913938", null, "252", "Sit Up Bench", "Cook", "Templeton Crescent Neighbourhood Park", [ null, null ], [ null, null ], "-35.258367", "149.062138", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.258367", "149.062138", null, false ] ]
+, [ 340, "2D8109BC-FF06-4488-A850-0D8F510EB92B", 340, 1483948893, "913938", 1483948893, "913938", null, "213", "Bench Dip", "Gungahlin", "Yerrabi District Park", [ null, null ], [ null, null ], "-35.178073", "149.13064", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.178073", "149.13064", null, false ] ]
+, [ 341, "1BC507AB-5680-4C41-98B1-EAEC5D5DA555", 341, 1483948893, "913938", 1483948893, "913938", null, "224", "Step Ups", "Coombs", "Terry  Connolly Street Pedestrian Parkland", [ null, null ], [ null, null ], "-35.321073", "149.045264", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.321073", "149.045264", null, false ] ]
+, [ 342, "EFB96950-A915-411B-9E50-E1EA9AF595B8", 342, 1483948893, "913938", 1483948893, "913938", null, "263", "Sit Up Bench", "Belconnen", "John Knight Memorial Park", [ null, null ], [ null, null ], "-35.237171", "149.073751", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.237171", "149.073751", null, false ] ]
+, [ 343, "DC245026-8551-4014-9389-3D2258065111", 343, 1483948893, "913938", 1483948893, "913938", null, "209", "Step Ups", "Gungahlin", "Yerrabi District Park", [ null, null ], [ null, null ], "-35.178047", "149.13066", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.178047", "149.13066", null, false ] ]
+, [ 344, "2FD88D3D-93BA-42DD-91D8-D0DEF06F9E79", 344, 1483948893, "913938", 1483948893, "913938", null, "147", "Stretching Equipment", "Deakin", "Denison Street - Pedestrian Parkland", [ null, null ], [ null, null ], "-35.315335", "149.095528", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.315335", "149.095528", null, false ] ]
+, [ 345, "47AB2FF9-5C4C-41F8-A36F-CFC297D9A266", 345, 1483948893, "913938", 1483948893, "913938", null, "251", "Parallel Bars", "Cook", "Templeton Crescent Neighbourhood Park", [ null, null ], [ null, null ], "-35.258439", "149.062162", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.258439", "149.062162", null, false ] ]
+, [ 346, "C5555682-5AA1-415C-BEEE-74515F6FDFD8", 346, 1483948893, "913938", 1483948893, "913938", null, "10", "Chinup Bar", "Casey", "John Crawford Crescent Neighbourhood Park", [ null, null ], [ null, null ], "-35.171289", "149.09388", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.171289", "149.09388", null, false ] ]
+, [ 347, "86246B8B-1268-42B9-A34A-499E2A90FDE1", 347, 1483948893, "913938", 1483948893, "913938", null, "281", "Stretching Equipment", "Chifley", "Shann Place Neighbourhood Park", [ null, null ], [ null, null ], "-35.351245", "149.077806", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.351245", "149.077806", null, false ] ]
+, [ 349, "96C06B02-DF7E-4F92-BBAB-539F41809622", 349, 1483948893, "913938", 1483948893, "913938", null, "256", "Chinup Bar", "Holt", "Beaurepaire Crescent Neighbourhood Park", [ null, null ], [ null, null ], "-35.222584", "149.013194", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.222584", "149.013194", null, false ] ]
+, [ 350, "5BEB4CA3-F5FE-4A14-8BBA-9E3261CA9ADC", 350, 1483948893, "913938", 1483948893, "913938", null, "42", "Step Ups", "Wright", "Swallowtail Road Road Verge", [ null, null ], [ null, null ], "-35.325142", "149.030706", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.325142", "149.030706", null, false ] ]
+, [ 352, "D86DAAFB-867C-471B-9FE0-08FF663AACC4", 352, 1483948893, "913938", 1483948893, "913938", null, "165", "Sit Up Bench", "Yarralumla", "Alexandrina Drive - Pedestrian Parkland", [ null, null ], [ null, null ], "-35.299756", "149.112865", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.299756", "149.112865", null, false ] ]
+, [ 353, "F36E367D-6B56-4949-AB97-2797B3F2927A", 353, 1483948893, "913938", 1483948893, "913938", null, "271", "Step Ups", "Belconnen", "John Knight Memorial Park", [ null, null ], [ null, null ], "-35.237156", "149.073905", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.237156", "149.073905", null, false ] ]
+, [ 354, "02A26DBD-1082-4123-A56A-295D086296C2", 354, 1483948893, "913938", 1483948893, "913938", null, "240", "Push Ups", "Crace", "Crace Crip Community Park", [ null, null ], [ null, null ], "-35.200698", "149.1031", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.200698", "149.1031", null, false ] ]
+, [ 355, "8C5E27A5-2587-471C-AEFC-4E3082DD038F", 355, 1483948893, "913938", 1483948893, "913938", null, "170", "Chinup Bar", "Yarralumla", "Alexandrina Drive - Pedestrian Parkland", [ null, null ], [ null, null ], "-35.296682", "149.108409", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.296682", "149.108409", null, false ] ]
+, [ 356, "C57B8B85-9A14-497D-AC8C-F9FC28CAEA9A", 356, 1483948893, "913938", 1483948893, "913938", null, "13", "Leg Press", "Theodore", "Lawrence Wackett Crescent - Neighbourhood Park", [ null, null ], [ null, null ], "-35.445487", "149.121815", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.445487", "149.121815", null, false ] ]
+, [ 357, "6FDF1231-B749-48EF-89C0-8CC79B3B2427", 357, 1483948893, "913938", 1483948893, "913938", null, "196", "Aerobic Walker", "Wright", "Dunphy Street Pedestrian Parkland", [ null, null ], [ null, null ], "-35.324675", "149.038462", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.324675", "149.038462", null, false ] ]
+, [ 358, "5353CCE7-D679-4AC4-A755-2981003F4CD7", 358, 1483948893, "913938", 1483948893, "913938", null, "261", "Stretching Equipment", "Rivett", "Bangalay Crescent Neighbourhood Park", [ null, null ], [ null, null ], "-35.347917", "149.037421", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.347917", "149.037421", null, false ] ]
+, [ 359, "F900C103-E407-4602-8E36-3059248B32B4", 359, 1483948893, "913938", 1483948893, "913938", null, "272", "Horizontal Bar", "Belconnen", "John Knight Memorial Park", [ null, null ], [ null, null ], "-35.237166", "149.07397", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.237166", "149.07397", null, false ] ]
+, [ 361, "7CC333B8-E673-419B-B893-3B561D5681B6", 361, 1483948893, "913938", 1483948893, "913938", null, "2", "Chinup Bar", "Weston", "Dillon Close Neighbourhood Park", [ null, null ], [ null, null ], "-35.337191", "149.054371", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.337191", "149.054371", null, false ] ]
+, [ 362, "19F18D5B-674E-48E9-BA5E-D44FD03D56F4", 362, 1483948893, "913938", 1483948893, "913938", null, "283", "Balance Beam", "Chifley", "Shann Place Neighbourhood Park", [ null, null ], [ null, null ], "-35.351202", "149.077787", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.351202", "149.077787", null, false ] ]
+, [ 364, "52FDB2C0-4F14-4036-8114-4F207144E7C2", 364, 1483948893, "913938", 1483948893, "913938", null, "215", "Step Ups", "Phillip", "Edison District Park", [ null, null ], [ null, null ], "-35.340997", "149.092099", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.340997", "149.092099", null, false ] ]
+, [ 365, "13963FE3-690D-4C93-9096-7C00EE718710", 365, 1483948893, "913938", 1483948893, "913938", null, "12", "Sit Up Bench", "Casey", "John Crawford Crescent Neighbourhood Park", [ null, null ], [ null, null ], "-35.171255", "149.094089", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.171255", "149.094089", null, false ] ]
+, [ 366, "43BE0A06-89CC-475A-900F-DC85991C8413", 366, 1483948893, "913938", 1483948893, "913938", null, "249", "Other", "Kambah", "Kamb-1765", [ null, null ], [ null, null ], "-35.383368", "149.051776", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.383368", "149.051776", null, false ] ]
+, [ 367, "7B587549-56F3-41B2-8AB6-AB02B4911C9D", 367, 1483948893, "913938", 1483948893, "913938", null, "278", "Sit Up Bench", "Kambah", "Summerland Circuit Neighbourhood Park", [ null, null ], [ null, null ], "-35.385725", "149.071155", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.385725", "149.071155", null, false ] ]
+, [ 368, "721A579C-DC62-422D-8A53-F804AA153025", 368, 1483948893, "913938", 1483948893, "913938", null, "20", "Leg Press", "Belconnen", "John Knight Memorial Park", [ null, null ], [ null, null ], "-35.236917", "149.074312", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.236917", "149.074312", null, false ] ]
+, [ 369, "C79E530D-2200-42B3-893E-ADF660A0CB7C", 369, 1483948893, "913938", 1483948893, "913938", null, "257", "Push Ups", "Holt", "Beaurepaire Crescent Neighbourhood Park", [ null, null ], [ null, null ], "-35.222343", "149.013437", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.222343", "149.013437", null, false ] ]
+, [ 370, "2CC914D8-EB10-487E-AEBC-79CE4ED402C6", 370, 1483948893, "913938", 1483948893, "913938", null, "26", "Chinup Bar", "Belconnen", "John Knight Memorial Park", [ null, null ], [ null, null ], "-35.236967", "149.074342", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.236967", "149.074342", null, false ] ]
+, [ 371, "B595F8D7-AF13-482A-98BD-5EC2FFC61AD0", 371, 1483948893, "913938", 1483948893, "913938", null, "163", "Push Ups", "Yarralumla", "Lake Burley Griffin Foreshore", [ null, null ], [ null, null ], "-35.299319", "149.113523", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.299319", "149.113523", null, false ] ]
+, [ 372, "DCC76F33-B098-4C72-823A-DAFD358430C1", 372, 1483948893, "913938", 1483948893, "913938", null, "202", "Sit Up Bench", "Harrison", "Eric Mawson Street Neighbourhood Park", [ null, null ], [ null, null ], "-35.203974", "149.152324", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.203974", "149.152324", null, false ] ]
+, [ 373, "9F3958A3-852D-47DF-A691-75F1DD5FA56C", 373, 1483948893, "913938", 1483948893, "913938", null, "157", "Stretching Equipment", "Yarralumla", "Lennox Gardens", [ null, null ], [ null, null ], "-35.298642", "149.122504", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.298642", "149.122504", null, false ] ]
+, [ 374, "AFB56455-3EE2-47B5-95D4-B841756F89C8", 374, 1483948893, "913938", 1483948893, "913938", null, "16", "Roman Rings", "Theodore", "Lawrence Wackett Crescent - Neighbourhood Park", [ null, null ], [ null, null ], "-35.445514", "149.121793", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.445514", "149.121793", null, false ] ]
+, [ 375, "F2803CC8-3A32-4E05-8E0F-2413B667D417", 375, 1483948893, "913938", 1483948893, "913938", null, "166", "Other", "Yarralumla", "Alexandrina Drive - Pedestrian Parkland", [ null, null ], [ null, null ], "-35.299631", "149.111371", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.299631", "149.111371", null, false ] ]
+, [ 376, "5871991C-DD08-4318-A5D6-A513B3E45D05", 376, 1483948893, "913938", 1483948893, "913938", null, "203", "Chinup Bar", "Campbell", "Campbell Sec 5 Fitness Site A", [ null, null ], [ null, null ], "-35.28867", "149.144853", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.28867", "149.144853", null, false ] ]
+, [ 377, "6ABACC56-8CC3-424D-80B6-44A487C2FB07", 377, 1483948893, "913938", 1483948893, "913938", null, "28", "Pull Ups", "Belconnen", "John Knight Memorial Park", [ null, null ], [ null, null ], "-35.236966", "149.074327", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.236966", "149.074327", null, false ] ]
+, [ 378, "CFA09982-F027-4AA4-B7F6-C172A8CA4F76", 378, 1483948893, "913938", 1483948893, "913938", null, "56", "Push Ups", "Wright", "Cotter Road Road Verge", [ null, null ], [ null, null ], "-35.326434", "149.03357", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.326434", "149.03357", null, false ] ]
+, [ 379, "7EA106FE-B2CA-4C15-923F-2FAC2D42F0A8", 379, 1483948893, "913938", 1483948893, "913938", null, "244", "Sit Up Bench", "Forde", "Ray Ellis Crescent District Park", [ null, null ], [ null, null ], "-35.1726", "149.141668", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.1726", "149.141668", null, false ] ]
+, [ 380, "222916FF-FA0E-415C-9778-D4218AD7A0F3", 380, 1483948893, "913938", 1483948893, "913938", null, "15", "Parallel Bars", "Theodore", "Lawrence Wackett Crescent - Neighbourhood Park", [ null, null ], [ null, null ], "-35.445512", "149.121808", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.445512", "149.121808", null, false ] ]
+, [ 381, "58572A08-BED6-49DF-AF47-281D6764FCE8", 381, 1483948893, "913938", 1483948893, "913938", null, "37", "Ping Pong Table", "Franklin", "Kilmeny Close Community Park (Crip)", [ null, null ], [ null, null ], "-35.197454", "149.143989", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.197454", "149.143989", null, false ] ]
+, [ 382, "0B2A4596-40F9-4067-930C-50BB5C7213D3", 382, 1483948893, "913938", 1483948893, "913938", null, "24", "Roman Rings", "Belconnen", "John Knight Memorial Park", [ null, null ], [ null, null ], "-35.236955", "149.074343", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.236955", "149.074343", null, false ] ]
+, [ 383, "B96774D2-7161-4A95-8D92-873B34D466DF", 383, 1483948893, "913938", 1483948893, "913938", null, "167", "Sit Up Bench", "Yarralumla", "Alexandrina Drive - Native Grassland Site", [ null, null ], [ null, null ], "-35.298517", "149.111757", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.298517", "149.111757", null, false ] ]
+, [ 384, "74124BDC-5156-477F-A2F3-0B5DB75C31F7", 384, 1483948893, "913938", 1483948893, "913938", null, "206", "Sit Up Bench", "Campbell", "Campbell Sect 5 Fitness Site A", [ null, null ], [ null, null ], "-35.288712", "149.144857", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.288712", "149.144857", null, false ] ]
+, [ 385, "B91AD51F-B15C-403D-8DE0-796445EEDE08", 385, 1483948893, "913938", 1483948893, "913938", null, "275", "Stretching Equipment", "Belconnen", "John Knight Memorial Park", [ null, null ], [ null, null ], "-35.237141", "149.073732", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.237141", "149.073732", null, false ] ]
+, [ 386, "4CC1C21B-D080-4160-8174-4BB57625E75B", 386, 1483948893, "913938", 1483948893, "913938", null, "185", "Step Ups", "Wright", "Lindsay Pryor Street Pedestrian Parkland", [ null, null ], [ null, null ], "-35.326955", "149.039977", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.326955", "149.039977", null, false ] ]
+, [ 387, "62C19AD5-8035-4E6B-B012-57065FE90D8D", 387, 1483948893, "913938", 1483948893, "913938", null, "187", "Ping Pong Table", "Bonner", "Bilin Bilins Treet Neighbourhood Park", [ null, null ], [ null, null ], "-35.152422", "149.147076", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.152422", "149.147076", null, false ] ]
+, [ 388, "D701CD54-0F46-434A-97C2-5516655AD9AB", 388, 1483948893, "913938", 1483948893, "913938", null, "110", "Vault", "Ainslie", "Ainslie Football Park", [ null, null ], [ null, null ], "-35.263033", "149.138728", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.263033", "149.138728", null, false ] ]
+, [ 389, "7BDB22FD-AC35-493A-8B90-2B065D5ACEF9", 389, 1483948893, "913938", 1483948893, "913938", null, "154", "Balance Beam", "Yarralumla", "Lennox Gardens", [ null, null ], [ null, null ], "-35.299359", "149.121774", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.299359", "149.121774", null, false ] ]
+, [ 390, "E04A873E-D43B-4E9E-B920-1FB2E7EC48A7", 390, 1491987721, "913938", 1491987721, "913938", null, "234", "Multi Station", "Crace", "Crace Crip Community Park", [ null, null ], [ null, null ], "-35.200707", "149.103014", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.200707", "149.103014", null, false ] ]
+, [ 391, "D2CF96C9-4AAD-446B-8C08-DB4E8BD07BDF", 391, 1491987721, "913938", 1491987721, "913938", null, "32", "Multi Station", "Franklin", "Kilmeny Close Community Park (Crip)", [ null, null ], [ null, null ], "-35.19748", "149.144115", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.19748", "149.144115", null, false ] ]
+, [ 392, "33F54B5C-4B14-4B94-A76A-E70252666602", 392, 1491987721, "913938", 1491987721, "913938", null, "239", "Multi Station", "Crace", "Crace Crip Community Park", [ null, null ], [ null, null ], "-35.200686", "149.103068", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.200686", "149.103068", null, false ] ]
+, [ 393, "FC0B71FD-4999-4336-AC2A-4AB692070154", 393, 1491987721, "913938", 1491987721, "913938", null, "238", "Multi Station", "Crace", "Crace Crip Community Park", [ null, null ], [ null, null ], "-35.200675", "149.103033", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.200675", "149.103033", null, false ] ]
+, [ 394, "46035069-969F-4879-9E2D-32370BBE0FAA", 394, 1491987721, "913938", 1491987721, "913938", null, "33", "Multi Station", "Franklin", "Kilmeny Close Community Park (Crip)", [ null, null ], [ null, null ], "-35.197447", "149.144146", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.197447", "149.144146", null, false ] ]
+, [ 395, "25A048E6-07DA-4950-B019-C702803CC054", 395, 1491987721, "913938", 1491987721, "913938", null, "237", "Multi Station", "Crace", "Crace Crip Community Park", [ null, null ], [ null, null ], "-35.200731", "149.103096", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.200731", "149.103096", null, false ] ]
+, [ 396, "EF846191-3AC3-495E-94E5-755542694D1A", 396, 1491987721, "913938", 1491987721, "913938", null, "236", "Multi Station", "Crace", "Crace Crip Community Park", [ null, null ], [ null, null ], "-35.200725", "149.10307", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.200725", "149.10307", null, false ] ]
+, [ 397, "87995A74-BC2D-495A-A30E-792BDE25B323", 397, 1491987721, "913938", 1491987721, "913938", null, "34", "Multi Station", "Franklin", "Kilmeny Close Community Park (Crip)", [ null, null ], [ null, null ], "-35.197516", "149.144137", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.197516", "149.144137", null, false ] ]
+, [ 398, "0B307E68-798A-4E6B-BEAB-57E4335DD127", 398, 1491987721, "913938", 1491987721, "913938", null, "30", "Multi Station", "Franklin", "Kilmeny Close Community Park (Crip)", [ null, null ], [ null, null ], "-35.197515", "149.144204", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.197515", "149.144204", null, false ] ]
+, [ 399, "386F9E24-3390-44EA-A2B8-3257C5F1593F", 399, 1491987721, "913938", 1491987721, "913938", null, "31", "Multi Station", "Franklin", "Kilmeny Close Community Park (Crip)", [ null, null ], [ null, null ], "-35.197456", "149.144203", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.197456", "149.144203", null, false ] ]
+, [ 400, "B7877A19-710C-4B7D-9FA2-C74AE859E7B9", 400, 1492074123, "913938", 1492074123, "913938", null, "212", "Multi Station", "Gungahlin", "Yerrabi District Park", [ null, null ], [ null, null ], "-35.17807", "149.130662", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.17807", "149.130662", null, false ] ]
+, [ 401, "6350BC0A-693E-4EF8-98C2-96EA9E6F9312", 401, 1492074123, "913938", 1492074123, "913938", null, "150", "Vault", "Deakin", "Denison Street Pedestrian Parkland", [ null, null ], [ null, null ], "-35.315346", "149.095551", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.315346", "149.095551", null, false ] ]
+, [ 402, "87AD3E98-118B-4BB1-92B9-EF3A3B396575", 402, 1492074123, "913938", 1492074123, "913938", null, "207", "Multi Station", "Gungahlin", "Yerrabi District Park", [ null, null ], [ null, null ], "-35.178025", "149.130655", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.178025", "149.130655", null, false ] ]
+, [ 403, "213DA555-1AA7-4051-9995-3AECAD663BAD", 403, 1492074123, "913938", 1492074123, "913938", null, "302", "Stretching Equipment", "Ainslie", "Angas Street Road Verge", [ null, null ], [ null, null ], "-35.263595", "149.1385", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.263595", "149.1385", null, false ] ]
+, [ 404, "029B04DC-97D1-4F3C-B537-1896DC5038B7", 404, 1492074123, "913938", 1492074123, "913938", null, "305", "Sit Up Bench", "Belconnen", "John Knight Memorial Park", [ null, null ], [ null, null ], "-35.237129", "149.073924", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.237129", "149.073924", null, false ] ]
+, [ 405, "C02014C1-27B6-459C-93F6-2AE9486BFBEB", 405, 1492074123, "913938", 1492074123, "913938", null, "141", "Log Hop", "Deakin", "Denison Street - Pedestrian Parkland", [ null, null ], [ null, null ], "-35.315289", "149.095565", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.315289", "149.095565", null, false ] ]
+, [ 406, "07C6DC19-D480-41F6-9B37-CB65FCDAB57A", 406, 1492074123, "913938", 1492074123, "913938", null, "145", "Body Lift", "Deakin", "Denison Street - Pedestrian Parkland", [ null, null ], [ null, null ], "-35.315317", "149.095539", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.315317", "149.095539", null, false ] ]
+, [ 407, "852CE03C-8F21-40E4-B4E0-5114C9B93554", 407, 1492074123, "913938", 1492074123, "913938", null, "142", "Multi Station", "Deakin", "Denison Street - Pedestrian Parkland", [ null, null ], [ null, null ], "-35.315295", "149.095574", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.315295", "149.095574", null, false ] ]
+, [ 408, "076FD13C-727F-49C9-B023-43499E78917C", 408, 1492074123, "913938", 1492074123, "913938", null, "109", "Balance Beam", "Ainslie", "Ainslie Football Park", [ null, null ], [ null, null ], "-35.263009", "149.138715", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.263009", "149.138715", null, false ] ]
+, [ 409, "882854DA-EC46-4597-8596-0D2CE731ED3B", 409, 1492074123, "913938", 1492074123, "913938", null, "144", "Vault", "Deakin", "Denison Street - Pedestrian Parkland", [ null, null ], [ null, null ], "-35.31532", "149.095478", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.31532", "149.095478", null, false ] ]
+, [ 410, "3D61FB44-06A1-4248-9FE9-171C4E0F8D50", 410, 1492074123, "913938", 1492074123, "913938", null, "106", "Horizontal Ladder", "Ainslie", "Ainslie Football Park", [ null, null ], [ null, null ], "-35.262629", "149.138784", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.262629", "149.138784", null, false ] ]
+, [ 411, "DDF8C059-E5E6-417A-88D5-F90C4F23301F", 411, 1492074123, "913938", 1492074123, "913938", null, "146", "Stretching Equipment", "Deakin", "Denison Street - Pedestrian Parkland", [ null, null ], [ null, null ], "-35.315344", "149.095493", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.315344", "149.095493", null, false ] ]
+, [ 412, "6C0407DB-FDA8-40EA-BCBB-412DA86AE677", 412, 1492074123, "913938", 1492074123, "913938", null, "306", "Multi Station", "Deakin", "Denison Street Pedestrian Parkland", [ null, null ], [ null, null ], "-35.31528", "149.095495", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.31528", "149.095495", null, false ] ]
+, [ 413, "908E07DB-40CE-4A78-8F00-221A20799510", 413, 1492074123, "913938", 1492074123, "913938", null, "301", "Push Ups", "Forde", "Pahlman Street Neighbourhood Park", [ null, null ], [ null, null ], "-35.168696", "149.146034", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.168696", "149.146034", null, false ] ]
+, [ 414, "8A6AF680-C24D-41C2-8807-4CE4BE4561F3", 414, 1492074123, "913938", 1492074123, "913938", null, "304", "Other", "Yarralumla", "Alexandrina Drive Pedestrian Parkland", [ null, null ], [ null, null ], "-35.297366", "149.108902", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.297366", "149.108902", null, false ] ]
+, [ 415, "A1915039-3490-476B-B61F-B0C998B0AE5F", 415, 1492074123, "913938", 1492074123, "913938", null, "149", "Multi Station", "Deakin", "Denison Street - Pedestrian Parkland", [ null, null ], [ null, null ], "-35.315366", "149.095572", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.315366", "149.095572", null, false ] ]
+, [ 416, "2FF063ED-5FED-453D-9A8D-8A344DC381A3", 416, 1492074123, "913938", 1492074123, "913938", null, "148", "Stretching Equipment", "Deakin", "Denison Street - Pedestrian Parkland", [ null, null ], [ null, null ], "-35.315361", "149.095568", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.315361", "149.095568", null, false ] ]
+, [ 417, "FB79FB53-2AAB-4BDD-88C5-59568BD760A9", 417, 1492074123, "913938", 1492074123, "913938", null, "303", "Log Hop", "Forde", "Ray Ellis Crescent Pedestrian Parkland", [ null, null ], [ null, null ], "-35.173962", "149.141339", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.173962", "149.141339", null, false ] ]
+, [ 418, "732D3CB9-6E41-4677-A88D-52040B2274E9", 418, 1492074123, "913938", 1492074123, "913938", null, "143", "Stretching Equipment", "Deakin", "Denison Street - Pedestrian Parkland", [ null, null ], [ null, null ], "-35.315313", "149.095501", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.315313", "149.095501", null, false ] ]
+, [ 419, "0CCBFFE3-9FC9-4357-9C64-C64B77655581", 419, 1492074123, "913938", 1492074123, "913938", null, "151", "Multi Station", "Deakin", "Denison Street - Pedestrian Parkland", [ null, null ], [ null, null ], "-35.31536", "149.095556", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.31536", "149.095556", null, false ] ]
+, [ 420, "7107A5B3-B3C4-4E2F-9331-AC0FDAD4E31F", 420, 1492074123, "913938", 1492074123, "913938", null, "140", "Multi Station", "Deakin", "Denison Street - Pedestrian Parkland", [ null, null ], [ null, null ], "-35.315295", "149.095615", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.315295", "149.095615", null, false ] ]
+ ]
+}

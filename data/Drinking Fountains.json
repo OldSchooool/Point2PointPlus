@@ -1,0 +1,903 @@
+{
+  "meta" : {
+    "view" : {
+      "id" : "8eg4-uskm",
+      "name" : "Drinking Fountains",
+      "attribution" : "ACT Government",
+      "averageRating" : 0,
+      "category" : "Infrastructure and Utilities",
+      "createdAt" : 1425606224,
+      "description" : "Locations of the public drinking fountains across Canberra.",
+      "displayType" : "table",
+      "downloadCount" : 1372,
+      "hideFromCatalog" : false,
+      "hideFromDataJson" : false,
+      "indexUpdatedAt" : 1499827009,
+      "licenseId" : "CC_40_BY",
+      "locale" : "",
+      "newBackend" : false,
+      "numberOfComments" : 0,
+      "oid" : 11943449,
+      "provenance" : "official",
+      "publicationAppendEnabled" : true,
+      "publicationDate" : 1435275777,
+      "publicationGroup" : 2424689,
+      "publicationStage" : "published",
+      "rowClass" : "",
+      "rowsUpdatedAt" : 1499826578,
+      "rowsUpdatedBy" : "m7km-7fxa",
+      "tableId" : 3304117,
+      "totalTimesRated" : 0,
+      "viewCount" : 388,
+      "viewLastModified" : 1500972445,
+      "viewType" : "tabular",
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":id",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":position",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : 210192508,
+        "name" : "ID",
+        "dataTypeName" : "text",
+        "fieldName" : "id",
+        "position" : 2,
+        "renderTypeName" : "text",
+        "tableColumnId" : 26117050,
+        "width" : 124,
+        "cachedContents" : {
+          "largest" : "Drfn93",
+          "non_null" : 154,
+          "null" : 0,
+          "top" : [ {
+            "item" : "Drfn293",
+            "count" : 20
+          }, {
+            "item" : "Drfn299",
+            "count" : 19
+          }, {
+            "item" : "Drfn297",
+            "count" : 18
+          }, {
+            "item" : "Drfn301",
+            "count" : 17
+          }, {
+            "item" : "Drfn302",
+            "count" : 16
+          }, {
+            "item" : "Drfn298",
+            "count" : 15
+          }, {
+            "item" : "Drfn300",
+            "count" : 14
+          }, {
+            "item" : "Drfn295",
+            "count" : 13
+          }, {
+            "item" : "Drfn296",
+            "count" : 12
+          }, {
+            "item" : "Drfn303",
+            "count" : 11
+          }, {
+            "item" : "Drfn304",
+            "count" : 10
+          }, {
+            "item" : "Drfn305",
+            "count" : 9
+          }, {
+            "item" : "Drfn307",
+            "count" : 8
+          }, {
+            "item" : "Drfn260",
+            "count" : 7
+          }, {
+            "item" : "Drfn310",
+            "count" : 6
+          }, {
+            "item" : "Drfn271",
+            "count" : 5
+          }, {
+            "item" : "Drfn253",
+            "count" : 4
+          }, {
+            "item" : "Drfn252",
+            "count" : 3
+          }, {
+            "item" : "Drfn311",
+            "count" : 2
+          }, {
+            "item" : "Drfn312",
+            "count" : 1
+          } ],
+          "smallest" : "Drfn11"
+        },
+        "format" : { }
+      }, {
+        "id" : 210192510,
+        "name" : "DIVISION",
+        "dataTypeName" : "text",
+        "fieldName" : "division",
+        "position" : 3,
+        "renderTypeName" : "text",
+        "tableColumnId" : 26117051,
+        "width" : 196,
+        "cachedContents" : {
+          "largest" : "Yarralumla",
+          "non_null" : 154,
+          "null" : 0,
+          "top" : [ {
+            "item" : "Acton",
+            "count" : 20
+          }, {
+            "item" : "Amaroo",
+            "count" : 19
+          }, {
+            "item" : "Barton",
+            "count" : 18
+          }, {
+            "item" : "Belconnen",
+            "count" : 17
+          }, {
+            "item" : "Bonner",
+            "count" : 16
+          }, {
+            "item" : "Campbell",
+            "count" : 15
+          }, {
+            "item" : "City",
+            "count" : 14
+          }, {
+            "item" : "Crace",
+            "count" : 13
+          }, {
+            "item" : "Deakin",
+            "count" : 12
+          }, {
+            "item" : "Fadden",
+            "count" : 11
+          }, {
+            "item" : "Forde",
+            "count" : 10
+          }, {
+            "item" : "Gordon",
+            "count" : 9
+          }, {
+            "item" : "Greenway",
+            "count" : 8
+          }, {
+            "item" : "Gungahlin",
+            "count" : 7
+          }, {
+            "item" : "Kambah",
+            "count" : 6
+          }, {
+            "item" : "Macquarie",
+            "count" : 5
+          }, {
+            "item" : "O'connor",
+            "count" : 4
+          }, {
+            "item" : "Phillip",
+            "count" : 3
+          }, {
+            "item" : "Weston",
+            "count" : 2
+          }, {
+            "item" : "Yarralumla",
+            "count" : 1
+          } ],
+          "smallest" : "Acton"
+        },
+        "format" : { }
+      }, {
+        "id" : 210192511,
+        "name" : "LOCATION",
+        "dataTypeName" : "text",
+        "fieldName" : "location",
+        "position" : 4,
+        "renderTypeName" : "text",
+        "tableColumnId" : 26117052,
+        "width" : 196,
+        "cachedContents" : {
+          "largest" : "Yinnar Street Pedestrian Parkland",
+          "non_null" : 154,
+          "null" : 0,
+          "top" : [ {
+            "item" : "Black Mountain Peninsula District Park",
+            "count" : 20
+          }, {
+            "item" : "Lake Tuggeranong District Park",
+            "count" : 19
+          }, {
+            "item" : "Tuggeranong Town Park",
+            "count" : 18
+          }, {
+            "item" : "Yerrabi District Park",
+            "count" : 17
+          }, {
+            "item" : "Jamison Shopping Centre",
+            "count" : 16
+          }, {
+            "item" : "Weston Park",
+            "count" : 15
+          }, {
+            "item" : "Civic Commercial Centre City Walk",
+            "count" : 14
+          }, {
+            "item" : "Bunda Street Road Verge Civic",
+            "count" : 13
+          }, {
+            "item" : "National Arboretum Canberra Platspace",
+            "count" : 12
+          }, {
+            "item" : "National Arboretum  Canberra Playspace",
+            "count" : 11
+          }, {
+            "item" : "Wanderlight Avenue Neibourhood Playground",
+            "count" : 10
+          }, {
+            "item" : "Trevillian Quay Pedestrian Parkland",
+            "count" : 9
+          }, {
+            "item" : "Trevillian Quay Road Verge",
+            "count" : 8
+          }, {
+            "item" : "Griffith Shopping Centre",
+            "count" : 7
+          }, {
+            "item" : "Dumolo Place  Neighbourhood Park",
+            "count" : 6
+          }, {
+            "item" : "Bruce Dittmar Central Neighbourhood Park",
+            "count" : 5
+          }, {
+            "item" : "Dickson Shopping Centre",
+            "count" : 4
+          }, {
+            "item" : "Lady Denman Drive - Pedestrian Parkland",
+            "count" : 3
+          }, {
+            "item" : "Mount Ainslie Nature Reserve",
+            "count" : 2
+          }, {
+            "item" : "Lady Denman Drive Road Verge",
+            "count" : 1
+          } ],
+          "smallest" : "Ainslie Avenue - Road Median - Road Verge"
+        },
+        "format" : { }
+      }, {
+        "id" : 210192512,
+        "name" : "IMAGE_LINK",
+        "dataTypeName" : "url",
+        "fieldName" : "image_link",
+        "position" : 5,
+        "renderTypeName" : "url",
+        "tableColumnId" : 26117053,
+        "width" : 220,
+        "cachedContents" : {
+          "non_null" : 0,
+          "null" : 154
+        },
+        "format" : { },
+        "subColumnTypes" : [ "url", "description" ]
+      }, {
+        "id" : 210192513,
+        "name" : "VIDEO_LINK",
+        "dataTypeName" : "url",
+        "fieldName" : "video_link",
+        "position" : 6,
+        "renderTypeName" : "url",
+        "tableColumnId" : 26117054,
+        "width" : 220,
+        "cachedContents" : {
+          "non_null" : 0,
+          "null" : 154
+        },
+        "format" : { },
+        "subColumnTypes" : [ "url", "description" ]
+      }, {
+        "id" : 210192514,
+        "name" : "LATITUDE",
+        "dataTypeName" : "number",
+        "fieldName" : "latitude",
+        "position" : 8,
+        "renderTypeName" : "number",
+        "tableColumnId" : 26117056,
+        "width" : 196,
+        "cachedContents" : {
+          "largest" : "-35.155814",
+          "non_null" : 154,
+          "average" : "-35.28987186363636",
+          "null" : 0,
+          "top" : [ {
+            "item" : "-35.185979",
+            "count" : 20
+          }, {
+            "item" : "-35.277451",
+            "count" : 19
+          }, {
+            "item" : "-35.276913",
+            "count" : 18
+          }, {
+            "item" : "-35.278269",
+            "count" : 17
+          }, {
+            "item" : "-35.280542",
+            "count" : 16
+          }, {
+            "item" : "-35.277308",
+            "count" : 15
+          }, {
+            "item" : "-35.277618",
+            "count" : 14
+          }, {
+            "item" : "-35.280708",
+            "count" : 13
+          }, {
+            "item" : "-35.278095",
+            "count" : 12
+          }, {
+            "item" : "-35.328458",
+            "count" : 11
+          }, {
+            "item" : "-35.198667",
+            "count" : 10
+          }, {
+            "item" : "-35.319023",
+            "count" : 9
+          }, {
+            "item" : "-35.313575",
+            "count" : 8
+          }, {
+            "item" : "-35.308039",
+            "count" : 7
+          }, {
+            "item" : "-35.384288",
+            "count" : 6
+          }, {
+            "item" : "-35.287328",
+            "count" : 5
+          }, {
+            "item" : "-35.287028",
+            "count" : 4
+          }, {
+            "item" : "-35.287286",
+            "count" : 3
+          }, {
+            "item" : "-35.229428",
+            "count" : 2
+          }, {
+            "item" : "-35.310789",
+            "count" : 1
+          } ],
+          "smallest" : "-35.463097",
+          "sum" : "-5434.640267"
+        },
+        "format" : { }
+      }, {
+        "id" : 210192515,
+        "name" : "LONGITUDE",
+        "dataTypeName" : "number",
+        "fieldName" : "longitude",
+        "position" : 9,
+        "renderTypeName" : "number",
+        "tableColumnId" : 26117057,
+        "width" : 208,
+        "cachedContents" : {
+          "largest" : "149.167346",
+          "non_null" : 154,
+          "average" : "149.1041771623377",
+          "null" : 0,
+          "top" : [ {
+            "item" : "149.134982",
+            "count" : 20
+          }, {
+            "item" : "149.130929",
+            "count" : 19
+          }, {
+            "item" : "149.126003",
+            "count" : 18
+          }, {
+            "item" : "149.132888",
+            "count" : 17
+          }, {
+            "item" : "149.130988",
+            "count" : 16
+          }, {
+            "item" : "149.130708",
+            "count" : 15
+          }, {
+            "item" : "149.130908",
+            "count" : 14
+          }, {
+            "item" : "149.125582",
+            "count" : 13
+          }, {
+            "item" : "149.127721",
+            "count" : 12
+          }, {
+            "item" : "149.142511",
+            "count" : 11
+          }, {
+            "item" : "149.044148",
+            "count" : 10
+          }, {
+            "item" : "149.039351",
+            "count" : 9
+          }, {
+            "item" : "149.161433",
+            "count" : 8
+          }, {
+            "item" : "149.139848",
+            "count" : 7
+          }, {
+            "item" : "149.072311",
+            "count" : 6
+          }, {
+            "item" : "149.069094",
+            "count" : 5
+          }, {
+            "item" : "149.068577",
+            "count" : 4
+          }, {
+            "item" : "149.068947",
+            "count" : 3
+          }, {
+            "item" : "149.091824",
+            "count" : 2
+          }, {
+            "item" : "149.14799",
+            "count" : 1
+          } ],
+          "smallest" : "149.011627",
+          "sum" : "22962.043283"
+        },
+        "format" : { }
+      }, {
+        "id" : 210192516,
+        "name" : "Location_1",
+        "dataTypeName" : "location",
+        "fieldName" : "location_1",
+        "position" : 10,
+        "renderTypeName" : "location",
+        "tableColumnId" : 28790227,
+        "width" : 100,
+        "cachedContents" : {
+          "largest" : {
+            "latitude" : "-35.297768",
+            "longitude" : "149.109461"
+          },
+          "non_null" : 154,
+          "null" : 0,
+          "top" : [ {
+            "item" : {
+              "latitude" : "-35.185979",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "149.134982"
+            },
+            "count" : 20
+          }, {
+            "item" : {
+              "latitude" : "-35.277451",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "149.130929"
+            },
+            "count" : 19
+          }, {
+            "item" : {
+              "latitude" : "-35.276913",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "149.126003"
+            },
+            "count" : 18
+          }, {
+            "item" : {
+              "latitude" : "-35.278269",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "149.132888"
+            },
+            "count" : 17
+          }, {
+            "item" : {
+              "latitude" : "-35.280542",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "149.130988"
+            },
+            "count" : 16
+          }, {
+            "item" : {
+              "latitude" : "-35.277308",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "149.130708"
+            },
+            "count" : 15
+          }, {
+            "item" : {
+              "latitude" : "-35.277618",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "149.130908"
+            },
+            "count" : 14
+          }, {
+            "item" : {
+              "latitude" : "-35.280708",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "149.125582"
+            },
+            "count" : 13
+          }, {
+            "item" : {
+              "latitude" : "-35.278095",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "149.127721"
+            },
+            "count" : 12
+          }, {
+            "item" : {
+              "latitude" : "-35.328458",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "149.142511"
+            },
+            "count" : 11
+          }, {
+            "item" : {
+              "latitude" : "-35.198667",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "149.044148"
+            },
+            "count" : 10
+          }, {
+            "item" : {
+              "latitude" : "-35.319023",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "149.039351"
+            },
+            "count" : 9
+          }, {
+            "item" : {
+              "latitude" : "-35.313575",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "149.161433"
+            },
+            "count" : 8
+          }, {
+            "item" : {
+              "latitude" : "-35.308039",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "149.139848"
+            },
+            "count" : 7
+          }, {
+            "item" : {
+              "latitude" : "-35.384288",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "149.072311"
+            },
+            "count" : 6
+          }, {
+            "item" : {
+              "latitude" : "-35.287328",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "149.069094"
+            },
+            "count" : 5
+          }, {
+            "item" : {
+              "latitude" : "-35.287028",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "149.068577"
+            },
+            "count" : 4
+          }, {
+            "item" : {
+              "latitude" : "-35.287286",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "149.068947"
+            },
+            "count" : 3
+          }, {
+            "item" : {
+              "latitude" : "-35.229428",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "149.091824"
+            },
+            "count" : 2
+          }, {
+            "item" : {
+              "latitude" : "-35.310789",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "149.14799"
+            },
+            "count" : 1
+          } ],
+          "smallest" : {
+            "latitude" : "-35.235132",
+            "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+            "longitude" : "149.065593"
+          }
+        },
+        "format" : { },
+        "subColumnTypes" : [ "human_address", "latitude", "longitude", "machine_address", "needs_recoding" ]
+      } ],
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "license" : {
+        "name" : "Creative Commons Attribution 4.0 International",
+        "logoUrl" : "images/licenses/cc30by.png",
+        "termsLink" : "http://creativecommons.org/licenses/by/4.0/legalcode"
+      },
+      "metadata" : {
+        "rdfSubject" : "0",
+        "rdfClass" : "",
+        "custom_fields" : {
+          "Contributing Agency" : {
+            "Contact Email" : "tamsdspatial@act.gov.au",
+            "Agency Name" : "Parks and City Services",
+            "Directorate" : "Transport Canberra and City Services"
+          }
+        },
+        "rowIdentifier" : "0",
+        "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+        "rowLabel" : "",
+        "renderTypeConfig" : {
+          "visible" : {
+            "table" : true
+          }
+        }
+      },
+      "owner" : {
+        "id" : "m7km-7fxa",
+        "displayName" : "TAMS",
+        "lastNotificationSeenAt" : 1496197272,
+        "profileImageUrlLarge" : "/api/users/m7km-7fxa/profile_images/LARGE",
+        "profileImageUrlMedium" : "/api/users/m7km-7fxa/profile_images/THUMB",
+        "profileImageUrlSmall" : "/api/users/m7km-7fxa/profile_images/TINY",
+        "roleName" : "editor",
+        "screenName" : "TAMS",
+        "rights" : [ "create_datasets", "view_domain", "create_pages", "view_goals", "view_dashboards", "view_story", "view_unpublished_story" ]
+      },
+      "query" : { },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "m7km-7fxa",
+        "displayName" : "TAMS",
+        "lastNotificationSeenAt" : 1496197272,
+        "profileImageUrlLarge" : "/api/users/m7km-7fxa/profile_images/LARGE",
+        "profileImageUrlMedium" : "/api/users/m7km-7fxa/profile_images/THUMB",
+        "profileImageUrlSmall" : "/api/users/m7km-7fxa/profile_images/TINY",
+        "roleName" : "editor",
+        "screenName" : "TAMS",
+        "rights" : [ "create_datasets", "view_domain", "create_pages", "view_goals", "view_dashboards", "view_story", "view_unpublished_story" ]
+      },
+      "tags" : [ "water", "drinking", "fountain" ],
+      "flags" : [ "default", "restorable", "restorePossibleForType" ]
+    }
+  },
+  "data" : [ [ 1, "D425B237-0F9C-4FD2-A2EE-54C8791C26D1", 1, 1435250531, "913938", 1435250531, "913938", "{\n}", "Drfn240", "Acton", "Black Mountain Peninsula District Park", [ null, null ], [ null, null ], "-35.286323", "149.101427", [ null, "-35.286323", "149.101427", null, false ] ]
+, [ 2, "334F9C9F-5DF9-4C0F-8C2E-3DD1CF8C81CA", 2, 1435250531, "913938", 1435250531, "913938", "{\n}", "Drfn62", "Acton", "Black Mountain Peninsula District Park", [ null, null ], [ null, null ], "-35.292273", "149.101002", [ null, "-35.292273", "149.101002", null, false ] ]
+, [ 4, "4D394A09-CAB0-444B-8341-EC9195DDA58F", 4, 1435250531, "913938", 1435250531, "913938", "{\n}", "Drfn65", "Acton", "Black Mountain Peninsula District Park", [ null, null ], [ null, null ], "-35.288357", "149.100244", [ null, "-35.288357", "149.100244", null, false ] ]
+, [ 5, "600CE925-338F-4DC2-92C9-3D08A8182340", 5, 1435250531, "913938", 1435250531, "913938", "{\n}", "Drfn64", "Acton", "Black Mountain Peninsula District Park", [ null, null ], [ null, null ], "-35.289413", "149.099886", [ null, "-35.289413", "149.099886", null, false ] ]
+, [ 8, "49505FFE-877E-4FF8-957D-01FD62103132", 8, 1435250531, "913938", 1435250531, "913938", "{\n}", "Drfn59", "Acton", "Black Mountain Peninsula District Park", [ null, null ], [ null, null ], "-35.291521", "149.100124", [ null, "-35.291521", "149.100124", null, false ] ]
+, [ 9, "14AFF04E-764A-45EF-8BC4-4700EBC3981B", 9, 1435250531, "913938", 1435250531, "913938", "{\n}", "Drfn60", "Acton", "Black Mountain Peninsula District Park", [ null, null ], [ null, null ], "-35.293533", "149.100313", [ null, "-35.293533", "149.100313", null, false ] ]
+, [ 10, "3A67879A-0631-4486-89DB-DF18B45FD429", 10, 1435250531, "913938", 1435250531, "913938", "{\n}", "Drfn61", "Acton", "Black Mountain Peninsula District Park", [ null, null ], [ null, null ], "-35.292841", "149.101003", [ null, "-35.292841", "149.101003", null, false ] ]
+, [ 12, "A1ECEAE7-FFA6-4487-8DB3-311BB807C64A", 12, 1435250531, "913938", 1435250531, "913938", "{\n}", "Drfn63", "Acton", "Black Mountain Peninsula District Park", [ null, null ], [ null, null ], "-35.291518", "149.100146", [ null, "-35.291518", "149.100146", null, false ] ]
+, [ 14, "6FABE459-9C38-4BD9-BAFB-36ABAFBCD70E", 14, 1435250531, "913938", 1435250531, "913938", "{\n}", "Drfn194", "Amaroo", "Diamond Street Pedestrian Parkland", [ null, null ], [ null, null ], "-35.17412", "149.13556", [ null, "-35.17412", "149.13556", null, false ] ]
+, [ 15, "266412CC-FA73-4C8E-966D-919C095A1C5C", 15, 1435250531, "913938", 1435250531, "913938", "{\n}", "Drfn212", "Amaroo", "Barrington Crescent Pedestrian Parkland", [ null, null ], [ null, null ], "-35.175021", "149.128942", [ null, "-35.175021", "149.128942", null, false ] ]
+, [ 16, "081B2FC8-879D-4D12-A5B6-66A041D17918", 16, 1435250531, "913938", 1435250531, "913938", "{\n}", "Drfn244", "Amaroo", "Diamond Street Pedestrian Parkland", [ null, null ], [ null, null ], "-35.172776", "149.137983", [ null, "-35.172776", "149.137983", null, false ] ]
+, [ 17, "A2D3D1DF-EA29-4129-97AB-FFFF22A57E31", 17, 1435250531, "913938", 1435250531, "913938", "{\n}", "Drfn125", "Barton", "Telopea Park", [ null, null ], [ null, null ], "-35.31557", "149.137127", [ null, "-35.31557", "149.137127", null, false ] ]
+, [ 18, "797DC36C-1619-4E49-841E-D3D674A88749", 18, 1435250531, "913938", 1435250531, "913938", "{\n}", "Drfn242", "Barton", "Grevillea Park", [ null, null ], [ null, null ], "-35.304195", "149.149917", [ null, "-35.304195", "149.149917", null, false ] ]
+, [ 20, "EA6E5445-89EE-43FE-BF80-64768FD618EB", 20, 1435250531, "913938", 1435250531, "913938", "{\n}", "Drfn215", "Belconnen", "John Knight Memorial Park", [ null, null ], [ null, null ], "-35.236056", "149.074021", [ null, "-35.236056", "149.074021", null, false ] ]
+, [ 21, "1951886C-40A0-496D-A587-A6A91E875496", 21, 1435250531, "913938", 1435250531, "913938", "{\n}", "Drfn254", "Belconnen", "Diddams Close Pedestrian Parkland", [ null, null ], [ null, null ], "-35.229005", "149.073678", [ null, "-35.229005", "149.073678", null, false ] ]
+, [ 23, "C29FA7AD-E22B-4291-B436-EF7F129A2818", 23, 1435250531, "913938", 1435250531, "913938", "{\n}", "Drfn258", "Belconnen", "Ginninderra Peninsula District Park", [ null, null ], [ null, null ], "-35.224547", "149.069189", [ null, "-35.224547", "149.069189", null, false ] ]
+, [ 24, "BB596193-35E7-455F-9BA0-CA51D4235CC1", 24, 1435250531, "913938", 1435250531, "913938", "{\n}", "Drfn141", "Belconnen", "John Knight Memorial Park", [ null, null ], [ null, null ], "-35.235843", "149.074653", [ null, "-35.235843", "149.074653", null, false ] ]
+, [ 25, "3C25D044-878B-4A64-BBA8-A775D1468C3F", 25, 1435250531, "913938", 1435250531, "913938", "{\n}", "Drfn140", "Belconnen", "Ginninderra Peninsula District Park", [ null, null ], [ null, null ], "-35.226024", "149.06937", [ null, "-35.226024", "149.06937", null, false ] ]
+, [ 26, "30F40D5B-E1A1-4B7C-822B-3F7BC189FB13", 26, 1435250531, "913938", 1435250531, "913938", "{\n}", "Drfn207", "Belconnen", "Diddams Close Pedestrian Parkland - Dog Park", [ null, null ], [ null, null ], "-35.228447", "149.073841", [ null, "-35.228447", "149.073841", null, false ] ]
+, [ 27, "89FC033A-922C-4180-B9CC-F30AB4EBC7F5", 27, 1435250531, "913938", 1435250531, "913938", "{\n}", "Drfn139", "Belconnen", "Joynton Smith Drive Pedestrian Parkland", [ null, null ], [ null, null ], "-35.227845", "149.063213", [ null, "-35.227845", "149.063213", null, false ] ]
+, [ 28, "4AF05A62-F122-45AB-9109-98BCC73C6D9B", 28, 1435250531, "913938", 1435250531, "913938", "{\n}", "Drfn262", "Bonner", "Don Bell Street Neighbourhood Park", [ null, null ], [ null, null ], "-35.155814", "149.13964", [ null, "-35.155814", "149.13964", null, false ] ]
+, [ 29, "ED2FE63B-5AF2-43F9-B7A5-78DF14A6540B", 29, 1435250531, "913938", 1435250531, "913938", "{\n}", "Drfn263", "Bonner", "Fernando Street Pedestrian Parkland", [ null, null ], [ null, null ], "-35.161206", "149.136355", [ null, "-35.161206", "149.136355", null, false ] ]
+, [ 30, "69E733DC-7B70-4500-90F6-C98C5317DD5B", 30, 1435250531, "913938", 1435250531, "913938", "{\n}", "Drfn256", "Calwell", "Calwell Shopping Centre", [ null, null ], [ null, null ], "-35.434554", "149.113673", [ null, "-35.434554", "149.113673", null, false ] ]
+, [ 31, "525C2B6F-B155-4F88-8B03-A125E1383426", 31, 1435250531, "913938", 1435250531, "913938", "{\n}", "Drfn183", "Campbell", "Rememberance Park", [ null, null ], [ null, null ], "-35.279504", "149.151231", [ null, "-35.279504", "149.151231", null, false ] ]
+, [ 32, "284DC888-4C36-4552-AF2E-F65D4188645D", 32, 1435250531, "913938", 1435250531, "913938", "{\n}", "Drfn184", "Campbell", "Rememberance Park", [ null, null ], [ null, null ], "-35.279976", "149.150974", [ null, "-35.279976", "149.150974", null, false ] ]
+, [ 33, "6C9B0790-C067-44AC-92BA-7248C9FF3D4C", 33, 1435250531, "913938", 1435250531, "913938", "{\n}", "Drfn230", "Casey", "Casey Dogpark", [ null, null ], [ null, null ], "-35.167285", "149.098472", [ null, "-35.167285", "149.098472", null, false ] ]
+, [ 34, "F6C31643-D0B6-430F-9236-4A9B5BF7DC6F", 34, 1435250531, "913938", 1435250531, "913938", "{\n}", "Drfn268", "Chapman", "Chapman Shopping Centre", [ null, null ], [ null, null ], "-35.355582", "149.040707", [ null, "-35.355582", "149.040707", null, false ] ]
+, [ 37, "6EEF3168-9AFD-456C-830E-21F395353524", 37, 1435250531, "913938", 1435250531, "913938", "{\n}", "Drfn223", "City", "Civic Square", [ null, null ], [ null, null ], "-35.281448", "149.130707", [ null, "-35.281448", "149.130707", null, false ] ]
+, [ 38, "36B03091-2CF4-4D6B-932B-A87EA0C5AEA5", 38, 1435250531, "913938", 1435250531, "913938", "{\n}", "Drfn177", "City", "Glebe Park", [ null, null ], [ null, null ], "-35.281049", "149.135874", [ null, "-35.281049", "149.135874", null, false ] ]
+, [ 39, "BFA0E05F-B9DA-4CAA-9FAE-72C7CCFB7302", 39, 1435250531, "913938", 1435250531, "913938", "{\n}", "Drfn201", "City", "Glebe Park", [ null, null ], [ null, null ], "-35.283489", "149.136337", [ null, "-35.283489", "149.136337", null, false ] ]
+, [ 40, "B6F45B63-1230-452A-9680-85D64ED3254C", 40, 1435250531, "913938", 1435250531, "913938", "{\n}", "Drfn146", "City", "Hobart Place", [ null, null ], [ null, null ], "-35.279743", "149.126436", [ null, "-35.279743", "149.126436", null, false ] ]
+, [ 42, "FCD54C1D-71A6-4072-9192-AAF69932ECDC", 42, 1435250531, "913938", 1435250531, "913938", "{\n}", "Drfn226", "City", "West Row Pedestrian Parkland", [ null, null ], [ null, null ], "-35.279282", "149.127225", [ null, "-35.279282", "149.127225", null, false ] ]
+, [ 44, "407A4204-0B0E-4EAF-A19D-D48D8B1B3207", 44, 1435250531, "913938", 1435250531, "913938", "{\n}", "Drfn251", "City", "London Circuit Road Verge", [ null, null ], [ null, null ], "-35.28224", "149.132171", [ null, "-35.28224", "149.132171", null, false ] ]
+, [ 46, "EFDE6B92-4555-4936-821F-3EA5386BD9E7", 46, 1435250531, "913938", 1435250531, "913938", "{\n}", "Drfn237", "Crace", "Hilltop Reserve Park Pedestrian Parkland", [ null, null ], [ null, null ], "-35.202575", "149.109475", [ null, "-35.202575", "149.109475", null, false ] ]
+, [ 47, "D5CAA48A-1014-4982-BB6D-AF24615A5E8F", 47, 1435250531, "913938", 1435250531, "913938", "{\n}", "Drfn234", "Crace", "Yinnar Street Pedestrian Parkland", [ null, null ], [ null, null ], "-35.203233", "149.099211", [ null, "-35.203233", "149.099211", null, false ] ]
+, [ 48, "489302F3-B876-4C5E-A95D-62F1F6076CBF", 48, 1435250531, "913938", 1435250531, "913938", "{\n}", "Drfn238", "Crace", "Hilltop Reserve Park Pedestrian Parkland", [ null, null ], [ null, null ], "-35.202084", "149.10935", [ null, "-35.202084", "149.10935", null, false ] ]
+, [ 49, "1B188A3D-A52F-4CA1-A4DD-75C7E95DD055", 49, 1435250531, "913938", 1435250531, "913938", "{\n}", "Drfn236", "Crace", "Hilltop Reserve Neighbourhood Park", [ null, null ], [ null, null ], "-35.202304", "149.112106", [ null, "-35.202304", "149.112106", null, false ] ]
+, [ 50, "A4D8F8A0-1317-4B88-9B4B-260222CF87EB", 50, 1435250531, "913938", 1435250531, "913938", "{\n}", "Drfn233", "Crace", "Medhurst Crescent Neighbourhood Park", [ null, null ], [ null, null ], "-35.197411", "149.107279", [ null, "-35.197411", "149.107279", null, false ] ]
+, [ 51, "3D6F02E3-BE1B-4BEA-9A52-92BBFFB3D794", 51, 1435250531, "913938", 1435250531, "913938", "{\n}", "Drfn178", "Curtin", "Curtin Shopping Centre", [ null, null ], [ null, null ], "-35.325348", "149.082596", [ null, "-35.325348", "149.082596", null, false ] ]
+, [ 53, "50BFC33B-B95F-4D24-9238-B45EF626373C", 53, 1435250531, "913938", 1435250531, "913938", "{\n}", "Drfn127", "Deakin", "Deakin Shopping Centre", [ null, null ], [ null, null ], "-35.314665", "149.107855", [ null, "-35.314665", "149.107855", null, false ] ]
+, [ 54, "20DE970C-F4FC-468B-92F9-FE1920E596C1", 54, 1435250531, "913938", 1435250531, "913938", "{\n}", "Drfn196", "Deakin", "Hannah Place - Pedestrian Parkland", [ null, null ], [ null, null ], "-35.314043", "149.104746", [ null, "-35.314043", "149.104746", null, false ] ]
+, [ 55, "BE8FA6BB-1FD8-4513-A265-781D6406DEA4", 55, 1435250531, "913938", 1435250531, "913938", "{\n}", "Drfn47", "Dickson", "Dickson Shopping Centre", [ null, null ], [ null, null ], "-35.249855", "149.139125", [ null, "-35.249855", "149.139125", null, false ] ]
+, [ 56, "286D288C-6A2E-46A1-8596-7B697A9B34CA", 56, 1435250531, "913938", 1435250531, "913938", "{\n}", "Drfn43", "Downer", "Bonython Street - Road Verge", [ null, null ], [ null, null ], "-35.246948", "149.143837", [ null, "-35.246948", "149.143837", null, false ] ]
+, [ 57, "9A880587-209D-49E0-BDEE-32AAF6E4418F", 57, 1435250531, "913938", 1435250531, "913938", "{\n}", "Drfn32", "Duffy", "Duffy Place - Road Verge", [ null, null ], [ null, null ], "-35.336647", "149.0328", [ null, "-35.336647", "149.0328", null, false ] ]
+, [ 58, "C4D80A7D-F0CA-4632-A2A7-9011AB27FD8B", 58, 1435250531, "913938", 1435250531, "913938", "{\n}", "Drfn77", "Evatt", "Read Place Pedestrian Parkland", [ null, null ], [ null, null ], "-35.217959", "149.067087", [ null, "-35.217959", "149.067087", null, false ] ]
+, [ 59, "3326D17B-F886-4E68-AAC0-26EFD1FB4057", 59, 1435250531, "913938", 1435250531, "913938", "{\n}", "Drfn188", "Fadden", "Faddon Pines District Park", [ null, null ], [ null, null ], "-35.411649", "149.120763", [ null, "-35.411649", "149.120763", null, false ] ]
+, [ 60, "00636172-C180-4E6D-BE14-3DE9EEF3BC97", 60, 1435250531, "913938", 1435250531, "913938", "{\n}", "Drfn187", "Fadden", "Fadden Pines District Park", [ null, null ], [ null, null ], "-35.410371", "149.120116", [ null, "-35.410371", "149.120116", null, false ] ]
+, [ 61, "8732EA35-A405-484C-A7F6-E74427328974", 61, 1435250531, "913938", 1435250531, "913938", "{\n}", "Drfn249", "Farrer", "Farrer Shopping Centre", [ null, null ], [ null, null ], "-35.375089", "149.101414", [ null, "-35.375089", "149.101414", null, false ] ]
+, [ 62, "A4142142-5132-4F23-8C97-B7392561563D", 62, 1435250531, "913938", 1435250531, "913938", "{\n}", "Drfn239", "Forde", "Volpato Street Neighbourhood Park", [ null, null ], [ null, null ], "-35.160469", "149.149012", [ null, "-35.160469", "149.149012", null, false ] ]
+, [ 63, "F0D324ED-E43F-4014-B282-4F2802F9EB0B", 63, 1435250531, "913938", 1435250531, "913938", "{\n}", "Drfn228", "Forde", "Tom Nicholas Crescent Pedestrian Parkland", [ null, null ], [ null, null ], "-35.172354", "149.144998", [ null, "-35.172354", "149.144998", null, false ] ]
+, [ 64, "FB21B321-2008-42B1-ACFA-955E3E01ED91", 64, 1435250531, "913938", 1435250531, "913938", "{\n}", "Drfn225", "Forde", "Ray Ellis Crescent Town Park", [ null, null ], [ null, null ], "-35.171822", "149.14207", [ null, "-35.171822", "149.14207", null, false ] ]
+, [ 65, "12EBA795-91D7-4173-AB7F-B6EF271FC071", 65, 1435250531, "913938", 1435250531, "913938", "{\n}", "Drfn208", "Garran", "Garran Shopping Centre", [ null, null ], [ null, null ], "-35.342536", "149.108354", [ null, "-35.342536", "149.108354", null, false ] ]
+, [ 66, "B6E51CE3-992A-435A-8035-913B233671E3", 66, 1435250531, "913938", 1435250531, "913938", "{\n}", "Drfn186", "Gordon", "Jim Pike Pedestrian Parkland", [ null, null ], [ null, null ], "-35.463097", "149.08105", [ null, "-35.463097", "149.08105", null, false ] ]
+, [ 67, "D4AAC50A-06EF-4C4D-BBD6-C31F7569BDCC", 67, 1435250531, "913938", 1435250531, "913938", "{\n}", "Drfn172", "Gordon", "Point Hut District Park", [ null, null ], [ null, null ], "-35.455948", "149.084371", [ null, "-35.455948", "149.084371", null, false ] ]
+, [ 68, "173F73F8-CCFD-4E8D-A160-ADC18D1E1CAD", 68, 1435250531, "913938", 1435250531, "913938", "{\n}", "Drfn168", "Gowrie", "Wray Place - Neighbourhood Park", [ null, null ], [ null, null ], "-35.407111", "149.110985", [ null, "-35.407111", "149.110985", null, false ] ]
+, [ 69, "15788DCB-9868-4342-9B2A-BFDAC535A56A", 69, 1435250531, "913938", 1435250531, "913938", "{\n}", "Drfn193", "Greenway", "Lake Tuggeranong District Park", [ null, null ], [ null, null ], "-35.408411", "149.069807", [ null, "-35.408411", "149.069807", null, false ] ]
+, [ 70, "4F355350-FD02-447A-B661-0B81374B0716", 70, 1435250531, "913938", 1435250531, "913938", "{\n}", "Drfn206", "Greenway", "Lake Tuggeranong District Park - Dog Park", [ null, null ], [ null, null ], "-35.41122", "149.071987", [ null, "-35.41122", "149.071987", null, false ] ]
+, [ 71, "CFBCD09D-D77C-4957-9FE0-29130EA160E5", 71, 1435250531, "913938", 1435250531, "913938", "{\n}", "Drfn189", "Greenway", "Tuggeranong Town Park", [ null, null ], [ null, null ], "-35.410768", "149.064759", [ null, "-35.410768", "149.064759", null, false ] ]
+, [ 72, "018B8F0D-DE32-4462-B894-C699F6D42E49", 72, 1435250531, "913938", 1435250531, "913938", "{\n}", "Drfn191", "Greenway", "Lake Tuggeranong District Park", [ null, null ], [ null, null ], "-35.405203", "149.071513", [ null, "-35.405203", "149.071513", null, false ] ]
+, [ 73, "FB7DD89C-04A6-4364-8BD9-EBDC670AC946", 73, 1435250531, "913938", 1435250531, "913938", "{\n}", "Drfn216", "Greenway", "Lake Tuggeranong District Park", [ null, null ], [ null, null ], "-35.402842", "149.071542", [ null, "-35.402842", "149.071542", null, false ] ]
+, [ 74, "35EF5660-AFBF-4C40-9D47-01BF621FCF7C", 74, 1435250531, "913938", 1435250531, "913938", "{\n}", "Drfn190", "Greenway", "Tuggeranong Town Park", [ null, null ], [ null, null ], "-35.409912", "149.064475", [ null, "-35.409912", "149.064475", null, false ] ]
+, [ 75, "D62E5E6B-DBD6-4504-AAF4-13A50C2EFB8C", 75, 1435250531, "913938", 1435250531, "913938", "{\n}", "Drfn243", "Greenway", "Reed Street North  Road Verge", [ null, null ], [ null, null ], "-35.416443", "149.071647", [ null, "-35.416443", "149.071647", null, false ] ]
+, [ 76, "743093BD-536E-4746-A6FC-23FD5CD5A0CF", 76, 1435250531, "913938", 1435250531, "913938", "{\n}", "Drfn192", "Greenway", "Lake Tuggeranong District Park", [ null, null ], [ null, null ], "-35.407251", "149.070566", [ null, "-35.407251", "149.070566", null, false ] ]
+, [ 77, "379E943D-9FE5-41EE-A6D3-6D8381D3B243", 77, 1435250531, "913938", 1435250531, "913938", "{\n}", "Drfn153", "Gungahlin", "Yerrabi District Park", [ null, null ], [ null, null ], "-35.178965", "149.131005", [ null, "-35.178965", "149.131005", null, false ] ]
+, [ 78, "270BB58B-35CE-4017-9DA5-D3C43E1192C9", 78, 1435250531, "913938", 1435250531, "913938", "{\n}", "Drfn154", "Gungahlin", "Yerrabi District Park", [ null, null ], [ null, null ], "-35.180016", "149.129653", [ null, "-35.180016", "149.129653", null, false ] ]
+, [ 79, "42C67824-118E-4470-AA72-25E5BF2D9E5F", 79, 1435250531, "913938", 1435250531, "913938", "{\n}", "Drfn211", "Gungahlin", "Yerrabi Pond District Park", [ null, null ], [ null, null ], "-35.175079", "149.136024", [ null, "-35.175079", "149.136024", null, false ] ]
+, [ 80, "8D5C7CC9-3C2A-44D7-BC06-A4AADC9F45AE", 80, 1435250531, "913938", 1435250531, "913938", "{\n}", "Drfn250", "Gungahlin", "Gozzard Street Town Park", [ null, null ], [ null, null ], "-35.185458", "149.131462", [ null, "-35.185458", "149.131462", null, false ] ]
+, [ 81, "A2DE8B41-0412-422A-8BC7-240685D548BD", 81, 1435250531, "913938", 1435250531, "913938", "{\n}", "Drfn259", "Gungahlin", "Yerrabi District Park", [ null, null ], [ null, null ], "-35.17918", "149.130323", [ null, "-35.17918", "149.130323", null, false ] ]
+, [ 82, "DB17DC0D-B05E-4EAF-A10D-44271AA9098C", 82, 1435250531, "913938", 1435250531, "913938", "{\n}", "Drfn90", "Higgins", "Higgins Shopping Centre", [ null, null ], [ null, null ], "-35.231366", "149.027017", [ null, "-35.231366", "149.027017", null, false ] ]
+, [ 83, "04C6D6BE-3D02-43E0-8338-77541C330F37", 83, 1435250531, "913938", 1435250531, "913938", "{\n}", "Drfn93", "Holt", "Holt Shopping Centre", [ null, null ], [ null, null ], "-35.224621", "149.011627", [ null, "-35.224621", "149.011627", null, false ] ]
+, [ 87, "7A77B6DA-ACB5-41EA-A15F-983AD249E656", 87, 1435250531, "913938", 1435250531, "913938", "{\n}", "Drfn248", "Jacka", "Appleford Av Pedestrian Parkland", [ null, null ], [ null, null ], "-35.15993", "149.128659", [ null, "-35.15993", "149.128659", null, false ] ]
+, [ 88, "4FEEB6DF-6B06-445B-83EA-E4B9B3072EFB", 88, 1435250531, "913938", 1435250531, "913938", "{\n}", "Drfn195", "Kaleen", "Kaleen Shopping Centre (Gwydir Sq)", [ null, null ], [ null, null ], "-35.234179", "149.103303", [ null, "-35.234179", "149.103303", null, false ] ]
+, [ 89, "C9411C34-C42F-4BE6-B310-DB984E7F1298", 89, 1435250531, "913938", 1435250531, "913938", "{\n}", "Drfn200", "Kambah", "Kambah Village", [ null, null ], [ null, null ], "-35.380113", "149.058032", [ null, "-35.380113", "149.058032", null, false ] ]
+, [ 90, "F3E1C185-30F4-4972-96E4-86ACAB31D8CB", 90, 1435250531, "913938", 1435250531, "913938", "{\n}", "Drfn162", "Kambah", "Kambah District Park", [ null, null ], [ null, null ], "-35.391977", "149.063256", [ null, "-35.391977", "149.063256", null, false ] ]
+, [ 91, "AEDFE40E-A4F7-4D9E-814B-1DB27A54D5BD", 91, 1435250531, "913938", 1435250531, "913938", "{\n}", "Drfn266", "Kingston", "Norgrove Neighbourhood Park", [ null, null ], [ null, null ], "-35.316014", "149.146927", [ null, "-35.316014", "149.146927", null, false ] ]
+, [ 92, "019EEA95-406D-468E-B162-01271FF65116", 92, 1435250531, "913938", 1435250531, "913938", "{\n}", "Drfn235", "Lyons", "Lyons Shopping Centre", [ null, null ], [ null, null ], "-35.339391", "149.076481", [ null, "-35.339391", "149.076481", null, false ] ]
+, [ 93, "C97C23C6-5E59-4435-AA3B-3FDE6AE114D5", 93, 1435250531, "913938", 1435250531, "913938", "{\n}", "Drfn144", "Macquarie", "Jamison Shopping Centre", [ null, null ], [ null, null ], "-35.253167", "149.071876", [ null, "-35.253167", "149.071876", null, false ] ]
+, [ 94, "A76DB6C8-13D6-46C2-9CC2-9553C8507AE7", 94, 1435250531, "913938", 1435250531, "913938", "{\n}", "Drfn143", "Macquarie", "Jamison Shopping Centre", [ null, null ], [ null, null ], "-35.25265", "149.07258", [ null, "-35.25265", "149.07258", null, false ] ]
+, [ 97, "0264A1C4-FA79-468E-85F5-95D41A6A82F5", 97, 1435250531, "913938", 1435250531, "913938", "{\n}", "Drfn157", "Monash", "Alabaster Street - Neighbourhood Park", [ null, null ], [ null, null ], "-35.413778", "149.09222", [ null, "-35.413778", "149.09222", null, false ] ]
+, [ 98, "E7D5A4AD-E2CC-4C11-9FBC-84127FC6177B", 98, 1435250531, "913938", 1435250531, "913938", "{\n}", "Drfn265", "O'connor", "Belconnen Way Pedestrian Parkland", [ null, null ], [ null, null ], "-35.259752", "149.107684", [ null, "-35.259752", "149.107684", null, false ] ]
+, [ 99, "03A74E19-FE9E-422F-AB59-9100A6DA18CD", 99, 1435250531, "913938", 1435250531, "913938", "{\n}", "Drfn264", "O'connor", "Belconnen Way Pedestrian Parkland", [ null, null ], [ null, null ], "-35.260102", "149.10781", [ null, "-35.260102", "149.10781", null, false ] ]
+, [ 100, "6EFDA41C-33AB-489C-9609-E2BB0EC3F0CA", 100, 1435250531, "913938", 1435250531, "913938", "{\n}", "Drfn11", "Phillip", "Edison District Park", [ null, null ], [ null, null ], "-35.34241", "149.093898", [ null, "-35.34241", "149.093898", null, false ] ]
+, [ 101, "DFE62627-1440-4020-96BD-5A8666EA9A20", 101, 1435250531, "913938", 1435250531, "913938", "{\n}", "Drfn227", "Phillip", "Eddison District Park", [ null, null ], [ null, null ], "-35.339885", "149.09113", [ null, "-35.339885", "149.09113", null, false ] ]
+, [ 102, "A9DE4852-660F-4890-A576-261DA13E4E23", 102, 1435250531, "913938", 1435250531, "913938", "{\n}", "Drfn255", "Red Hill", "Red Hill Shopping Centre", [ null, null ], [ null, null ], "-35.341455", "149.131148", [ null, "-35.341455", "149.131148", null, false ] ]
+, [ 103, "65288701-AC0B-426E-9841-324FAD6B4AF9", 103, 1435250531, "913938", 1435250531, "913938", "{\n}", "Drfn155", "Richardson", "Casson Street - Neighbourhood Park", [ null, null ], [ null, null ], "-35.4235", "149.108468", [ null, "-35.4235", "149.108468", null, false ] ]
+, [ 104, "A90E9E6B-7D06-450C-B67C-7A9EB43492FA", 104, 1435250531, "913938", 1435250531, "913938", "{\n}", "Drfn6", "Torrens", "Torrens Shopping Centre", [ null, null ], [ null, null ], "-35.373144", "149.087479", [ null, "-35.373144", "149.087479", null, false ] ]
+, [ 105, "C7791A69-47F7-4B67-901F-2707E700DEBB", 105, 1435250531, "913938", 1435250531, "913938", "{\n}", "Drfn247", "Waramanga", "Waramanga Shopping Centre", [ null, null ], [ null, null ], "-35.352868", "149.059246", [ null, "-35.352868", "149.059246", null, false ] ]
+, [ 106, "18CB80F2-52AF-4052-902E-B2132BC0D2C0", 106, 1435250531, "913938", 1435250531, "913938", "{\n}", "Drfn34", "Watson", "Watson Shopping Centre", [ null, null ], [ null, null ], "-35.238664", "149.153827", [ null, "-35.238664", "149.153827", null, false ] ]
+, [ 107, "3831B54C-67EF-448D-B68F-0F6B8F49FF61", 107, 1435250531, "913938", 1435250531, "913938", "{\n}", "Drfn179", "Weston", "Dillon Close Pedestrian Parkland", [ null, null ], [ null, null ], "-35.337785", "149.05391", [ null, "-35.337785", "149.05391", null, false ] ]
+, [ 108, "9297B332-9916-474A-AF22-1F330FE4708B", 108, 1435250531, "913938", 1435250531, "913938", "{\n}", "Drfn214", "Yarralumla", "Alexandrina Drive Pedestrian Parkland", [ null, null ], [ null, null ], "-35.298783", "149.110624", [ null, "-35.298783", "149.110624", null, false ] ]
+, [ 109, "212DD84A-8AD2-4988-8214-AB567C98D250", 109, 1435250531, "913938", 1435250531, "913938", "{\n}", "Drfn147", "Yarralumla", "Alexandrina Drive - Pedestrian Parkland", [ null, null ], [ null, null ], "-35.30025", "149.117151", [ null, "-35.30025", "149.117151", null, false ] ]
+, [ 110, "CC40CCDB-3E8E-4761-A92C-F41A4BA3EED0", 110, 1435250531, "913938", 1435250531, "913938", "{\n}", "Drfn136", "Yarralumla", "Lennox Gardens", [ null, null ], [ null, null ], "-35.298467", "149.121792", [ null, "-35.298467", "149.121792", null, false ] ]
+, [ 111, "905D840A-4BED-451A-988D-8D035366E92F", 111, 1435250531, "913938", 1435250531, "913938", "{\n}", "Drfn232", "Yarralumla", "Weston Park Dog Park - Small Dog", [ null, null ], [ null, null ], "-35.299059", "149.095053", [ null, "-35.299059", "149.095053", null, false ] ]
+, [ 112, "B1D16C77-8D6B-488C-954E-EBF441A48621", 112, 1435250531, "913938", 1435250531, "913938", "{\n}", "Drfn231", "Yarralumla", "Weston Park Dog Park - Large Dog", [ null, null ], [ null, null ], "-35.299343", "149.09494", [ null, "-35.299343", "149.09494", null, false ] ]
+, [ 113, "5786BDD7-F079-4D4E-9726-15D38AF568A1", 113, 1435250531, "913938", 1435250531, "913938", "{\n}", "Drfn241", "Yarralumla", "Weston Park", [ null, null ], [ null, null ], "-35.297862", "149.092827", [ null, "-35.297862", "149.092827", null, false ] ]
+, [ 114, "0E8E917C-4BEE-4872-9617-A602A3D84B79", 114, 1435250531, "913938", 1435250531, "913938", "{\n}", "Drfn257", "Yarralumla", "Yarralumla Bay District Park", [ null, null ], [ null, null ], "-35.299381", "149.103545", [ null, "-35.299381", "149.103545", null, false ] ]
+, [ 115, "7D28CF7A-310B-4151-BCBC-0BF277C24556", 115, 1435250531, "913938", 1435250531, "913938", "{\n}", "Drfn261", "Yarralumla", "Lennox Gardens", [ null, null ], [ null, null ], "-35.297477", "149.122956", [ null, "-35.297477", "149.122956", null, false ] ]
+, [ 116, "0309FA43-CD4E-4104-A21C-698B59033D44", 116, 1435250531, "913938", 1435250531, "913938", "{\n}", "Drfn203", "Yarralumla", "Weston Park", [ null, null ], [ null, null ], "-35.295687", "149.09519", [ null, "-35.295687", "149.09519", null, false ] ]
+, [ 117, "255B3148-6C83-4879-BC61-EFE0BEEE48FB", 117, 1435250531, "913938", 1435250531, "913938", "{\n}", "Drfn151", "Yarralumla", "Weston Park", [ null, null ], [ null, null ], "-35.29185", "149.09094", [ null, "-35.29185", "149.09094", null, false ] ]
+, [ 118, "59A57F0B-0958-4890-85C6-1256ED927ADD", 118, 1435250531, "913938", 1435250531, "913938", "{\n}", "Drfn213", "Yarralumla", "Alexandrina Drive Pedestrian Parkland", [ null, null ], [ null, null ], "-35.297768", "149.109461", [ null, "-35.297768", "149.109461", null, false ] ]
+, [ 120, "3C8876A4-6113-4F22-904D-7C4501D66E69", 120, 1438879419, "913938", 1438879419, "913938", null, "Drfn267", "Belconnen", "Evelyn Parker Pedestrian Parkland", [ null, null ], [ null, null ], "-35.235132", "149.065593", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.235132", "149.065593", null, false ] ]
+, [ 121, "DCA7CE12-41AC-45D8-8277-74A7DDD66C7A", 121, 1442541827, "913938", 1442541827, "913938", null, "Drfn269", "Yarralumla", "Weston Park", [ null, null ], [ null, null ], "-35.291799", "149.090218", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.291799", "149.090218", null, false ] ]
+, [ 126, "CF76E718-4791-4737-9020-41B4167C44BC", 126, 1445303033, "913938", 1445303033, "913938", null, "Drfn270", "Wright", "Dot Butler Street Neighbourhood Park", [ null, null ], [ null, null ], "-35.324361", "149.037591", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.324361", "149.037591", null, false ] ]
+, [ 127, "D6C8762D-1D75-4B85-AC29-C8E17306434F", 127, 1446422646, "913938", 1446422646, "913938", null, "Drfn272", "City", "Civic Commercial Centre", [ null, null ], [ null, null ], "-35.27766", "149.130573", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.27766", "149.130573", null, false ] ]
+, [ 128, "9197EF71-7425-44FC-8097-52EF28623D0F", 128, 1446422646, "913938", 1446422646, "913938", null, "Drfn273", "Macquarie", "Jamison Shopping Centre", [ null, null ], [ null, null ], "-35.253277", "149.071555", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.253277", "149.071555", null, false ] ]
+, [ 130, "3B3002D7-A7E7-4606-9529-DDABADB7B3CA", 130, 1446509051, "913938", 1446509051, "913938", null, "Drfn278", "Weston", "Whitney Place Pedestrian Parkland", [ null, null ], [ null, null ], "-35.341286", "149.053839", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.341286", "149.053839", null, false ] ]
+, [ 131, "A6873E36-3909-4CD7-B612-4BC492A54E5C", 131, 1446509051, "913938", 1446509051, "913938", null, "Drfn279", "Wanniassa", "Erindale Shopping Centre", [ null, null ], [ null, null ], "-35.403497", "149.097587", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.403497", "149.097587", null, false ] ]
+, [ 132, "31BAFA11-9AC4-46D3-B12F-C861AD7F583A", 132, 1446509051, "913938", 1446509051, "913938", null, "Drfn275", "Phillip", "Edison District Park", [ null, null ], [ null, null ], "-35.340311", "149.091393", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.340311", "149.091393", null, false ] ]
+, [ 133, "CCE6AF1B-C39D-4D61-97BD-973AE7A4C9B1", 133, 1446509051, "913938", 1446509051, "913938", null, "Drfn287", "City", "Civic Commercial Centre Alinga Street", [ null, null ], [ null, null ], "-35.278412", "149.130406", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.278412", "149.130406", null, false ] ]
+, [ 134, "02D17A14-FAC1-4CC4-A885-0C9AE414931D", 134, 1446509051, "913938", 1446509051, "913938", null, "Drfn282", "Aranda", "Aranda District Playing Field", [ null, null ], [ null, null ], "-35.254263", "149.079232", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.254263", "149.079232", null, false ] ]
+, [ 135, "69745964-4858-4D92-98B2-57740CF42817", 135, 1446509051, "913938", 1446509051, "913938", null, "Drfn280", "Greenway", "Tuggeranong Town Park", [ null, null ], [ null, null ], "-35.411146", "149.06464", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.411146", "149.06464", null, false ] ]
+, [ 137, "FFDA324D-DCDE-4E9A-815A-CCDE6E2E02BD", 137, 1446509051, "913938", 1446509051, "913938", null, "Drfn284", "Downer", "Downer Neighbourhood Oval", [ null, null ], [ null, null ], "-35.246493", "149.143336", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.246493", "149.143336", null, false ] ]
+, [ 138, "98F856EE-40F1-4955-B4AB-3F5C818699E0", 138, 1446509051, "913938", 1446509051, "913938", null, "Drfn286", "City", "Civic Commercial Centre - Petrie Plaza", [ null, null ], [ null, null ], "-35.279142", "149.132881", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.279142", "149.132881", null, false ] ]
+, [ 139, "6EC8DE57-8F93-405F-B33B-11ABFF48461B", 139, 1446509051, "913938", 1446509051, "913938", null, "Drfn289", "City", "Civic Commercial Centre City Walk", [ null, null ], [ null, null ], "-35.278952", "149.131694", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.278952", "149.131694", null, false ] ]
+, [ 140, "8E4AA0B7-B95A-421B-AA2F-323FBF8ED5F1", 140, 1446509051, "913938", 1446509051, "913938", null, "Drfn276", "Phillip", "Phillip Town Centre Square", [ null, null ], [ null, null ], "-35.344797", "149.085648", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.344797", "149.085648", null, false ] ]
+, [ 141, "CDA4EC57-6034-46A3-BD72-666A80C57CE3", 141, 1446509051, "913938", 1446509051, "913938", null, "Drfn274", "Belconnen", "Diddams Close Pedestrian Parkland", [ null, null ], [ null, null ], "-35.228732", "149.074404", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.228732", "149.074404", null, false ] ]
+, [ 142, "15F0412D-D626-43B3-A560-FB51D3EDB47A", 142, 1446509051, "913938", 1446509051, "913938", null, "Drfn277", "Mawson", "Mawson Shopping Centre", [ null, null ], [ null, null ], "-35.365337", "149.094562", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.365337", "149.094562", null, false ] ]
+, [ 143, "0C077177-8365-48E5-B859-02BB44E1075F", 143, 1446509051, "913938", 1446509051, "913938", null, "Drfn281", "Rivett", "Rivett Neighbourhood Oval", [ null, null ], [ null, null ], "-35.346892", "149.037659", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.346892", "149.037659", null, false ] ]
+, [ 144, "561BE1D3-884C-4384-9B3E-07BAD3E70737", 144, 1446509051, "913938", 1446509051, "913938", null, "Drfn283", "Ainslie", "Majura Enclosed Oval - Base Ball", [ null, null ], [ null, null ], "-35.259751", "149.138832", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.259751", "149.138832", null, false ] ]
+, [ 145, "31FA725A-AB7E-49A1-9051-15748910388E", 145, 1446509051, "913938", 1446509051, "913938", null, "Drfn288", "City", "Civic Commercial Centre City Walk", [ null, null ], [ null, null ], "-35.279655", "149.132212", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.279655", "149.132212", null, false ] ]
+, [ 147, "67CC07E6-632C-4345-B93E-8712F6E6056A", 147, 1446595450, "913938", 1446595450, "913938", null, "Drfn290", "City", "Ainslie Avenue - Road Median - Road Verge", [ null, null ], [ null, null ], "-35.280861", "149.131793", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.280861", "149.131793", null, false ] ]
+, [ 148, "54804120-E149-4800-8715-469B50386F7A", 148, 1446681845, "913938", 1446681845, "913938", null, "Drfn245", "Acton", "Black Mountain Peninsula District Park", [ null, null ], [ null, null ], "-35.287192", "149.101369", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.287192", "149.101369", null, false ] ]
+, [ 149, "E7D486DD-2A98-4841-A734-CFE24103485D", 149, 1446768264, "913938", 1446768264, "913938", null, "Drfn292", "Campbell", "Molonglo Reach District Park", [ null, null ], [ null, null ], "-35.304592", "149.167346", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.304592", "149.167346", null, false ] ]
+, [ 150, "FAF5ABC4-AEAC-4A5D-AB48-84FC087D4EC0", 150, 1447113835, "913938", 1447113835, "913938", null, "Drfn293", "Gungahlin", "Gungahlin Central Linear Park", [ null, null ], [ null, null ], "-35.185979", "149.134982", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.185979", "149.134982", null, false ] ]
+, [ 152, "6C2513AA-C689-4AC9-8D1C-7FA0F7FBB014", 152, 1447632250, "913938", 1447632250, "913938", null, "Drfn299", "City", "Bunda Street Road Verge Civic", [ null, null ], [ null, null ], "-35.277451", "149.130929", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.277451", "149.130929", null, false ] ]
+, [ 153, "34BB0D17-1654-4954-9294-BC1F69707DD8", 153, 1447632250, "913938", 1447632250, "913938", null, "Drfn297", "City", "Cnr Childers Street And Rudd Street", [ null, null ], [ null, null ], "-35.276913", "149.126003", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.276913", "149.126003", null, false ] ]
+, [ 154, "49E2D1C9-DBF9-4187-B60B-E4FA6223E7B6", 154, 1447632250, "913938", 1447632250, "913938", null, "Drfn301", "City", "Bunda Street Road Verge Civic", [ null, null ], [ null, null ], "-35.278269", "149.132888", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.278269", "149.132888", null, false ] ]
+, [ 155, "8EB4CA3F-CB13-423A-865E-01D9CDAD6CB9", 155, 1447632250, "913938", 1447632250, "913938", null, "Drfn302", "City", "London Circuit Road Verge Civic", [ null, null ], [ null, null ], "-35.280542", "149.130988", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.280542", "149.130988", null, false ] ]
+, [ 156, "BAB8D1F2-0807-47BC-B2C6-76B1D6DBBD42", 156, 1447632250, "913938", 1447632250, "913938", null, "Drfn298", "City", "Mort Street Road Verge", [ null, null ], [ null, null ], "-35.277308", "149.130708", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.277308", "149.130708", null, false ] ]
+, [ 157, "35B6851D-C240-433D-BE83-EC88E2E514B3", 157, 1447632250, "913938", 1447632250, "913938", null, "Drfn300", "City", "Bunda Street Road Verge Civic", [ null, null ], [ null, null ], "-35.277618", "149.130908", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.277618", "149.130908", null, false ] ]
+, [ 158, "A9B7A4A3-C043-4C4F-8CBC-52235A262252", 158, 1447632250, "913938", 1447632250, "913938", null, "Drfn295", "City", "Darwin Place Civic", [ null, null ], [ null, null ], "-35.280708", "149.125582", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.280708", "149.125582", null, false ] ]
+, [ 159, "84FC37C7-F0FF-4595-B554-83C1695FD0C6", 159, 1447632250, "913938", 1447632250, "913938", null, "Drfn296", "City", "Alinga Street Road Verge Civic", [ null, null ], [ null, null ], "-35.278095", "149.127721", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.278095", "149.127721", null, false ] ]
+, [ 160, "713A5BBC-739D-4378-9EC6-93150612CFC7", 160, 1447718651, "913938", 1447718651, "913938", null, "Drfn303", "Griffith", "Griffith Shopping Centre", [ null, null ], [ null, null ], "-35.328458", "149.142511", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.328458", "149.142511", null, false ] ]
+, [ 161, "63FCE9F5-18AB-4F1A-828C-815BBB2E54B1", 161, 1448323421, "913938", 1448323421, "913938", null, "Drfn304", "Charnwood", "Charnwood Local Shopping Centre (Tillyard Dr)", [ null, null ], [ null, null ], "-35.198667", "149.044148", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.198667", "149.044148", null, false ] ]
+, [ 163, "BA4A4AE1-2B9B-42ED-B8AA-66FDEB4B2429", 163, 1452038650, "913938", 1452038650, "913938", null, "Drfn305", "Coombs", "Beecroft Street Neighbourhood Park", [ null, null ], [ null, null ], "-35.319023", "149.039351", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.319023", "149.039351", null, false ] ]
+, [ 167, "8E1E2D43-D309-40D7-895C-5DD694FE09FA", 167, 1478160112, "913938", 1478160112, "913938", null, "Drfn307", "Fyshwick", "Jerrabomberra Wetlands Nature Reserve", [ null, null ], [ null, null ], "-35.313575", "149.161433", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.313575", "149.161433", null, false ] ]
+, [ 168, "24551E1B-4C88-4446-9CE6-D4CF0750EE55", 168, 1478332914, "913938", 1478332914, "913938", null, "Drfn260", "Barton", "Bowen Park", [ null, null ], [ null, null ], "-35.308039", "149.139848", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.308039", "149.139848", null, false ] ]
+, [ 169, "AD0D2A3B-B36D-43B6-8CC6-EE4AA2A77A34", 169, 1481166413, "913938", 1481166413, "913938", null, "Drfn310", "Kambah", "Kambah Local Shopping Centre", [ null, null ], [ null, null ], "-35.384288", "149.072311", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.384288", "149.072311", null, false ] ]
+, [ 170, "5A00F099-5E92-42D7-A58A-C5F23CBDE00F", 170, 1481788917, "913938", 1481788917, "913938", null, "Drfn271", "Molonglo Valley (Rural Dist.)", "National Arboretum Of Canberra", [ null, null ], [ null, null ], "-35.287328", "149.069094", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.287328", "149.069094", null, false ] ]
+, [ 171, "598DE524-3324-4154-B13F-5D07E26D8358", 171, 1481788917, "913938", 1481788917, "913938", null, "Drfn253", "Molonglo Valley (Rural Dist.)", "National Arboretum Canberra Platspace", [ null, null ], [ null, null ], "-35.287028", "149.068577", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.287028", "149.068577", null, false ] ]
+, [ 172, "36E3381A-6268-45A0-8F4D-4A97B24E4371", 172, 1481788917, "913938", 1481788917, "913938", null, "Drfn252", "Molonglo Valley (Rural Dist.)", "National Arboretum  Canberra Playspace", [ null, null ], [ null, null ], "-35.287286", "149.068947", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.287286", "149.068947", null, false ] ]
+, [ 173, "3BEF5EF8-5EDE-43D8-B5CE-DAEBA004ACE7", 173, 1485417740, "913938", 1485417740, "913938", null, "Drfn311", "Lawson", "Wanderlight Avenue Neibourhood Playground", [ null, null ], [ null, null ], "-35.229428", "149.091824", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.229428", "149.091824", null, false ] ]
+, [ 174, "4D86D110-D2BC-4EF8-AD8F-8CF56D8D4EDC", 174, 1491901369, "913938", 1491901369, "913938", null, "Drfn312", "Kingston", "Trevillian Quay Pedestrian Parkland", [ null, null ], [ null, null ], "-35.310789", "149.14799", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.310789", "149.14799", null, false ] ]
+, [ 175, "1201E29A-F801-451D-90A9-BF39830494CD", 175, 1491901369, "913938", 1491901369, "913938", null, "Drfn314", "Kingston", "Trevillian Quay Road Verge", [ null, null ], [ null, null ], "-35.311432", "149.145854", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.311432", "149.145854", null, false ] ]
+, [ 176, "FC63513B-A6D6-4124-99EF-E40AE69B8991", 176, 1491901369, "913938", 1491901369, "913938", null, "Drfn313", "Kingston", "Trevillian Quay Pedestrian Parkland", [ null, null ], [ null, null ], "-35.310356", "149.145179", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.310356", "149.145179", null, false ] ]
+, [ 177, "0119BC50-638A-42C7-845B-3082DF7E62D6", 177, 1495184570, "913938", 1495184570, "913938", null, "Drfn131", "Griffith", "Griffith Shopping Centre", [ null, null ], [ null, null ], "-35.328432", "149.142461", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.328432", "149.142461", null, false ] ]
+, [ 178, "6FE86824-AC5E-4A06-81F4-AAAB6086C065", 178, 1495184570, "913938", 1495184570, "913938", null, "Drfn28", "Isaacs", "Dumolo Place  Neighbourhood Park", [ null, null ], [ null, null ], "-35.368087", "149.111343", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.368087", "149.111343", null, false ] ]
+, [ 179, "5C9FE0FB-F73C-42A9-80A8-9DC0866EC6C0", 179, 1495184570, "913938", 1495184570, "913938", null, "Drfn229", "Forde", "Bruce Dittmar Central Neighbourhood Park", [ null, null ], [ null, null ], "-35.176007", "149.144982", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.176007", "149.144982", null, false ] ]
+, [ 180, "111DC70A-D250-4A8E-8B0D-DC57EBA39D28", 180, 1495184570, "913938", 1495184570, "913938", null, "Drfn46", "Dickson", "Dickson Shopping Centre", [ null, null ], [ null, null ], "-35.250431", "149.139634", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.250431", "149.139634", null, false ] ]
+, [ 181, "E1EEBC19-BE46-4AC1-B204-9B9F1856AF4D", 181, 1495184570, "913938", 1495184570, "913938", null, "Drfn150", "Yarralumla", "Weston Park", [ null, null ], [ null, null ], "-35.291201", "149.090026", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.291201", "149.090026", null, false ] ]
+, [ 182, "8A1F93BF-9EF5-41D7-BA0D-297CDBCD3333", 182, 1496998981, "913938", 1496998981, "913938", null, "Drfn202", "Weston Creek (Rural Dist.)", "Lady Denman Drive - Pedestrian Parkland", [ null, null ], [ null, null ], "-35.30053", "149.073052", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.30053", "149.073052", null, false ] ]
+, [ 183, "8172D0C8-E230-4D95-8013-2886B644BC3D", 183, 1499826577, "913938", 1499826577, "913938", null, "Drfn291", "Majura (Rural Dist.)", "Mount Ainslie Nature Reserve", [ null, null ], [ null, null ], "-35.270011", "149.157947", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.270011", "149.157947", null, false ] ]
+, [ 184, "51CE2FD4-0C97-44E6-82F5-3E8C711ABD76", 184, 1499826577, "913938", 1499826577, "913938", null, "Drfn246", "Canberra Central (Rural Dist.)", "Lady Denman Drive Road Verge", [ null, null ], [ null, null ], "-35.285145", "149.088124", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.285145", "149.088124", null, false ] ]
+, [ 185, "1C8FC277-B656-4EAB-A93F-055ADDF85114", 185, 1499826577, "913938", 1499826577, "913938", null, "Drfn210", "Canberra Central (Rural Dist.)", "Black Mountain", [ null, null ], [ null, null ], "-35.274959", "149.097714", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.274959", "149.097714", null, false ] ]
+ ]
+}

@@ -1,0 +1,385 @@
+{
+  "meta" : {
+    "view" : {
+      "id" : "hssi-h7fk",
+      "name" : "Library Locations",
+      "attribution" : "Libraries ACT",
+      "attributionLink" : "http://www.library.act.gov.au/library_services/library_locations_and_opening_hours",
+      "averageRating" : 60,
+      "category" : "Government and Transparency",
+      "createdAt" : 1346990359,
+      "description" : "Location of public library branches in Libraries ACT",
+      "displayType" : "table",
+      "downloadCount" : 299,
+      "hideFromCatalog" : false,
+      "hideFromDataJson" : false,
+      "indexUpdatedAt" : 1499228628,
+      "licenseId" : "CC_40_BY",
+      "locale" : "",
+      "newBackend" : false,
+      "numberOfComments" : 0,
+      "oid" : 1050637,
+      "provenance" : "official",
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1346990600,
+      "publicationGroup" : 420140,
+      "publicationStage" : "published",
+      "rowClass" : "",
+      "rowsUpdatedAt" : 1346990362,
+      "rowsUpdatedBy" : "pqik-r3g6",
+      "tableId" : 420140,
+      "totalTimesRated" : 1,
+      "viewCount" : 305,
+      "viewLastModified" : 1499902227,
+      "viewType" : "tabular",
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":id",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":position",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : 17252208,
+        "name" : "Library Name",
+        "dataTypeName" : "text",
+        "fieldName" : "library_name",
+        "position" : 2,
+        "renderTypeName" : "text",
+        "tableColumnId" : 4061543,
+        "width" : 244,
+        "cachedContents" : {
+          "non_null" : 9,
+          "largest" : "Woden Library and Heritage Library",
+          "null" : 0,
+          "top" : [ {
+            "item" : "Belconnen Lbrary",
+            "count" : 20
+          }, {
+            "item" : "Civic Library",
+            "count" : 19
+          }, {
+            "item" : "Dickson Library",
+            "count" : 18
+          }, {
+            "item" : "Erindale Library",
+            "count" : 17
+          }, {
+            "item" : "Gungahlin Library",
+            "count" : 16
+          }, {
+            "item" : "Kippax Library",
+            "count" : 15
+          }, {
+            "item" : "Kingston Library",
+            "count" : 14
+          }, {
+            "item" : "Tuggeranong Library",
+            "count" : 13
+          }, {
+            "item" : "Woden Library and Heritage Library",
+            "count" : 12
+          } ],
+          "smallest" : "Belconnen Lbrary"
+        },
+        "format" : { }
+      }, {
+        "id" : 17252209,
+        "name" : "Street Address",
+        "dataTypeName" : "text",
+        "fieldName" : "street_address",
+        "position" : 3,
+        "renderTypeName" : "text",
+        "tableColumnId" : 4061544,
+        "width" : 268,
+        "cachedContents" : {
+          "non_null" : 9,
+          "largest" : "Shop 4, 52 Giles Street",
+          "null" : 0,
+          "top" : [ {
+            "item" : "12 Chandler Street",
+            "count" : 20
+          }, {
+            "item" : "Civic Square, London Circuit",
+            "count" : 19
+          }, {
+            "item" : "Dickson Shopping Centre",
+            "count" : 18
+          }, {
+            "item" : "McBryde Crescent",
+            "count" : 17
+          }, {
+            "item" : "Cnr Hibberson & Gozzard Streets",
+            "count" : 16
+          }, {
+            "item" : "Hardwick Crescent",
+            "count" : 15
+          }, {
+            "item" : "Shop 4, 52 Giles Street",
+            "count" : 14
+          }, {
+            "item" : "Cowlishaw Street",
+            "count" : 13
+          }, {
+            "item" : "Cnr Corinna & Furzer Streets",
+            "count" : 12
+          } ],
+          "smallest" : "12 Chandler Street"
+        },
+        "format" : { }
+      }, {
+        "id" : 17252210,
+        "name" : "Suburb",
+        "dataTypeName" : "text",
+        "fieldName" : "suburb",
+        "position" : 4,
+        "renderTypeName" : "text",
+        "tableColumnId" : 4061545,
+        "width" : 172,
+        "cachedContents" : {
+          "non_null" : 9,
+          "largest" : "Wanniassa",
+          "null" : 0,
+          "top" : [ {
+            "item" : "Belconnen ",
+            "count" : 20
+          }, {
+            "item" : "Canberra City",
+            "count" : 19
+          }, {
+            "item" : "Dickson",
+            "count" : 18
+          }, {
+            "item" : "Wanniassa",
+            "count" : 17
+          }, {
+            "item" : "Gungahlin",
+            "count" : 16
+          }, {
+            "item" : "Holt",
+            "count" : 15
+          }, {
+            "item" : "Kingston",
+            "count" : 14
+          }, {
+            "item" : "Greenway",
+            "count" : 13
+          }, {
+            "item" : "Phillip",
+            "count" : 12
+          } ],
+          "smallest" : "Belconnen "
+        },
+        "format" : { }
+      }, {
+        "id" : 17252211,
+        "name" : "Location 1",
+        "dataTypeName" : "location",
+        "fieldName" : "location_1",
+        "position" : 5,
+        "renderTypeName" : "location",
+        "tableColumnId" : 4061546,
+        "width" : 220,
+        "cachedContents" : {
+          "non_null" : 9,
+          "largest" : {
+            "latitude" : "-35.344378",
+            "longitude" : "149.083925"
+          },
+          "null" : 0,
+          "top" : [ {
+            "item" : {
+              "latitude" : "-35.238285",
+              "longitude" : "149.069472"
+            },
+            "count" : 20
+          }, {
+            "item" : {
+              "latitude" : "-35.281054",
+              "longitude" : "149.130584"
+            },
+            "count" : 19
+          }, {
+            "item" : {
+              "latitude" : "-35.249387",
+              "longitude" : "149.139488"
+            },
+            "count" : 18
+          }, {
+            "item" : {
+              "latitude" : "-35.404184",
+              "longitude" : "149.09636"
+            },
+            "count" : 17
+          }, {
+            "item" : {
+              "latitude" : "-35.185072",
+              "longitude" : "149.132515"
+            },
+            "count" : 16
+          }, {
+            "item" : {
+              "latitude" : "-35.221879",
+              "longitude" : "149.020044"
+            },
+            "count" : 15
+          }, {
+            "item" : {
+              "latitude" : "-35.315484",
+              "longitude" : "149.140739"
+            },
+            "count" : 14
+          }, {
+            "item" : {
+              "latitude" : "-35.414752",
+              "longitude" : "149.068624"
+            },
+            "count" : 13
+          }, {
+            "item" : {
+              "latitude" : "-35.344378",
+              "longitude" : "149.083925"
+            },
+            "count" : 12
+          } ],
+          "smallest" : {
+            "latitude" : "-35.238285",
+            "longitude" : "149.069472"
+          }
+        },
+        "format" : { },
+        "subColumnTypes" : [ "human_address", "latitude", "longitude", "machine_address", "needs_recoding" ]
+      } ],
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "license" : {
+        "name" : "Creative Commons Attribution 4.0 International",
+        "logoUrl" : "images/licenses/cc30by.png",
+        "termsLink" : "http://creativecommons.org/licenses/by/4.0/legalcode"
+      },
+      "metadata" : {
+        "rdfSubject" : "0",
+        "rdfClass" : "",
+        "custom_fields" : {
+          "Contributing Agency" : {
+            "Contact Email" : "tamsdspatial@act.gov.au",
+            "Agency Name" : "Libraries ACT",
+            "Directorate" : "Transport Canberra and City Services"
+          },
+          "Data Set Coverage" : {
+            "Geospatial Coverage" : "Australian Capital Territory",
+            "Temporal Coverage" : "Current",
+            "Update Regularity" : "No updates planned"
+          }
+        },
+        "rowIdentifier" : "0",
+        "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+        "rowLabel" : "",
+        "renderTypeConfig" : {
+          "visible" : {
+            "table" : true
+          }
+        }
+      },
+      "owner" : {
+        "id" : "4ma5-vwss",
+        "displayName" : "OCDO",
+        "roleName" : "publisher",
+        "screenName" : "OCDO",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_nominations", "approve_nominations", "moderate_comments", "manage_stories", "feature_items", "change_configurations", "view_domain", "view_others_datasets", "create_pages", "edit_pages", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "manage_provenance", "view_story", "view_unpublished_story", "view_all_dataset_status_logs", "use_data_connectors" ]
+      },
+      "query" : { },
+      "ratings" : {
+        "rating" : 60
+      },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "4ma5-vwss",
+        "displayName" : "OCDO",
+        "roleName" : "publisher",
+        "screenName" : "OCDO",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_nominations", "approve_nominations", "moderate_comments", "manage_stories", "feature_items", "change_configurations", "view_domain", "view_others_datasets", "create_pages", "edit_pages", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "manage_provenance", "view_story", "view_unpublished_story", "view_all_dataset_status_logs", "use_data_connectors" ]
+      },
+      "tags" : [ "libraries" ],
+      "flags" : [ "default", "restorable", "restorePossibleForType" ]
+    }
+  },
+  "data" : [ [ 1, "CC2BE476-3298-4E2E-B512-5E5074B9FD14", 1, 1346965161, "545264", 1346965161, "545264", "{\n}", "Belconnen Lbrary", "12 Chandler Street", "Belconnen ", [ null, "-35.238285", "149.069472", null, false ] ]
+, [ 2, "A3C8A1AD-DA3D-449C-BBA9-16EC8D9CA60A", 2, 1346965161, "545264", 1346965161, "545264", "{\n}", "Civic Library", "Civic Square, London Circuit", "Canberra City", [ null, "-35.281054", "149.130584", null, false ] ]
+, [ 3, "E929CD1D-9EFE-4154-9EFA-9BC32CFC0554", 3, 1346965161, "545264", 1346965161, "545264", "{\n}", "Dickson Library", "Dickson Shopping Centre", "Dickson", [ null, "-35.249387", "149.139488", null, false ] ]
+, [ 4, "2F5C9BA6-37A9-4B0A-A0CA-A45942632C0A", 4, 1346965161, "545264", 1346965161, "545264", "{\n}", "Erindale Library", "McBryde Crescent", "Wanniassa", [ null, "-35.404184", "149.09636", null, false ] ]
+, [ 5, "36567C73-B279-46C5-8482-5F201CF4EB35", 5, 1346965161, "545264", 1346965161, "545264", "{\n}", "Gungahlin Library", "Cnr Hibberson & Gozzard Streets", "Gungahlin", [ null, "-35.185072", "149.132515", null, false ] ]
+, [ 6, "6BB02190-734B-4D99-8B13-DF9B58FB688C", 6, 1346965161, "545264", 1346965161, "545264", "{\n}", "Kippax Library", "Hardwick Crescent", "Holt", [ null, "-35.221879", "149.020044", null, false ] ]
+, [ 7, "2953EFAF-C9DE-4DAC-AC82-884AF38AA003", 7, 1346965161, "545264", 1346965161, "545264", "{\n}", "Kingston Library", "Shop 4, 52 Giles Street", "Kingston", [ null, "-35.315484", "149.140739", null, false ] ]
+, [ 8, "58529211-07E7-4AEE-B765-49E0F17311B0", 8, 1346965161, "545264", 1346965161, "545264", "{\n}", "Tuggeranong Library", "Cowlishaw Street", "Greenway", [ null, "-35.414752", "149.068624", null, false ] ]
+, [ 9, "663661C2-2239-4865-87AE-6BCB7643D246", 9, 1346965161, "545264", 1346965161, "545264", "{\n}", "Woden Library and Heritage Library", "Cnr Corinna & Furzer Streets", "Phillip", [ null, "-35.344378", "149.083925", null, false ] ]
+ ]
+}
