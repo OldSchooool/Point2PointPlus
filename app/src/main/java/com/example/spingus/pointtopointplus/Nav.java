@@ -24,6 +24,9 @@ import android.app.Activity;
 import android.os.Bundle;
 import android.widget.Toast;
 import java.io.*;
+import java.util.Iterator;
+import java.util.List;
+
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -158,28 +161,20 @@ public class Nav extends AppCompatActivity
         mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(sydney, 12));
         StringBuilder text = new StringBuilder();
 
-        File file = new File("/Users/derek/Documents/Point2PointPlus/data/Cyclist_Crashes.json");
-        String json = "";
-        try {
-            BufferedReader br = new BufferedReader(new FileReader(file));
-            String Line;
+        InputStream inputStream = getResources().openRawResource(R.raw.cyclist_crashes);
+        CSVFile csvFile = new CSVFile(inputStream);
+        String[] scoreList = csvFile.read(1110);
+        for (int i = 1; i < 1110; i++) {
+            String[] s = scoreList[i].split(",");
+            Log.d("lat", i+s[8]);
+            Log.d("lan", i+s[9]);
 
-            String line = br.readLine();
+            LatLng pos = new LatLng(Double.parseDouble(s[8]), Double.parseDouble(s[9]));
+            mMap.addMarker(new MarkerOptions()
+                    .position(pos)
+                    //.title("Marker in Sydney")
+                    .icon(BitmapDescriptorFactory.fromBitmap(resizeMapIcons("pegman", 70, 70))));
 
-            while ((line = br.readLine()) != null) {
-                text.append(line);
-                text.append(System.lineSeparator());
-            }
-            br.close();
-
-        } catch (IOException e) {
-            // You'll need to add proper error handling here
-        }
-        JSONObject obj;
-        try {
-            obj = new JSONObject(json);
-        } catch (JSONException e) {
-            e.printStackTrace();
         }
     }
 
