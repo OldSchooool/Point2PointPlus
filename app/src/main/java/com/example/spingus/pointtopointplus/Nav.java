@@ -20,6 +20,13 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Button;
 import android.widget.TabHost;
+import android.app.Activity;
+import android.os.Bundle;
+import android.widget.Toast;
+import java.io.*;
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
 
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
@@ -149,6 +156,37 @@ public class Nav extends AppCompatActivity
 
         LatLng sydney = new LatLng(-35.30850783320357, 149.12460252642632);
         mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(sydney, 12));
+        StringBuilder text = new StringBuilder();
+
+        File file = new File("/Users/derek/Documents/Point2PointPlus/data/Cyclist_Crashes.json");
+        String json = "";
+        try {
+            BufferedReader br = new BufferedReader(new FileReader(file));
+            String Line;
+
+            String line = br.readLine();
+
+            while ((line = br.readLine()) != null) {
+                text.append(line);
+                text.append(System.lineSeparator());
+            }
+            br.close();
+
+        } catch (IOException e) {
+            // You'll need to add proper error handling here
+        }
+        JSONObject obj;
+        try {
+            obj = new JSONObject(json);
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+
+        Log.d("hi",);
+        // Add a marker in Sydney and move the camera
+        LatLng sydney = new LatLng(-34, 151);
+        mMap.addMarker(new MarkerOptions().position(sydney).title("Marker in Sydney"));
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney));
     }
 
 
