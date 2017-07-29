@@ -20,9 +20,14 @@ public class Locations {
     public void updateA(Double alon, Double alat){
         this.pointAlon = alon;
         this.pointAlat = alat;
+        Nav.originLon = alon;
+        Nav.originLat = alat;
+
     }
     public void updateB(Double blon, Double blat){
         this.pointBlon = blon;
         this.pointBlat = blat;
+        Nav.destinationLon = blon;
+        Nav.destinationLat = blat;
     }
 }

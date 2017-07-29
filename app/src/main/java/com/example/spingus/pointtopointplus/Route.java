@@ -72,7 +72,10 @@ public class Route extends FragmentActivity implements OnMapReadyCallback {
             JSONArray legs1 = legs.getJSONArray("legs");
             PolylineOptions rectOptions = new PolylineOptions().width(5)
                     .color(Color.BLACK);
+            rectOptions.add(new LatLng(Nav.originLat,Nav.originLon));
+            Log.d("1", "here");
             for(int i = 0; i < legs1.length(); i++) {
+                Log.d("2", "There");
                 JSONObject steps = legs1.getJSONObject(i);
                 JSONArray steps1 = steps.getJSONArray("steps");
                 for (int j = 0; j < steps1.length(); j++) {
@@ -82,8 +85,8 @@ public class Route extends FragmentActivity implements OnMapReadyCallback {
                     Log.d("thissy", i+""+j);
                 }
             }
+            rectOptions.add(new LatLng(Nav.destinationLat,Nav.destinationLon));
             Polyline polyline = mMap.addPolyline(rectOptions);
-
             LatLng origin = new LatLng(Nav.originLat, Nav.originLon);
             mMap.addMarker(new MarkerOptions()
                     .position(origin)
@@ -103,6 +106,28 @@ public class Route extends FragmentActivity implements OnMapReadyCallback {
             //}
         }catch(JSONException e){
             Log.d("Something Broke", e.toString());
+            Double originLat = -35.289893;
+            Double originLon = 149.127515;
+            Double destinationLat = -35.2822;
+            Double destinationLon = 149.1287;
+            PolylineOptions rectOptions = new PolylineOptions().width(5)
+                    .color(Color.BLACK);
+            rectOptions.add(new LatLng(originLat,originLon));
+            rectOptions.add(new LatLng(destinationLat,destinationLon));
+            Polyline polyline = mMap.addPolyline(rectOptions);
+            LatLng origin = new LatLng(originLat, originLon);
+            mMap.addMarker(new MarkerOptions()
+                    .position(origin)
+                    //.title("Marker in Sydney")
+                    .icon(BitmapDescriptorFactory.fromBitmap(resizeMapIcons("pegman", 100, 100))));
+            LatLng destination = new LatLng(destinationLat, destinationLon);
+            mMap.addMarker(new MarkerOptions()
+                    .position(destination)
+                    //.title("Marker in Sydney")
+                    .icon(BitmapDescriptorFactory.fromBitmap(resizeMapIcons("pegman", 100, 100))));
+            mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(origin, 11));
+
+
         }
     }
     public Bitmap resizeMapIcons(String iconName, int width, int height){

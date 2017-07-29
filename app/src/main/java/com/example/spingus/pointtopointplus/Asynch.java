@@ -39,16 +39,88 @@ public class Asynch extends AsyncTask<String, Void, JSONObject>
     protected JSONObject doInBackground(String... params)
     {
         StringBuilder urlString = new StringBuilder();
-        urlString.append("https://maps.googleapis.com/maps/api/directions/json?");
+        urlString.append("https://maps.googleapis.com/maps/api/place/nearbysearch/json?");
         urlString.append("key=").append("AIzaSyDRTMLLebdTv8eaG4YQukxIOnZRjMjC7wU");
-        urlString.append("&origin=").append(Nav.originLat + "," + Nav.originLon);
-        urlString.append("&destination=").append(Nav.destinationLat + "," + Nav.destinationLon);
-        for (int i = 0; i < Nav.numWaypoints; i++){
-            urlString.append("&waypoints=").append(Nav.waypoints[i]);
-        }
-        urlString.append("&mode=").append(Nav.mode);
+        urlString.append("&rankby=distance");
+        urlString.append("&location=").append(Nav.originLat + "," + Nav.originLon);
 
         Log.d("hi", urlString.toString());
+
+        HttpURLConnection urlConnection1 = null;
+        URL url1 = null;
+        JSONObject object1 = null;
+        try
+        {
+            url1 = new URL(urlString.toString());
+            urlConnection1 = (HttpURLConnection) url1.openConnection();
+            urlConnection1.setRequestMethod("GET");
+            urlConnection1.setDoOutput(true);
+            urlConnection1.setDoInput(true);
+            urlConnection1.connect();
+            InputStream inStream = null;
+            inStream = urlConnection1.getInputStream();
+            BufferedReader bReader = new BufferedReader(new InputStreamReader(inStream));
+            String temp, response = "";
+            while ((temp = bReader.readLine()) != null)
+                response += temp;
+            bReader.close();
+            inStream.close();
+            urlConnection1.disconnect();
+            object1 = (JSONObject) new JSONTokener(response).nextValue();
+            Log.d("hi", object1.toString());
+        }
+        catch (Exception e)
+        {
+            this.mException = e;
+        }
+
+        StringBuilder urlString2 = new StringBuilder();
+        urlString2.append("https://maps.googleapis.com/maps/api/place/nearbysearch/json?");
+        urlString2.append("key=").append("AIzaSyDRTMLLebdTv8eaG4YQukxIOnZRjMjC7wU");
+        urlString2.append("&rankby=distance");
+        urlString2.append("&location=").append(Nav.destinationLat + "," + Nav.destinationLon);
+
+        Log.d("hi", urlString2.toString());
+
+        HttpURLConnection urlConnection2 = null;
+        URL url2 = null;
+        JSONObject object2 = null;
+        try
+        {
+            url2 = new URL(urlString.toString());
+            urlConnection2 = (HttpURLConnection) url2.openConnection();
+            urlConnection2.setRequestMethod("GET");
+            urlConnection2.setDoOutput(true);
+            urlConnection2.setDoInput(true);
+            urlConnection2.connect();
+            InputStream inStream = null;
+            inStream = urlConnection2.getInputStream();
+            BufferedReader bReader = new BufferedReader(new InputStreamReader(inStream));
+            String temp, response = "";
+            while ((temp = bReader.readLine()) != null)
+                response += temp;
+            bReader.close();
+            inStream.close();
+            urlConnection2.disconnect();
+            object2 = (JSONObject) new JSONTokener(response).nextValue();
+            Log.d("hi", object2.toString());
+        }
+        catch (Exception e)
+        {
+            this.mException = e;
+        }
+
+        StringBuilder urlString3 = new StringBuilder();
+        urlString3.append("https://maps.googleapis.com/maps/api/directions/json?");
+        urlString3.append("key=").append("AIzaSyDRTMLLebdTv8eaG4YQukxIOnZRjMjC7wU");
+        urlString3.append("&origin=").append(Nav.originLat + "," + Nav.originLon);
+        urlString3.append("&destination=").append(Nav.destinationLat + "," + Nav.destinationLon);
+        for (int i = 0; i < Nav.numWaypoints; i++){
+            urlString3.append("&waypoints=").append(Nav.waypoints[i]);
+        }
+        urlString3.append("&mode=").append(Nav.mode);
+
+        Log.d("hi", urlString3.toString());
 
         HttpURLConnection urlConnection = null;
         URL url = null;
@@ -58,7 +130,7 @@ public class Asynch extends AsyncTask<String, Void, JSONObject>
 
         try
         {
-            url = new URL(urlString.toString());
+            url = new URL(urlString3.toString());
             urlConnection = (HttpURLConnection) url.openConnection();
             urlConnection.setRequestMethod("GET");
             urlConnection.setDoOutput(true);

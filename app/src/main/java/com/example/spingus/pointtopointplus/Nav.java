@@ -48,17 +48,17 @@ public class Nav extends AppCompatActivity
     private GoogleMap mMap;
     public boolean bike,art,arts,police,drinking,dog,fitness,graffiti,hospital,library,pedestrian,bbq,furniture,toilets,skate,park,traffic = false;
 
-    public static Double originLat = 41.43206;
-    public static Double originLon = -81.38992;
-    public static Double destinationLat = 42.43206;
-    public static Double destinationLon = -82.38992;
+    public static Double originLat = -35.289893;
+    public static Double originLon = 149.127515;
+    public static Double destinationLat = -35.2822;
+    public static Double destinationLon = 149.1287;
     public static String mode = "walking";
     public static String[] waypoints = new String[10];
-    public static int numWaypoints = 1;
+    public static int numWaypoints = 0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        waypoints[0] = "41.43206,-82.38992";
+        //waypoints[0] = "41.43206,-82.38992";
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_nav);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
@@ -182,8 +182,8 @@ public class Nav extends AppCompatActivity
         mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(sydney, 12));
         StringBuilder text = new StringBuilder();
 
-        bike = true;
-        park = true;
+        //bike = true;
+        //park = true;
 
         if(bike) {
             //Bike crash data
