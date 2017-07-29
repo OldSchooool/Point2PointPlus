@@ -46,6 +46,7 @@ public class Nav extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener, OnMapReadyCallback {
 
     private GoogleMap mMap;
+    public boolean bike,art,arts,police,drinking,dog,fitness,graffiti,hospital,library,pedestrian,bbq,furniture,toilets,skate,park,traffic = false;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -161,20 +162,36 @@ public class Nav extends AppCompatActivity
         mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(sydney, 12));
         StringBuilder text = new StringBuilder();
 
-        InputStream inputStream = getResources().openRawResource(R.raw.cyclist_crashes);
-        CSVFile csvFile = new CSVFile(inputStream);
-        String[] scoreList = csvFile.read(1110);
-        for (int i = 1; i < 1110; i++) {
-            String[] s = scoreList[i].split(",");
-            Log.d("lat", i+s[8]);
-            Log.d("lan", i+s[9]);
+        if(bike) {
+            //Bike crash data
+            InputStream inputStream = getResources().openRawResource(R.raw.cyclist_crashes);
+            CSVFile csvFile = new CSVFile(inputStream);
+            String[] scoreList = csvFile.read(1110);
+            for (int i = 1; i < 1110; i++) {
+                String[] s = scoreList[i].split(",");
 
-            LatLng pos = new LatLng(Double.parseDouble(s[8]), Double.parseDouble(s[9]));
-            mMap.addMarker(new MarkerOptions()
-                    .position(pos)
-                    //.title("Marker in Sydney")
-                    .icon(BitmapDescriptorFactory.fromBitmap(resizeMapIcons("pegman", 70, 70))));
+                LatLng pos = new LatLng(Double.parseDouble(s[8]), Double.parseDouble(s[9]));
+                mMap.addMarker(new MarkerOptions()
+                        .position(pos)
+                        .title("Bike Crash")
+                        .icon(BitmapDescriptorFactory.fromBitmap(resizeMapIcons("pegman", 40, 40))));
 
+            }
+        }
+
+        if (park){
+        //Park Data
+            InputStream inputStream2 = getResources().openRawResource(R.raw.town_and_district_playgrounds);
+            CSVFile csvFile2 = new CSVFile(inputStream2);
+            String[] scoreList2 = csvFile2.read(70);
+            for (int i = 1; i < 65; i++) {
+                String[] s2 = scoreList2[i].split(",");
+                LatLng pos = new LatLng(Double.parseDouble(s2[7]), Double.parseDouble(s2[8]));
+                mMap.addMarker(new MarkerOptions()
+                        .position(pos)
+                        .title("Playground")
+                        .icon(BitmapDescriptorFactory.fromBitmap(resizeMapIcons("pegman", 40, 40))));
+            }
         }
     }
 

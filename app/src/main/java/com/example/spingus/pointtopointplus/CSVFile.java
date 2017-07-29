@@ -4,6 +4,8 @@ package com.example.spingus.pointtopointplus;
  * Created by Spingus on 29/07/2017.
  */
 
+import android.util.Log;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
