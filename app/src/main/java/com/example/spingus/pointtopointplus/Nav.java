@@ -144,6 +144,8 @@ public class Nav extends AppCompatActivity
 
     @Override
     public void onMapReady(GoogleMap googleMap) {
+
+
         mMap = googleMap;
 
         LatLng a = new LatLng(MapsActivity.location.pointAlon, MapsActivity.location.pointAlat);

@@ -7,7 +7,7 @@
     <string name="large_text">hi</string>
     <string name="action_settings">Settings</string>
     <string name="title_activity_test">test</string>
-    <string name="title_activity_nav">Nav</string>
+    <string name="title_activity_nav">Point2PointPlus</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
