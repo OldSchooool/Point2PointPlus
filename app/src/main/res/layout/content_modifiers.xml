@@ -4,14 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_margin="32dp"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.example.spingus.pointtopointplus.Modifiers"
     tools:showIn="@layout/activity_modifiers">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_margin="@dimen/text_margin"
-        android:text="@string/large_text" />
-
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="@drawable/modifier_widget"
+        android:drawableStart="@drawable/car_dark"
+        android:textAlignment="viewStart"
+        tools:text="This is a big long description so enjoy if you like pizza" />
 </android.support.v4.widget.NestedScrollView>
