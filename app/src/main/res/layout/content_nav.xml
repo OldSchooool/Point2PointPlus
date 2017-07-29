@@ -33,19 +33,22 @@
                 android:layout_width="32dp"
                 android:layout_height="32dp"
                 android:drawableStart="@drawable/car_dark"
-                android:text="Car" />
+                android:text="Car"
+                android:onClick="car"/>
 
             <android.support.design.widget.TabItem
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@color/colorText"
-                android:text="Ride" />
+                android:text="Ride"
+                android:onClick="ride"/>
 
             <android.support.design.widget.TabItem
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@color/colorText"
-                android:text="Walk" />
+                android:text="Walk"
+                android:onClick="walk"/>
         </android.support.design.widget.TabLayout>
 
         <fragment

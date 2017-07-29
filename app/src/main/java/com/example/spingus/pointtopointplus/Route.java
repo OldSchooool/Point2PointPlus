@@ -6,6 +6,7 @@ import android.graphics.Color;
 import android.support.v4.app.FragmentActivity;
 import android.os.Bundle;
 import android.util.Log;
+import android.widget.Toast;
 
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
@@ -62,7 +63,7 @@ public class Route extends FragmentActivity implements OnMapReadyCallback {
 
 
         while(Asynch.objy == null){
-
+            Toast.makeText(Route.this, "Loading, Please wait", Toast.LENGTH_LONG);
         }
         JSONObject object = Asynch.objy;
         try {

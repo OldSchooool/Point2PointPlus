@@ -64,9 +64,6 @@ public class Nav extends AppCompatActivity
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        Intent i = new Intent(Nav.this, Route.class);
-        startActivity(i);
-
         SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager()
                 .findFragmentById(map);
         mapFragment.getMapAsync(this);
@@ -107,6 +104,15 @@ public class Nav extends AppCompatActivity
             @Override
             public void onClick(View v) {
                 Intent i = new Intent(Nav.this, Modifiers.class);
+                startActivity(i);
+            }
+        });
+
+        Button button5 = (Button) findViewById(R.id.button5);
+        button5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(Nav.this, Route.class);
                 startActivity(i);
             }
         });
@@ -217,5 +223,15 @@ public class Nav extends AppCompatActivity
         Bitmap imageBitmap = BitmapFactory.decodeResource(getResources(),getResources().getIdentifier(iconName, "drawable", getPackageName()));
         Bitmap resizedBitmap = Bitmap.createScaledBitmap(imageBitmap, width, height, false);
         return resizedBitmap;
+    }
+
+    public void car(View view){
+        mode = "driving";
+    }
+    public void ride(View view){
+        mode = "cycling";
+    }
+    public void walk(View view){
+        mode = "walking";
     }
 }
