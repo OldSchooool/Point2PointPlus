@@ -1,0 +1,1075 @@
+{
+  "meta" : {
+    "view" : {
+      "id" : "n3b4-mm52",
+      "name" : "Public Barbeques in the ACT",
+      "attribution" : "ACT Government",
+      "averageRating" : 0,
+      "category" : "Infrastructure and Utilities",
+      "createdAt" : 1382498523,
+      "description" : "A dataset of public barbeques in the ACT.",
+      "displayType" : "table",
+      "downloadCount" : 511,
+      "hideFromCatalog" : false,
+      "hideFromDataJson" : false,
+      "indexUpdatedAt" : 1500627090,
+      "licenseId" : "CC_40_BY",
+      "locale" : "",
+      "newBackend" : false,
+      "numberOfComments" : 0,
+      "oid" : 11930042,
+      "provenance" : "official",
+      "publicationAppendEnabled" : true,
+      "publicationDate" : 1435197118,
+      "publicationGroup" : 1277285,
+      "publicationStage" : "published",
+      "rowClass" : "",
+      "rowsUpdatedAt" : 1500626972,
+      "rowsUpdatedBy" : "m7km-7fxa",
+      "tableId" : 3293963,
+      "totalTimesRated" : 0,
+      "viewCount" : 637,
+      "viewLastModified" : 1500972556,
+      "viewType" : "tabular",
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":id",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":position",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : 210089808,
+        "name" : "ASSET ID",
+        "dataTypeName" : "text",
+        "fieldName" : "asset_id",
+        "position" : 2,
+        "renderTypeName" : "text",
+        "tableColumnId" : 15503609,
+        "width" : 196,
+        "cachedContents" : {
+          "largest" : "BBQ99",
+          "non_null" : 325,
+          "null" : 0,
+          "top" : [ {
+            "item" : "BBQ469",
+            "count" : 20
+          }, {
+            "item" : "BBQ259",
+            "count" : 19
+          }, {
+            "item" : "BBQ466",
+            "count" : 18
+          }, {
+            "item" : "BBQ481",
+            "count" : 17
+          }, {
+            "item" : "BBQ149",
+            "count" : 16
+          }, {
+            "item" : "BBQ372",
+            "count" : 15
+          }, {
+            "item" : "BBQ366",
+            "count" : 14
+          }, {
+            "item" : "BBQ405",
+            "count" : 13
+          }, {
+            "item" : "BBQ225",
+            "count" : 12
+          }, {
+            "item" : "BBQ412",
+            "count" : 11
+          }, {
+            "item" : "BBQ181",
+            "count" : 10
+          }, {
+            "item" : "BBQ449",
+            "count" : 9
+          }, {
+            "item" : "BBQ224",
+            "count" : 8
+          }, {
+            "item" : "BBQ364",
+            "count" : 7
+          }, {
+            "item" : "BBQ206",
+            "count" : 6
+          }, {
+            "item" : "BBQ299",
+            "count" : 5
+          }, {
+            "item" : "BBQ152",
+            "count" : 4
+          }, {
+            "item" : "BBQ146",
+            "count" : 3
+          }, {
+            "item" : "BBQ470",
+            "count" : 2
+          }, {
+            "item" : "BBQ344",
+            "count" : 1
+          } ],
+          "smallest" : "BBQ102"
+        },
+        "format" : { }
+      }, {
+        "id" : 210089809,
+        "name" : "LOCATION",
+        "dataTypeName" : "text",
+        "fieldName" : "location",
+        "position" : 3,
+        "renderTypeName" : "text",
+        "tableColumnId" : 15503610,
+        "width" : 196,
+        "cachedContents" : {
+          "largest" : "Yarralumla",
+          "non_null" : 325,
+          "null" : 0,
+          "top" : [ {
+            "item" : "Acton",
+            "count" : 20
+          }, {
+            "item" : "Bonython",
+            "count" : 19
+          }, {
+            "item" : "Greenway",
+            "count" : 18
+          }, {
+            "item" : "Gungahlin",
+            "count" : 17
+          }, {
+            "item" : "Fadden",
+            "count" : 16
+          }, {
+            "item" : "Barton",
+            "count" : 15
+          }, {
+            "item" : "Franklin",
+            "count" : 14
+          }, {
+            "item" : "Kambah",
+            "count" : 13
+          }, {
+            "item" : "Yarralumla",
+            "count" : 12
+          }, {
+            "item" : "Belconnen",
+            "count" : 11
+          }, {
+            "item" : "Gordon",
+            "count" : 10
+          }, {
+            "item" : "Campbell",
+            "count" : 9
+          }, {
+            "item" : "Forde",
+            "count" : 8
+          }, {
+            "item" : "Phillip",
+            "count" : 7
+          }, {
+            "item" : "Fyshwick",
+            "count" : 6
+          }, {
+            "item" : "Braddon",
+            "count" : 5
+          }, {
+            "item" : "Bonner",
+            "count" : 4
+          }, {
+            "item" : "City",
+            "count" : 3
+          }, {
+            "item" : "Hall",
+            "count" : 2
+          }, {
+            "item" : "Coree (Rural Dist.)",
+            "count" : 1
+          } ],
+          "smallest" : "Acton"
+        },
+        "format" : { }
+      }, {
+        "id" : 210089810,
+        "name" : "LOCATION DESCRIPTION",
+        "dataTypeName" : "text",
+        "fieldName" : "location_description",
+        "position" : 4,
+        "renderTypeName" : "text",
+        "tableColumnId" : 15503611,
+        "width" : 340,
+        "cachedContents" : {
+          "largest" : "Yerrabi District Park",
+          "non_null" : 324,
+          "null" : 1,
+          "top" : [ {
+            "item" : "Yerrabi District Park",
+            "count" : 20
+          }, {
+            "item" : "Weston Park",
+            "count" : 19
+          }, {
+            "item" : "Pine Island Central",
+            "count" : 18
+          }, {
+            "item" : "Cotter Campground",
+            "count" : 17
+          }, {
+            "item" : "Cotter Bend",
+            "count" : 16
+          }, {
+            "item" : "Uriarra West",
+            "count" : 15
+          }, {
+            "item" : "Swamp Creek",
+            "count" : 14
+          }, {
+            "item" : "Casuarina Sands Picnic Area",
+            "count" : 13
+          }, {
+            "item" : "Uriarra East",
+            "count" : 12
+          }, {
+            "item" : "Namadgi National Park, Orroral Campground",
+            "count" : 11
+          }, {
+            "item" : "Orroral Picnic Area",
+            "count" : 10
+          }, {
+            "item" : "Webbs Picnic Area",
+            "count" : 9
+          }, {
+            "item" : "The Cotter Avenue",
+            "count" : 8
+          }, {
+            "item" : "Woods Reserve Campground",
+            "count" : 7
+          }, {
+            "item" : "Blewitts Picnic Area",
+            "count" : 6
+          }, {
+            "item" : "Googong North",
+            "count" : 5
+          }, {
+            "item" : "Honeysuckle Campground",
+            "count" : 4
+          }, {
+            "item" : "Sheedys Picnic Area - Shelter",
+            "count" : 3
+          }, {
+            "item" : "National Arboretum Of Canberra",
+            "count" : 2
+          }, {
+            "item" : "Sheedys Picnic Area",
+            "count" : 1
+          } ],
+          "smallest" : "Alexandrina Drive - Pedestrian Parkland"
+        },
+        "format" : { }
+      }, {
+        "id" : 210089811,
+        "name" : "BBQ TYPE",
+        "dataTypeName" : "text",
+        "fieldName" : "bbq_type",
+        "position" : 5,
+        "renderTypeName" : "text",
+        "tableColumnId" : 15503612,
+        "width" : 196,
+        "cachedContents" : {
+          "largest" : "Wood",
+          "non_null" : 325,
+          "null" : 0,
+          "top" : [ {
+            "item" : "Electric",
+            "count" : 20
+          }, {
+            "item" : "Wood",
+            "count" : 19
+          }, {
+            "item" : "Gas",
+            "count" : 18
+          } ],
+          "smallest" : "Electric"
+        },
+        "format" : { }
+      }, {
+        "id" : 210089812,
+        "name" : "Location 1",
+        "dataTypeName" : "location",
+        "fieldName" : "location_1",
+        "position" : 6,
+        "renderTypeName" : "location",
+        "tableColumnId" : 15503613,
+        "width" : 220,
+        "cachedContents" : {
+          "largest" : {
+            "latitude" : "-35.291606",
+            "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+            "longitude" : "149.100139"
+          },
+          "non_null" : 325,
+          "null" : 0,
+          "top" : [ {
+            "item" : {
+              "latitude" : "-35.661711",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "148.9892"
+            },
+            "count" : 20
+          }, {
+            "item" : {
+              "latitude" : "-35.324165",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "148.941035"
+            },
+            "count" : 19
+          }, {
+            "item" : {
+              "latitude" : "-35.662549",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "148.988388"
+            },
+            "count" : 18
+          }, {
+            "item" : {
+              "latitude" : "-35.864781",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "149.010409"
+            },
+            "count" : 17
+          }, {
+            "item" : {
+              "latitude" : "-35.363195",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "148.952178"
+            },
+            "count" : 16
+          }, {
+            "item" : {
+              "latitude" : "-35.628721",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "148.955743"
+            },
+            "count" : 15
+          }, {
+            "item" : {
+              "latitude" : "-35.323015",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "148.94115"
+            },
+            "count" : 14
+          }, {
+            "item" : {
+              "latitude" : "-35.443821",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "148.929224"
+            },
+            "count" : 13
+          }, {
+            "item" : {
+              "latitude" : "-35.444424",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "148.924121"
+            },
+            "count" : 12
+          }, {
+            "item" : {
+              "latitude" : "-35.440621",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "148.926681"
+            },
+            "count" : 11
+          }, {
+            "item" : {
+              "latitude" : "-35.323233",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "148.941452"
+            },
+            "count" : 10
+          }, {
+            "item" : {
+              "latitude" : "-35.442681",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "148.930129"
+            },
+            "count" : 9
+          }, {
+            "item" : {
+              "latitude" : "-35.442303",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "148.828301"
+            },
+            "count" : 8
+          }, {
+            "item" : {
+              "latitude" : "-35.582758",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "148.97424"
+            },
+            "count" : 7
+          }, {
+            "item" : {
+              "latitude" : "-35.322757",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "148.942197"
+            },
+            "count" : 6
+          }, {
+            "item" : {
+              "latitude" : "-35.480865",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "148.93995"
+            },
+            "count" : 5
+          }, {
+            "item" : {
+              "latitude" : "-35.442386",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "148.82795"
+            },
+            "count" : 4
+          }, {
+            "item" : {
+              "latitude" : "-35.865138",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "149.010922"
+            },
+            "count" : 3
+          }, {
+            "item" : {
+              "latitude" : "-35.66144",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "148.988788"
+            },
+            "count" : 2
+          }, {
+            "item" : {
+              "latitude" : "-35.44251",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "148.828318"
+            },
+            "count" : 1
+          } ],
+          "smallest" : {
+            "latitude" : "-35.291606",
+            "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+            "longitude" : "149.100139"
+          }
+        },
+        "format" : { },
+        "subColumnTypes" : [ "human_address", "latitude", "longitude", "machine_address", "needs_recoding" ]
+      }, {
+        "id" : 210089813,
+        "name" : "LATITUDE",
+        "dataTypeName" : "number",
+        "fieldName" : "latitude",
+        "position" : 7,
+        "renderTypeName" : "number",
+        "tableColumnId" : 29256323,
+        "width" : 100,
+        "cachedContents" : {
+          "largest" : "-35.159347",
+          "non_null" : 325,
+          "average" : "-35.37709048615385",
+          "null" : 0,
+          "top" : [ {
+            "item" : "-35.661711",
+            "count" : 20
+          }, {
+            "item" : "-35.324165",
+            "count" : 19
+          }, {
+            "item" : "-35.662549",
+            "count" : 18
+          }, {
+            "item" : "-35.864781",
+            "count" : 17
+          }, {
+            "item" : "-35.363195",
+            "count" : 16
+          }, {
+            "item" : "-35.628721",
+            "count" : 15
+          }, {
+            "item" : "-35.323015",
+            "count" : 14
+          }, {
+            "item" : "-35.443821",
+            "count" : 13
+          }, {
+            "item" : "-35.444424",
+            "count" : 12
+          }, {
+            "item" : "-35.440621",
+            "count" : 11
+          }, {
+            "item" : "-35.323233",
+            "count" : 10
+          }, {
+            "item" : "-35.442681",
+            "count" : 9
+          }, {
+            "item" : "-35.442303",
+            "count" : 8
+          }, {
+            "item" : "-35.582758",
+            "count" : 7
+          }, {
+            "item" : "-35.322757",
+            "count" : 6
+          }, {
+            "item" : "-35.480865",
+            "count" : 5
+          }, {
+            "item" : "-35.442386",
+            "count" : 4
+          }, {
+            "item" : "-35.865138",
+            "count" : 3
+          }, {
+            "item" : "-35.66144",
+            "count" : 2
+          }, {
+            "item" : "-35.44251",
+            "count" : 1
+          } ],
+          "smallest" : "-35.868002",
+          "sum" : "-11497.554408"
+        },
+        "format" : { }
+      }, {
+        "id" : 210089814,
+        "name" : "LONGITUDE",
+        "dataTypeName" : "number",
+        "fieldName" : "longitude",
+        "position" : 8,
+        "renderTypeName" : "number",
+        "tableColumnId" : 29256340,
+        "width" : 100,
+        "cachedContents" : {
+          "largest" : "149.287211",
+          "non_null" : 325,
+          "average" : "149.0168268953846",
+          "null" : 0,
+          "top" : [ {
+            "item" : "148.9892",
+            "count" : 20
+          }, {
+            "item" : "148.941035",
+            "count" : 19
+          }, {
+            "item" : "148.988388",
+            "count" : 18
+          }, {
+            "item" : "149.010409",
+            "count" : 17
+          }, {
+            "item" : "148.952178",
+            "count" : 16
+          }, {
+            "item" : "148.955743",
+            "count" : 15
+          }, {
+            "item" : "148.94115",
+            "count" : 14
+          }, {
+            "item" : "148.929224",
+            "count" : 13
+          }, {
+            "item" : "148.924121",
+            "count" : 12
+          }, {
+            "item" : "148.926681",
+            "count" : 11
+          }, {
+            "item" : "148.941452",
+            "count" : 10
+          }, {
+            "item" : "148.930129",
+            "count" : 9
+          }, {
+            "item" : "148.828301",
+            "count" : 8
+          }, {
+            "item" : "148.97424",
+            "count" : 7
+          }, {
+            "item" : "148.942197",
+            "count" : 6
+          }, {
+            "item" : "148.93995",
+            "count" : 5
+          }, {
+            "item" : "148.82795",
+            "count" : 4
+          }, {
+            "item" : "149.010922",
+            "count" : 3
+          }, {
+            "item" : "148.988788",
+            "count" : 2
+          }, {
+            "item" : "148.828318",
+            "count" : 1
+          } ],
+          "smallest" : "148.804038",
+          "sum" : "48430.468741"
+        },
+        "format" : { }
+      } ],
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "license" : {
+        "name" : "Creative Commons Attribution 4.0 International",
+        "logoUrl" : "images/licenses/cc30by.png",
+        "termsLink" : "http://creativecommons.org/licenses/by/4.0/legalcode"
+      },
+      "metadata" : {
+        "rdfSubject" : "0",
+        "rdfClass" : "",
+        "custom_fields" : {
+          "Contributing Agency" : {
+            "Contact Email" : "tamsdspatial@act.gov.au",
+            "Directorate" : "Transport Canberra and City Services"
+          },
+          "Data Set Coverage" : {
+            "Geospatial Coverage" : "ACT",
+            "Temporal Coverage" : "05/03/2014",
+            "Update Regularity" : "Updated as regularly as required"
+          }
+        },
+        "rowIdentifier" : "0",
+        "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+        "rowLabel" : "",
+        "renderTypeConfig" : {
+          "visible" : {
+            "table" : true
+          }
+        }
+      },
+      "owner" : {
+        "id" : "m7km-7fxa",
+        "displayName" : "TAMS",
+        "lastNotificationSeenAt" : 1496197272,
+        "profileImageUrlLarge" : "/api/users/m7km-7fxa/profile_images/LARGE",
+        "profileImageUrlMedium" : "/api/users/m7km-7fxa/profile_images/THUMB",
+        "profileImageUrlSmall" : "/api/users/m7km-7fxa/profile_images/TINY",
+        "roleName" : "editor",
+        "screenName" : "TAMS",
+        "rights" : [ "create_datasets", "view_domain", "create_pages", "view_goals", "view_dashboards", "view_story", "view_unpublished_story" ]
+      },
+      "query" : { },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "m7km-7fxa",
+        "displayName" : "TAMS",
+        "lastNotificationSeenAt" : 1496197272,
+        "profileImageUrlLarge" : "/api/users/m7km-7fxa/profile_images/LARGE",
+        "profileImageUrlMedium" : "/api/users/m7km-7fxa/profile_images/THUMB",
+        "profileImageUrlSmall" : "/api/users/m7km-7fxa/profile_images/TINY",
+        "roleName" : "editor",
+        "screenName" : "TAMS",
+        "rights" : [ "create_datasets", "view_domain", "create_pages", "view_goals", "view_dashboards", "view_story", "view_unpublished_story" ]
+      },
+      "tags" : [ "barbeque", "cooker", "oven", "hotplate" ],
+      "flags" : [ "default", "restorable", "restorePossibleForType" ]
+    }
+  },
+  "data" : [ [ 343, "85E0F667-4194-4C63-9E34-7AC46FDDDADE", 343, 1458695267, "913938", 1458695267, "913938", null, "BBQ23", "Acton", "Black Mountain Peninsula District Park", "Electric", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.291606", "149.100139", null, false ], "-35.291606", "149.100139" ]
+, [ 344, "85EC880F-D753-4ACA-9E15-B78200112D27", 344, 1458695267, "913938", 1458695267, "913938", null, "BBQ134", "Bonython", "Derrington Crescent Pedestrian Parkland", "Electric", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.429604", "149.071265", null, false ], "-35.429604", "149.071265" ]
+, [ 346, "4DD6DE86-48EE-4BD3-B7A3-AA9BD3680881", 346, 1458695267, "913938", 1458695267, "913938", null, "BBQ435", "Greenway", "Tuggeranong Town Park", "Electric", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.4099", "149.065091", null, false ], "-35.4099", "149.065091" ]
+, [ 348, "22506866-690B-4556-9C9D-C9E55FC9C353", 348, 1458695267, "913938", 1458695267, "913938", null, "BBQ53", "Gungahlin", "Yerrabi District Park", "Electric", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.179366", "149.130643", null, false ], "-35.179366", "149.130643" ]
+, [ 351, "C0C183FC-E9DF-464E-9052-2F102BF1B4AF", 351, 1458695267, "913938", 1458695267, "913938", null, "BBQ96", "Fadden", "Fadden Pines District Park", "Electric", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.410421", "149.120004", null, false ], "-35.410421", "149.120004" ]
+, [ 358, "D39D5179-2CF9-4333-8698-A0BB644CDA2D", 358, 1458695267, "913938", 1458695267, "913938", null, "BBQ73", "Barton", "Telopea Park", "Electric", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.314876", "149.137811", null, false ], "-35.314876", "149.137811" ]
+, [ 359, "C96E8829-D3D2-4843-AE96-56E9E5FFB7E9", 359, 1458695267, "913938", 1458695267, "913938", null, "BBQ296", "Greenway", "Pine Island South", "Electric", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.432464", "149.066173", null, false ], "-35.432464", "149.066173" ]
+, [ 360, "608E8B45-19E7-4DB8-A0A1-3EC5A4E93C80", 360, 1458695267, "913938", 1458695267, "913938", null, "BBQ491", "Franklin", "Kilmeny Close Crip Park", "Electric", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.197073", "149.143561", null, false ], "-35.197073", "149.143561" ]
+, [ 362, "2CCA2EF3-9E27-4F7F-87D2-F11B26704C86", 362, 1458695267, "913938", 1458695267, "913938", null, "BBQ486", "Kingston", "Norgrove Neighbourhood Park", "Electric", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.315017", "149.14675", null, false ], "-35.315017", "149.14675" ]
+, [ 367, "AB346698-738D-42AB-A69E-FCC225D6EEA3", 367, 1458695267, "913938", 1458695267, "913938", null, "BBQ432", "Kambah", "Kambah District Park", "Electric", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.391864", "149.062164", null, false ], "-35.391864", "149.062164" ]
+, [ 368, "4D83A2A5-FB7E-4980-9FC5-C8D0EC41501A", 368, 1458695267, "913938", 1458695267, "913938", null, "BBQ427", "Yarralumla", "Weston Park", "Electric", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.292516", "149.093201", null, false ], "-35.292516", "149.093201" ]
+, [ 372, "DC07BBA1-9E92-466B-AC71-B6065DCAB74C", 372, 1458695267, "913938", 1458695267, "913938", null, "BBQ155", "Greenway", "Pine Island Central", "Electric", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.427589", "149.062231", null, false ], "-35.427589", "149.062231" ]
+, [ 373, "D9CB1A5E-ADE4-4D57-8330-46F452EABC00", 373, 1458695267, "913938", 1458695267, "913938", null, "BBQ71", "Barton", "Telopea Park", "Electric", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.315552", "149.1372", null, false ], "-35.315552", "149.1372" ]
+, [ 377, "72FFBE36-7704-4277-8929-E552010572DD", 377, 1458695267, "913938", 1458695267, "913938", null, "BBQ287", "Greenway", "Pine Island South", "Electric", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.432916", "149.066863", null, false ], "-35.432916", "149.066863" ]
+, [ 378, "7437F196-B9BE-4326-B943-59622CD7D98C", 378, 1458695267, "913938", 1458695267, "913938", null, "BBQ98", "Fadden", "Fadden Pines District Park", "Electric", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.411668", "149.120282", null, false ], "-35.411668", "149.120282" ]
+, [ 379, "D59824B0-A311-418F-9380-B7663501CD25", 379, 1458695267, "913938", 1458695267, "913938", null, "BBQ32", "Belconnen", "Lake Ginninderra Western Foreshores", "Electric", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.227238", "149.063187", null, false ], "-35.227238", "149.063187" ]
+, [ 382, "96DAE4A8-F9C6-46A7-AB54-A17420B050D0", 382, 1458695267, "913938", 1458695267, "913938", null, "BBQ94", "Fadden", "Fadden Pines District Park", "Electric", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.410913", "149.119395", null, false ], "-35.410913", "149.119395" ]
+, [ 389, "8FD4211E-9FD0-4D58-9198-9889F6C0E301", 389, 1458695267, "913938", 1458695267, "913938", null, "BBQ133", "Gordon", "Point Hut District Park", "Electric", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.456559", "149.083915", null, false ], "-35.456559", "149.083915" ]
+, [ 394, "5461D2F5-CA29-4151-89F6-DC6F58094AB3", 394, 1458695267, "913938", 1458695267, "913938", null, "BBQ478", "Yarralumla", "Lennox Gardens", "Electric", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.297436", "149.123005", null, false ], "-35.297436", "149.123005" ]
+, [ 396, "56E769AF-0705-4DF5-B3FC-72464D3E66D1", 396, 1458695267, "913938", 1458695267, "913938", null, "BBQ439", "Belconnen", "Ginninderra Peninsula District Park West", "Electric", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.225735", "149.069598", null, false ], "-35.225735", "149.069598" ]
+, [ 398, "F48C8502-4B66-4473-AA60-D1FBD7A54096", 398, 1458695267, "913938", 1458695267, "913938", null, "BBQ430", "Yarralumla", "Lennox Gardens", "Electric", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.29848", "149.121803", null, false ], "-35.29848", "149.121803" ]
+, [ 402, "B41DE03B-D12C-4A6A-ADFD-842376B55BB4", 402, 1458695267, "913938", 1458695267, "913938", null, "BBQ20", "Campbell", "Molonglo Reach District Park", "Electric", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.304593", "149.167366", null, false ], "-35.304593", "149.167366" ]
+, [ 403, "CD31EBBF-2B81-460A-86B7-E6A3CD3413DD", 403, 1458695267, "913938", 1458695267, "913938", null, "BBQ14", "Ainslie", "Corroboree Park", "Electric", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.269006", "149.142377", null, false ], "-35.269006", "149.142377" ]
+, [ 404, "80E94DB0-4CA8-4AD9-82EB-83BD90D88C69", 404, 1458695267, "913938", 1458695267, "913938", null, "BBQ130", "Dunlop", "James Harrison Street Neighbourhood Park", "Electric", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.191165", "149.016913", null, false ], "-35.191165", "149.016913" ]
+, [ 405, "2B6124D9-CDE3-4F33-B4D3-64F2E158AB0A", 405, 1458695267, "913938", 1458695267, "913938", null, "BBQ123", "Gordon", "Point Hut District Park", "Electric", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.455778", "149.084313", null, false ], "-35.455778", "149.084313" ]
+, [ 406, "004A768E-4605-46EA-818A-3C3BB8DE8FDB", 406, 1458695267, "913938", 1458695267, "913938", null, "BBQ494", "Yarralumla", "Weston Park", "Electric", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.291834", "149.090334", null, false ], "-35.291834", "149.090334" ]
+, [ 407, "D46BD83B-1AC3-4B3A-A4A4-A6346B250199", 407, 1458695267, "913938", 1458695267, "913938", null, "BBQ396", "Forde", "Bruce Dittmar Street Central Neighbourhood Park", "Electric", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.176041", "149.144996", null, false ], "-35.176041", "149.144996" ]
+, [ 409, "6EA977B7-0327-452F-A106-E626EFFCF634", 409, 1458695267, "913938", 1458695267, "913938", null, "BBQ387", "Weston", "Dillon Close Pedestrian Parkland", "Electric", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.337187", "149.054707", null, false ], "-35.337187", "149.054707" ]
+, [ 415, "BD431971-E9F6-42E8-8B68-D1D49325B7D3", 415, 1458695267, "913938", 1458695267, "913938", null, "BBQ474", "Yarralumla", "Yarralumla Bay District Park", "Electric", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.299422", "149.103594", null, false ], "-35.299422", "149.103594" ]
+, [ 418, "B78CE367-E3A3-4E4F-88B8-98682672982E", 418, 1458695267, "913938", 1458695267, "913938", null, "BBQ56", "Gungahlin", "Yerrabi District Park", "Electric", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.179329", "149.130617", null, false ], "-35.179329", "149.130617" ]
+, [ 421, "03FB3BF8-592C-4133-8ED0-BB06E6034624", 421, 1458695267, "913938", 1458695267, "913938", null, "BBQ388", "Rivett", "Bangalay Crescent Neighbourhood Park", "Electric", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.347715", "149.038192", null, false ], "-35.347715", "149.038192" ]
+, [ 423, "D5BDD2EC-412E-428B-9A9B-6D7E6F425264", 423, 1458695267, "913938", 1458695267, "913938", null, "BBQ29", "Belconnen", "Lake Ginninderra Western Foreshores", "Electric", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.227896", "149.062728", null, false ], "-35.227896", "149.062728" ]
+, [ 425, "768DD64B-C7F8-4243-8786-310B27586072", 425, 1458695267, "913938", 1458695267, "913938", null, "BBQ425", "Phillip", "Edison District Park", "Electric", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.34133", "149.090271", null, false ], "-35.34133", "149.090271" ]
+, [ 427, "AC284518-C9FD-4236-AEF2-7DBF8332CE5D", 427, 1458695267, "913938", 1458695267, "913938", null, "BBQ247", "Greenway", "Pine Island Central", "Electric", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.427501", "149.060257", null, false ], "-35.427501", "149.060257" ]
+, [ 430, "D830152E-E5F2-4F86-838B-6D280B1B0230", 430, 1458695267, "913938", 1458695267, "913938", null, "BBQ434", "Kambah", "Kambah District Park", "Electric", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.392172", "149.062029", null, false ], "-35.392172", "149.062029" ]
+, [ 431, "3C74FF9F-BD67-4AC2-AEFE-4D14E6AF53CD", 431, 1458695267, "913938", 1458695267, "913938", null, "BBQ89", "Belconnen", "John Knight Memorial Park", "Electric", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.237871", "149.07426", null, false ], "-35.237871", "149.07426" ]
+, [ 435, "E94FD2D7-4217-45E7-AA7B-7C2BEEDABB84", 435, 1458695267, "913938", 1458695267, "913938", null, "BBQ443", "Belconnen", "John Knight Memorial Park", "Electric", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.234384", "149.073355", null, false ], "-35.234384", "149.073355" ]
+, [ 439, "DEE9D25E-AAE4-442D-A863-240A048A10DC", 439, 1458695267, "913938", 1458695267, "913938", null, "BBQ5", "Hughes", "Groom Street - Pedestrian Parkland", "Wood", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.332875", "149.088974", null, false ], "-35.332875", "149.088974" ]
+, [ 445, "76418E1B-2C59-43E2-95F7-1CDB895013AB", 445, 1458695267, "913938", 1458695267, "913938", null, "BBQ104", "Greenway", "Lake Tuggeranong District Park", "Electric", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.40518", "149.071507", null, false ], "-35.40518", "149.071507" ]
+, [ 449, "5F7F38FF-B019-4917-8975-86C5C156B221", 449, 1458695267, "913938", 1458695267, "913938", null, "BBQ392", "Amaroo", "Bizant Street Neighbourhood Park", "Electric", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.173872", "149.135474", null, false ], "-35.173872", "149.135474" ]
+, [ 451, "E2EE63BE-BDA4-456F-A01F-572143DF76A4", 451, 1458695267, "913938", 1458695267, "913938", null, "BBQ30", "Belconnen", "Lake Ginninderra Western Foreshores", "Electric", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.227465", "149.063448", null, false ], "-35.227465", "149.063448" ]
+, [ 456, "44DCD2ED-8AD4-437D-B366-CE5DA0F53AD9", 456, 1458695267, "913938", 1458695267, "913938", null, "BBQ383", "Kambah", "Summerland Circuit Neighbourhood Park", "Electric", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.385594", "149.071294", null, false ], "-35.385594", "149.071294" ]
+, [ 457, "1621FE13-FA8D-4ED2-B8BE-773A6A936398", 457, 1458695267, "913938", 1458695267, "913938", null, "BBQ80", "Yarralumla", "Weston Park", "Gas", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.295686", "149.095155", null, false ], "-35.295686", "149.095155" ]
+, [ 461, "5E184DB2-A3A1-400B-A2D5-5056D53677D2", 461, 1458695267, "913938", 1458695267, "913938", null, "BBQ128", "Fyshwick", "Molonglo Reach Water Ski", "Electric", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.30499", "149.174677", null, false ], "-35.30499", "149.174677" ]
+, [ 465, "4ECE1A94-CC08-4BF9-82A8-A3689C37F1D5", 465, 1458695267, "913938", 1458695267, "913938", null, "BBQ476", "Gungahlin", "Yerrabi District Park", "Electric", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.179115", "149.130325", null, false ], "-35.179115", "149.130325" ]
+, [ 471, "D0AA3A88-9331-4CF8-A04D-C309A7632862", 471, 1458695267, "913938", 1458695267, "913938", null, "BBQ66", "Gordon", "Point Hut District Park", "Electric", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.456044", "149.084727", null, false ], "-35.456044", "149.084727" ]
+, [ 472, "DC3D234C-59C7-427C-8E9D-DD07958A9D1D", 472, 1458695267, "913938", 1458695267, "913938", null, "BBQ70", "Barton", "Telopea Park", "Electric", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.315637", "149.137298", null, false ], "-35.315637", "149.137298" ]
+, [ 475, "CEFDF7F9-F807-4C00-B1E5-5C1A2E3C6A5A", 475, 1458695267, "913938", 1458695267, "913938", null, "BBQ132", "Belconnen", "John Knight Memorial Park", "Electric", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.235226", "149.074196", null, false ], "-35.235226", "149.074196" ]
+, [ 478, "8FC49363-D08C-4C99-AA6F-E7A71492E9C5", 478, 1458695267, "913938", 1458695267, "913938", null, "BBQ495", "Acton", "Black Mountain Peninsula District Park", "Electric", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.292266", "149.099613", null, false ], "-35.292266", "149.099613" ]
+, [ 479, "75F64143-62B0-4AB6-83C2-050713542C8D", 479, 1458695267, "913938", 1458695267, "913938", null, "BBQ483", "Gungahlin", "Gungahlin Sportsground", "Electric", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.185061", "149.126278", null, false ], "-35.185061", "149.126278" ]
+, [ 484, "6030A244-C54A-41A7-A7C3-8C9BCE5EE3E4", 484, 1458695267, "913938", 1458695267, "913938", null, "BBQ7", "Braddon", "Lowanna Street - Neighbourhood Park", "Electric", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.264829", "149.133249", null, false ], "-35.264829", "149.133249" ]
+, [ 486, "D378BBDD-397D-471B-94A8-93F7A7AD2EF1", 486, 1458695267, "913938", 1458695267, "913938", null, "BBQ402", "Franklin", "Clare Burton Circuit Pedestrian Parkland", "Electric", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.200146", "149.147774", null, false ], "-35.200146", "149.147774" ]
+, [ 487, "CF2AF931-11E6-4EAD-A12A-175683D9B27A", 487, 1458695267, "913938", 1458695267, "913938", null, "BBQ492", "Franklin", "Kilmeny Close Crip Park", "Electric", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.198023", "149.143886", null, false ], "-35.198023", "149.143886" ]
+, [ 488, "E42C5210-011A-4CA2-8E45-A01E531D2C01", 488, 1458695267, "913938", 1458695267, "913938", null, "BBQ438", "Belconnen", "Ginninderra Peninsula District Park East", "Electric", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.229117", "149.074029", null, false ], "-35.229117", "149.074029" ]
+, [ 489, "EACFFBD6-E753-4A42-B443-EAC6C11AEADD", 489, 1458695267, "913938", 1458695267, "913938", null, "BBQ389", "Forde", "Ray Ellis Crescent Town Park", "Electric", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.172513", "149.142059", null, false ], "-35.172513", "149.142059" ]
+, [ 490, "4527A721-7839-46D7-9B66-2EEC0DE1FE60", 490, 1458695267, "913938", 1458695267, "913938", null, "BBQ95", "Fadden", "Fadden Pines District Park", "Electric", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.411304", "149.121057", null, false ], "-35.411304", "149.121057" ]
+, [ 493, "32F9C9B1-7FE6-406B-96C8-8A9B78D0DF51", 493, 1458695267, "913938", 1458695267, "913938", null, "BBQ479", "Bonner", "Fernando Street Pedestrian Parkland", "Electric", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.161252", "149.136322", null, false ], "-35.161252", "149.136322" ]
+, [ 497, "82EB07F2-BE27-4982-B686-9D231E416488", 497, 1458695267, "913938", 1458695267, "913938", null, "BBQ436", "Phillip", "Edison District Park", "Electric", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.341353", "149.090026", null, false ], "-35.341353", "149.090026" ]
+, [ 501, "CFE10703-8430-46A3-B542-B4F6122D540F", 501, 1458695267, "913938", 1458695267, "913938", null, "BBQ403", "Oaks Estate", "River Street Neighbourhood Park", "Electric", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.341674", "149.227464", null, false ], "-35.341674", "149.227464" ]
+, [ 509, "A359919B-6089-4126-8DE8-E0F18BA03BB3", 509, 1458695267, "913938", 1458695267, "913938", null, "BBQ440", "Belconnen", "Ginninderra Peninsula District Park West", "Electric", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.225813", "149.069421", null, false ], "-35.225813", "149.069421" ]
+, [ 512, "B665F3E4-AEC9-46FF-8549-D095A62D9C5B", 512, 1458695267, "913938", 1458695267, "913938", null, "BBQ102", "Greenway", "Lake Tuggeranong District Park", "Electric", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.408426", "149.069794", null, false ], "-35.408426", "149.069794" ]
+, [ 513, "C4F3DCC4-3146-4CFB-ACBC-1D72C694DAE0", 513, 1458695267, "913938", 1458695267, "913938", null, "BBQ400", "Crace", "Narden Street Community Park", "Electric", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.201412", "149.102208", null, false ], "-35.201412", "149.102208" ]
+, [ 514, "934E44AB-21F3-4A70-A50E-2A47D5A46EC2", 514, 1458695267, "913938", 1458695267, "913938", null, "BBQ384", "Kambah", "Boddington Crescent Neighbourhood Park", "Electric", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.383169", "149.051903", null, false ], "-35.383169", "149.051903" ]
+, [ 517, "11752B98-2483-4F62-B801-6D61674CEC69", 517, 1458695267, "913938", 1458695267, "913938", null, "BBQ44", "Latham", "Umbagong District Park", "Electric", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.211658", "149.031092", null, false ], "-35.211658", "149.031092" ]
+, [ 522, "6A469049-59FE-422F-B143-3E0925078C36", 522, 1458695267, "913938", 1458695267, "913938", null, "BBQ431", "Wright", "Dot Butler Street Neighbourhood Park", "Electric", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.324398", "149.037221", null, false ], "-35.324398", "149.037221" ]
+, [ 533, "C8F8BAE5-E85F-43C3-BC6A-E145DFC6536A", 533, 1458695267, "913938", 1458695267, "913938", null, "BBQ12", "Turner", "Haig Park", "Electric", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.269681", "149.128442", null, false ], "-35.269681", "149.128442" ]
+, [ 535, "3ED45A1F-C59A-4B92-94DA-F052760390A7", 535, 1458695267, "913938", 1458695267, "913938", null, "BBQ475", "Belconnen", "Ginninderra Peninsula District Park West", "Electric", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.224587", "149.069131", null, false ], "-35.224587", "149.069131" ]
+, [ 537, "E17F0154-17F6-4B8C-BFBF-8290EDC2B81B", 537, 1458695267, "913938", 1458695267, "913938", null, "BBQ393", "Belconnen", "John Knight Memorial Park", "Electric", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.233758", "149.073274", null, false ], "-35.233758", "149.073274" ]
+, [ 545, "B9D96DAF-97F9-44A3-BB2A-08C427869350", 545, 1458695267, "913938", 1458695267, "913938", null, "BBQ31", "Belconnen", "Lake Ginninderra Western Foreshores", "Electric", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.227283", "149.063379", null, false ], "-35.227283", "149.063379" ]
+, [ 546, "2A431AFE-7136-46F7-BBB3-0059D869A575", 546, 1458695267, "913938", 1458695267, "913938", null, "BBQ401", "Bonner", "Burnum Burnum Close Neighborhood Oval", "Electric", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.159347", "149.142476", null, false ], "-35.159347", "149.142476" ]
+, [ 548, "FA069F1A-2E5F-4C9C-A6F1-54C0F6802AC7", 548, 1458695267, "913938", 1458695267, "913938", null, "BBQ54", "Gungahlin", "Yerrabi District Park", "Electric", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.179247", "149.130882", null, false ], "-35.179247", "149.130882" ]
+, [ 551, "0A7B2F7A-06EA-414E-9510-1BCA154C5735", 551, 1458695267, "913938", 1458695267, "913938", null, "BBQ127", "Fyshwick", "Molonglo Reach Water Ski", "Electric", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.30478", "149.17469", null, false ], "-35.30478", "149.17469" ]
+, [ 552, "204C5C3D-9ED4-4516-B326-6CCA503EDBE5", 552, 1458695267, "913938", 1458695267, "913938", null, "BBQ428", "Yarralumla", "Lennox Gardens", "Electric", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.298678", "149.120651", null, false ], "-35.298678", "149.120651" ]
+, [ 553, "801C7DAC-D393-457A-8955-1E3DB637F806", 553, 1458695267, "913938", 1458695267, "913938", null, "BBQ274", "Greenway", "Pine Island Central", "Electric", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.427261", "149.059826", null, false ], "-35.427261", "149.059826" ]
+, [ 558, "97419941-0F5D-4E48-805C-64A46B3FE10D", 558, 1458695267, "913938", 1458695267, "913938", null, "BBQ75", "Yarralumla", "Alexandrina Drive - Pedestrian Parkland", "Gas", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.297866", "149.109266", null, false ], "-35.297866", "149.109266" ]
+, [ 560, "558BDA1C-5EB7-4339-8DCF-1B9C56E952BD", 560, 1458695267, "913938", 1458695267, "913938", null, "BBQ60", "Kambah", "Kambah District Park Woolshed", "Electric", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.388653", "149.060559", null, false ], "-35.388653", "149.060559" ]
+, [ 564, "8C3039E5-A415-4196-A619-4896CE622617", 564, 1458695267, "913938", 1458695267, "913938", null, "BBQ17", "City", "Glebe Park", "Electric", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.281891", "149.13634", null, false ], "-35.281891", "149.13634" ]
+, [ 566, "D9175889-97FF-4EDD-9D0A-92213C946FF8", 566, 1458695267, "913938", 1458695267, "913938", null, "BBQ156", "Greenway", "Pine Island Central", "Electric", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.427455", "149.061547", null, false ], "-35.427455", "149.061547" ]
+, [ 572, "7293D2C7-08D0-4D0B-B588-EA1F515963DB", 572, 1458695267, "913938", 1458695267, "913938", null, "BBQ248", "Greenway", "Pine Island Central", "Electric", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.42745", "149.060722", null, false ], "-35.42745", "149.060722" ]
+, [ 573, "2A4DD2AF-F00F-462C-91F0-7262374D8C3B", 573, 1458695267, "913938", 1458695267, "913938", null, "BBQ437", "Belconnen", "Ginninderra Peninsula District Park East", "Electric", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.229031", "149.074211", null, false ], "-35.229031", "149.074211" ]
+, [ 576, "0176E7F6-F6AF-4EC9-8C3B-7C76A1F0E9DA", 576, 1458695267, "913938", 1458695267, "913938", null, "BBQ426", "Yarralumla", "Weston Park", "Electric", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.293718", "149.093399", null, false ], "-35.293718", "149.093399" ]
+, [ 578, "D467A3D6-C13C-448A-B8ED-C37B927B5567", 578, 1458695267, "913938", 1458695267, "913938", null, "BBQ42", "Hall", "Gladstone Street Park", "Electric", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.172104", "149.069711", null, false ], "-35.172104", "149.069711" ]
+, [ 579, "5F697FDA-81B1-45F5-BB94-A3E6389954F9", 579, 1458695267, "913938", 1458695267, "913938", null, "BBQ105", "Campbell", "Rememberance Park", "Electric", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.27989", "149.151007", null, false ], "-35.27989", "149.151007" ]
+, [ 582, "721848FE-22DB-4505-88B4-CD9F239510BD", 582, 1458695267, "913938", 1458695267, "913938", null, "BBQ55", "Gungahlin", "Yerrabi District Park", "Electric", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.179209", "149.130852", null, false ], "-35.179209", "149.130852" ]
+, [ 583, "2AFBDCCE-E324-4BE9-A94F-B628781984F9", 583, 1458695267, "913938", 1458695267, "913938", null, "BBQ65", "Greenway", "Tuggeranong Town Park", "Electric", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.410761", "149.064734", null, false ], "-35.410761", "149.064734" ]
+, [ 584, "B2FD7119-7E37-468D-B179-E7E4CE1332B4", 584, 1458695267, "913938", 1458695267, "913938", null, "BBQ76", "Yarralumla", "Alexandrina Drive - Pedestrian Parkland", "Gas", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.298719", "149.11062", null, false ], "-35.298719", "149.11062" ]
+, [ 586, "1067D4AC-E330-404B-9483-92ECE92715FF", 586, 1458695267, "913938", 1458695267, "913938", null, "BBQ99", "Nicholls", "Candlebark Close Neighbourhood Park", "Electric", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.191971", "149.110101", null, false ], "-35.191971", "149.110101" ]
+, [ 587, "343F6EE2-BAC8-4302-B0AC-6CBB8B5300E4", 587, 1458695267, "913938", 1458695267, "913938", null, "BBQ429", "Yarralumla", "Lennox Gardens", "Electric", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.298464", "149.120279", null, false ], "-35.298464", "149.120279" ]
+, [ 588, "AF87A679-516B-4D08-81BF-9DE952FE9954", 588, 1458695267, "913938", 1458695267, "913938", null, "BBQ21", "Acton", "Black Mountain Peninsula District Park", "Electric", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.287188", "149.101434", null, false ], "-35.287188", "149.101434" ]
+, [ 589, "ACEB059B-7DD4-438E-B23D-D1B4CBC1A7DB", 589, 1458695267, "913938", 1458695267, "913938", null, "BBQ61", "Kambah", "Kambah District Park Woolshed", "Electric", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.388597", "149.060463", null, false ], "-35.388597", "149.060463" ]
+, [ 590, "99503AF3-7DA5-43C2-9F0F-A0312DEF793B", 590, 1458695267, "913938", 1458695267, "913938", null, "BBQ249", "Greenway", "Pine Island Central", "Electric", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.427722", "149.06089", null, false ], "-35.427722", "149.06089" ]
+, [ 594, "9753EB34-5D93-443F-B84F-48EB2FFCC65E", 594, 1458695267, "913938", 1458695267, "913938", null, "BBQ131", "Harrison", "Tanami Street Neighbourhood Park", "Electric", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.198422", "149.15792", null, false ], "-35.198422", "149.15792" ]
+, [ 595, "EED07B97-0DD7-4049-B958-F9C0161A34F1", 595, 1458695267, "913938", 1458695267, "913938", null, "BBQ16", "City", "Glebe Park", "Electric", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.282415", "149.136694", null, false ], "-35.282415", "149.136694" ]
+, [ 604, "3B37C359-AC6C-4FA3-8270-62B99E154CC7", 604, 1458695267, "913938", 1458695267, "913938", null, "BBQ444", "Belconnen", "John Knight Memorial Park", "Electric", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.234753", "149.073366", null, false ], "-35.234753", "149.073366" ]
+, [ 606, "432E10DB-C961-4AB2-8934-9A5FEA3D0EEE", 606, 1458695267, "913938", 1458695267, "913938", null, "BBQ135", "Bonython", "Burgoyne Street Neighbourhood Park", "Electric", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.426285", "149.071665", null, false ], "-35.426285", "149.071665" ]
+, [ 610, "4D8D6D70-3AD9-4972-92FE-BB476204D56F", 610, 1458695267, "913938", 1458695267, "913938", null, "BBQ404", "Forde", "Volpato Street Neighbourhood Park", "Electric", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.160474", "149.148979", null, false ], "-35.160474", "149.148979" ]
+, [ 622, "10070885-3757-4D5D-BD4C-3C27D9054AB6", 622, 1458695267, "913938", 1458695267, "913938", null, "BBQ386", "Cook", "Templeton Street Neighbourhood Park", "Electric", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.259309", "149.062025", null, false ], "-35.259309", "149.062025" ]
+, [ 625, "8595E220-CC1E-4C42-A4F0-4D5B1E1A9212", 625, 1458695267, "913938", 1458695267, "913938", null, "BBQ397", "Casey", "Yeend Avenue Neighbourhood Park", "Electric", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.166509", "149.097284", null, false ], "-35.166509", "149.097284" ]
+, [ 629, "DA1D5636-7B7A-45DE-96AD-43ED256400C8", 629, 1458695267, "913938", 1458695267, "913938", null, "BBQ390", "Chifley", "Shann Place Neighbourhood Park", "Electric", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.352855", "149.076248", null, false ], "-35.352855", "149.076248" ]
+, [ 631, "356A308E-97A9-4433-8B07-E0A4111C04FE", 631, 1458695267, "913938", 1458695267, "913938", null, "BBQ85", "Yarralumla", "Weston Park", "Gas", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.290275", "149.092152", null, false ], "-35.290275", "149.092152" ]
+, [ 633, "13121C82-4D87-4D45-B11D-2EA75D630C25", 633, 1458695267, "913938", 1458695267, "913938", null, "BBQ15", "City", "Glebe Park", "Electric", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.283536", "149.136387", null, false ], "-35.283536", "149.136387" ]
+, [ 639, "97CF92F7-06A4-4A19-8E6D-F802589FDC89", 639, 1458695267, "913938", 1458695267, "913938", null, "BBQ398", "Forde", "Pahlman Street Neighbourhood Park", "Electric", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.168163", "149.146596", null, false ], "-35.168163", "149.146596" ]
+, [ 648, "0C9E5EF4-DA98-4026-B1E2-AA6FB1A4956A", 648, 1458695267, "913938", 1458695267, "913938", null, "BBQ433", "Kambah", "Kambah District Park", "Electric", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.392047", "149.06213", null, false ], "-35.392047", "149.06213" ]
+, [ 649, "F9D3C8E6-06D7-44B3-A503-2E345612EE0B", 649, 1458695267, "913938", 1458695267, "913938", null, "BBQ103", "Greenway", "Lake Tuggeranong District Park", "Electric", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.40722", "149.07057", null, false ], "-35.40722", "149.07057" ]
+, [ 650, "0D1C2E9D-E677-44A3-9119-7FC1DEEA1BAF", 650, 1458695267, "913938", 1458695267, "913938", null, "BBQ445", "Tharwa", "Tharwa Bridge Reserve", "Gas", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.509138", "149.069822", null, false ], "-35.509138", "149.069822" ]
+, [ 652, "079811EF-3814-49F3-82CE-CFA1B7561626", 652, 1458695267, "913938", 1458695267, "913938", null, "BBQ493", "Yarralumla", "Weston Park", "Electric", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.291814", "149.090308", null, false ], "-35.291814", "149.090308" ]
+, [ 655, "70AF8D8C-1B1B-4429-AB68-C0696A5A1E35", 655, 1458695267, "913938", 1458695267, "913938", null, "BBQ8", "Braddon", "Lowanna Street - Neighbourhood Park", "Electric", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.264197", "149.133979", null, false ], "-35.264197", "149.133979" ]
+, [ 656, "F5D63C03-906B-41EA-82FB-3D29D32EA6C7", 656, 1458695267, "913938", 1458695267, "913938", null, "BBQ106", "Campbell", "Rememberance Park", "Electric", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.279479", "149.151269", null, false ], "-35.279479", "149.151269" ]
+, [ 659, "A2EB4FD4-4249-49A7-A4C3-B365BF77E7B8", 659, 1458695267, "913938", 1458695267, "913938", null, "BBQ43", "Hall", "Gladstone Street Park", "Electric", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.171753", "149.069825", null, false ], "-35.171753", "149.069825" ]
+, [ 661, "F258983B-EA2A-4C48-9B6F-F01FE53C7A78", 661, 1458695267, "913938", 1458695267, "913938", null, "BBQ391", "Forde", "Tom Nicholas Crescent Pedestrian Parkland", "Electric", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.172395", "149.144966", null, false ], "-35.172395", "149.144966" ]
+, [ 666, "184F5977-D830-4EFB-B92D-5DD8A78504BC", 666, 1478333019, "913938", 1478333019, "913938", null, "BBQ377", "Coree (Rural Dist.)", "Cotter Campground", "Wood", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.325044", "148.948567", null, false ], "-35.325044", "148.948567" ]
+, [ 667, "1F68556F-AA60-4F59-8233-CFA2EB132549", 667, 1478333019, "913938", 1478333019, "913938", null, "BBQ257", "Coree (Rural Dist.)", "Cotter Bend", "Electric", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.327194", "148.938837", null, false ], "-35.327194", "148.938837" ]
+, [ 668, "891E35A3-F339-4142-94E2-4704D88DE068", 668, 1478333019, "913938", 1478333019, "913938", null, "BBQ319", "Coree (Rural Dist.)", "Uriarra West Shelter 3", "Wood", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.246111", "148.951424", null, false ], "-35.246111", "148.951424" ]
+, [ 669, "6D993B38-310E-4497-A9B5-348BAC444658", 669, 1478333019, "913938", 1478333019, "913938", null, "BBQ216", "Coree (Rural Dist.)", "Cotter Campground", "Wood", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.325979", "148.947908", null, false ], "-35.325979", "148.947908" ]
+, [ 670, "E5E94971-9420-400B-8760-9EDB4CB5E7A0", 670, 1478333019, "913938", 1478333019, "913938", null, "BBQ157", "Coree (Rural Dist.)", "Cotter Bend", "Electric", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.327528", "148.938684", null, false ], "-35.327528", "148.938684" ]
+, [ 671, "D545E5FA-3BF8-4220-A073-8298FC23E567", 671, 1478333019, "913938", 1478333019, "913938", null, "BBQ352", "Coree (Rural Dist.)", "Cotter Campground", "Wood", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.326155", "148.947274", null, false ], "-35.326155", "148.947274" ]
+, [ 672, "8A9FBF33-B088-44F8-9D46-4E137266F204", 672, 1478333019, "913938", 1478333019, "913938", null, "BBQ217", "Coree (Rural Dist.)", "Cotter Campground", "Wood", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.326013", "148.947753", null, false ], "-35.326013", "148.947753" ]
+, [ 673, "3ABCDFC4-F6E2-4606-A265-E48A8EBB10C0", 673, 1478333019, "913938", 1478333019, "913938", null, "BBQ220", "Coree (Rural Dist.)", "Cotter Campground", "Wood", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.326191", "148.946885", null, false ], "-35.326191", "148.946885" ]
+, [ 674, "9364219A-1B8A-44F9-A3B4-54430E959DC3", 674, 1478333019, "913938", 1478333019, "913938", null, "BBQ250", "Stromlo (Rural Dist.)", "Uriarra East", "Wood", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.248429", "148.952437", null, false ], "-35.248429", "148.952437" ]
+, [ 675, "A1A59F49-A0FC-4A9F-B00F-D7F493305464", 675, 1478333019, "913938", 1478333019, "913938", null, "BBQ246", "Coree (Rural Dist.)", "Cotter Campground", "Wood", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.325953", "148.948074", null, false ], "-35.325953", "148.948074" ]
+, [ 676, "F4BD0084-C719-4224-9EDD-1BD6DE667DFB", 676, 1478333019, "913938", 1478333019, "913938", null, "BBQ160", "Kowen (Rural Dist.)", "Molonglo Gorge Picnic Area", "Gas", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.328583", "149.24971", null, false ], "-35.328583", "149.24971" ]
+, [ 677, "9EB0259F-ABBC-4B72-B9DA-BDA861EEB8DD", 677, 1478333019, "913938", 1478333019, "913938", null, "BBQ318", "Coree (Rural Dist.)", "Uriarra West", "Wood", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.245887", "148.951403", null, false ], "-35.245887", "148.951403" ]
+, [ 678, "BED43926-1523-48E4-8D05-58CD0439A61A", 678, 1478333019, "913938", 1478333019, "913938", null, "BBQ256", "Coree (Rural Dist.)", "Cotter Bend", "Electric", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.326648", "148.940554", null, false ], "-35.326648", "148.940554" ]
+, [ 679, "9217BEB4-03D7-423A-9634-97FDB5710A83", 679, 1478333019, "913938", 1478333019, "913938", null, "BBQ311", "Coree (Rural Dist.)", "Swamp Creek", "Wood", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.243699", "148.950942", null, false ], "-35.243699", "148.950942" ]
+, [ 680, "476F2F05-FA79-4A87-8E98-CC2F1FF36844", 680, 1478333019, "913938", 1478333019, "913938", null, "BBQ185", "Coree (Rural Dist.)", "Cotter Campground", "Wood", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.325005", "148.948613", null, false ], "-35.325005", "148.948613" ]
+, [ 681, "F07E7F04-086C-4C12-AFDA-66E2EA5DBF3F", 681, 1478333019, "913938", 1478333019, "913938", null, "BBQ324", "Coree (Rural Dist.)", "Cotter Campground", "Wood", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.326076", "148.946283", null, false ], "-35.326076", "148.946283" ]
+, [ 682, "26CB44AB-CBFF-45E0-A069-7330D7492D78", 682, 1478333019, "913938", 1478333019, "913938", null, "BBQ268", "Stromlo (Rural Dist.)", "Casuarina Sands Picnic Area", "Electric", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.319832", "148.953385", null, false ], "-35.319832", "148.953385" ]
+, [ 683, "E2991EDF-77C9-4575-96CA-BA9FE9FF3020", 683, 1478333019, "913938", 1478333019, "913938", null, "BBQ184", "Coree (Rural Dist.)", "Cotter Campground", "Wood", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.325865", "148.947031", null, false ], "-35.325865", "148.947031" ]
+, [ 684, "BBC31A55-4C9B-475D-893E-BC46C2DDD9A2", 684, 1478333019, "913938", 1478333019, "913938", null, "BBQ218", "Coree (Rural Dist.)", "Cotter Campground", "Wood", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.325993", "148.946639", null, false ], "-35.325993", "148.946639" ]
+, [ 685, "BAE26583-EB44-4084-98A2-089D04232130", 685, 1478333019, "913938", 1478333019, "913938", null, "BBQ177", "Coree (Rural Dist.)", "Uriarra West", "Wood", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.244894", "148.951418", null, false ], "-35.244894", "148.951418" ]
+, [ 686, "A9D8E5F6-F124-4824-8992-5284B8D7C997", 686, 1478333019, "913938", 1478333019, "913938", null, "BBQ314", "Coree (Rural Dist.)", "Swamp Creek", "Wood", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.243698", "148.950912", null, false ], "-35.243698", "148.950912" ]
+, [ 687, "3B2F3857-01A9-49CA-9C08-75D7A3098F7A", 687, 1478333019, "913938", 1478333019, "913938", null, "BBQ316", "Coree (Rural Dist.)", "Uriarra West", "Wood", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.245797", "148.951382", null, false ], "-35.245797", "148.951382" ]
+, [ 688, "63785624-08FE-4A1C-BD7C-293450BBCE92", 688, 1478333019, "913938", 1478333019, "913938", null, "BBQ359", "Stromlo (Rural Dist.)", "Uriarra East", "Wood", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.249817", "148.951811", null, false ], "-35.249817", "148.951811" ]
+, [ 689, "CF1D8E46-952F-4D40-BC5C-896D7E6A984B", 689, 1478333019, "913938", 1478333019, "913938", null, "BBQ125", "Barton", "Telopea Park", "Electric", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.314874", "149.137697", null, false ], "-35.314874", "149.137697" ]
+, [ 690, "E18476A1-5D04-4E4E-93C3-EFF7C3C1FA0F", 690, 1478333019, "913938", 1478333019, "913938", null, "BBQ245", "Coree (Rural Dist.)", "Cotter Campground", "Wood", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.326044", "148.947649", null, false ], "-35.326044", "148.947649" ]
+, [ 691, "DDBBD075-F91C-4AFD-ADE7-BA5D6F4BA651", 691, 1478333019, "913938", 1478333019, "913938", null, "BBQ208", "Coree (Rural Dist.)", "Uriarra West", "Wood", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.245707", "148.951375", null, false ], "-35.245707", "148.951375" ]
+, [ 692, "F1ACEE22-E0EF-4620-BA20-22A7DC9D1516", 692, 1478333019, "913938", 1478333019, "913938", null, "BBQ176", "Coree (Rural Dist.)", "Uriarra West", "Wood", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.245402", "148.951605", null, false ], "-35.245402", "148.951605" ]
+, [ 693, "3FFBCA99-B0CE-4580-8DB1-FE06E39003AA", 693, 1478333019, "913938", 1478333019, "913938", null, "BBQ252", "Coree (Rural Dist.)", "Uriarra West Shelter 1", "Wood", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.244356", "148.950994", null, false ], "-35.244356", "148.950994" ]
+, [ 694, "8B1D65D1-AC0D-4C31-AA08-76D51DCFBF0E", 694, 1478333019, "913938", 1478333019, "913938", null, "BBQ260", "Coree (Rural Dist.)", "Cotter Bend", "Electric", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.32704", "148.939776", null, false ], "-35.32704", "148.939776" ]
+, [ 695, "E914901B-A5E8-4F25-BE0C-C54B48FF1DAD", 695, 1478333019, "913938", 1478333019, "913938", null, "BBQ219", "Coree (Rural Dist.)", "Cotter Campground", "Wood", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.325934", "148.946764", null, false ], "-35.325934", "148.946764" ]
+, [ 696, "D85FE13F-00E1-41A3-BB6F-5D193481C844", 696, 1478333019, "913938", 1478333019, "913938", null, "BBQ323", "Coree (Rural Dist.)", "Cotter Campground", "Wood", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.326089", "148.947456", null, false ], "-35.326089", "148.947456" ]
+, [ 697, "C79C8A95-CE79-4657-9FEB-1E8AE01F9383", 697, 1478333019, "913938", 1478333019, "913938", null, "BBQ487", "Coree (Rural Dist.)", "Blue Range Hut", "Wood", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.289515", "148.875873", null, false ], "-35.289515", "148.875873" ]
+, [ 698, "059B374F-8F6B-4F10-9D27-4045FEE7C2BD", 698, 1478333019, "913938", 1478333019, "913938", null, "BBQ265", "Coree (Rural Dist.)", "Cotter Campground", "Wood", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.3255", "148.948453", null, false ], "-35.3255", "148.948453" ]
+, [ 699, "824B1575-2990-44A3-B983-559DBE685FCC", 699, 1478333019, "913938", 1478333019, "913938", null, "BBQ209", "Coree (Rural Dist.)", "Uriarra West Shelter 3", "Wood", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.246097", "148.951412", null, false ], "-35.246097", "148.951412" ]
+, [ 700, "0AD7EF75-1020-45A1-AC50-6FBC743CE41A", 700, 1478333019, "913938", 1478333019, "913938", null, "BBQ315", "Coree (Rural Dist.)", "Swamp Creek", "Wood", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.242743", "148.951185", null, false ], "-35.242743", "148.951185" ]
+, [ 701, "5C58DF24-37C7-48A2-9DC9-4D0EF643531D", 701, 1478333019, "913938", 1478333019, "913938", null, "BBQ142", "Kowen (Rural Dist.)", "Molonglo Gorge Nature Reserve", "Gas", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.322216", "149.246546", null, false ], "-35.322216", "149.246546" ]
+, [ 702, "66EB2F65-EFFF-4509-A038-4EDB68C9FF8A", 702, 1478333019, "913938", 1478333019, "913938", null, "BBQ453", "Coree (Rural Dist.)", "Cotter Campground", "Gas", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.326118", "148.947043", null, false ], "-35.326118", "148.947043" ]
+, [ 703, "06C4AA5C-A717-4509-B987-7EE24F2DC362", 703, 1478333019, "913938", 1478333019, "913938", null, "BBQ346", "Coree (Rural Dist.)", "Cotter Campground", "Wood", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.325674", "148.948255", null, false ], "-35.325674", "148.948255" ]
+, [ 704, "D9B6A710-7D44-4AB0-9876-5CDB8AF0A6A9", 704, 1478333019, "913938", 1478333019, "913938", null, "BBQ267", "Coree (Rural Dist.)", "Cotter Campground", "Wood", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.325829", "148.947127", null, false ], "-35.325829", "148.947127" ]
+, [ 705, "A844ADBA-D12C-49E7-AFA8-6DDD4EB675BA", 705, 1478333019, "913938", 1478333019, "913938", null, "BBQ304", "Coree (Rural Dist.)", "Uriarra West", "Wood", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.245004", "148.951429", null, false ], "-35.245004", "148.951429" ]
+, [ 706, "9476E0F3-7285-493B-BCE3-D156BA498724", 706, 1478333019, "913938", 1478333019, "913938", null, "BBQ251", "Coree (Rural Dist.)", "Uriarra West", "Wood", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.244814", "148.951353", null, false ], "-35.244814", "148.951353" ]
+, [ 707, "BEB4E55F-4ADE-450B-BD14-14C631C75EF4", 707, 1478333019, "913938", 1478333019, "913938", null, "BBQ385", "Stromlo (Rural Dist.)", "Casuarina Sands Picnic Area", "Electric", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.319841", "148.953465", null, false ], "-35.319841", "148.953465" ]
+, [ 708, "BA22AB75-FC24-46FE-8D3B-D9DF6C0D9916", 708, 1478333019, "913938", 1478333019, "913938", null, "BBQ174", "Coree (Rural Dist.)", "Uriarra West Shelter 2", "Wood", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.244833", "148.951009", null, false ], "-35.244833", "148.951009" ]
+, [ 709, "1E90BB0F-89D6-4BBE-B065-D2D06FEDA691", 709, 1478333019, "913938", 1478333019, "913938", null, "BBQ454", "Coree (Rural Dist.)", "Cotter Campground", "Wood", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.326078", "148.947488", null, false ], "-35.326078", "148.947488" ]
+, [ 710, "A2406D9E-8418-41C8-9F1F-93E2DF9354A3", 710, 1478333019, "913938", 1478333019, "913938", null, "BBQ239", "Coree (Rural Dist.)", "Blue Range Hut", "Gas", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.289566", "148.875925", null, false ], "-35.289566", "148.875925" ]
+, [ 711, "B5A57F72-3999-4F77-A11B-068D15959F4B", 711, 1478333019, "913938", 1478333019, "913938", null, "BBQ312", "Coree (Rural Dist.)", "Swamp Creek", "Wood", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.24295", "148.951187", null, false ], "-35.24295", "148.951187" ]
+, [ 712, "1EF32961-6A8D-485E-A697-A17E94F8AE5D", 712, 1478333019, "913938", 1478333019, "913938", null, "BBQ253", "Stromlo (Rural Dist.)", "Uriarra East", "Wood", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.248608", "148.952741", null, false ], "-35.248608", "148.952741" ]
+, [ 713, "EAF54874-06C0-496B-B486-38D1AA802D83", 713, 1478333019, "913938", 1478333019, "913938", null, "BBQ376", "Stromlo (Rural Dist.)", "Uriarra East", "Wood", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.249324", "148.952065", null, false ], "-35.249324", "148.952065" ]
+, [ 714, "E3756C73-4CFC-45FE-81B9-8267EA6B0B3D", 714, 1478333019, "913938", 1478333019, "913938", null, "BBQ347", "Coree (Rural Dist.)", "Cotter Campground", "Wood", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.326049", "148.946395", null, false ], "-35.326049", "148.946395" ]
+, [ 715, "76D340C3-5802-4B37-B9A5-C7A04F6D3274", 715, 1478333019, "913938", 1478333019, "913938", null, "BBQ263", "Coree (Rural Dist.)", "Cotter Campground", "Wood", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.325916", "148.946911", null, false ], "-35.325916", "148.946911" ]
+, [ 716, "3BCF9518-258D-4A4F-9795-E55D021AB80D", 716, 1478333019, "913938", 1478333019, "913938", null, "BBQ207", "Coree (Rural Dist.)", "Cotter Campground", "Wood", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.326106", "148.946114", null, false ], "-35.326106", "148.946114" ]
+, [ 717, "8C881726-4E52-4402-A3C1-F2C7AD0FF610", 717, 1478333019, "913938", 1478333019, "913938", null, "BBQ242", "Kowen (Rural Dist.)", "Molonglo Gorge Nature Reserve", "Gas", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.327904", "149.248579", null, false ], "-35.327904", "149.248579" ]
+, [ 718, "40A9CB00-2D5E-4409-A8C3-D0AD7F532F3C", 718, 1478333019, "913938", 1478333019, "913938", null, "BBQ381", "Stromlo (Rural Dist.)", "Casuarina Sands Picnic Area", "Electric", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.319782", "148.954151", null, false ], "-35.319782", "148.954151" ]
+, [ 719, "418118C3-EC12-4F35-969B-B17836C4C878", 719, 1478333019, "913938", 1478333019, "913938", null, "BBQ258", "Coree (Rural Dist.)", "Cotter Bend", "Electric", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.327469", "148.93887", null, false ], "-35.327469", "148.93887" ]
+, [ 720, "405F96CB-F2F6-4A05-B4D9-D2BB7B327D91", 720, 1478333019, "913938", 1478333019, "913938", null, "BBQ255", "Coree (Rural Dist.)", "Cotter Bend", "Electric", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.326835", "148.940113", null, false ], "-35.326835", "148.940113" ]
+, [ 722, "CD3445E1-5BE0-42C3-9D17-99F742A5DE5E", 722, 1478333019, "913938", 1478333019, "913938", null, "BBQ200", "Stromlo (Rural Dist.)", "Casuarina Sands Picnic Area", "Electric", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.319908", "148.954704", null, false ], "-35.319908", "148.954704" ]
+, [ 723, "BD43BD45-CD1C-4618-AEB8-21E03ED6113F", 723, 1478333019, "913938", 1478333019, "913938", null, "BBQ325", "Coree (Rural Dist.)", "Cotter Campground", "Wood", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.325206", "148.948416", null, false ], "-35.325206", "148.948416" ]
+, [ 724, "7104DB8C-2F3A-4664-8226-1485B84B8BC1", 724, 1478333019, "913938", 1478333019, "913938", null, "BBQ266", "Coree (Rural Dist.)", "Cotter Campground", "Wood", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.325808", "148.947232", null, false ], "-35.325808", "148.947232" ]
+, [ 725, "2E1E7949-AA0D-401F-BB79-54AEFAA2BCBA", 725, 1478333019, "913938", 1478333019, "913938", null, "BBQ214", "Coree (Rural Dist.)", "Cotter Campground", "Electric", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.326278", "148.945923", null, false ], "-35.326278", "148.945923" ]
+, [ 726, "46551028-1534-4B7B-9C10-01252EF227AB", 726, 1478333019, "913938", 1478333019, "913938", null, "BBQ262", "Coree (Rural Dist.)", "Cotter Bend", "Electric", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.32622", "148.939749", null, false ], "-35.32622", "148.939749" ]
+, [ 727, "A106D451-A7D2-4D79-AEC5-91EF43C50624", 727, 1478333019, "913938", 1478333019, "913938", null, "BBQ261", "Coree (Rural Dist.)", "Cotter Bend", "Electric", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.326471", "148.939634", null, false ], "-35.326471", "148.939634" ]
+, [ 728, "6DAEFC2F-50ED-4714-899A-49A73504A7BA", 728, 1478333019, "913938", 1478333019, "913938", null, "BBQ211", "Coree (Rural Dist.)", "Uriarra West", "Wood", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.245856", "148.95178", null, false ], "-35.245856", "148.95178" ]
+, [ 729, "0D5C647F-AF99-4AE6-B095-0E576C78A4D8", 729, 1478333019, "913938", 1478333019, "913938", null, "BBQ455", "Coree (Rural Dist.)", "Cotter Campground", "Wood", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.326045", "148.947611", null, false ], "-35.326045", "148.947611" ]
+, [ 730, "B402656F-D2F4-42E8-96D0-BAF2815686B8", 730, 1478333019, "913938", 1478333019, "913938", null, "BBQ269", "Coree (Rural Dist.)", "Cotter Campground", "Wood", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.32521", "148.948702", null, false ], "-35.32521", "148.948702" ]
+, [ 731, "8C85BB1C-9ADC-4199-A8D2-59BD612A8651", 731, 1478333019, "913938", 1478333019, "913938", null, "BBQ186", "Coree (Rural Dist.)", "Cotter Campground", "Wood", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.32577", "148.947384", null, false ], "-35.32577", "148.947384" ]
+, [ 732, "AECAFC05-31AA-439C-AB95-9EF651187B13", 732, 1478333019, "913938", 1478333019, "913938", null, "BBQ237", "Kowen (Rural Dist.)", "Old Kowen Homestead", "Gas", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.288799", "149.287211", null, false ], "-35.288799", "149.287211" ]
+, [ 733, "C2932891-6A81-4150-8203-7FF4EF95B1F5", 733, 1478333019, "913938", 1478333019, "913938", null, "BBQ175", "Coree (Rural Dist.)", "Uriarra West", "Wood", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.24507", "148.951454", null, false ], "-35.24507", "148.951454" ]
+, [ 734, "42256366-2626-4105-8A10-C1D338B0003C", 734, 1478333019, "913938", 1478333019, "913938", null, "BBQ326", "Coree (Rural Dist.)", "Cotter Campground", "Wood", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.325306", "148.948608", null, false ], "-35.325306", "148.948608" ]
+, [ 735, "744F980F-A485-4080-8C88-4F505DD10C9E", 735, 1478333019, "913938", 1478333019, "913938", null, "BBQ221", "Coree (Rural Dist.)", "Cotter Campground", "Wood", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.326019", "148.946517", null, false ], "-35.326019", "148.946517" ]
+, [ 736, "1DDA5BE1-B577-46A2-8AB8-BF04519D822F", 736, 1478333019, "913938", 1478333019, "913938", null, "BBQ254", "Coree (Rural Dist.)", "Cotter Bend", "Electric", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.326844", "148.94068", null, false ], "-35.326844", "148.94068" ]
+, [ 737, "F43451AD-A46D-4AB7-9825-2FDEBBD028EE", 737, 1478333019, "913938", 1478333019, "913938", null, "BBQ354", "Stromlo (Rural Dist.)", "Uriarra East", "Wood", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.246477", "148.953331", null, false ], "-35.246477", "148.953331" ]
+, [ 738, "6EBA3142-604F-46E5-A7DC-5E441830C2F1", 738, 1478333019, "913938", 1478333019, "913938", null, "BBQ320", "Stromlo (Rural Dist.)", "Casuarina Sands Picnic Area", "Electric", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.319801", "148.954339", null, false ], "-35.319801", "148.954339" ]
+, [ 739, "E340365E-C5B3-4793-B1E5-A8F83F71E51B", 739, 1478333019, "913938", 1478333019, "913938", null, "BBQ350", "Stromlo (Rural Dist.)", "Uriarra East", "Wood", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.250238", "148.951336", null, false ], "-35.250238", "148.951336" ]
+, [ 740, "47479DAE-E759-47E9-BABC-B756BC549538", 740, 1478333019, "913938", 1478333019, "913938", null, "BBQ382", "Stromlo (Rural Dist.)", "Casuarina Sands Picnic Area", "Electric", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.319802", "148.954079", null, false ], "-35.319802", "148.954079" ]
+, [ 741, "8BC2ABC7-F41B-4958-9F8B-A3DE1E425DA1", 741, 1478333019, "913938", 1478333019, "913938", null, "BBQ489", "Coree (Rural Dist.)", "Blue Range Hut", "Wood", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.290285", "148.876164", null, false ], "-35.290285", "148.876164" ]
+, [ 742, "92619B0E-45FD-4ABE-88E7-2E97E60F17AF", 742, 1478333019, "913938", 1478333019, "913938", null, "BBQ126", "Barton", "Bowen Park", "Electric", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.30815", "149.13975", null, false ], "-35.30815", "149.13975" ]
+, [ 743, "03181676-FCAC-4B45-8351-62C1CED17ED7", 743, 1478333019, "913938", 1478333019, "913938", null, "BBQ313", "Coree (Rural Dist.)", "Uriarra West Shelter 1", "Wood", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.244347", "148.950989", null, false ], "-35.244347", "148.950989" ]
+, [ 744, "1BD1E180-C2D3-4A54-A1B3-894555F0B47A", 744, 1478333019, "913938", 1478333019, "913938", null, "BBQ198", "Kowen (Rural Dist.)", "Molonglo Gorge Nature Reserve", "Wood", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.322634", "149.245355", null, false ], "-35.322634", "149.245355" ]
+, [ 745, "2B72E3A9-0A96-4C8F-B0E0-C317A0BA6651", 745, 1478333019, "913938", 1478333019, "913938", null, "BBQ173", "Coree (Rural Dist.)", "Uriarra West Shelter 2", "Wood", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.244834", "148.950978", null, false ], "-35.244834", "148.950978" ]
+, [ 746, "E54D2296-9013-465B-9AD7-D46C8AADE663", 746, 1478333019, "913938", 1478333019, "913938", null, "BBQ317", "Coree (Rural Dist.)", "Uriarra West", "Wood", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.245565", "148.95164", null, false ], "-35.245565", "148.95164" ]
+, [ 747, "B9D4A40A-836A-4773-9DBC-427E769C892A", 747, 1478333019, "913938", 1478333019, "913938", null, "BBQ375", "Stromlo (Rural Dist.)", "Uriarra East", "Wood", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.249009", "148.952509", null, false ], "-35.249009", "148.952509" ]
+, [ 748, "3FB6BB54-415C-4CEB-B3C9-F06902A7255B", 748, 1478333019, "913938", 1478333019, "913938", null, "BBQ477", "Barton", "Bowen Park", "Electric", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.308015", "149.139931", null, false ], "-35.308015", "149.139931" ]
+, [ 749, "051E3F1A-0B7D-41FA-9E3C-7B626C33E04D", 749, 1481789071, "913938", 1481789071, "913938", null, "BBQ463", "Rendezvous Creek (Rural Dist.)", "Namadgi National Park, Orroral Campground", "Wood", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.66299", "148.988798", null, false ], "-35.66299", "148.988798" ]
+, [ 750, "512635F2-CBF4-4B8D-9684-BD5195F1FF12", 750, 1481789071, "913938", 1481789071, "913938", null, "BBQ349", "Mount Clear (Rural Dist.)", "Mt Clear Campground", "Wood", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.864784", "149.011151", null, false ], "-35.864784", "149.011151" ]
+, [ 751, "CFCBB6ED-1EF4-4165-8419-E9ADE05D861B", 751, 1481789071, "913938", 1481789071, "913938", null, "BBQ168", "Booth (Rural Dist.)", "Namadgi National Park Glendale Picnic Area", "Wood", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.681491", "148.998275", null, false ], "-35.681491", "148.998275" ]
+, [ 752, "1B8F3C1C-A3AA-49CF-94D7-C0A7C24648BA", 752, 1481789071, "913938", 1481789071, "913938", null, "BBQ166", "Mount Clear (Rural Dist.)", "Mt Clear Campground", "Wood", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.864493", "149.010997", null, false ], "-35.864493", "149.010997" ]
+, [ 753, "ADB60225-D172-4F4B-8F52-3B09EC894A2F", 753, 1481789071, "913938", 1481789071, "913938", null, "BBQ353", "Paddys River (Rural Dist.)", "The Cotter Avenue", "Electric", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.32283", "148.942114", null, false ], "-35.32283", "148.942114" ]
+, [ 754, "AD805CF0-82AD-4E4B-ABF6-6637D5BD3F87", 754, 1481789071, "913938", 1481789071, "913938", null, "BBQ462", "Rendezvous Creek (Rural Dist.)", "Namadgi National Park, Orroral Campground", "Wood", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.662954", "148.988552", null, false ], "-35.662954", "148.988552" ]
+, [ 755, "6DBB1AF5-A7A8-41F2-A1E8-5D5921CEEDCC", 755, 1481789071, "913938", 1481789071, "913938", null, "BBQ464", "Rendezvous Creek (Rural Dist.)", "Namadgi National Park, Orroral Campground", "Wood", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.662584", "148.988793", null, false ], "-35.662584", "148.988793" ]
+, [ 758, "567564E7-58CB-4F93-9BE1-6024F20E6702", 758, 1481789071, "913938", 1481789071, "913938", null, "BBQ281", "Paddys River (Rural Dist.)", "Greens Picnic Area", "Wood", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.44321", "148.926476", null, false ], "-35.44321", "148.926476" ]
+, [ 759, "CF7684C9-C9DA-4770-A8B2-8FF8CD6F9E70", 759, 1481789071, "913938", 1481789071, "913938", null, "BBQ328", "Paddys River (Rural Dist.)", "Sheedys Picnic Area", "Wood", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.444405", "148.929418", null, false ], "-35.444405", "148.929418" ]
+, [ 760, "268177B0-9372-4F36-9EB6-8D40B9970FF5", 760, 1481789071, "913938", 1481789071, "913938", null, "BBQ341", "Paddys River (Rural Dist.)", "Woods Reserve Campground", "Wood", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.481169", "148.939647", null, false ], "-35.481169", "148.939647" ]
+, [ 761, "D0300F11-6275-4AA8-AE2E-4054BEFE1EAA", 761, 1481789071, "913938", 1481789071, "913938", null, "BBQ189", "Paddys River (Rural Dist.)", "Nnp Vic", "Gas", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.530783", "149.065709", null, false ], "-35.530783", "149.065709" ]
+, [ 762, "165703B0-A2FE-4C6A-9640-D1C01F907E40", 762, 1481789071, "913938", 1481789071, "913938", null, "BBQ148", "Paddys River (Rural Dist.)", "Murrays Corner", "Gas", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.364042", "148.952534", null, false ], "-35.364042", "148.952534" ]
+, [ 763, "C026AE08-E05B-43B1-B401-ED2DA1D06D1F", 763, 1481789071, "913938", 1481789071, "913938", null, "BBQ280", "Paddys River (Rural Dist.)", "Greens Picnic Area", "Wood", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.442968", "148.926184", null, false ], "-35.442968", "148.926184" ]
+, [ 764, "DECF8056-D305-4D76-A125-BF204D53DDC1", 764, 1481789071, "913938", 1481789071, "913938", null, "BBQ233", "Rendezvous Creek (Rural Dist.)", "Orroral Picnic Area", "Wood", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.664955", "148.9891", null, false ], "-35.664955", "148.9891" ]
+, [ 765, "9A037BFC-9894-4E72-958D-B6B59BC803DC", 765, 1481789071, "913938", 1481789071, "913938", null, "BBQ473", "Paddys River (Rural Dist.)", null, "Gas", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.487914", "148.934278", null, false ], "-35.487914", "148.934278" ]
+, [ 766, "ACF2CBC2-BDD4-4849-B856-1BF200E1CE9B", 766, 1481789071, "913938", 1481789071, "913938", null, "BBQ202", "Paddys River (Rural Dist.)", "Webbs Picnic Area", "Wood", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.440895", "148.926497", null, false ], "-35.440895", "148.926497" ]
+, [ 767, "7B8CF5DC-8C0D-4C54-B15C-5D472EF0550B", 767, 1481789071, "913938", 1481789071, "913938", null, "BBQ264", "Paddys River (Rural Dist.)", "The Cotter Avenue", "Electric", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.323472", "148.941515", null, false ], "-35.323472", "148.941515" ]
+, [ 768, "478F9B0B-1E58-46C0-A4EA-13338A464B30", 768, 1481789071, "913938", 1481789071, "913938", null, "BBQ140", "Tennent (Rural Dist.)", "Honeysuckle Campground - Apollo", "Wood", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.58365", "148.975246", null, false ], "-35.58365", "148.975246" ]
+, [ 769, "AD53FBBA-AD3C-4E60-AC9E-8035778D741F", 769, 1481789071, "913938", 1481789071, "913938", null, "BBQ482", "Mount Clear (Rural Dist.)", "Mount Clear Campground", "Wood", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.865058", "149.010594", null, false ], "-35.865058", "149.010594" ]
+, [ 770, "D7A3C3C4-3D8D-405B-AEBC-366757627BCD", 770, 1481789071, "913938", 1481789071, "913938", null, "BBQ322", "Paddys River (Rural Dist.)", "The Cotter Avenue", "Electric", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.323388", "148.9412", null, false ], "-35.323388", "148.9412" ]
+, [ 771, "90149E7D-8B32-40AD-A04D-BD5173F89D53", 771, 1481789071, "913938", 1481789071, "913938", null, "BBQ468", "Rendezvous Creek (Rural Dist.)", "Namadgi National Park, Orroral Campground", "Wood", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.661703", "148.988718", null, false ], "-35.661703", "148.988718" ]
+, [ 772, "1B65E53B-0441-4221-8407-EFD57F147091", 772, 1481789071, "913938", 1481789071, "913938", null, "BBQ235", "Rendezvous Creek (Rural Dist.)", "Orroral Picnic Area", "Wood", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.664825", "148.988836", null, false ], "-35.664825", "148.988836" ]
+, [ 773, "4F1BF361-AA64-41C4-9A47-8450F730A21F", 773, 1481789071, "913938", 1481789071, "913938", null, "BBQ416", "Rendezvous Creek (Rural Dist.)", "Orroral Campground", "Gas", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.661993", "148.988909", null, false ], "-35.661993", "148.988909" ]
+, [ 774, "933DB055-55D0-4DA1-9514-C43C28486ED9", 774, 1481789071, "913938", 1481789071, "913938", null, "BBQ413", "Paddys River (Rural Dist.)", "Webbs Picnic Area", "Electric", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.440039", "148.927892", null, false ], "-35.440039", "148.927892" ]
+, [ 775, "5D5F3693-A0F5-416B-AF83-AE186822B4AE", 775, 1481789071, "913938", 1481789071, "913938", null, "BBQ423", "Paddys River (Rural Dist.)", "Woods Reserve Campground", "Wood", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.480761", "148.939842", null, false ], "-35.480761", "148.939842" ]
+, [ 776, "8EFAEEEA-08FF-4D5F-AF9F-31E1532F9C36", 776, 1481789071, "913938", 1481789071, "913938", null, "BBQ496", "Paddys River (Rural Dist.)", "Namadgi National Park Special Purpose", "Wood", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.532978", "149.070346", null, false ], "-35.532978", "149.070346" ]
+, [ 777, "72668DC3-E97E-467D-BCA9-0DA024CE07CA", 777, 1481789071, "913938", 1481789071, "913938", null, "BBQ422", "Paddys River (Rural Dist.)", "Woods Reserve Campground", "Wood", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.480831", "148.938879", null, false ], "-35.480831", "148.938879" ]
+, [ 778, "C0236CFA-EF41-4982-A9F9-C79B9A119BAF", 778, 1481789071, "913938", 1481789071, "913938", null, "BBQ343", "Paddys River (Rural Dist.)", "Woods Reserve Campground", "Wood", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.480897", "148.93822", null, false ], "-35.480897", "148.93822" ]
+, [ 779, "3ACD0C62-2488-4948-981F-755DC143EE8A", 779, 1481789071, "913938", 1481789071, "913938", null, "BBQ419", "Googong (Rural Dist.)", "Googong North", "Gas", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.411459", "149.25975", null, false ], "-35.411459", "149.25975" ]
+, [ 780, "D163F50C-B6A2-4433-AF90-2AFD0A23135F", 780, 1481789071, "913938", 1481789071, "913938", null, "BBQ303", "Googong (Rural Dist.)", "Googong South", "Electric", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.511472", "149.258184", null, false ], "-35.511472", "149.258184" ]
+, [ 781, "7D3A0BA4-C776-4124-8497-7C8BB69B969F", 781, 1481789071, "913938", 1481789071, "913938", null, "BBQ334", "Tennent (Rural Dist.)", "Honeysuckle Campground - Mercury", "Wood", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.583074", "148.97545", null, false ], "-35.583074", "148.97545" ]
+, [ 782, "EE897311-8A1A-447E-8DC1-AEC7D096B31A", 782, 1481789071, "913938", 1481789071, "913938", null, "BBQ331", "Paddys River (Rural Dist.)", "Blewitts Picnic Area", "Wood", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.444347", "148.923484", null, false ], "-35.444347", "148.923484" ]
+, [ 783, "843AD51E-0082-4319-8A41-384BDAF4785E", 783, 1481789071, "913938", 1481789071, "913938", null, "BBQ145", "Mount Clear (Rural Dist.)", "Mount Clear Horse Yards", "Wood", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.868002", "149.015321", null, false ], "-35.868002", "149.015321" ]
+, [ 784, "F8775012-5B8E-44FD-8CBE-2E66F0BB77A1", 784, 1481789071, "913938", 1481789071, "913938", null, "BBQ461", "Rendezvous Creek (Rural Dist.)", "Namadgi National Park, Orroral Campground", "Wood", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.662885", "148.988792", null, false ], "-35.662885", "148.988792" ]
+, [ 785, "81CB52CE-6D38-433F-A727-26A0AEB168F1", 785, 1481789071, "913938", 1481789071, "913938", null, "BBQ179", "Googong (Rural Dist.)", "Googong North - Shelter", "Gas", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.410752", "149.261817", null, false ], "-35.410752", "149.261817" ]
+, [ 786, "EB3D98EE-3016-4C50-B3BA-5B834407AD0C", 786, 1481789071, "913938", 1481789071, "913938", null, "BBQ307", "Paddys River (Rural Dist.)", "Blewitts Picnic Area", "Wood", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.44409", "148.92352", null, false ], "-35.44409", "148.92352" ]
+, [ 787, "F10655B3-F4C6-41D3-A4CB-5ED7B52031CC", 787, 1481789071, "913938", 1481789071, "913938", null, "BBQ406", "Paddys River (Rural Dist.)", "Sheedys Picnic Area", "Electric", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.44379", "148.928827", null, false ], "-35.44379", "148.928827" ]
+, [ 789, "9AE7B4E4-1346-4872-A002-B1D1473E29E9", 789, 1481789071, "913938", 1481789071, "913938", null, "BBQ459", "Rendezvous Creek (Rural Dist.)", "Namadgi National Park Orroral Campground", "Gas", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.661963", "148.988872", null, false ], "-35.661963", "148.988872" ]
+, [ 790, "93338B65-91DE-4203-9760-9BFB1278A44E", 790, 1481789071, "913938", 1481789071, "913938", null, "BBQ195", "Paddys River (Rural Dist.)", "Woods Reserve Campground", "Wood", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.481005", "148.938368", null, false ], "-35.481005", "148.938368" ]
+, [ 791, "0D1CD69E-3E69-4F4C-85BA-48C3CD4C4966", 791, 1481789071, "913938", 1481789071, "913938", null, "BBQ282", "Booth (Rural Dist.)", "Namadgi National Park Glendale Picnic Area", "Wood", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.680713", "148.997834", null, false ], "-35.680713", "148.997834" ]
+, [ 792, "B8C2CD86-B1C7-48A9-9035-B4D4077A8DA3", 792, 1481789071, "913938", 1481789071, "913938", null, "BBQ290", "Tennent (Rural Dist.)", "Honeysuckle Campground", "Wood", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.582844", "148.974712", null, false ], "-35.582844", "148.974712" ]
+, [ 793, "710CA61A-88DA-4F9A-81A8-33BA9347BE05", 793, 1481789071, "913938", 1481789071, "913938", null, "BBQ291", "Googong (Rural Dist.)", "Googong North", "Gas", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.410643", "149.260678", null, false ], "-35.410643", "149.260678" ]
+, [ 794, "42C4FE31-2813-4C9A-AACF-0C54B2FF10DC", 794, 1481789071, "913938", 1481789071, "913938", null, "BBQ279", "Paddys River (Rural Dist.)", "Webbs Picnic Area", "Wood", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.440315", "148.927188", null, false ], "-35.440315", "148.927188" ]
+, [ 795, "0A595DC7-C56F-499A-973F-1EDF76DF12C5", 795, 1481789071, "913938", 1481789071, "913938", null, "BBQ139", "Tennent (Rural Dist.)", "Honeysuckle Campground", "Gas", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.583023", "148.974297", null, false ], "-35.583023", "148.974297" ]
+, [ 796, "1D0DA963-4DD8-47F4-BA03-AED11D22DFA0", 796, 1481789071, "913938", 1481789071, "913938", null, "BBQ409", "Paddys River (Rural Dist.)", "Sheedys Picnic Area - Shelter", "Electric", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.443374", "148.929248", null, false ], "-35.443374", "148.929248" ]
+, [ 797, "C3D63AAE-4703-42EC-A341-57CED4B68C9F", 797, 1481789071, "913938", 1481789071, "913938", null, "BBQ448", "Paddys River (Rural Dist.)", "Sheedys Picnic Area - Shelter", "Electric", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.443367", "148.929236", null, false ], "-35.443367", "148.929236" ]
+, [ 798, "CEE5068A-F0B4-42AE-BE42-2FAB36893E2B", 798, 1481789071, "913938", 1481789071, "913938", null, "BBQ196", "Paddys River (Rural Dist.)", "Woods Reserve Campground", "Wood", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.480779", "148.938339", null, false ], "-35.480779", "148.938339" ]
+, [ 799, "138A3B02-F656-478F-993D-C9ECA720BB91", 799, 1481789071, "913938", 1481789071, "913938", null, "BBQ182", "Paddys River (Rural Dist.)", "The Cotter Avenue", "Electric", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.322788", "148.941848", null, false ], "-35.322788", "148.941848" ]
+, [ 801, "B27A47F5-74FA-437F-BC38-E999ED5A62D8", 801, 1481789071, "913938", 1481789071, "913938", null, "BBQ230", "Paddys River (Rural Dist.)", "Blewitts Picnic Area", "Wood", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.444324", "148.923946", null, false ], "-35.444324", "148.923946" ]
+, [ 802, "3CABBABD-0620-4AC2-8443-D8BC393A0566", 802, 1481789071, "913938", 1481789071, "913938", null, "BBQ420", "Paddys River (Rural Dist.)", "Woods Reserve Campground", "Gas", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.480842", "148.939181", null, false ], "-35.480842", "148.939181" ]
+, [ 803, "ABD591D8-EDBC-4F4B-BD92-F83D7777A423", 803, 1481789071, "913938", 1481789071, "913938", null, "BBQ451", "Molonglo Valley (Rural Dist.)", "National Arboretum Of Canberra", "Electric", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.287024", "149.076812", null, false ], "-35.287024", "149.076812" ]
+, [ 804, "A8B9E20F-D890-4C4C-9276-A76381EC7C8D", 804, 1481789071, "913938", 1481789071, "913938", null, "BBQ411", "Paddys River (Rural Dist.)", "Webbs Picnic Area", "Electric", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.441358", "148.926226", null, false ], "-35.441358", "148.926226" ]
+, [ 805, "8BA3F3C7-5DD2-4DF5-8A36-0CC36AC70BB2", 805, 1481789071, "913938", 1481789071, "913938", null, "BBQ159", "Paddys River (Rural Dist.)", "Thompsons Flat Picnic Area", "Wood", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.326293", "148.938376", null, false ], "-35.326293", "148.938376" ]
+, [ 806, "F6B9B2D0-61BC-4182-8C27-75DB96F26823", 806, 1481789071, "913938", 1481789071, "913938", null, "BBQ362", "Tennent (Rural Dist.)", "Honeysuckle Campground", "Wood", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.582929", "148.974561", null, false ], "-35.582929", "148.974561" ]
+, [ 807, "734E4600-2A4C-45D4-9785-EE115E172CAD", 807, 1481789071, "913938", 1481789071, "913938", null, "BBQ154", "Paddys River (Rural Dist.)", "Sheedys Picnic Area - Shelter", "Electric", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.443399", "148.929316", null, false ], "-35.443399", "148.929316" ]
+, [ 808, "DFC408F5-D690-4C66-9A22-CBB3636696E5", 808, 1481789071, "913938", 1481789071, "913938", null, "BBQ418", "Googong (Rural Dist.)", "Googong Boat Ramp", "Gas", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.430255", "149.258419", null, false ], "-35.430255", "149.258419" ]
+, [ 809, "07889B85-91B1-4B1B-80BF-E32956EB60F8", 809, 1481789071, "913938", 1481789071, "913938", null, "BBQ292", "Googong (Rural Dist.)", "Googong North", "Gas", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.410449", "149.260947", null, false ], "-35.410449", "149.260947" ]
+, [ 810, "B4F4EB29-D06C-4EC9-AE70-811734FFE896", 810, 1481789071, "913938", 1481789071, "913938", null, "BBQ472", "Rendezvous Creek (Rural Dist.)", "Namadgi National Park, Orroral Campground", "Wood", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.66211", "148.988476", null, false ], "-35.66211", "148.988476" ]
+, [ 811, "57E42675-7791-491F-B704-4490E2258F54", 811, 1481789071, "913938", 1481789071, "913938", null, "BBQ276", "Paddys River (Rural Dist.)", "Sheedys Picnic Area", "Wood", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.44442", "148.928723", null, false ], "-35.44442", "148.928723" ]
+, [ 812, "7B14EE5B-D6EE-4F5F-A62F-5A9F6A429A5C", 812, 1481789071, "913938", 1481789071, "913938", null, "BBQ447", "Paddys River (Rural Dist.)", "Sheedys Picnic Area - Shelter", "Electric", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.44339", "148.929281", null, false ], "-35.44339", "148.929281" ]
+, [ 813, "971C7B18-2758-4072-9235-816AC8B84154", 813, 1481789071, "913938", 1481789071, "913938", null, "BBQ410", "Paddys River (Rural Dist.)", "Webbs Picnic Area", "Electric", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.441743", "148.92605", null, false ], "-35.441743", "148.92605" ]
+, [ 814, "E01C5FAC-E2BA-484D-8A72-87CBB9833E87", 814, 1481789071, "913938", 1481789071, "913938", null, "BBQ480", "Mount Clear (Rural Dist.)", "Mt Clear Campground", "Wood", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.864774", "149.010724", null, false ], "-35.864774", "149.010724" ]
+, [ 815, "4207D506-64C1-449D-9AC6-477533E2959B", 815, 1481789071, "913938", 1481789071, "913938", null, "BBQ271", "Paddys River (Rural Dist.)", "Woods Reserve Campground", "Gas", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.480617", "148.938593", null, false ], "-35.480617", "148.938593" ]
+, [ 816, "EF244DED-7E5E-41CD-A0A4-9ECA2EAEDC9A", 816, 1481789071, "913938", 1481789071, "913938", null, "BBQ415", "Paddys River (Rural Dist.)", "Flints Picnic Area", "Gas", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.459077", "148.919444", null, false ], "-35.459077", "148.919444" ]
+, [ 817, "E728852A-C731-458A-90FD-A87F8F01CE04", 817, 1481789071, "913938", 1481789071, "913938", null, "BBQ141", "Tennent (Rural Dist.)", "Honeysuckle Campground", "Wood", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.583036", "148.974264", null, false ], "-35.583036", "148.974264" ]
+, [ 818, "3929A1B3-941D-464B-A206-9C1B8317DF03", 818, 1481789071, "913938", 1481789071, "913938", null, "BBQ408", "Paddys River (Rural Dist.)", "Sheedys Picnic Area - Shelter", "Electric", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.443385", "148.929269", null, false ], "-35.443385", "148.929269" ]
+, [ 819, "60B3AD69-4E71-4EF2-8ECF-C82CE657A64B", 819, 1481789071, "913938", 1481789071, "913938", null, "BBQ183", "Paddys River (Rural Dist.)", "The Cotter Avenue", "Electric", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.322984", "148.941978", null, false ], "-35.322984", "148.941978" ]
+, [ 820, "2378130E-FAC6-407C-997F-E06776CACE93", 820, 1481789071, "913938", 1481789071, "913938", null, "BBQ234", "Rendezvous Creek (Rural Dist.)", "Orroral Picnic Area", "Wood", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.665194", "148.988965", null, false ], "-35.665194", "148.988965" ]
+, [ 821, "11D80233-A06A-42C7-8DE1-F908AD9C7443", 821, 1481789071, "913938", 1481789071, "913938", null, "BBQ414", "Paddys River (Rural Dist.)", "Sheedys Picnic Area", "Wood", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.444374", "148.929638", null, false ], "-35.444374", "148.929638" ]
+, [ 822, "4D7A4A2B-4BD6-4659-B7EF-ACAFC55A9E82", 822, 1481789071, "913938", 1481789071, "913938", null, "BBQ295", "Tennent (Rural Dist.)", "Honeysuckle Campground", "Wood", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.582803", "148.974072", null, false ], "-35.582803", "148.974072" ]
+, [ 823, "436D44A9-11BF-44BB-AD2E-761E1ABC0EF2", 823, 1481789071, "913938", 1481789071, "913938", null, "BBQ297", "Paddys River (Rural Dist.)", "Woods Reserve Campground", "Wood", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.481086", "148.940357", null, false ], "-35.481086", "148.940357" ]
+, [ 824, "FD5D5582-1384-4890-834A-3C89C10CB861", 824, 1481789071, "913938", 1481789071, "913938", null, "BBQ471", "Rendezvous Creek (Rural Dist.)", "Namadgi National Park, Orroral Campground", "Wood", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.661556", "148.989135", null, false ], "-35.661556", "148.989135" ]
+, [ 825, "94CAFD7B-C4F7-4928-BB48-56F4A4B387DE", 825, 1481789071, "913938", 1481789071, "913938", null, "BBQ342", "Paddys River (Rural Dist.)", "Woods Reserve Campground", "Wood", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.481283", "148.939596", null, false ], "-35.481283", "148.939596" ]
+, [ 826, "AD5B19B3-A5C6-499D-811E-84984B488AAF", 826, 1481789071, "913938", 1481789071, "913938", null, "BBQ147", "Mount Clear (Rural Dist.)", "Mt Clear Campground", "Wood", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.865319", "149.010804", null, false ], "-35.865319", "149.010804" ]
+, [ 827, "592A774F-BE6E-4856-BB51-DBE0131A49ED", 827, 1481789071, "913938", 1481789071, "913938", null, "BBQ321", "Paddys River (Rural Dist.)", "The Cotter Avenue", "Electric", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.32371", "148.940972", null, false ], "-35.32371", "148.940972" ]
+, [ 829, "AF06E651-9DA4-4B3E-89E3-E83D6C07D139", 829, 1481789071, "913938", 1481789071, "913938", null, "BBQ298", "Paddys River (Rural Dist.)", "Woods Reserve Campground", "Wood", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.481069", "148.94005", null, false ], "-35.481069", "148.94005" ]
+, [ 830, "D6A9E810-7B1E-40D9-9117-A6155B53524A", 830, 1481789071, "913938", 1481789071, "913938", null, "BBQ340", "Booth (Rural Dist.)", "Namadgi National Park Glendale Picnic Area", "Wood", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.680989", "148.997976", null, false ], "-35.680989", "148.997976" ]
+, [ 831, "AF1FBB60-AB1C-4F86-BC2D-FF44781063A1", 831, 1481789071, "913938", 1481789071, "913938", null, "BBQ270", "Paddys River (Rural Dist.)", "Woods Reserve Campground", "Wood", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.480862", "148.940782", null, false ], "-35.480862", "148.940782" ]
+, [ 832, "552A3487-6554-4369-BBB7-644E9AE6C8DC", 832, 1481789071, "913938", 1481789071, "913938", null, "BBQ236", "Googong (Rural Dist.)", "Googong South", "Electric", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.511813", "149.257675", null, false ], "-35.511813", "149.257675" ]
+, [ 833, "01769DD6-C8E6-49A4-B063-1F2A7F09478E", 833, 1481789071, "913938", 1481789071, "913938", null, "BBQ153", "Paddys River (Rural Dist.)", "Sheedys Picnic Area", "Wood", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.444665", "148.929726", null, false ], "-35.444665", "148.929726" ]
+, [ 834, "E3AA4A23-8A9C-4644-9280-A70A4E83DF5A", 834, 1481789071, "913938", 1481789071, "913938", null, "BBQ278", "Paddys River (Rural Dist.)", "Webbs Picnic Area", "Wood", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.440203", "148.926942", null, false ], "-35.440203", "148.926942" ]
+, [ 835, "619810EC-FE30-43D1-8F25-59167379BA22", 835, 1481789071, "913938", 1481789071, "913938", null, "BBQ450", "Paddys River (Rural Dist.)", "Sheedys Picnic Area", "Wood", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.444528", "148.92855", null, false ], "-35.444528", "148.92855" ]
+, [ 836, "79742030-1A81-4C38-8AAA-EDCBEE9B7936", 836, 1481789071, "913938", 1481789071, "913938", null, "BBQ294", "Paddys River (Rural Dist.)", "Woods Reserve Campground", "Wood", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.481066", "148.940249", null, false ], "-35.481066", "148.940249" ]
+, [ 837, "23D7E775-E9D2-43AB-A565-8B9293CE15C8", 837, 1481789071, "913938", 1481789071, "913938", null, "BBQ467", "Rendezvous Creek (Rural Dist.)", "Namadgi National Park, Orroral Campground", "Wood", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.662031", "148.988251", null, false ], "-35.662031", "148.988251" ]
+, [ 838, "E8780574-0D20-469B-B217-585C25A126A8", 838, 1481789071, "913938", 1481789071, "913938", null, "BBQ465", "Rendezvous Creek (Rural Dist.)", "Namadgi National Park, Orroral Campground", "Wood", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.662465", "148.988578", null, false ], "-35.662465", "148.988578" ]
+, [ 839, "A87FFF3F-44B6-4CCB-8301-44BEE01B9A4F", 839, 1481789071, "913938", 1481789071, "913938", null, "BBQ300", "Paddys River (Rural Dist.)", "Sheedys Picnic Area", "Wood", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.444602", "148.928535", null, false ], "-35.444602", "148.928535" ]
+, [ 840, "06CC1273-EF60-46B4-912F-F58A12DC92E3", 840, 1481789071, "913938", 1481789071, "913938", null, "BBQ180", "Googong (Rural Dist.)", "Googong North", "Gas", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.410105", "149.261399", null, false ], "-35.410105", "149.261399" ]
+, [ 841, "1513060D-79FC-4C27-93C8-75036ACE2A18", 841, 1481789071, "913938", 1481789071, "913938", null, "BBQ167", "Booth (Rural Dist.)", "Namadgi National Park Glendale Picnic Area", "Wood", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.680995", "148.997729", null, false ], "-35.680995", "148.997729" ]
+, [ 842, "5D6CCE2A-AD2A-4249-B41A-6DB0AD0A29B2", 842, 1481789071, "913938", 1481789071, "913938", null, "BBQ446", "Paddys River (Rural Dist.)", "Sheedys Picnic Area - Shelter", "Electric", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.443395", "148.929302", null, false ], "-35.443395", "148.929302" ]
+, [ 843, "686AF725-C063-47E8-84E9-A434124F9352", 843, 1481789071, "913938", 1481789071, "913938", null, "BBQ421", "Paddys River (Rural Dist.)", "Woods Reserve Campground", "Wood", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.481102", "148.938774", null, false ], "-35.481102", "148.938774" ]
+, [ 844, "73CA9371-A676-4933-8786-72D5CE1C8950", 844, 1481789071, "913938", 1481789071, "913938", null, "BBQ226", "Paddys River (Rural Dist.)", "Greens Picnic Area", "Wood", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.443219", "148.926005", null, false ], "-35.443219", "148.926005" ]
+, [ 845, "07F442DA-B00D-4D8D-A385-0DB58A614EA1", 845, 1481789071, "913938", 1481789071, "913938", null, "BBQ460", "Rendezvous Creek (Rural Dist.)", "Namadgi National Park, Orroral Campground", "Wood", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.662797", "148.988532", null, false ], "-35.662797", "148.988532" ]
+, [ 846, "962674D5-9391-42BF-976B-2EDCFC3FA447", 846, 1481789071, "913938", 1481789071, "913938", null, "BBQ222", "Cotter River (Rural Dist.)", "Bulls Head Shelter", "Wood", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.387776", "148.804514", null, false ], "-35.387776", "148.804514" ]
+, [ 847, "A7545DC5-5BD5-42A1-A973-3A534BA42E9E", 847, 1481789071, "913938", 1481789071, "913938", null, "BBQ452", "Molonglo Valley (Rural Dist.)", "National Arboretum Of Canberra", "Electric", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.287042", "149.076843", null, false ], "-35.287042", "149.076843" ]
+, [ 849, "2BE7745F-AC8F-4EF0-B838-820CFF162EC3", 849, 1481789071, "913938", 1481789071, "913938", null, "BBQ231", "Mount Clear (Rural Dist.)", "Mt Clear Campground", "Wood", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.864617", "149.010606", null, false ], "-35.864617", "149.010606" ]
+, [ 850, "45D27EBC-0D0F-4EA7-9217-22EF23F8FFCD", 850, 1481789071, "913938", 1481789071, "913938", null, "BBQ469", "Rendezvous Creek (Rural Dist.)", "Namadgi National Park, Orroral Campground", "Wood", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.661711", "148.9892", null, false ], "-35.661711", "148.9892" ]
+, [ 851, "F5784865-99EB-4054-8710-21569780B7F2", 851, 1481789071, "913938", 1481789071, "913938", null, "BBQ259", "Paddys River (Rural Dist.)", "The Cotter Avenue", "Electric", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.324165", "148.941035", null, false ], "-35.324165", "148.941035" ]
+, [ 852, "C0C82D97-EC74-47B6-B822-01FE7950F1C4", 852, 1481789071, "913938", 1481789071, "913938", null, "BBQ466", "Rendezvous Creek (Rural Dist.)", "Namadgi National Park, Orroral Campground", "Wood", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.662549", "148.988388", null, false ], "-35.662549", "148.988388" ]
+, [ 853, "EB903D01-673F-4156-86D5-322FF943D90D", 853, 1481789071, "913938", 1481789071, "913938", null, "BBQ481", "Mount Clear (Rural Dist.)", "Mount Clear Campground", "Wood", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.864781", "149.010409", null, false ], "-35.864781", "149.010409" ]
+, [ 854, "022CF4ED-6F16-4F5A-8DE4-AF919720FD90", 854, 1481789071, "913938", 1481789071, "913938", null, "BBQ149", "Paddys River (Rural Dist.)", "Murrays Corner", "Gas", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.363195", "148.952178", null, false ], "-35.363195", "148.952178" ]
+, [ 855, "275EBDE1-3368-48AC-B638-10D39EFFDE88", 855, 1481789071, "913938", 1481789071, "913938", null, "BBQ372", "Rendezvous Creek (Rural Dist.)", "Orroral Tracking Station", "Gas", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.628721", "148.955743", null, false ], "-35.628721", "148.955743" ]
+, [ 856, "03A2AFED-DCF2-41A8-96B2-A0E4D6413282", 856, 1481789071, "913938", 1481789071, "913938", null, "BBQ366", "Paddys River (Rural Dist.)", "The Cotter Avenue", "Electric", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.323015", "148.94115", null, false ], "-35.323015", "148.94115" ]
+, [ 857, "5D72B4AE-778C-4AD5-B11F-B166A9D65FD7", 857, 1481789071, "913938", 1481789071, "913938", null, "BBQ405", "Paddys River (Rural Dist.)", "Sheedys Picnic Area", "Electric", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.443821", "148.929224", null, false ], "-35.443821", "148.929224" ]
+, [ 858, "D371F701-D72C-472D-8A91-BAB808F01D45", 858, 1481789071, "913938", 1481789071, "913938", null, "BBQ225", "Paddys River (Rural Dist.)", "Blewitts Picnic Area", "Wood", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.444424", "148.924121", null, false ], "-35.444424", "148.924121" ]
+, [ 859, "DFD2AAFE-D21C-4EB0-BA4D-C991BEBCA248", 859, 1481789071, "913938", 1481789071, "913938", null, "BBQ412", "Paddys River (Rural Dist.)", "Webbs Picnic Area", "Electric", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.440621", "148.926681", null, false ], "-35.440621", "148.926681" ]
+, [ 860, "1102A7B4-66F9-462E-B88E-D59FCA64EF11", 860, 1481789071, "913938", 1481789071, "913938", null, "BBQ181", "Paddys River (Rural Dist.)", "The Cotter Avenue", "Electric", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.323233", "148.941452", null, false ], "-35.323233", "148.941452" ]
+, [ 861, "3EAD32C7-F820-4E95-B24C-E0395943D01E", 861, 1481789071, "913938", 1481789071, "913938", null, "BBQ449", "Paddys River (Rural Dist.)", "Discovery Picnic Area", "Electric", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.442681", "148.930129", null, false ], "-35.442681", "148.930129" ]
+, [ 862, "CD35A30F-543A-43A7-9D81-BE7A16EA7333", 862, 1481789071, "913938", 1481789071, "913938", null, "BBQ224", "Cotter River (Rural Dist.)", "Bendora Picnic Area", "Wood", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.442303", "148.828301", null, false ], "-35.442303", "148.828301" ]
+, [ 863, "A7FA1E82-73E4-48E7-BE6D-CB5E2B67F1EE", 863, 1481789071, "913938", 1481789071, "913938", null, "BBQ364", "Tennent (Rural Dist.)", "Honeysuckle Campground", "Wood", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.582758", "148.97424", null, false ], "-35.582758", "148.97424" ]
+, [ 864, "177B50AF-CA16-4E1B-863F-71656837CD6D", 864, 1481789071, "913938", 1481789071, "913938", null, "BBQ206", "Paddys River (Rural Dist.)", "The Cotter Avenue", "Electric", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.322757", "148.942197", null, false ], "-35.322757", "148.942197" ]
+, [ 865, "2B0FAB3F-D4B1-4ED4-A5CF-2C99545CF22F", 865, 1481789071, "913938", 1481789071, "913938", null, "BBQ299", "Paddys River (Rural Dist.)", "Woods Reserve Campground", "Wood", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.480865", "148.93995", null, false ], "-35.480865", "148.93995" ]
+, [ 866, "D7740D54-D457-4A6B-9531-17D3A9438AA5", 866, 1481789071, "913938", 1481789071, "913938", null, "BBQ152", "Cotter River (Rural Dist.)", "Bendora Picnic Area", "Wood", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.442386", "148.82795", null, false ], "-35.442386", "148.82795" ]
+, [ 867, "BF576E66-7FE0-4F94-AD4F-8A9E8318366D", 867, 1481789071, "913938", 1481789071, "913938", null, "BBQ146", "Mount Clear (Rural Dist.)", "Mt Clear Campground", "Wood", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.865138", "149.010922", null, false ], "-35.865138", "149.010922" ]
+, [ 868, "99191637-E5B3-4CB9-B7CB-C31E613C9946", 868, 1481789071, "913938", 1481789071, "913938", null, "BBQ470", "Rendezvous Creek (Rural Dist.)", "Namadgi National Park, Orroral Campground", "Wood", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.66144", "148.988788", null, false ], "-35.66144", "148.988788" ]
+, [ 869, "A9A15C9B-BDE3-432D-BF7E-8590C9F24E9B", 869, 1481789071, "913938", 1481789071, "913938", null, "BBQ344", "Cotter River (Rural Dist.)", "Bendora Picnic Area", "Wood", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.44251", "148.828318", null, false ], "-35.44251", "148.828318" ]
+, [ 870, "27F95AA4-7632-4C3C-A075-7691EA5930EA", 870, 1486713926, "913938", 1486713926, "913938", null, "BBQ484", "Acton", "Black Mountain Peninsula District Park", "Electric", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.292389", "149.101107", null, false ], "-35.292389", "149.101107" ]
+, [ 871, "18FC558A-B6FF-45E7-9310-D51A6317D75C", 871, 1486713926, "913938", 1486713926, "913938", null, "BBQ485", "Acton", "Black Mountain Peninsula District Park", "Electric", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.292454", "149.10111", null, false ], "-35.292454", "149.10111" ]
+, [ 872, "087D44B5-D71D-4092-9BE4-E9909C7447C8", 872, 1487145954, "913938", 1487145954, "913938", null, "BBQ497", "Gungahlin", "Yerrabi District Park", "Electric", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.178801", "149.130774", null, false ], "-35.178801", "149.130774" ]
+, [ 873, "38C304FC-8977-4BE0-AC80-BF89A74208DE", 873, 1491901531, "913938", 1491901531, "913938", null, "BBQ33", "Belconnen", "Lake Ginninderra Western Foreshores", "Electric", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.225626", "149.063247", null, false ], "-35.225626", "149.063247" ]
+, [ 874, "9F0D5A6B-E55B-416F-84CB-6434B6D24060", 874, 1494234373, "913938", 1494234373, "913938", null, "BBQ288", "Googong (Rural Dist.)", "Googong - Tin Hut", "Gas", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.497275", "149.258909", null, false ], "-35.497275", "149.258909" ]
+, [ 875, "40F11611-6E7A-4364-93C1-1DDFF090788C", 875, 1494234373, "913938", 1494234373, "913938", null, "BBQ6", "Fisher", "Araluen Street Neighbourhood Park", "Electric", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.360683", "149.057338", null, false ], "-35.360683", "149.057338" ]
+, [ 876, "0508C17B-3727-4EDD-B284-A23A0E861326", 876, 1499826797, "913938", 1499826797, "913938", null, "BBQ371", "New South Wales", "Bulls Head Picnic Area", "Wood", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.386788", "148.804498", null, false ], "-35.386788", "148.804498" ]
+, [ 877, "0C45A4BE-07EA-4EBA-BFE4-DAB1AE40A82D", 877, 1499826797, "913938", 1499826797, "913938", null, "BBQ394", "Canberra Central (Rural Dist.)", "Lady Denman Drive Road Verge", "Gas", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.297903", "149.071927", null, false ], "-35.297903", "149.071927" ]
+, [ 878, "A67A8FA7-7FC2-4DDF-AFC2-C16F6DBADDC9", 878, 1499826797, "913938", 1499826797, "913938", null, "BBQ417", "Coree (Rural Dist.)", "Cotter Campground", "Gas", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.325396", "148.948537", null, false ], "-35.325396", "148.948537" ]
+, [ 879, "57C93509-CD51-4A50-8E6C-723D6D5F5E1D", 879, 1499826797, "913938", 1499826797, "913938", null, "BBQ305", "New South Wales", "Bulls Head Picnic Area", "Wood", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.387256", "148.804313", null, false ], "-35.387256", "148.804313" ]
+, [ 880, "105762B5-D60C-445A-AD34-344C39CFAEC3", 880, 1499826797, "913938", 1499826797, "913938", null, "BBQ338", "New South Wales", "Bulls Head Picnic Area", "Wood", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.387149", "148.804459", null, false ], "-35.387149", "148.804459" ]
+, [ 881, "32645225-964B-4F6C-BA6F-BDFCFF646B81", 881, 1499826797, "913938", 1499826797, "913938", null, "BBQ50", "Belconnen (Rural Dist.)", "Palmerville Heritage Park", "Electric", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.211746", "149.085572", null, false ], "-35.211746", "149.085572" ]
+, [ 882, "787D6B5F-F51F-445F-9243-8F546FEAA6D2", 882, 1499826797, "913938", 1499826797, "913938", null, "BBQ339", "New South Wales", "Bulls Head Picnic Area", "Wood", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.387667", "148.804038", null, false ], "-35.387667", "148.804038" ]
+, [ 883, "F7E6BC4A-7769-4810-BAEF-A7B5BCAF816C", 883, 1500626972, "913938", 1500626972, "913938", null, "BBQ488", "Coree (Rural Dist.)", "Blue Range Hut", "Wood", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.289676", "148.876109", null, false ], "-35.289676", "148.876109" ]
+, [ 884, "208145C5-CD23-4F40-ABE3-BE80520F3C29", 884, 1500626972, "913938", 1500626972, "913938", null, "BBQ500", "Coree (Rural Dist.)", "Blue Range Hut", "Wood", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.290036", "148.875975", null, false ], "-35.290036", "148.875975" ]
+, [ 885, "BEBEF690-CC9A-4668-B0CE-846A0ADD0A03", 885, 1500626972, "913938", 1500626972, "913938", null, "BBQ501", "Coree (Rural Dist.)", "Sherwood Homestead", "Wood", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.273249", "148.892002", null, false ], "-35.273249", "148.892002" ]
+, [ 886, "CEABD7CC-54C9-40F2-8ADF-9362EDDA2ABD", 886, 1500626972, "913938", 1500626972, "913938", null, "BBQ499", "Coree (Rural Dist.)", "Blue Range Hut", "Wood", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.289299", "148.875879", null, false ], "-35.289299", "148.875879" ]
+, [ 887, "07E16BFA-EB98-4342-8093-FFBF3BD78DF3", 887, 1500626972, "913938", 1500626972, "913938", null, "BBQ498", "Coree (Rural Dist.)", "Blue Range Hut", "Wood", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.289079", "148.875874", null, false ], "-35.289079", "148.875874" ]
+ ]
+}

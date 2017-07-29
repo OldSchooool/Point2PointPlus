@@ -1,0 +1,753 @@
+{
+  "meta" : {
+    "view" : {
+      "id" : "3np9-m3i7",
+      "name" : "Skate Parks",
+      "attribution" : "ACT Government",
+      "attributionLink" : "http://www.tams.act.gov.au/parks-recreation/recreational_activities/skateparks",
+      "averageRating" : 0,
+      "category" : "Sport and Recreation",
+      "createdAt" : 1425607428,
+      "description" : "There are seven major skate parks in Canberra suitable for all levels of use, with a further 12 parks offering skate features. Canberra's skate parks are available for use by all skateboarders, cyclists, scooters, rollerbladers and roller skaters.",
+      "displayType" : "table",
+      "downloadCount" : 1330,
+      "hideFromCatalog" : false,
+      "hideFromDataJson" : false,
+      "indexUpdatedAt" : 1499231408,
+      "licenseId" : "CC_40_BY",
+      "locale" : "",
+      "newBackend" : false,
+      "numberOfComments" : 0,
+      "oid" : 11943468,
+      "provenance" : "official",
+      "publicationAppendEnabled" : true,
+      "publicationDate" : 1435275834,
+      "publicationGroup" : 2424765,
+      "publicationStage" : "published",
+      "rowClass" : "",
+      "rowsUpdatedAt" : 1478332928,
+      "rowsUpdatedBy" : "m7km-7fxa",
+      "tableId" : 3304130,
+      "totalTimesRated" : 0,
+      "viewCount" : 246,
+      "viewLastModified" : 1500972463,
+      "viewType" : "tabular",
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":id",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":position",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : 210192584,
+        "name" : "ID",
+        "dataTypeName" : "text",
+        "fieldName" : "id",
+        "position" : 2,
+        "renderTypeName" : "text",
+        "tableColumnId" : 26117323,
+        "width" : 124,
+        "cachedContents" : {
+          "largest" : "Skpk9",
+          "non_null" : 21,
+          "null" : 0,
+          "top" : [ {
+            "item" : "Skpk1",
+            "count" : 20
+          }, {
+            "item" : "Skpk16",
+            "count" : 19
+          }, {
+            "item" : "Skpk11",
+            "count" : 18
+          }, {
+            "item" : "Skpk6",
+            "count" : 17
+          }, {
+            "item" : "Skpk9",
+            "count" : 16
+          }, {
+            "item" : "Skpk19",
+            "count" : 15
+          }, {
+            "item" : "Skpk3",
+            "count" : 14
+          }, {
+            "item" : "Skpk12",
+            "count" : 13
+          }, {
+            "item" : "Skpk2",
+            "count" : 12
+          }, {
+            "item" : "Skpk10",
+            "count" : 11
+          }, {
+            "item" : "Skpk14",
+            "count" : 10
+          }, {
+            "item" : "Skpk17",
+            "count" : 9
+          }, {
+            "item" : "Skpk7",
+            "count" : 8
+          }, {
+            "item" : "Skpk18",
+            "count" : 7
+          }, {
+            "item" : "Skpk15",
+            "count" : 6
+          }, {
+            "item" : "Skpk13",
+            "count" : 5
+          }, {
+            "item" : "Skpk8",
+            "count" : 4
+          }, {
+            "item" : "Skpk4",
+            "count" : 3
+          }, {
+            "item" : "Skpk21",
+            "count" : 2
+          }, {
+            "item" : "Skpk20",
+            "count" : 1
+          } ],
+          "smallest" : "Skpk1"
+        },
+        "format" : { }
+      }, {
+        "id" : 210192585,
+        "name" : "DIVISION",
+        "dataTypeName" : "text",
+        "fieldName" : "division",
+        "position" : 3,
+        "renderTypeName" : "text",
+        "tableColumnId" : 26117324,
+        "width" : 196,
+        "cachedContents" : {
+          "largest" : "Weston",
+          "non_null" : 21,
+          "null" : 0,
+          "top" : [ {
+            "item" : "Belconnen",
+            "count" : 20
+          }, {
+            "item" : "Campbell",
+            "count" : 19
+          }, {
+            "item" : "Charnwood",
+            "count" : 18
+          }, {
+            "item" : "City",
+            "count" : 17
+          }, {
+            "item" : "Fadden",
+            "count" : 16
+          }, {
+            "item" : "Flynn",
+            "count" : 15
+          }, {
+            "item" : "Greenway",
+            "count" : 14
+          }, {
+            "item" : "Gungahlin",
+            "count" : 13
+          }, {
+            "item" : "Holt",
+            "count" : 12
+          }, {
+            "item" : "Kambah",
+            "count" : 11
+          }, {
+            "item" : "Macarthur",
+            "count" : 10
+          }, {
+            "item" : "Phillip",
+            "count" : 9
+          }, {
+            "item" : "Richardson",
+            "count" : 8
+          }, {
+            "item" : "Rivett",
+            "count" : 7
+          }, {
+            "item" : "Stirling",
+            "count" : 6
+          }, {
+            "item" : "Wanniassa",
+            "count" : 5
+          }, {
+            "item" : "Weston",
+            "count" : 4
+          }, {
+            "item" : "Franklin",
+            "count" : 3
+          }, {
+            "item" : "Conder",
+            "count" : 2
+          }, {
+            "item" : "Barton",
+            "count" : 1
+          } ],
+          "smallest" : "Barton"
+        },
+        "format" : { }
+      }, {
+        "id" : 210192586,
+        "name" : "LOCATION",
+        "dataTypeName" : "text",
+        "fieldName" : "location",
+        "position" : 4,
+        "renderTypeName" : "text",
+        "tableColumnId" : 26117325,
+        "width" : 196,
+        "cachedContents" : {
+          "largest" : "Yerrabi District Park",
+          "non_null" : 21,
+          "null" : 0,
+          "top" : [ {
+            "item" : "Emu Bank Pedestrian Parkland",
+            "count" : 20
+          }, {
+            "item" : "White Crescent Neighbourhood Park",
+            "count" : 19
+          }, {
+            "item" : "Barnes Place Neighbourhood Park",
+            "count" : 18
+          }, {
+            "item" : "Ballumbir Street",
+            "count" : 17
+          }, {
+            "item" : "Fadden Pines District Park",
+            "count" : 16
+          }, {
+            "item" : "George Simpson Park Surround",
+            "count" : 15
+          }, {
+            "item" : "Tuggeranong Town Park",
+            "count" : 14
+          }, {
+            "item" : "Yerrabi District Park",
+            "count" : 13
+          }, {
+            "item" : "Moyes Cresent Pedestrian Parkland",
+            "count" : 12
+          }, {
+            "item" : "Kambah District Park",
+            "count" : 11
+          }, {
+            "item" : "Hawkesworth Place Neighbourhood Park",
+            "count" : 10
+          }, {
+            "item" : "Eddison Town Park",
+            "count" : 9
+          }, {
+            "item" : "Clift Crescent Pedestrian Parkland",
+            "count" : 8
+          }, {
+            "item" : "Sollya Place Pedestrian Parkland",
+            "count" : 7
+          }, {
+            "item" : "Sherratt Place Pedestrian Parkland",
+            "count" : 6
+          }, {
+            "item" : "Creman Close Pedestrian Parkland",
+            "count" : 5
+          }, {
+            "item" : "Dillon Close - Pedestrian Parkland",
+            "count" : 4
+          }, {
+            "item" : "Kilmeny Close Community Park (Crip)",
+            "count" : 3
+          }, {
+            "item" : "Sidney Nolan Street",
+            "count" : 2
+          }, {
+            "item" : "Telopea Park",
+            "count" : 1
+          } ],
+          "smallest" : "Ballumbir Street"
+        },
+        "format" : { }
+      }, {
+        "id" : 210192587,
+        "name" : "IMAGE_LINK",
+        "dataTypeName" : "url",
+        "fieldName" : "image_link",
+        "position" : 5,
+        "renderTypeName" : "url",
+        "tableColumnId" : 26117326,
+        "width" : 220,
+        "cachedContents" : {
+          "non_null" : 0,
+          "null" : 21
+        },
+        "format" : { },
+        "subColumnTypes" : [ "url", "description" ]
+      }, {
+        "id" : 210192588,
+        "name" : "VIDEO_LINK",
+        "dataTypeName" : "url",
+        "fieldName" : "video_link",
+        "position" : 6,
+        "renderTypeName" : "url",
+        "tableColumnId" : 26117327,
+        "width" : 220,
+        "cachedContents" : {
+          "non_null" : 0,
+          "null" : 21
+        },
+        "format" : { },
+        "subColumnTypes" : [ "url", "description" ]
+      }, {
+        "id" : 210192589,
+        "name" : "LATITUDE",
+        "dataTypeName" : "number",
+        "fieldName" : "latitude",
+        "position" : 8,
+        "renderTypeName" : "number",
+        "tableColumnId" : 26117329,
+        "width" : 196,
+        "cachedContents" : {
+          "largest" : "-35.178893",
+          "non_null" : 21,
+          "average" : "-35.31374642857143",
+          "null" : 0,
+          "top" : [ {
+            "item" : "-35.239332",
+            "count" : 20
+          }, {
+            "item" : "-35.288843",
+            "count" : 19
+          }, {
+            "item" : "-35.196038",
+            "count" : 18
+          }, {
+            "item" : "-35.27813",
+            "count" : 17
+          }, {
+            "item" : "-35.409974",
+            "count" : 16
+          }, {
+            "item" : "-35.207598",
+            "count" : 15
+          }, {
+            "item" : "-35.410104",
+            "count" : 14
+          }, {
+            "item" : "-35.178893",
+            "count" : 13
+          }, {
+            "item" : "-35.180126",
+            "count" : 12
+          }, {
+            "item" : "-35.22112",
+            "count" : 11
+          }, {
+            "item" : "-35.392839",
+            "count" : 10
+          }, {
+            "item" : "-35.408198",
+            "count" : 9
+          }, {
+            "item" : "-35.339971",
+            "count" : 8
+          }, {
+            "item" : "-35.427073",
+            "count" : 7
+          }, {
+            "item" : "-35.349358",
+            "count" : 6
+          }, {
+            "item" : "-35.349766",
+            "count" : 5
+          }, {
+            "item" : "-35.402487",
+            "count" : 4
+          }, {
+            "item" : "-35.337431",
+            "count" : 3
+          }, {
+            "item" : "-35.196972",
+            "count" : 2
+          }, {
+            "item" : "-35.458384",
+            "count" : 1
+          } ],
+          "smallest" : "-35.458384",
+          "sum" : "-741.588675"
+        },
+        "format" : { }
+      }, {
+        "id" : 210192590,
+        "name" : "LONGITUDE",
+        "dataTypeName" : "number",
+        "fieldName" : "longitude",
+        "position" : 9,
+        "renderTypeName" : "number",
+        "tableColumnId" : 26117330,
+        "width" : 208,
+        "cachedContents" : {
+          "largest" : "149.155446",
+          "non_null" : 21,
+          "average" : "149.0911374761905",
+          "null" : 0,
+          "top" : [ {
+            "item" : "149.072554",
+            "count" : 20
+          }, {
+            "item" : "149.155446",
+            "count" : 19
+          }, {
+            "item" : "149.038845",
+            "count" : 18
+          }, {
+            "item" : "149.13462",
+            "count" : 17
+          }, {
+            "item" : "149.120424",
+            "count" : 16
+          }, {
+            "item" : "149.044027",
+            "count" : 15
+          }, {
+            "item" : "149.064239",
+            "count" : 14
+          }, {
+            "item" : "149.131016",
+            "count" : 13
+          }, {
+            "item" : "149.129395",
+            "count" : 12
+          }, {
+            "item" : "149.020255",
+            "count" : 11
+          }, {
+            "item" : "149.063552",
+            "count" : 10
+          }, {
+            "item" : "149.129023",
+            "count" : 9
+          }, {
+            "item" : "149.091375",
+            "count" : 8
+          }, {
+            "item" : "149.115193",
+            "count" : 7
+          }, {
+            "item" : "149.032661",
+            "count" : 6
+          }, {
+            "item" : "149.045266",
+            "count" : 5
+          }, {
+            "item" : "149.097508",
+            "count" : 4
+          }, {
+            "item" : "149.053905",
+            "count" : 3
+          }, {
+            "item" : "149.143726",
+            "count" : 2
+          }, {
+            "item" : "149.094805",
+            "count" : 1
+          } ],
+          "smallest" : "149.020255",
+          "sum" : "3130.913887"
+        },
+        "format" : { }
+      }, {
+        "id" : 210192591,
+        "name" : "Location_1",
+        "dataTypeName" : "location",
+        "fieldName" : "location_1",
+        "position" : 10,
+        "renderTypeName" : "location",
+        "tableColumnId" : 28669096,
+        "width" : 100,
+        "cachedContents" : {
+          "largest" : {
+            "latitude" : "-35.337431",
+            "longitude" : "149.053905"
+          },
+          "non_null" : 21,
+          "null" : 0,
+          "top" : [ {
+            "item" : {
+              "latitude" : "-35.239332",
+              "longitude" : "149.072554"
+            },
+            "count" : 20
+          }, {
+            "item" : {
+              "latitude" : "-35.288843",
+              "longitude" : "149.155446"
+            },
+            "count" : 19
+          }, {
+            "item" : {
+              "latitude" : "-35.196038",
+              "longitude" : "149.038845"
+            },
+            "count" : 18
+          }, {
+            "item" : {
+              "latitude" : "-35.27813",
+              "longitude" : "149.13462"
+            },
+            "count" : 17
+          }, {
+            "item" : {
+              "latitude" : "-35.409974",
+              "longitude" : "149.120424"
+            },
+            "count" : 16
+          }, {
+            "item" : {
+              "latitude" : "-35.207598",
+              "longitude" : "149.044027"
+            },
+            "count" : 15
+          }, {
+            "item" : {
+              "latitude" : "-35.410104",
+              "longitude" : "149.064239"
+            },
+            "count" : 14
+          }, {
+            "item" : {
+              "latitude" : "-35.178893",
+              "longitude" : "149.131016"
+            },
+            "count" : 13
+          }, {
+            "item" : {
+              "latitude" : "-35.180126",
+              "longitude" : "149.129395"
+            },
+            "count" : 12
+          }, {
+            "item" : {
+              "latitude" : "-35.22112",
+              "longitude" : "149.020255"
+            },
+            "count" : 11
+          }, {
+            "item" : {
+              "latitude" : "-35.392839",
+              "longitude" : "149.063552"
+            },
+            "count" : 10
+          }, {
+            "item" : {
+              "latitude" : "-35.408198",
+              "longitude" : "149.129023"
+            },
+            "count" : 9
+          }, {
+            "item" : {
+              "latitude" : "-35.339971",
+              "longitude" : "149.091375"
+            },
+            "count" : 8
+          }, {
+            "item" : {
+              "latitude" : "-35.427073",
+              "longitude" : "149.115193"
+            },
+            "count" : 7
+          }, {
+            "item" : {
+              "latitude" : "-35.349358",
+              "longitude" : "149.032661"
+            },
+            "count" : 6
+          }, {
+            "item" : {
+              "latitude" : "-35.349766",
+              "longitude" : "149.045266"
+            },
+            "count" : 5
+          }, {
+            "item" : {
+              "latitude" : "-35.402487",
+              "longitude" : "149.097508"
+            },
+            "count" : 4
+          }, {
+            "item" : {
+              "latitude" : "-35.337431",
+              "longitude" : "149.053905"
+            },
+            "count" : 3
+          }, {
+            "item" : {
+              "latitude" : "-35.196972",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "149.143726"
+            },
+            "count" : 2
+          }, {
+            "item" : {
+              "latitude" : "-35.458384",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "149.094805"
+            },
+            "count" : 1
+          } ],
+          "smallest" : {
+            "latitude" : "-35.196972",
+            "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+            "longitude" : "149.143726"
+          }
+        },
+        "format" : { },
+        "subColumnTypes" : [ "human_address", "latitude", "longitude", "machine_address", "needs_recoding" ]
+      } ],
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "license" : {
+        "name" : "Creative Commons Attribution 4.0 International",
+        "logoUrl" : "images/licenses/cc30by.png",
+        "termsLink" : "http://creativecommons.org/licenses/by/4.0/legalcode"
+      },
+      "metadata" : {
+        "rdfSubject" : "0",
+        "rdfClass" : "",
+        "custom_fields" : {
+          "Contributing Agency" : {
+            "Contact Email" : "tamsdspatial@act.gov.au",
+            "Agency Name" : "Parks and City Services",
+            "Directorate" : "Transport Canberra and City Services"
+          }
+        },
+        "rowIdentifier" : "0",
+        "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+        "rowLabel" : "",
+        "renderTypeConfig" : {
+          "visible" : {
+            "table" : true
+          }
+        }
+      },
+      "owner" : {
+        "id" : "m7km-7fxa",
+        "displayName" : "TAMS",
+        "lastNotificationSeenAt" : 1496197272,
+        "profileImageUrlLarge" : "/api/users/m7km-7fxa/profile_images/LARGE",
+        "profileImageUrlMedium" : "/api/users/m7km-7fxa/profile_images/THUMB",
+        "profileImageUrlSmall" : "/api/users/m7km-7fxa/profile_images/TINY",
+        "roleName" : "editor",
+        "screenName" : "TAMS",
+        "rights" : [ "create_datasets", "view_domain", "create_pages", "view_goals", "view_dashboards", "view_story", "view_unpublished_story" ]
+      },
+      "query" : { },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "m7km-7fxa",
+        "displayName" : "TAMS",
+        "lastNotificationSeenAt" : 1496197272,
+        "profileImageUrlLarge" : "/api/users/m7km-7fxa/profile_images/LARGE",
+        "profileImageUrlMedium" : "/api/users/m7km-7fxa/profile_images/THUMB",
+        "profileImageUrlSmall" : "/api/users/m7km-7fxa/profile_images/TINY",
+        "roleName" : "editor",
+        "screenName" : "TAMS",
+        "rights" : [ "create_datasets", "view_domain", "create_pages", "view_goals", "view_dashboards", "view_story", "view_unpublished_story" ]
+      },
+      "tags" : [ "skate", "park", "bike", "scooter", "rollerblade" ],
+      "flags" : [ "default", "restorable", "restorePossibleForType" ]
+    }
+  },
+  "data" : [ [ 2, "EDC2546D-C57B-445B-81E7-4D3A9FC7223A", 2, 1435250608, "913938", 1435250608, "913938", "{\n}", "Skpk1", "Belconnen", "Emu Bank Pedestrian Parkland", [ null, null ], [ null, null ], "-35.239332", "149.072554", [ null, "-35.239332", "149.072554", null, false ] ]
+, [ 3, "6B0F7A0F-CA9F-4231-9F75-C3317C0FF38D", 3, 1435250608, "913938", 1435250608, "913938", "{\n}", "Skpk16", "Campbell", "White Crescent Neighbourhood Park", [ null, null ], [ null, null ], "-35.288843", "149.155446", [ null, "-35.288843", "149.155446", null, false ] ]
+, [ 4, "1045E008-0FCF-471D-AEC4-DE23C5266A66", 4, 1435250608, "913938", 1435250608, "913938", "{\n}", "Skpk11", "Charnwood", "Barnes Place Neighbourhood Park", [ null, null ], [ null, null ], "-35.196038", "149.038845", [ null, "-35.196038", "149.038845", null, false ] ]
+, [ 5, "4D765C00-2EF5-4A94-958A-066B00B92516", 5, 1435250608, "913938", 1435250608, "913938", "{\n}", "Skpk6", "City", "Ballumbir Street", [ null, null ], [ null, null ], "-35.27813", "149.13462", [ null, "-35.27813", "149.13462", null, false ] ]
+, [ 7, "E017DF84-5F9D-45E5-BEDA-A69C7ED87520", 7, 1435250608, "913938", 1435250608, "913938", "{\n}", "Skpk9", "Fadden", "Fadden Pines District Park", [ null, null ], [ null, null ], "-35.409974", "149.120424", [ null, "-35.409974", "149.120424", null, false ] ]
+, [ 8, "CEC999A8-CA86-4BE1-94C9-2AA15F9D31B6", 8, 1435250608, "913938", 1435250608, "913938", "{\n}", "Skpk19", "Flynn", "George Simpson Park Surround", [ null, null ], [ null, null ], "-35.207598", "149.044027", [ null, "-35.207598", "149.044027", null, false ] ]
+, [ 9, "7939B5CB-FB12-42CC-A968-5868DCF42722", 9, 1435250608, "913938", 1435250608, "913938", "{\n}", "Skpk3", "Greenway", "Tuggeranong Town Park", [ null, null ], [ null, null ], "-35.410104", "149.064239", [ null, "-35.410104", "149.064239", null, false ] ]
+, [ 10, "AEE51D6B-B03A-44FB-BCFF-3556DA463433", 10, 1435250608, "913938", 1435250608, "913938", "{\n}", "Skpk12", "Gungahlin", "Yerrabi District Park", [ null, null ], [ null, null ], "-35.178893", "149.131016", [ null, "-35.178893", "149.131016", null, false ] ]
+, [ 11, "D45F7438-C38D-4AB6-A2D2-0806325092A2", 11, 1435250608, "913938", 1435250608, "913938", "{\n}", "Skpk2", "Gungahlin", "Yerrabi District Park", [ null, null ], [ null, null ], "-35.180126", "149.129395", [ null, "-35.180126", "149.129395", null, false ] ]
+, [ 12, "AC7485DD-C77D-41DE-82EF-7CC0D28A5CA1", 12, 1435250608, "913938", 1435250608, "913938", "{\n}", "Skpk10", "Holt", "Moyes Cresent Pedestrian Parkland", [ null, null ], [ null, null ], "-35.22112", "149.020255", [ null, "-35.22112", "149.020255", null, false ] ]
+, [ 13, "78D41E9D-CFA7-4BD6-91E6-8760F07D4502", 13, 1435250608, "913938", 1435250608, "913938", "{\n}", "Skpk14", "Kambah", "Kambah District Park", [ null, null ], [ null, null ], "-35.392839", "149.063552", [ null, "-35.392839", "149.063552", null, false ] ]
+, [ 14, "5E167423-97AB-43B6-9FB9-9A365FC6C14E", 14, 1435250608, "913938", 1435250608, "913938", "{\n}", "Skpk17", "Macarthur", "Hawkesworth Place Neighbourhood Park", [ null, null ], [ null, null ], "-35.408198", "149.129023", [ null, "-35.408198", "149.129023", null, false ] ]
+, [ 15, "D2530105-74C8-4CDC-83EE-A095C1886686", 15, 1435250608, "913938", 1435250608, "913938", "{\n}", "Skpk7", "Phillip", "Eddison Town Park", [ null, null ], [ null, null ], "-35.339971", "149.091375", [ null, "-35.339971", "149.091375", null, false ] ]
+, [ 16, "C7373227-A6E8-49C7-96C8-F7F5F97767F1", 16, 1435250608, "913938", 1435250608, "913938", "{\n}", "Skpk18", "Richardson", "Clift Crescent Pedestrian Parkland", [ null, null ], [ null, null ], "-35.427073", "149.115193", [ null, "-35.427073", "149.115193", null, false ] ]
+, [ 17, "2E521719-5D1D-4B3E-BF58-0C7F44D061C4", 17, 1435250608, "913938", 1435250608, "913938", "{\n}", "Skpk15", "Rivett", "Sollya Place Pedestrian Parkland", [ null, null ], [ null, null ], "-35.349358", "149.032661", [ null, "-35.349358", "149.032661", null, false ] ]
+, [ 18, "606F523D-FF2D-4F8B-A7A0-1FD6A3058DE5", 18, 1435250608, "913938", 1435250608, "913938", "{\n}", "Skpk13", "Stirling", "Sherratt Place Pedestrian Parkland", [ null, null ], [ null, null ], "-35.349766", "149.045266", [ null, "-35.349766", "149.045266", null, false ] ]
+, [ 19, "C27C382C-BE47-4364-AA47-931E34AE61CB", 19, 1435250608, "913938", 1435250608, "913938", "{\n}", "Skpk8", "Wanniassa", "Creman Close Pedestrian Parkland", [ null, null ], [ null, null ], "-35.402487", "149.097508", [ null, "-35.402487", "149.097508", null, false ] ]
+, [ 20, "0E675008-1025-4F1A-B76A-312678482C94", 20, 1435250608, "913938", 1435250608, "913938", "{\n}", "Skpk4", "Weston", "Dillon Close - Pedestrian Parkland", [ null, null ], [ null, null ], "-35.337431", "149.053905", [ null, "-35.337431", "149.053905", null, false ] ]
+, [ 22, "6A6FAD47-2E15-4DC1-B3F1-B808D5A6CCD7", 22, 1441937037, "913938", 1441937037, "913938", null, "Skpk21", "Franklin", "Kilmeny Close Community Park (Crip)", [ null, null ], [ null, null ], "-35.196972", "149.143726", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.196972", "149.143726", null, false ] ]
+, [ 23, "EFFC88B9-7A29-464D-BAA1-7A34B0993A38", 23, 1463968943, "913938", 1463968943, "913938", null, "Skpk20", "Conder", "Sidney Nolan Street", [ null, null ], [ null, null ], "-35.458384", "149.094805", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.458384", "149.094805", null, false ] ]
+, [ 24, "ED9623AE-91FA-424C-B2CF-7AB96C9C195D", 24, 1478332928, "913938", 1478332928, "913938", null, "Skpk5", "Barton", "Telopea Park", [ null, null ], [ null, null ], "-35.316038", "149.136052", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.316038", "149.136052", null, false ] ]
+ ]
+}

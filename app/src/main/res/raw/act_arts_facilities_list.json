@@ -1,0 +1,442 @@
+{
+  "meta" : {
+    "view" : {
+      "id" : "yjpk-an5u",
+      "name" : "ACT Arts Facilities List",
+      "attribution" : "artsACT, Chief Minister, Treasury and Economic Development Directorate",
+      "attributionLink" : "http://www.arts.act.gov.au/our-arts-facilities",
+      "averageRating" : 0,
+      "category" : "Arts, Culture and Events",
+      "createdAt" : 1379055970,
+      "description" : "A list of arts facilities in the ACT.",
+      "displayType" : "table",
+      "downloadCount" : 279,
+      "hideFromCatalog" : false,
+      "hideFromDataJson" : false,
+      "indexUpdatedAt" : 1499226563,
+      "licenseId" : "CC_40_BY",
+      "locale" : "",
+      "newBackend" : false,
+      "numberOfComments" : 0,
+      "oid" : 25659706,
+      "provenance" : "official",
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1490577981,
+      "publicationGroup" : 1143007,
+      "publicationStage" : "published",
+      "rowClass" : "",
+      "rowsUpdatedAt" : 1490577855,
+      "rowsUpdatedBy" : "bpef-cpv3",
+      "tableId" : 14111421,
+      "totalTimesRated" : 0,
+      "viewCount" : 194,
+      "viewLastModified" : 1499226486,
+      "viewType" : "tabular",
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":id",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":position",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : 294923145,
+        "name" : "Facility",
+        "dataTypeName" : "text",
+        "fieldName" : "facility",
+        "position" : 1,
+        "renderTypeName" : "text",
+        "tableColumnId" : 14126957,
+        "width" : 196,
+        "cachedContents" : {
+          "largest" : "Watson Arts Centre",
+          "non_null" : 11,
+          "null" : 0,
+          "top" : [ {
+            "item" : "Ainslie Arts Centre",
+            "count" : 20
+          }, {
+            "item" : "Belconnen Arts Centre",
+            "count" : 19
+          }, {
+            "item" : "Canberra Contemporary Art Space",
+            "count" : 18
+          }, {
+            "item" : "Canberra Glassworks",
+            "count" : 17
+          }, {
+            "item" : "Canberra Glassworks Chapel",
+            "count" : 16
+          }, {
+            "item" : "Gorman House Arts Centre",
+            "count" : 15
+          }, {
+            "item" : "Manuka Arts Centre",
+            "count" : 14
+          }, {
+            "item" : "Strathnairn",
+            "count" : 13
+          }, {
+            "item" : "The Street Theatre",
+            "count" : 12
+          }, {
+            "item" : "Tuggeranong Arts Centre",
+            "count" : 11
+          }, {
+            "item" : "Watson Arts Centre",
+            "count" : 10
+          } ],
+          "smallest" : "Ainslie Arts Centre"
+        },
+        "format" : { }
+      }, {
+        "id" : 294923147,
+        "name" : "Address",
+        "dataTypeName" : "text",
+        "fieldName" : "address",
+        "position" : 2,
+        "renderTypeName" : "text",
+        "tableColumnId" : 14126958,
+        "width" : 184,
+        "cachedContents" : {
+          "largest" : "Elouera Street, BRADDON ACT 2612\n",
+          "non_null" : 11,
+          "null" : 0,
+          "top" : [ {
+            "item" : "Elouera Street, BRADDON ACT 2612\n",
+            "count" : 20
+          }, {
+            "item" : "118 Emu Bank, BELCONNEN ACT 2617\n\n\n\n\n\n",
+            "count" : 19
+          }, {
+            "item" : "19 Furneaux Street, FORREST ACT 2603\n\n\n",
+            "count" : 18
+          }, {
+            "item" : "11 Wentworth Avenue, Kingston ACT 2604\n\n\n, ",
+            "count" : 17
+          }, {
+            "item" : "11 Wentworth Avenue, Kingston ACT 2604 ",
+            "count" : 16
+          }, {
+            "item" : "Ainslie Avenue, BRADDON ACT 2612\n\n\n\n",
+            "count" : 15
+          }, {
+            "item" : "Corner of NSW Crescent and Manuka Circle, GRIFFITH ACT 2603\n\n\n\n",
+            "count" : 14
+          }, {
+            "item" : "90 Stockdill Drive, BELCONNEN ACT 2615\n\n",
+            "count" : 13
+          }, {
+            "item" : "Corner of Childers Street and University Avenue, ACTON ACT 2601\n\n",
+            "count" : 12
+          }, {
+            "item" : "137 Reed Street, GREENWAY ACT 2901\n\n",
+            "count" : 11
+          }, {
+            "item" : "1 Aspinall Street, WATSON ACT 2602\n\n",
+            "count" : 10
+          } ],
+          "smallest" : "118 Emu Bank, BELCONNEN ACT 2617\n\n\n\n\n\n"
+        },
+        "format" : { }
+      }, {
+        "id" : 294923149,
+        "name" : "Location",
+        "dataTypeName" : "location",
+        "fieldName" : "location",
+        "position" : 3,
+        "renderTypeName" : "location",
+        "tableColumnId" : 14126960,
+        "width" : 297,
+        "cachedContents" : {
+          "largest" : {
+            "latitude" : "-35.230757",
+            "longitude" : "149.155369"
+          },
+          "non_null" : 11,
+          "null" : 0,
+          "top" : [ {
+            "item" : {
+              "latitude" : "-35.281746",
+              "longitude" : "149.122345"
+            },
+            "count" : 20
+          }, {
+            "item" : {
+              "latitude" : "-35.235805",
+              "longitude" : "149.068165"
+            },
+            "count" : 19
+          }, {
+            "item" : {
+              "latitude" : "-35.3198",
+              "longitude" : "149.131401"
+            },
+            "count" : 18
+          }, {
+            "item" : {
+              "latitude" : "-35.311518",
+              "longitude" : "149.143996"
+            },
+            "count" : 17
+          }, {
+            "item" : {
+              "latitude" : "-35.310958",
+              "longitude" : "149.142966"
+            },
+            "count" : 16
+          }, {
+            "item" : {
+              "latitude" : "-35.277752",
+              "longitude" : "149.137774"
+            },
+            "count" : 15
+          }, {
+            "item" : {
+              "latitude" : "-35.316561",
+              "longitude" : "149.135123"
+            },
+            "count" : 14
+          }, {
+            "item" : {
+              "latitude" : "-35.232361",
+              "longitude" : "148.994479"
+            },
+            "count" : 13
+          }, {
+            "item" : {
+              "latitude" : "-35.27861",
+              "longitude" : "149.123762"
+            },
+            "count" : 12
+          }, {
+            "item" : {
+              "latitude" : "-35.416125",
+              "longitude" : "149.070697"
+            },
+            "count" : 11
+          }, {
+            "item" : {
+              "latitude" : "-35.230757",
+              "longitude" : "149.155369"
+            },
+            "count" : 10
+          } ],
+          "smallest" : {
+            "latitude" : "-35.281746",
+            "longitude" : "149.122345"
+          }
+        },
+        "format" : { },
+        "subColumnTypes" : [ "human_address", "latitude", "longitude", "machine_address", "needs_recoding" ]
+      }, {
+        "id" : 295232084,
+        "name" : "URL",
+        "dataTypeName" : "url",
+        "fieldName" : "url",
+        "position" : 4,
+        "renderTypeName" : "url",
+        "tableColumnId" : 45345395,
+        "width" : 450,
+        "cachedContents" : {
+          "largest" : {
+            "url" : "http://www.arts.act.gov.au/our-arts-facilities/watson-arts-centre"
+          },
+          "non_null" : 11,
+          "null" : 0,
+          "top" : [ {
+            "item" : {
+              "url" : "http://www.arts.act.gov.au/our-arts-facilities/ainslie-arts-centre"
+            },
+            "count" : 20
+          }, {
+            "item" : {
+              "url" : "http://www.arts.act.gov.au/our-arts-facilities/belconnen-arts-centre"
+            },
+            "count" : 19
+          }, {
+            "item" : {
+              "url" : "http://www.arts.act.gov.au/our-arts-facilities/canberra-contemporary-art-space"
+            },
+            "count" : 18
+          }, {
+            "item" : {
+              "url" : "http://www.arts.act.gov.au/our-arts-facilities/canberra-glassworks"
+            },
+            "count" : 17
+          }, {
+            "item" : {
+              "url" : "http://www.arts.act.gov.au/our-arts-facilities/canberra-glassworks-chapel"
+            },
+            "count" : 16
+          }, {
+            "item" : {
+              "url" : "http://www.arts.act.gov.au/our-arts-facilities/gorman-house-arts-centre"
+            },
+            "count" : 15
+          }, {
+            "item" : {
+              "url" : "http://www.arts.act.gov.au/our-arts-facilities/manuka-arts-centre"
+            },
+            "count" : 14
+          }, {
+            "item" : {
+              "url" : "http://www.arts.act.gov.au/our-arts-facilities/strathnairn"
+            },
+            "count" : 13
+          }, {
+            "item" : {
+              "url" : "http://www.arts.act.gov.au/our-arts-facilities/the-street-theatre"
+            },
+            "count" : 12
+          }, {
+            "item" : {
+              "url" : "http://www.arts.act.gov.au/our-arts-facilities/tuggeranong-arts-centre"
+            },
+            "count" : 11
+          }, {
+            "item" : {
+              "url" : "http://www.arts.act.gov.au/our-arts-facilities/watson-arts-centre"
+            },
+            "count" : 10
+          } ],
+          "smallest" : {
+            "url" : "http://www.arts.act.gov.au/our-arts-facilities/ainslie-arts-centre"
+          }
+        },
+        "format" : { },
+        "subColumnTypes" : [ "url", "description" ]
+      } ],
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "license" : {
+        "name" : "Creative Commons Attribution 4.0 International",
+        "logoUrl" : "images/licenses/cc30by.png",
+        "termsLink" : "http://creativecommons.org/licenses/by/4.0/legalcode"
+      },
+      "metadata" : {
+        "rdfSubject" : "0",
+        "rdfClass" : "",
+        "custom_fields" : {
+          "Contributing Agency" : {
+            "Contact Email" : "artsACT@act.gov.au",
+            "Agency Program" : "artsACT",
+            "Program Website" : "http://www.arts.act.gov.au/our-arts-facilities",
+            "Agency Name" : "artsACT",
+            "Directorate" : "Chief Minister, Treasury and Economic Development"
+          },
+          "Data Set Coverage" : {
+            "Temporal Coverage" : "ACT"
+          }
+        },
+        "rowIdentifier" : "0",
+        "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+        "rowLabel" : "",
+        "renderTypeConfig" : {
+          "visible" : {
+            "table" : true
+          }
+        }
+      },
+      "owner" : {
+        "id" : "bpef-cpv3",
+        "displayName" : "artsACT",
+        "roleName" : "editor",
+        "screenName" : "artsACT",
+        "rights" : [ "create_datasets", "view_domain", "create_pages", "view_goals", "view_dashboards", "view_story", "view_unpublished_story" ]
+      },
+      "query" : { },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "bpef-cpv3",
+        "displayName" : "artsACT",
+        "roleName" : "editor",
+        "screenName" : "artsACT",
+        "rights" : [ "create_datasets", "view_domain", "create_pages", "view_goals", "view_dashboards", "view_story", "view_unpublished_story" ]
+      },
+      "tags" : [ "arts" ],
+      "flags" : [ "default", "restorable", "restorePossibleForType" ]
+    }
+  },
+  "data" :
+  [ [ 1, "BFC80682-8640-4AE9-9632-44EC31FD49EB", 1, 1379030772, "704731", 1490577303, "988062", null, "Ainslie Arts Centre", "Elouera Street, BRADDON ACT 2612\n", [ null, "-35.281745999999998", "149.122345", null, false ], [ "http://www.arts.act.gov.au/our-arts-facilities/ainslie-arts-centre", null ] ]
+, [ 2, "FF4AD64C-4F12-4A54-A4B5-DE6E8774053C", 2, 1379030772, "704731", 1490577419, "988062", null, "Belconnen Arts Centre", "118 Emu Bank, BELCONNEN ACT 2617\n\n\n\n\n\n", [ null, "-35.235804999999999", "149.06816499999999", null, false ], [ "http://www.arts.act.gov.au/our-arts-facilities/belconnen-arts-centre", null ] ]
+, [ 3, "804B1A8C-66B3-4EEE-910E-F5FD0D012A0E", 3, 1379030772, "704731", 1490577429, "988062", null, "Canberra Contemporary Art Space", "19 Furneaux Street, FORREST ACT 2603\n\n\n", [ null, "-35.319800000000001", "149.13140100000001", null, false ], [ "http://www.arts.act.gov.au/our-arts-facilities/canberra-contemporary-art-space", null ] ]
+, [ 4, "5F1C530C-4200-421C-BA6D-29C157875AD9", 4, 1379030772, "704731", 1490577451, "988062", null, "Canberra Glassworks", "11 Wentworth Avenue, Kingston ACT 2604\n\n\n, ", [ null, "-35.311518", "149.14399599999999", null, false ], [ "http://www.arts.act.gov.au/our-arts-facilities/canberra-glassworks", null ] ]
+, [ 5, "36608423-6E15-421C-888E-D522ABA88DF8", 5, 1379030772, "704731", 1490577463, "988062", null, "Canberra Glassworks Chapel", "11 Wentworth Avenue, Kingston ACT 2604 ", [ null, "-35.310957999999999", "149.142966", null, false ], [ "http://www.arts.act.gov.au/our-arts-facilities/canberra-glassworks-chapel", null ] ]
+, [ 6, "AD63FB4F-A2E7-44E8-8E1C-A604EE6A41C9", 6, 1379030772, "704731", 1490577467, "988062", null, "Gorman House Arts Centre", "Ainslie Avenue, BRADDON ACT 2612\n\n\n\n", [ null, "-35.277752", "149.13777400000001", null, false ], [ "http://www.arts.act.gov.au/our-arts-facilities/gorman-house-arts-centre", null ] ]
+, [ 7, "9F063748-3D19-4418-9813-63837086C66B", 7, 1379030772, "704731", 1490577481, "988062", null, "Manuka Arts Centre", "Corner of NSW Crescent and Manuka Circle, GRIFFITH ACT 2603\n\n\n\n", [ null, "-35.316561", "149.13512299999999", null, false ], [ "http://www.arts.act.gov.au/our-arts-facilities/manuka-arts-centre", null ] ]
+, [ 9, "E6FE76DA-544A-4D13-8DD8-B36FCB670DC0", 9, 1379030772, "704731", 1490577509, "988062", null, "Strathnairn", "90 Stockdill Drive, BELCONNEN ACT 2615\n\n", [ null, "-35.232360999999997", "148.99447900000001", null, false ], [ "http://www.arts.act.gov.au/our-arts-facilities/strathnairn", null ] ]
+, [ 10, "856AE02C-8E5E-4A55-85D7-03A6090D491B", 10, 1379030772, "704731", 1490577521, "988062", null, "The Street Theatre", "Corner of Childers Street and University Avenue, ACTON ACT 2601\n\n", [ null, "-35.27861", "149.123762", null, false ], [ "http://www.arts.act.gov.au/our-arts-facilities/the-street-theatre", null ] ]
+, [ 12, "6D84F9B8-EAC9-4A9A-8A42-1C40D4DCBB17", 12, 1379030772, "704731", 1490577532, "988062", null, "Tuggeranong Arts Centre", "137 Reed Street, GREENWAY ACT 2901\n\n", [ null, "-35.416125000000001", "149.070697", null, false ], [ "http://www.arts.act.gov.au/our-arts-facilities/tuggeranong-arts-centre", null ] ]
+, [ 13, "875E6DA1-F8CC-4CFF-930C-53739D39C082", 13, 1379030772, "704731", 1490577543, "988062", null, "Watson Arts Centre", "1 Aspinall Street, WATSON ACT 2602\n\n", [ null, "-35.230756999999997", "149.15536900000001", null, false ], [ "http://www.arts.act.gov.au/our-arts-facilities/watson-arts-centre", null ] ]
+ ]
+}

@@ -1,0 +1,331 @@
+{
+  "meta" : {
+    "view" : {
+      "id" : "yg3r-apa2",
+      "name" : "Hospitals in the ACT",
+      "attribution" : "Shared Services Health ICT – Health Projects",
+      "averageRating" : 0,
+      "category" : "Health",
+      "createdAt" : 1387490545,
+      "description" : "A list of hospitals in the ACT detailed in the Health Services Directory (HSD).",
+      "displayType" : "table",
+      "downloadCount" : 354,
+      "hideFromCatalog" : false,
+      "hideFromDataJson" : false,
+      "indexUpdatedAt" : 1499228749,
+      "licenseId" : "CC_40_BY",
+      "locale" : "",
+      "newBackend" : false,
+      "numberOfComments" : 0,
+      "oid" : 6864052,
+      "provenance" : "official",
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1387491547,
+      "publicationGroup" : 1406461,
+      "publicationStage" : "published",
+      "rowClass" : "",
+      "rowsUpdatedAt" : 1387490562,
+      "rowsUpdatedBy" : "cqpn-mbgv",
+      "tableId" : 1406461,
+      "totalTimesRated" : 0,
+      "viewCount" : 374,
+      "viewLastModified" : 1499902181,
+      "viewType" : "tabular",
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":id",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":position",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : 123512687,
+        "name" : "Name:",
+        "dataTypeName" : "text",
+        "fieldName" : "name",
+        "position" : 2,
+        "renderTypeName" : "text",
+        "tableColumnId" : 17065334,
+        "width" : 160,
+        "cachedContents" : {
+          "non_null" : 9,
+          "largest" : "Yass Hospital",
+          "null" : 0,
+          "top" : [ {
+            "item" : "Canberra Hospital",
+            "count" : 20
+          }, {
+            "item" : "Calvary Health Care ACT - Calvary Public",
+            "count" : 19
+          }, {
+            "item" : "Calvary John James Hospital",
+            "count" : 18
+          }, {
+            "item" : "National Capital Private Hospital",
+            "count" : 17
+          }, {
+            "item" : "Canberra Eye Hospital",
+            "count" : 16
+          }, {
+            "item" : "Queanbeyan District Hospital",
+            "count" : 15
+          }, {
+            "item" : "Yass Hospital",
+            "count" : 14
+          }, {
+            "item" : "Calvary Private Hospital",
+            "count" : 13
+          }, {
+            "item" : "QEII",
+            "count" : 12
+          } ],
+          "smallest" : "Calvary Health Care ACT - Calvary Public"
+        },
+        "format" : { }
+      }, {
+        "id" : 123512688,
+        "name" : "Emergency Dept Equipped?",
+        "dataTypeName" : "text",
+        "fieldName" : "emergency_dept_equipped",
+        "position" : 3,
+        "renderTypeName" : "text",
+        "tableColumnId" : 17065335,
+        "width" : 388,
+        "cachedContents" : {
+          "non_null" : 7,
+          "largest" : "Yes",
+          "null" : 2,
+          "top" : [ {
+            "item" : "Yes",
+            "count" : 20
+          }, {
+            "item" : "No",
+            "count" : 19
+          } ],
+          "smallest" : "No"
+        },
+        "format" : { }
+      }, {
+        "id" : 123512689,
+        "name" : "Public / Private",
+        "dataTypeName" : "text",
+        "fieldName" : "public_private",
+        "position" : 4,
+        "renderTypeName" : "text",
+        "tableColumnId" : 17065336,
+        "width" : 292,
+        "cachedContents" : {
+          "non_null" : 7,
+          "largest" : "Public",
+          "null" : 2,
+          "top" : [ {
+            "item" : "Public",
+            "count" : 20
+          }, {
+            "item" : "Private",
+            "count" : 19
+          } ],
+          "smallest" : "Private"
+        },
+        "format" : { }
+      }, {
+        "id" : 123512690,
+        "name" : "Location 1",
+        "dataTypeName" : "location",
+        "fieldName" : "location_1",
+        "position" : 5,
+        "renderTypeName" : "location",
+        "tableColumnId" : 17065337,
+        "width" : 220,
+        "cachedContents" : {
+          "non_null" : 7,
+          "largest" : {
+            "latitude" : "-35.34602",
+            "human_address" : "{\"address\":\"Yamba Drive, Garran ACT 2605\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+            "longitude" : "149.1009"
+          },
+          "null" : 2,
+          "top" : [ {
+            "item" : {
+              "latitude" : "-35.34602",
+              "human_address" : "{\"address\":\"Yamba Drive, Garran ACT 2605\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "149.1009"
+            },
+            "count" : 20
+          }, {
+            "item" : {
+              "latitude" : "-35.253032",
+              "human_address" : "{\"address\":\"1 Haydon Drive, Bruce ACT 2617\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "149.08972"
+            },
+            "count" : 19
+          }, {
+            "item" : {
+              "latitude" : "-35.31888",
+              "human_address" : "{\"address\":\"175 Strickland Cres, Deakin ACT 2600\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "149.09523"
+            },
+            "count" : 18
+          }, {
+            "item" : {
+              "latitude" : "-35.3441506",
+              "human_address" : "{\"address\":\"Cnr Hospital Road &amp; Glimore Cres, Garran ACT 2605\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "149.1018312"
+            },
+            "count" : 17
+          }, {
+            "item" : {
+              "latitude" : "-35.3342476",
+              "human_address" : "{\"address\":\"14 Wormald Street, Symonston ACT 2609\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "149.1658517"
+            },
+            "count" : 16
+          }, {
+            "item" : {
+              "latitude" : "-35.346012",
+              "human_address" : "{\"address\":\"16 Erin Street, Queanbeyan NSW 2620\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "149.23317"
+            },
+            "count" : 15
+          }, {
+            "item" : {
+              "latitude" : "-34.843969",
+              "human_address" : "{\"address\":\"145-147 Meehan Street, Yass NSW 2582\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "148.906824"
+            },
+            "count" : 14
+          } ],
+          "smallest" : {
+            "latitude" : "-35.253032",
+            "human_address" : "{\"address\":\"1 Haydon Drive, Bruce ACT 2617\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+            "longitude" : "149.08972"
+          }
+        },
+        "format" : { },
+        "subColumnTypes" : [ "human_address", "latitude", "longitude", "machine_address", "needs_recoding" ]
+      } ],
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "license" : {
+        "name" : "Creative Commons Attribution 4.0 International",
+        "logoUrl" : "images/licenses/cc30by.png",
+        "termsLink" : "http://creativecommons.org/licenses/by/4.0/legalcode"
+      },
+      "metadata" : {
+        "rdfClass" : "",
+        "rdfSubject" : "0",
+        "custom_fields" : {
+          "Contributing Agency" : {
+            "Contact Email" : "HealthACT@act.gov.au",
+            "Agency Name" : "Commerce Works Directorate - Shared Services Health ICT ",
+            "Directorate" : "Health"
+          },
+          "Data Set Coverage" : {
+            "Geospatial Coverage" : "Australian Capital Territory",
+            "Update Regularity" : "As required"
+          }
+        },
+        "rowIdentifier" : "0",
+        "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+        "rowLabel" : "",
+        "renderTypeConfig" : {
+          "visible" : {
+            "table" : true
+          }
+        }
+      },
+      "owner" : {
+        "id" : "cqpn-mbgv",
+        "displayName" : "Jason Ammann",
+        "screenName" : "Jason Ammann"
+      },
+      "query" : { },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "cqpn-mbgv",
+        "displayName" : "Jason Ammann",
+        "screenName" : "Jason Ammann"
+      },
+      "tags" : [ "hospital", "health", "emergency", "medical" ],
+      "flags" : [ "default", "restorable", "restorePossibleForType" ]
+    }
+  },
+  "data" : [ [ 1, "7DC0C6AB-FC97-4027-A33C-2E96C8CFF67E", 1, 1387461749, "704731", 1387461749, "704731", "{\n}", "Canberra Hospital", "Yes", "Public", [ "{\"address\":\"Yamba Drive, Garran ACT 2605\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.346020000000003", "149.1009", null, false ] ]
+, [ 2, "EACCAAE0-E137-4082-9F83-CE72475C36E0", 2, 1387461749, "704731", 1387461749, "704731", "{\n}", "Calvary Health Care ACT - Calvary Public", "Yes", "Public", [ "{\"address\":\"1 Haydon Drive, Bruce ACT 2617\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.253031999999997", "149.08972", null, false ] ]
+, [ 3, "796B7615-1810-40B1-A68C-35D5A956E7F3", 3, 1387461749, "704731", 1387461749, "704731", "{\n}", "Calvary John James Hospital", "No", "Private", [ "{\"address\":\"175 Strickland Cres, Deakin ACT 2600\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.31888", "149.09522999999999", null, false ] ]
+, [ 4, "56DDA363-073F-45E6-8002-7EC6A6DD9ED7", 4, 1387461749, "704731", 1387461749, "704731", "{\n}", "National Capital Private Hospital", "No", "Private", [ "{\"address\":\"Cnr Hospital Road &amp; Glimore Cres, Garran ACT 2605\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.344150599999999", "149.10183119999999", null, false ] ]
+, [ 5, "5731D0C7-4832-4F29-8178-2C3FE9EF3603", 5, 1387461749, "704731", 1387461749, "704731", "{\n}", "Canberra Eye Hospital", "No", "Private", [ "{\"address\":\"14 Wormald Street, Symonston ACT 2609\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.334247599999998", "149.16585169999999", null, false ] ]
+, [ 6, "A70A58EA-DC1B-4746-A689-74AE9E12B3E6", 6, 1387461749, "704731", 1387461749, "704731", "{\n}", "Queanbeyan District Hospital", "Yes", "Public", [ "{\"address\":\"16 Erin Street, Queanbeyan NSW 2620\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.346012000000002", "149.23317", null, false ] ]
+, [ 7, "F76ED068-84D3-4EB4-BE02-52897D0CA891", 7, 1387461749, "704731", 1387461749, "704731", "{\n}", "Yass Hospital", "Yes", "Public", [ "{\"address\":\"145-147 Meehan Street, Yass NSW 2582\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-34.843969000000001", "148.906824", null, false ] ]
+, [ 8, "5AB54485-FC27-4ABF-8EE2-AFCE191FCBBF", 8, 1387461749, "704731", 1387461749, "704731", "{\n  \"invalidCells\" : {\n    \"17065337\" : \"{\\\"latitude\\\":\\\"\\\",\\\"longitude\\\":\\\"\\\",\\\"human_address\\\":{\\\"address\\\":\\\"Not Listed in HSD, letter sent Aug 2013\\\"}}\"\n  }\n}", "Calvary Private Hospital", null, null, [ null, null, null, null, null ] ]
+, [ 9, "05E713F9-302A-4DED-A3C6-27079B14523F", 9, 1387461749, "704731", 1387461749, "704731", "{\n  \"invalidCells\" : {\n    \"17065337\" : \"{\\\"latitude\\\":\\\"\\\",\\\"longitude\\\":\\\"\\\",\\\"human_address\\\":{\\\"address\\\":\\\"Not Listed in HSD, letter sent Aug 2013\\\"}}\"\n  }\n}", "QEII", null, null, [ null, null, null, null, null ] ]
+ ]
+}

@@ -1,0 +1,1085 @@
+{
+  "meta" : {
+    "view" : {
+      "id" : "emq2-8bc4",
+      "name" : "Pedestrian Crashes",
+      "attribution" : "ACT Government, Transport Canberra and City Services Directorate",
+      "attributionLink" : "http://www.tccs.act.gov.au/",
+      "averageRating" : 0,
+      "category" : "Justice, Safety and Emergency",
+      "createdAt" : 1484780189,
+      "description" : "Pedestrian Crashes, since 2012, which have been reported by the Police or the Public through the AFP Crash Report Form.\r\n\r\nPlease note: Although crash data is updated on regular bases it will always have a backlog of entries hence it is not a true reflection of the up to date crash locations. \r\nCrash locations are only indicative and may not reflect an accurate position of persons involved in an incident.\r\nCasualty crashes are occasionally omitted from some maps or crash reports if they are still under investigation.",
+      "displayType" : "table",
+      "downloadCount" : 96,
+      "hideFromCatalog" : false,
+      "hideFromDataJson" : false,
+      "indexUpdatedAt" : 1499229910,
+      "licenseId" : "CC_40_BY",
+      "locale" : "",
+      "newBackend" : false,
+      "numberOfComments" : 0,
+      "oid" : 25287441,
+      "provenance" : "official",
+      "publicationAppendEnabled" : true,
+      "publicationDate" : 1484780425,
+      "publicationGroup" : 14000761,
+      "publicationStage" : "published",
+      "rowClass" : "",
+      "rowsUpdatedAt" : 1497517383,
+      "rowsUpdatedBy" : "m7km-7fxa",
+      "tableId" : 14000761,
+      "totalTimesRated" : 0,
+      "viewCount" : 157,
+      "viewLastModified" : 1500972351,
+      "viewType" : "tabular",
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":id",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":position",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : 286422522,
+        "name" : "Crash ID",
+        "dataTypeName" : "number",
+        "fieldName" : "crash_id",
+        "position" : 2,
+        "renderTypeName" : "number",
+        "tableColumnId" : 42763702,
+        "width" : 196,
+        "cachedContents" : {
+          "largest" : "1162039",
+          "non_null" : 319,
+          "average" : "1096718.802507837",
+          "null" : 0,
+          "top" : [ {
+            "item" : "1082751",
+            "count" : 20
+          }, {
+            "item" : "1118896",
+            "count" : 19
+          }, {
+            "item" : "1097028",
+            "count" : 18
+          }, {
+            "item" : "1057318",
+            "count" : 17
+          }, {
+            "item" : "1114863",
+            "count" : 16
+          }, {
+            "item" : "1080015",
+            "count" : 15
+          }, {
+            "item" : "1137078",
+            "count" : 14
+          }, {
+            "item" : "1098893",
+            "count" : 13
+          }, {
+            "item" : "1136951",
+            "count" : 12
+          }, {
+            "item" : "1072866",
+            "count" : 11
+          }, {
+            "item" : "1152106",
+            "count" : 10
+          }, {
+            "item" : "1152328",
+            "count" : 9
+          }, {
+            "item" : "1152674",
+            "count" : 8
+          }, {
+            "item" : "1152348",
+            "count" : 7
+          }, {
+            "item" : "1154362",
+            "count" : 6
+          }, {
+            "item" : "1153425",
+            "count" : 5
+          }, {
+            "item" : "1153287",
+            "count" : 4
+          }, {
+            "item" : "1154539",
+            "count" : 3
+          }, {
+            "item" : "1154361",
+            "count" : 2
+          }, {
+            "item" : "1153629",
+            "count" : 1
+          } ],
+          "smallest" : "1026849",
+          "sum" : "349853298"
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "noCommas" : "true",
+          "align" : "right"
+        }
+      }, {
+        "id" : 286422523,
+        "name" : "Crash Date",
+        "dataTypeName" : "calendar_date",
+        "fieldName" : "crash_date",
+        "position" : 3,
+        "renderTypeName" : "calendar_date",
+        "tableColumnId" : 42763703,
+        "width" : 220,
+        "cachedContents" : {
+          "largest" : "2017-05-27T00:00:00",
+          "non_null" : 319,
+          "null" : 0,
+          "top" : [ {
+            "item" : "2014-03-27T00:00:00",
+            "count" : 20
+          }, {
+            "item" : "2015-05-22T00:00:00",
+            "count" : 19
+          }, {
+            "item" : "2014-09-01T00:00:00",
+            "count" : 18
+          }, {
+            "item" : "2012-11-22T00:00:00",
+            "count" : 17
+          }, {
+            "item" : "2015-07-14T00:00:00",
+            "count" : 16
+          }, {
+            "item" : "2014-02-10T00:00:00",
+            "count" : 15
+          }, {
+            "item" : "2016-06-16T00:00:00",
+            "count" : 14
+          }, {
+            "item" : "2014-01-05T00:00:00",
+            "count" : 13
+          }, {
+            "item" : "2015-01-06T00:00:00",
+            "count" : 12
+          }, {
+            "item" : "2013-10-19T00:00:00",
+            "count" : 11
+          }, {
+            "item" : "2017-01-23T00:00:00",
+            "count" : 10
+          }, {
+            "item" : "2016-12-12T00:00:00",
+            "count" : 9
+          }, {
+            "item" : "2016-09-05T00:00:00",
+            "count" : 8
+          }, {
+            "item" : "2017-02-06T00:00:00",
+            "count" : 7
+          }, {
+            "item" : "2016-12-17T00:00:00",
+            "count" : 6
+          }, {
+            "item" : "2017-02-18T00:00:00",
+            "count" : 5
+          }, {
+            "item" : "2017-01-06T00:00:00",
+            "count" : 4
+          }, {
+            "item" : "2017-03-03T00:00:00",
+            "count" : 3
+          }, {
+            "item" : "2017-01-15T00:00:00",
+            "count" : 2
+          }, {
+            "item" : "2016-09-15T00:00:00",
+            "count" : 1
+          } ],
+          "smallest" : "2012-01-21T00:00:00"
+        },
+        "format" : {
+          "view" : "date_dmy",
+          "align" : "left"
+        }
+      }, {
+        "id" : 286422524,
+        "name" : "Crash Time",
+        "dataTypeName" : "text",
+        "fieldName" : "crash_time",
+        "position" : 4,
+        "renderTypeName" : "text",
+        "tableColumnId" : 42763704,
+        "width" : 220,
+        "cachedContents" : {
+          "largest" : "23:50",
+          "non_null" : 319,
+          "null" : 0,
+          "top" : [ {
+            "item" : "16:45",
+            "count" : 20
+          }, {
+            "item" : "18:00",
+            "count" : 19
+          }, {
+            "item" : "15:10",
+            "count" : 18
+          }, {
+            "item" : "10:15",
+            "count" : 17
+          }, {
+            "item" : "15:30",
+            "count" : 16
+          }, {
+            "item" : "13:30",
+            "count" : 15
+          }, {
+            "item" : "15:00",
+            "count" : 14
+          }, {
+            "item" : "19:54",
+            "count" : 13
+          }, {
+            "item" : "16:00",
+            "count" : 12
+          }, {
+            "item" : "08:15",
+            "count" : 11
+          }, {
+            "item" : "10:29",
+            "count" : 10
+          }, {
+            "item" : "08:30",
+            "count" : 9
+          }, {
+            "item" : "22:30",
+            "count" : 8
+          }, {
+            "item" : "15:51",
+            "count" : 7
+          }, {
+            "item" : "13:00",
+            "count" : 6
+          }, {
+            "item" : "16:23",
+            "count" : 5
+          }, {
+            "item" : "20:30",
+            "count" : 4
+          }, {
+            "item" : "12:26",
+            "count" : 3
+          }, {
+            "item" : "16:10",
+            "count" : 2
+          }, {
+            "item" : "08:20",
+            "count" : 1
+          } ],
+          "smallest" : "00:10"
+        },
+        "format" : { }
+      }, {
+        "id" : 286422525,
+        "name" : "Severity",
+        "dataTypeName" : "text",
+        "fieldName" : "severity",
+        "position" : 5,
+        "renderTypeName" : "text",
+        "tableColumnId" : 42763705,
+        "width" : 196,
+        "cachedContents" : {
+          "largest" : "Property Damage Only",
+          "non_null" : 319,
+          "null" : 0,
+          "top" : [ {
+            "item" : "Injury",
+            "count" : 20
+          }, {
+            "item" : "Property Damage Only",
+            "count" : 19
+          }, {
+            "item" : "Fatal",
+            "count" : 18
+          } ],
+          "smallest" : "Fatal"
+        },
+        "format" : { }
+      }, {
+        "id" : 286422526,
+        "name" : "Crash Type",
+        "dataTypeName" : "text",
+        "fieldName" : "crash_type",
+        "position" : 6,
+        "renderTypeName" : "text",
+        "tableColumnId" : 42763706,
+        "width" : 220,
+        "cachedContents" : {
+          "largest" : "Struck pedestrian (On Road)",
+          "non_null" : 319,
+          "null" : 0,
+          "top" : [ {
+            "item" : "Struck pedestrian (On Road)",
+            "count" : 20
+          }, {
+            "item" : "Struck pedestrian (Off Road)",
+            "count" : 19
+          }, {
+            "item" : "Opposite direction side swipe",
+            "count" : 18
+          }, {
+            "item" : "Right angle collision",
+            "count" : 17
+          }, {
+            "item" : "Right turn into oncoming vehicle",
+            "count" : 16
+          }, {
+            "item" : "Other - Vehicle to Vehicle",
+            "count" : 15
+          }, {
+            "item" : "Collision with parked vehicle",
+            "count" : 14
+          } ],
+          "smallest" : "Collision with parked vehicle"
+        },
+        "format" : { }
+      }, {
+        "id" : 286422527,
+        "name" : "Pedestrians",
+        "dataTypeName" : "number",
+        "fieldName" : "pedestrians",
+        "position" : 7,
+        "renderTypeName" : "number",
+        "tableColumnId" : 42763707,
+        "width" : 232,
+        "cachedContents" : {
+          "largest" : "2",
+          "non_null" : 319,
+          "average" : "1.025078369905956",
+          "null" : 0,
+          "top" : [ {
+            "item" : "1",
+            "count" : 20
+          }, {
+            "item" : "2",
+            "count" : 19
+          } ],
+          "smallest" : "1",
+          "sum" : "327"
+        },
+        "format" : { }
+      }, {
+        "id" : 286422528,
+        "name" : "Pedestrian Casualties",
+        "dataTypeName" : "number",
+        "fieldName" : "pedestrian_casualties",
+        "position" : 8,
+        "renderTypeName" : "number",
+        "tableColumnId" : 42763708,
+        "width" : 352,
+        "cachedContents" : {
+          "largest" : "2",
+          "non_null" : 319,
+          "average" : "0.6583072100313480",
+          "null" : 0,
+          "top" : [ {
+            "item" : "1",
+            "count" : 20
+          }, {
+            "item" : "0",
+            "count" : 19
+          }, {
+            "item" : "2",
+            "count" : 18
+          } ],
+          "smallest" : "0",
+          "sum" : "210"
+        },
+        "format" : { }
+      }, {
+        "id" : 286422529,
+        "name" : "Reported Location",
+        "dataTypeName" : "text",
+        "fieldName" : "reported_location",
+        "position" : 9,
+        "renderTypeName" : "text",
+        "tableColumnId" : 42763709,
+        "width" : 304,
+        "cachedContents" : {
+          "largest" : "YARRA GLEN (CARREYARRNRM -> YARRNCARRWRM)",
+          "non_null" : 319,
+          "null" : 0,
+          "top" : [ {
+            "item" : "ANKETELL STREET (PITMAN -> REED)",
+            "count" : 20
+          }, {
+            "item" : "NEWCASTLE STREET (MOLONGLO/WOLLONGONG -> COLLIE)",
+            "count" : 19
+          }, {
+            "item" : "TOWNSVILLE STREET (GLADSTONE -> BODALLA)",
+            "count" : 18
+          }, {
+            "item" : "MACNALLY/NAMATJIRA INTERSECTION",
+            "count" : 17
+          }, {
+            "item" : "HALFORD CRESCENT (CHEWINGS -> KEARTLAND)",
+            "count" : 16
+          }, {
+            "item" : "BUNDA/NORTHBOURNE/RUDD INTERSECTION",
+            "count" : 15
+          }, {
+            "item" : "DRAKEFORD/SULWOOD/TUGGERANONG INTERSECTION",
+            "count" : 14
+          }, {
+            "item" : "EDGAR STREET (WAKEFIELD -> O'CONNELL)",
+            "count" : 13
+          }, {
+            "item" : "MORT STREET (ALINGA/CITY/EAST -> BUNDA)",
+            "count" : 12
+          }, {
+            "item" : "KOSCIUSZKO AVENUE (TIPTREE -> TINDERRY)",
+            "count" : 11
+          }, {
+            "item" : "RATCLIFFE CRESCENT (CHALLINOR -> CHALLINOR)",
+            "count" : 10
+          }, {
+            "item" : "WOLSTENHOLME STREET SERVICE ROAD (N)",
+            "count" : 9
+          }, {
+            "item" : "BORROWDALE STREET (NORFOLK -> BORROWDALE)",
+            "count" : 8
+          }, {
+            "item" : "MANUKA CIRCLE (CANBERRA -> FURNEAUX)",
+            "count" : 7
+          }, {
+            "item" : "CLAREY/OWEN DIXON INTERSECTION",
+            "count" : 6
+          }, {
+            "item" : "LUCY GULLETT CIRCUIT (BAINBRIDGE -> LUCY GULLETT)",
+            "count" : 5
+          }, {
+            "item" : "DRAKEFORD/ERINDALE/SOWARD INTERSECTION",
+            "count" : 4
+          }, {
+            "item" : "BARRY/KINGSLEY INTERSECTION",
+            "count" : 3
+          }, {
+            "item" : "KREFFT STREET (BOSWELL -> THORPE)",
+            "count" : 2
+          }, {
+            "item" : "ALT/LIMESTONE INTERSECTION",
+            "count" : 1
+          } ],
+          "smallest" : "AINSLIE/COOYONG INTERSECTION"
+        },
+        "format" : { }
+      }, {
+        "id" : 286422530,
+        "name" : "Location",
+        "dataTypeName" : "location",
+        "fieldName" : "location",
+        "position" : 10,
+        "renderTypeName" : "location",
+        "tableColumnId" : 42763710,
+        "width" : 196,
+        "cachedContents" : {
+          "largest" : {
+            "latitude" : "-35.354768",
+            "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+            "longitude" : "149.091489"
+          },
+          "non_null" : 319,
+          "null" : 0,
+          "top" : [ {
+            "item" : {
+              "latitude" : "-35.415841",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "149.067779"
+            },
+            "count" : 20
+          }, {
+            "item" : {
+              "latitude" : "-35.328308",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "149.17784"
+            },
+            "count" : 19
+          }, {
+            "item" : {
+              "latitude" : "-35.330009",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "149.183362"
+            },
+            "count" : 18
+          }, {
+            "item" : {
+              "latitude" : "-35.339313",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "149.053079"
+            },
+            "count" : 17
+          }, {
+            "item" : {
+              "latitude" : "-35.2343",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "149.04684"
+            },
+            "count" : 16
+          }, {
+            "item" : {
+              "latitude" : "-35.277124",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "149.129354"
+            },
+            "count" : 15
+          }, {
+            "item" : {
+              "latitude" : "-35.3739",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "149.056932"
+            },
+            "count" : 14
+          }, {
+            "item" : {
+              "latitude" : "-35.262262",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "149.145279"
+            },
+            "count" : 13
+          }, {
+            "item" : {
+              "latitude" : "-35.277787",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "149.13075"
+            },
+            "count" : 12
+          }, {
+            "item" : {
+              "latitude" : "-35.197901",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "149.121701"
+            },
+            "count" : 11
+          }, {
+            "item" : {
+              "latitude" : "-35.23191",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "149.054575"
+            },
+            "count" : 10
+          }, {
+            "item" : {
+              "latitude" : "-35.419552",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "149.116856"
+            },
+            "count" : 9
+          }, {
+            "item" : {
+              "latitude" : "-35.342443",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "149.12875"
+            },
+            "count" : 8
+          }, {
+            "item" : {
+              "latitude" : "-35.318529",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "149.132886"
+            },
+            "count" : 7
+          }, {
+            "item" : {
+              "latitude" : "-35.19682",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "149.070014"
+            },
+            "count" : 6
+          }, {
+            "item" : {
+              "latitude" : "-35.420837",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "149.129395"
+            },
+            "count" : 5
+          }, {
+            "item" : {
+              "latitude" : "-35.415365",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "149.074637"
+            },
+            "count" : 4
+          }, {
+            "item" : {
+              "latitude" : "-35.275373",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "149.125049"
+            },
+            "count" : 3
+          }, {
+            "item" : {
+              "latitude" : "-35.225538",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "149.048216"
+            },
+            "count" : 2
+          }, {
+            "item" : {
+              "latitude" : "-35.273588",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "149.14256"
+            },
+            "count" : 1
+          } ],
+          "smallest" : {
+            "latitude" : "-35.354768",
+            "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+            "longitude" : "149.091489"
+          }
+        },
+        "format" : { },
+        "subColumnTypes" : [ "human_address", "latitude", "longitude", "machine_address", "needs_recoding" ]
+      } ],
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "license" : {
+        "name" : "Creative Commons Attribution 4.0 International",
+        "logoUrl" : "images/licenses/cc30by.png",
+        "termsLink" : "http://creativecommons.org/licenses/by/4.0/legalcode"
+      },
+      "metadata" : {
+        "rdfClass" : "",
+        "rdfSubject" : "0",
+        "custom_fields" : {
+          "Contributing Agency" : {
+            "Contact Email" : "tamsdspatial@act.gov.au",
+            "Agency Name" : "ACT Government",
+            "Directorate" : "Transport Canberra and City Services"
+          }
+        },
+        "rowIdentifier" : "0",
+        "rowLabel" : "Rows indicate a single crash involving a pedestrian",
+        "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+        "renderTypeConfig" : {
+          "visible" : {
+            "table" : true
+          }
+        }
+      },
+      "owner" : {
+        "id" : "m7km-7fxa",
+        "displayName" : "TAMS",
+        "lastNotificationSeenAt" : 1496197272,
+        "profileImageUrlLarge" : "/api/users/m7km-7fxa/profile_images/LARGE",
+        "profileImageUrlMedium" : "/api/users/m7km-7fxa/profile_images/THUMB",
+        "profileImageUrlSmall" : "/api/users/m7km-7fxa/profile_images/TINY",
+        "roleName" : "editor",
+        "screenName" : "TAMS",
+        "rights" : [ "create_datasets", "view_domain", "create_pages", "view_goals", "view_dashboards", "view_story", "view_unpublished_story" ]
+      },
+      "query" : { },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "m7km-7fxa",
+        "displayName" : "TAMS",
+        "lastNotificationSeenAt" : 1496197272,
+        "profileImageUrlLarge" : "/api/users/m7km-7fxa/profile_images/LARGE",
+        "profileImageUrlMedium" : "/api/users/m7km-7fxa/profile_images/THUMB",
+        "profileImageUrlSmall" : "/api/users/m7km-7fxa/profile_images/TINY",
+        "roleName" : "editor",
+        "screenName" : "TAMS",
+        "rights" : [ "create_datasets", "view_domain", "create_pages", "view_goals", "view_dashboards", "view_story", "view_unpublished_story" ]
+      },
+      "tags" : [ "pedestrian", "crash" ],
+      "flags" : [ "default", "restorable", "restorePossibleForType" ]
+    }
+  },
+  "data" : [ [ 1787, "2720DAF0-321E-47DB-85B7-35685EF368CA", 1787, 1485493349, "913938", 1485493349, "913938", null, "1145041", "2016-10-07T00:00:00", "08:45", "Injury", "Struck pedestrian (On Road)", "1", "1", "PARRAMATTA/ATHLLON INTERSECTION", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.354768", "149.091489", null, false ] ]
+, [ 1788, "C79A0034-C584-4BC6-AAD1-8A404505D413", 1788, 1485493349, "913938", 1485493349, "913938", null, "1108346", "2015-04-09T00:00:00", "08:45", "Property Damage Only", "Struck pedestrian (On Road)", "1", "0", "BARRY DRIVE (MOORE -> COOYONG/NORTHBOURNE)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.275659", "149.128623", null, false ] ]
+, [ 1789, "DBEFDB3E-230F-4DEE-82AC-773A24E74A1D", 1789, 1485493349, "913938", 1485493349, "913938", null, "1095195", "2014-09-15T00:00:00", "16:20", "Property Damage Only", "Struck pedestrian (On Road)", "1", "0", "PERRY DRIVE (MUSGROVE -> HEATH)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.356968", "149.036867", null, false ] ]
+, [ 1790, "1CFAC334-AF63-470E-A647-25CE4EA47481", 1790, 1485493349, "913938", 1485493349, "913938", null, "1075343", "2013-11-23T00:00:00", "21:00", "Property Damage Only", "Struck pedestrian (On Road)", "1", "0", "FURNEAUX/PALMERSTON INTERSECTION", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.319716", "149.131873", null, false ] ]
+, [ 1791, "F3872DBE-5221-49CA-A500-FB14268388ED", 1791, 1485493349, "913938", 1485493349, "913938", null, "1121518", "2015-08-31T00:00:00", "20:10", "Injury", "Struck pedestrian (On Road)", "1", "1", "BUNDA/GAREMA/SCOTTS INTERSECTION", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.278106", "149.132745", null, false ] ]
+, [ 1792, "202F5B9A-0B48-4708-85E8-D941194B0442", 1792, 1485493349, "913938", 1485493349, "913938", null, "1059958", "2013-04-19T00:00:00", "13:15", "Property Damage Only", "Struck pedestrian (On Road)", "1", "0", "ALINGA/NORTHBOURNE INTERSECTION", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.278394", "149.129052", null, false ] ]
+, [ 1793, "148F86C9-E38D-43D0-A074-A896AD714074", 1793, 1485493349, "913938", 1485493349, "913938", null, "1057147", "2012-02-11T00:00:00", "23:32", "Injury", "Struck pedestrian (On Road)", "1", "1", "NORTHBOURNE AVENUE (LONDON -> ALINGA)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.27896", "149.129158", null, false ] ]
+, [ 1794, "B6219B32-30D7-4C23-808E-157B8D168B08", 1794, 1485493349, "913938", 1485493349, "913938", null, "1119120", "2015-09-12T00:00:00", "02:30", "Injury", "Struck pedestrian (On Road)", "1", "1", "LONDON CIRCUIT (EAST -> VERITY)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.279713", "149.130219", null, false ] ]
+, [ 1795, "F3CF1F75-B597-4512-A1EA-286A12B593BE", 1795, 1485493349, "913938", 1485493349, "913938", null, "1054719", "2013-02-08T00:00:00", "15:30", "Injury", "Struck pedestrian (Off Road)", "1", "1", "STANNER/HANNAH WITTON (SE) INTERSECTION", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.160807", "149.135306", null, false ] ]
+, [ 1796, "ADB9CDA8-71F6-44DF-8F54-6D49BC6A475F", 1796, 1485493349, "913938", 1485493349, "913938", null, "1062725", "2013-04-14T00:00:00", "16:00", "Injury", "Struck pedestrian (On Road)", "1", "1", "PIALLIGO AVENUE (SCHERGER -> AIR DISASTER )", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.320153", "149.207936", null, false ] ]
+, [ 1797, "BB675ED5-D38A-470F-BF4E-9E18393B2265", 1797, 1485493349, "913938", 1485493349, "913938", null, "1142102", "2016-08-18T00:00:00", "10:30", "Injury", "Struck pedestrian (On Road)", "1", "1", "ISABELLA DRIVE (BENHAM -> GOLDSTEIN/KELLETT)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.412894", "149.12147", null, false ] ]
+, [ 1798, "12D2958F-9277-4748-8C03-025217A598ED", 1798, 1485493349, "913938", 1485493349, "913938", null, "1029600", "2012-02-18T00:00:00", "21:28", "Injury", "Struck pedestrian (On Road)", "1", "1", "COOYONG/MORT INTERSECTION", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.275935", "149.131163", null, false ] ]
+, [ 1799, "B7EA1DAB-D3FB-4CB0-9458-0691836796A1", 1799, 1485493349, "913938", 1485493349, "913938", null, "1130246", "2015-07-30T00:00:00", "08:50", "Injury", "Struck pedestrian (On Road)", "1", "1", "STARKE STREET (MACNAUGHTON -> FULLAGAR)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.228336", "149.020879", null, false ] ]
+, [ 1800, "8957C4D9-8B87-4A59-8650-71FD9E6CE15E", 1800, 1485493349, "913938", 1485493349, "913938", null, "1098277", "2014-11-10T00:00:00", "06:32", "Injury", "Struck pedestrian (Off Road)", "1", "1", "COMPANION CRESCENT (MEIKLEJOHN -> SANDERSON)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.209088", "149.042738", null, false ] ]
+, [ 1801, "3BD9FE07-26F5-4B47-8CBC-9F7D314ACD1E", 1801, 1485493349, "913938", 1485493349, "913938", null, "1040221", "2012-07-25T00:00:00", "16:19", "Injury", "Struck pedestrian (On Road)", "1", "1", "GIRRAHWEEN/MASSON/NORTHBOURNE INTERSECTION", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.270307", "149.130366", null, false ] ]
+, [ 1802, "9EAEEFDB-6890-4945-B3ED-E2C399715543", 1802, 1485493349, "913938", 1485493349, "913938", null, "1130528", "2015-02-09T00:00:00", "16:08", "Property Damage Only", "Struck pedestrian (On Road)", "1", "0", "BUNDA/NORTHBOURNE/RUDD INTERSECTION", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.277135", "149.129453", null, false ] ]
+, [ 1803, "C09B85C0-C967-40C0-BF26-029E8F7EDB51", 1803, 1485493349, "913938", 1485493349, "913938", null, "1074786", "2013-05-12T00:00:00", "10:45", "Injury", "Struck pedestrian (On Road)", "1", "1", "DE BORTOLI/FARRAN INTERSECTION", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.189022", "149.151287", null, false ] ]
+, [ 1804, "A6BDD1DD-18C5-4636-90D4-2290900ECD80", 1804, 1485493349, "913938", 1485493349, "913938", null, "1028560", "2012-02-11T00:00:00", "17:00", "Injury", "Struck pedestrian (On Road)", "1", "1", "MACKNIGHT/MERRIMAN INTERSECTION", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.403489", "149.13005", null, false ] ]
+, [ 1805, "25366F56-1A44-4CF3-BEDD-B2787E6F3F15", 1805, 1485493349, "913938", 1485493349, "913938", null, "1108216", "2015-03-28T00:00:00", "09:00", "Property Damage Only", "Struck pedestrian (On Road)", "1", "0", "CARTWRIGHT STREET (KERR -> CLAMBE)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.199627", "149.034406", null, false ] ]
+, [ 1806, "3A4C9AD0-528E-4A7E-A574-A853D40397D6", 1806, 1485493349, "913938", 1485493349, "913938", null, "1146614", "2016-10-18T00:00:00", "17:33", "Property Damage Only", "Struck pedestrian (On Road)", "1", "0", "MARCUS CLARKE STREET (HOBART -> ALINGA)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.278493", "149.126291", null, false ] ]
+, [ 1807, "324D0949-2A3D-40FF-AE3C-9510699DE8BB", 1807, 1485493349, "913938", 1485493349, "913938", null, "1087660", "2014-05-03T00:00:00", "16:38", "Injury", "Struck pedestrian (On Road)", "1", "1", "FLEMINGTON ROAD (EPIC ACCESS -> RANDWICK)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.231865", "149.144931", null, false ] ]
+, [ 1808, "09B1F268-AA0D-4078-BFE1-2C43E1A95464", 1808, 1485493349, "913938", 1485493349, "913938", null, "1052921", "2013-01-07T00:00:00", "16:10", "Injury", "Struck pedestrian (On Road)", "2", "2", "LEVERRIER STREET (BATTYE -> MASTERMAN ST)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.246318", "149.101189", null, false ] ]
+, [ 1809, "FDE59F49-0059-49AA-8C92-615AB2947D96", 1809, 1485493349, "913938", 1485493349, "913938", null, "1097673", "2014-10-16T00:00:00", "10:20", "Injury", "Struck pedestrian (On Road)", "1", "1", "ANTILL/MOUAT/NORTHBOURNE INTERSECTION", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.248265", "149.134115", null, false ] ]
+, [ 1810, "48954643-BC7E-4FF3-A6CE-790C22CF147C", 1810, 1485493349, "913938", 1485493349, "913938", null, "1037851", "2012-05-22T00:00:00", "15:00", "Injury", "Struck pedestrian (On Road)", "1", "1", "LONDON/WEST INTERSECTION", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.27944", "149.127678", null, false ] ]
+, [ 1811, "6BBA0842-C00F-4088-809F-D567F7F6622E", 1811, 1485493349, "913938", 1485493349, "913938", null, "1060764", "2013-04-30T00:00:00", "13:00", "Property Damage Only", "Struck pedestrian (On Road)", "1", "0", "BARKER STREET (STUART -> THROSBY)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.328145", "149.142419", null, false ] ]
+, [ 1812, "E4090062-D45B-4210-9B46-6A27CE76D9E4", 1812, 1485493349, "913938", 1485493349, "913938", null, "1042165", "2012-08-07T00:00:00", "08:50", "Property Damage Only", "Struck pedestrian (On Road)", "1", "0", "ELLERSTON AVENUE (DRUMSTON -> BABINDA)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.426242", "149.09243", null, false ] ]
+, [ 1813, "B78AA20B-7BAF-43C6-A72F-A2E513F83CD3", 1813, 1485493349, "913938", 1485493349, "913938", null, "1107675", "2015-03-19T00:00:00", "22:00", "Property Damage Only", "Struck pedestrian (On Road)", "1", "0", "DAVID/MACARTHUR/WATTLE INTERSECTION", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.260367", "149.130716", null, false ] ]
+, [ 1814, "EC6772B2-0055-4333-845F-8B9FFBDCCAA1", 1814, 1485493349, "913938", 1485493349, "913938", null, "1141453", "2016-08-15T00:00:00", "08:25", "Injury", "Struck pedestrian (On Road)", "1", "1", "LAUNCESTON/MELROSE INTERSECTION", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.339932", "149.082363", null, false ] ]
+, [ 1815, "6603BBF6-BF02-4362-BF06-B48AEBA0E621", 1815, 1485493349, "913938", 1485493349, "913938", null, "1080411", "2014-02-17T00:00:00", "14:20", "Property Damage Only", "Struck pedestrian (Off Road)", "1", "0", "BARRIER STREET (IPSWICH -> PIRIE)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.325769", "149.166889", null, false ] ]
+, [ 1816, "7A45DFCB-4B16-4443-BC8B-69C0AE9F1DBC", 1816, 1485493349, "913938", 1485493349, "913938", null, "1100879", "2014-12-17T00:00:00", "17:00", "Injury", "Struck pedestrian (On Road)", "1", "1", "BODDINGTON CRESCENT (CARLETON -> BARRITT)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.382106", "149.05122", null, false ] ]
+, [ 1817, "DA111E15-7187-4550-AC0E-C5FB30191D8C", 1817, 1485493349, "913938", 1485493349, "913938", null, "1077372", "2013-11-22T00:00:00", "12:45", "Injury", "Struck pedestrian (On Road)", "1", "1", "SERVENTY ST/SERVENTY ST/DUNPHY ST/DUNPHY ST INTERSECTION", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.325634", "149.03914", null, false ] ]
+, [ 1818, "8A536440-5905-4693-B58C-69B36F089E62", 1818, 1485493349, "913938", 1485493349, "913938", null, "1078683", "2014-01-05T00:00:00", "18:10", "Property Damage Only", "Struck pedestrian (On Road)", "1", "0", "ANTILL/MOUAT/NORTHBOURNE INTERSECTION", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.248265", "149.134115", null, false ] ]
+, [ 1819, "8A8CD22A-88D8-47E8-8CBF-B4213F626C41", 1819, 1485493349, "913938", 1485493349, "913938", null, "1082228", "2014-03-19T00:00:00", "15:05", "Property Damage Only", "Struck pedestrian (On Road)", "1", "0", "MELROSE DRIVE (BOTANY -> HINDMARSH)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.349037", "149.084251", null, false ] ]
+, [ 1820, "C5DFEDE8-E9FB-4C3B-B537-63ED39D9E62F", 1820, 1485493349, "913938", 1485493349, "913938", null, "1061225", "2013-05-01T00:00:00", "08:30", "Injury", "Struck pedestrian (On Road)", "1", "1", "MELROSE DRIVE (ATHLLON -> HODGSON)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.357256", "149.089001", null, false ] ]
+, [ 1821, "93A20CA1-82A4-4AA8-BBEB-4BE6CF550BC9", 1821, 1485493349, "913938", 1485493349, "913938", null, "1133760", "2016-04-26T00:00:00", "15:50", "Injury", "Struck pedestrian (On Road)", "1", "1", "CALLAM STREET (MATILDA -> CALLAM)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.343073", "149.087871", null, false ] ]
+, [ 1822, "C17DA717-B025-40A5-9B35-EDED4100156B", 1822, 1485493349, "913938", 1485493349, "913938", null, "1145541", "2016-10-12T00:00:00", "08:45", "Injury", "Struck pedestrian (On Road)", "1", "1", "COWLISHAW/PITMAN INTERSECTION", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.414007", "149.068077", null, false ] ]
+, [ 1823, "E097D6E6-730F-4DCD-8A00-C1C9EA18A9B7", 1823, 1485493349, "913938", 1485493349, "913938", null, "1031219", "2012-03-22T00:00:00", "11:05", "Property Damage Only", "Struck pedestrian (On Road)", "1", "0", "FAULDING STREET (EDGELL -> TAUBMAN)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.335523", "149.167755", null, false ] ]
+, [ 1824, "FCCA81C6-1D99-47E6-BFE3-D996F482DD05", 1824, 1485493349, "913938", 1485493349, "913938", null, "1049109", "2012-11-09T00:00:00", "08:20", "Property Damage Only", "Struck pedestrian (On Road)", "1", "0", "MAWSON DRIVE (MAWSON -> HEARD)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.364231", "149.094256", null, false ] ]
+, [ 1825, "5C7CDDFC-A3E4-4890-B704-6B959A2C696E", 1825, 1485493349, "913938", 1485493349, "913938", null, "1068115", "2013-08-12T00:00:00", "15:31", "Injury", "Struck pedestrian (On Road)", "1", "1", "KREFFT STREET (EDDY -> BOSWELL)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.225727", "149.047592", null, false ] ]
+, [ 1826, "1CB0FAAA-92E4-4ADB-8320-C8C12277317A", 1826, 1485493349, "913938", 1485493349, "913938", null, "1079541", "2014-02-04T00:00:00", "15:25", "Injury", "Struck pedestrian (On Road)", "1", "1", "BENJAMIN/SWANSON INTERSECTION", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.239184", "149.067627", null, false ] ]
+, [ 1827, "266690C4-3C69-404A-8346-72952DE207D5", 1827, 1485493349, "913938", 1485493349, "913938", null, "1107693", "2015-03-21T00:00:00", "13:50", "Property Damage Only", "Struck pedestrian (On Road)", "1", "0", "COOYONG STREET (BARRY/NORTHBOURNE -> MORT)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.275864", "149.130507", null, false ] ]
+, [ 1828, "B7ABE8B1-7ECB-4283-8B88-61CEFD7203B7", 1828, 1485493349, "913938", 1485493349, "913938", null, "1078965", "2014-01-08T00:00:00", "21:55", "Property Damage Only", "Struck pedestrian (On Road)", "1", "0", "MONANMORSWRM/MONARO INTERSECTION", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.307394", "149.1706", null, false ] ]
+, [ 1829, "87EDFEC9-71C9-49C7-B3BC-FFE5FD2697E2", 1829, 1485493349, "913938", 1485493349, "913938", null, "1048971", "2012-10-23T00:00:00", "14:10", "Property Damage Only", "Struck pedestrian (On Road)", "1", "0", "EASTLAKE PDE (TREVILLIAN QY -> GILES ST)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.312386", "149.146019", null, false ] ]
+, [ 1830, "CB16263F-8109-4AA7-89BB-4A4F88F7BF9E", 1830, 1485493349, "913938", 1485493349, "913938", null, "1124639", "2015-12-02T00:00:00", "01:20", "Property Damage Only", "Struck pedestrian (On Road)", "1", "0", "LEWIS LUXTON AVENUE (FLEGG -> MACKNEY)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.449299", "149.088308", null, false ] ]
+, [ 1831, "D0F8344F-94F4-4CBE-8A68-1570D204B7E4", 1831, 1485493349, "913938", 1485493349, "913938", null, "1130908", "2015-12-12T00:00:00", "02:59", "Property Damage Only", "Struck pedestrian (On Road)", "1", "0", "LONDON CIRCUIT (PETRIE -> EAST)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.27986", "149.130647", null, false ] ]
+, [ 1832, "4C9ACC5C-A999-4841-824C-1ED0EDA867D6", 1832, 1485493349, "913938", 1485493349, "913938", null, "1049846", "2012-11-20T00:00:00", "15:00", "Injury", "Struck pedestrian (On Road)", "1", "1", "BUNDA/GENGE INTERSECTION", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.277535", "149.132106", null, false ] ]
+, [ 1833, "EB673672-DAAF-4F34-8CCD-7DCF96FE4E97", 1833, 1485493349, "913938", 1485493349, "913938", null, "1130662", "2015-04-14T00:00:00", "11:39", "Property Damage Only", "Struck pedestrian (On Road)", "1", "0", "WATSON PLACE (GWYNNE -> WINDEYER)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.238927", "149.15364", null, false ] ]
+, [ 1834, "5C0C462C-08F5-4515-96D2-B6E9D94C5004", 1834, 1485493349, "913938", 1485493349, "913938", null, "1113005", "2015-06-04T00:00:00", "21:20", "Injury", "Struck pedestrian (On Road)", "1", "1", "LAYCOCK PLACE (PICKWORTH -> LAYCOCK)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.222097", "149.015606", null, false ] ]
+, [ 1835, "9BC7A843-5498-47D4-A422-922234FA133C", 1835, 1485493349, "913938", 1485493349, "913938", null, "1039639", "2012-05-12T00:00:00", "18:40", "Injury", "Struck pedestrian (On Road)", "1", "1", "KERRIGAN STREET (DOUGLAS WATERHOUSE -> PERCY BEGG)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.189396", "149.021587", null, false ] ]
+, [ 1836, "324F9DD8-9E7A-4A35-B2C1-63332FEC69E0", 1836, 1485493349, "913938", 1485493349, "913938", null, "1095301", "2014-09-06T00:00:00", "09:40", "Injury", "Struck pedestrian (On Road)", "1", "1", "HODGSON/MELROSE INTERSECTION", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.357075", "149.08811", null, false ] ]
+, [ 1837, "45D91FC8-C090-4A4D-9243-6623D25AEFF8", 1837, 1485493349, "913938", 1485493349, "913938", null, "1053720", "2012-11-21T00:00:00", "18:45", "Property Damage Only", "Struck pedestrian (On Road)", "1", "0", "MACFARLAND/WALDOCK INTERSECTION", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.355936", "149.075251", null, false ] ]
+, [ 1838, "F93C5E12-231E-4B33-96B1-DA4BBA67203B", 1838, 1485493349, "913938", 1485493349, "913938", null, "1091173", "2014-07-16T00:00:00", "06:50", "Injury", "Struck pedestrian (On Road)", "1", "1", "BOLDREWOOD STREET (FROGGATT -> HACKETT)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.272097", "149.119814", null, false ] ]
+, [ 1839, "6BA02C35-72B3-4A58-988E-01B721FB1438", 1839, 1485493349, "913938", 1485493349, "913938", null, "1031912", "2012-04-05T00:00:00", "08:00", "Property Damage Only", "Struck pedestrian (On Road)", "1", "0", "CONSTITUTION AVENUE (LONDON -> ALLARA)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.283883", "149.132121", null, false ] ]
+, [ 1866, "7253F5A7-A178-4150-B337-64DCC3A8971F", 1866, 1485493349, "913938", 1485493349, "913938", null, "1121520", "2015-09-24T00:00:00", "08:40", "Injury", "Struck pedestrian (Off Road)", "1", "1", "FLINDERS WAY (MONARO -> MUGGA)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.329583", "149.123745", null, false ] ]
+, [ 1840, "729E330A-74AE-498A-9D0E-62C189C237B5", 1840, 1485493349, "913938", 1485493349, "913938", null, "1079211", "2014-01-25T00:00:00", "23:30", "Property Damage Only", "Struck pedestrian (On Road)", "1", "0", "TUGGERANONG PARKWAY (COTTWTUGGSRM/TUGGNCOTTWRM -> TUGGSHINDERM)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.330848", "149.063429", null, false ] ]
+, [ 1841, "019E2AB9-35F3-429C-B034-87D050071062", 1841, 1485493349, "913938", 1485493349, "913938", null, "1042939", "2012-08-24T00:00:00", "03:25", "Injury", "Struck pedestrian (On Road)", "1", "1", "VERITY (LONDON -> ALINGA)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.279316", "149.129927", null, false ] ]
+, [ 1842, "8B7F2D10-2E6A-4249-8A39-44BF485D5EFE", 1842, 1485493349, "913938", 1485493349, "913938", null, "1051009", "2012-11-02T00:00:00", "10:09", "Fatal", "Struck pedestrian (Off Road)", "1", "1", "HINDMARSH DRIVE SERVICE ROAD PHILLIP (HINDMARSH -> HINDMARSH)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.349047", "149.0857", null, false ] ]
+, [ 1843, "BA148C51-C0DE-4414-B420-806759A5795E", 1843, 1485493349, "913938", 1485493349, "913938", null, "1026849", "2012-01-28T00:00:00", "10:30", "Injury", "Struck pedestrian (On Road)", "1", "1", "MACARTHUR/NORTHBOURNE/WAKEFIELD INTERSECTION", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.260511", "149.132038", null, false ] ]
+, [ 1844, "6A03DBDB-5AF0-4949-A4D7-99E9409BDFC5", 1844, 1485493349, "913938", 1485493349, "913938", null, "1104840", "2014-03-25T00:00:00", "12:00", "Property Damage Only", "Struck pedestrian (On Road)", "1", "0", "GUNDAROO DRIVE (GUNDAROO DR.SRV RD 327-345  -> GUNGAHLIN/NELLIE HAMILTON)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.180311", "149.13604", null, false ] ]
+, [ 1845, "5E19D1AF-FB8A-42F1-8FB0-B2D7ED418DEF", 1845, 1485493349, "913938", 1485493349, "913938", null, "1083984", "2014-04-05T00:00:00", "14:40", "Injury", "Opposite direction side swipe", "1", "1", "CASEY CRESCENT (DOWNARD -> CARPENTER)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.437173", "149.110394", null, false ] ]
+, [ 1846, "E34171BE-AFCE-4852-B0FF-837FD311C3B0", 1846, 1485493349, "913938", 1485493349, "913938", null, "1057313", "2012-10-12T00:00:00", "16:25", "Fatal", "Struck pedestrian (On Road)", "1", "1", "DEXTER STREET (SEXTON -> DUGDALE)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.257384", "149.069091", null, false ] ]
+, [ 1847, "633632CE-7DDB-4550-98AB-615F350C5D5A", 1847, 1485493349, "913938", 1485493349, "913938", null, "1068769", "2013-08-10T00:00:00", "19:15", "Injury", "Struck pedestrian (On Road)", "1", "1", "WOOLLEY STREET (CAPE -> BADHAM)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.250175", "149.136678", null, false ] ]
+, [ 1848, "DAD53A64-2891-47B4-A608-710C79E23033", 1848, 1485493349, "913938", 1485493349, "913938", null, "1097396", "2014-09-18T00:00:00", "16:15", "Injury", "Struck pedestrian (On Road)", "1", "1", "HORSE PARK DR (MAPLETON/DUGONG -> ANTHONY ROLFE/GECKO)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.190823", "149.160492", null, false ] ]
+, [ 1849, "EB22C749-5964-4119-AF3B-4D165D97640C", 1849, 1485493349, "913938", 1485493349, "913938", null, "1150667", "2016-12-26T00:00:00", "17:25", "Injury", "Struck pedestrian (On Road)", "1", "1", "HINDMARSH DRIVE (TAMAR -> TYAGARAH)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.348621", "149.10579", null, false ] ]
+, [ 1850, "15DE3E9E-D4A1-4018-8794-6229E9AD7CF7", 1850, 1485493349, "913938", 1485493349, "913938", null, "1098543", "2014-11-12T00:00:00", "14:48", "Injury", "Struck pedestrian (On Road)", "1", "1", "LONDON CIRCUIT (WEST -> HOBART)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.279462", "149.127464", null, false ] ]
+, [ 1851, "FA1D6CAD-CE93-4030-B84E-A60391A27EBD", 1851, 1485493349, "913938", 1485493349, "913938", null, "1062300", "2013-03-12T00:00:00", "09:15", "Injury", "Struck pedestrian (On Road)", "1", "1", "LA PEROUSE/MONARO INTERSECTION", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.340764", "149.131784", null, false ] ]
+, [ 1852, "DB9851AF-3D67-4801-819E-B4183CA8E62C", 1852, 1485493349, "913938", 1485493349, "913938", null, "1082146", "2014-03-14T00:00:00", "20:50", "Property Damage Only", "Struck pedestrian (On Road)", "1", "0", "BUNDA STREET (GAREMA ->GENGE)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.277951", "149.132594", null, false ] ]
+, [ 1853, "52D2FEB9-2B46-4C90-9F3E-1BE221767783", 1853, 1485493349, "913938", 1485493349, "913938", null, "1138255", "2016-06-30T00:00:00", "12:50", "Property Damage Only", "Struck pedestrian (On Road)", "1", "0", "ALINGA STREET (VERITY -> CITY/EAST/MORT)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.278534", "149.130342", null, false ] ]
+, [ 1854, "3DEDDE34-B101-42D8-BD4F-4CD6B2141D8A", 1854, 1485493349, "913938", 1485493349, "913938", null, "1127724", "2015-08-23T00:00:00", "11:30", "Property Damage Only", "Struck pedestrian (Off Road)", "1", "0", "FREEMAN STREET (PURVES -> FREEMAN)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.454008", "149.097555", null, false ] ]
+, [ 1855, "A8D58523-3DBB-4A62-A60A-99C77BF7D822", 1855, 1485493349, "913938", 1485493349, "913938", null, "1086009", "2014-04-28T00:00:00", "15:45", "Property Damage Only", "Struck pedestrian (On Road)", "1", "0", "NORTHBOURNE AVENUE (BUNDA/RUDD -> BARRY/COOYONG)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.276069", "149.129625", null, false ] ]
+, [ 1856, "B35891B9-37EE-410A-AF1D-F3FAB29F6770", 1856, 1485493349, "913938", 1485493349, "913938", null, "1143571", "2016-09-09T00:00:00", "15:28", "Injury", "Struck pedestrian (On Road)", "1", "1", "BENJAMIN WAY (CHANDLER -> SWANSON)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.238169", "149.067477", null, false ] ]
+, [ 1857, "15340D1A-C2FA-477D-BE6F-1C9C8F9165D6", 1857, 1485493349, "913938", 1485493349, "913938", null, "1104852", "2014-04-10T00:00:00", "18:20", "Property Damage Only", "Struck pedestrian (On Road)", "1", "0", "EDINBURGH/MARCUS CLARKE INTERSECTION", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.283619", "149.124593", null, false ] ]
+, [ 1858, "B967D273-ACB7-4F4C-9B4E-088BF64817FA", 1858, 1485493349, "913938", 1485493349, "913938", null, "1029619", "2012-03-02T00:00:00", "11:40", "Injury", "Right angle collision", "1", "1", "BOUGAINVILLE/FURNEAUX INTERSECTION", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.319931", "149.131241", null, false ] ]
+, [ 1859, "E09FB3A8-C651-4C55-A7EB-3C0749988F48", 1859, 1485493349, "913938", 1485493349, "913938", null, "1121078", "2015-10-02T00:00:00", "00:10", "Injury", "Struck pedestrian (On Road)", "1", "1", "ASHLEY/BARRACLOUGH INTERSECTION", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.41697", "149.1023", null, false ] ]
+, [ 1860, "F5122976-09CB-4592-824B-798024177D58", 1860, 1485493349, "913938", 1485493349, "913938", null, "1143666", "2016-09-12T00:00:00", "15:00", "Injury", "Struck pedestrian (On Road)", "1", "1", "BRIERLY STREET (PARKINSON -> TRENERRY)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.341435", "149.052288", null, false ] ]
+, [ 1861, "49054B4E-1B75-48B4-B699-98ACED5D8D34", 1861, 1485493349, "913938", 1485493349, "913938", null, "1070692", "2013-06-18T00:00:00", "08:30", "Injury", "Struck pedestrian (On Road)", "1", "1", "BARRY DRIVE (CLUNIES ROSS/FROGGATT -> BOLDREWOOD)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.272862", "149.119297", null, false ] ]
+, [ 1862, "A9921AE2-9626-4905-88AC-8CB2B70CF78A", 1862, 1485493349, "913938", 1485493349, "913938", null, "1048741", "2012-10-27T00:00:00", "23:20", "Injury", "Struck pedestrian (On Road)", "1", "1", "NORTHBOURNE AVENUE (GREENWAY -> CONDAMINE/IPIMA)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.267671", "149.130981", null, false ] ]
+, [ 1863, "1B72E25A-6481-4254-954B-2AE1B10BB3CA", 1863, 1485493349, "913938", 1485493349, "913938", null, "1052136", "2012-12-12T00:00:00", "14:00", "Property Damage Only", "Struck pedestrian (On Road)", "1", "0", "PETRIE STREET (BUNDA -> COOYONG)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.278745", "149.133994", null, false ] ]
+, [ 1864, "13174C2C-0EA4-498F-8E76-6F3599740461", 1864, 1485493349, "913938", 1485493349, "913938", null, "1078233", "2013-09-22T00:00:00", "21:05", "Injury", "Struck pedestrian (On Road)", "1", "1", "MACARTHUR/NORTHBOURNE/WAKEFIELD INTERSECTION", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.260533", "149.132234", null, false ] ]
+, [ 1865, "908706CE-BA6E-409A-95EF-7401919771CA", 1865, 1485493349, "913938", 1485493349, "913938", null, "1030345", "2012-03-05T00:00:00", "16:35", "Injury", "Struck pedestrian (On Road)", "1", "1", "MIRRABEI DRIVE (ANTHONY ROLFE/GUNDAROO -> PAUL COE)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.181466", "149.128234", null, false ] ]
+, [ 1867, "D5EBA853-CD9F-4864-A396-718B5ABA3C70", 1867, 1485493349, "913938", 1485493349, "913938", null, "1097029", "2014-09-03T00:00:00", "16:30", "Injury", "Struck pedestrian (On Road)", "1", "1", "COLLEGE/KIRINARI INTERSECTION", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.242388", "149.085286", null, false ] ]
+, [ 1868, "95013561-4656-45D9-BA34-BEFBA4F301A9", 1868, 1485493349, "913938", 1485493349, "913938", null, "1068770", "2013-08-16T00:00:00", "16:56", "Fatal", "Struck pedestrian (On Road)", "1", "1", "MAWSON DRIVE (AINSWORTH -> DEBENHAM)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.362074", "149.100712", null, false ] ]
+, [ 1869, "C5DFD397-52B4-4A62-A4DF-1D0B0B5DC879", 1869, 1485493349, "913938", 1485493349, "913938", null, "1147585", "2016-11-03T00:00:00", "15:10", "Property Damage Only", "Struck pedestrian (On Road)", "1", "0", "SCRIVENER STREET (WARATAH -> HOVEA)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.256605", "149.125613", null, false ] ]
+, [ 1870, "C4921E02-9237-4D13-A80D-325DACDE7684", 1870, 1485493349, "913938", 1485493349, "913938", null, "1122956", "2015-10-16T00:00:00", "14:40", "Injury", "Struck pedestrian (On Road)", "1", "1", "BARRY/COOYONG/NORTHBOURNE INTERSECTION", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.275607", "149.1297", null, false ] ]
+, [ 1871, "A96E5ADB-21F7-4B4E-8C2E-4D4ECBE1762B", 1871, 1485493349, "913938", 1485493349, "913938", null, "1132759", "2016-04-16T00:00:00", "18:42", "Property Damage Only", "Struck pedestrian (On Road)", "1", "0", "CHANDLER STREET (SWANSON -> BENJAMIN)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.238953", "149.070307", null, false ] ]
+, [ 1872, "130033DE-AD36-46A1-BA60-E90762EB18ED", 1872, 1485493349, "913938", 1485493349, "913938", null, "1136105", "2016-06-04T00:00:00", "17:40", "Injury", "Struck pedestrian (On Road)", "1", "1", "FLEMINGTON/MAPLETON/MANNING CLARK INTERSECTION", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.193734", "149.150904", null, false ] ]
+, [ 1873, "41013A18-EF1F-43D1-BC46-1D2B3EBDCBC0", 1873, 1485493349, "913938", 1485493349, "913938", null, "1129937", "2016-01-11T00:00:00", "17:35", "Injury", "Struck pedestrian (On Road)", "1", "1", "MACARTHUR AVENUE (HOVEA -> PEDDER)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.259572", "149.123401", null, false ] ]
+, [ 1874, "94570134-1965-4E4B-A929-D548315C201F", 1874, 1485493349, "913938", 1485493349, "913938", null, "1061218", "2013-02-10T00:00:00", "05:15", "Injury", "Struck pedestrian (On Road)", "2", "2", "HENTY STREET (IPIMA/LOWANNA -> IJONG)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.2672", "149.13246", null, false ] ]
+, [ 1875, "73FB31D0-9515-484C-A36A-5BB1B3AC2520", 1875, 1485493349, "913938", 1485493349, "913938", null, "1076960", "2013-11-24T00:00:00", "10:45", "Injury", "Struck pedestrian (Off Road)", "1", "1", "CATCHPOLE STREET (COLLICOTT -> FLORANCE)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.249346", "149.066028", null, false ] ]
+, [ 1876, "96F3B939-F025-49C9-8262-B01B224E9130", 1876, 1485493349, "913938", 1485493349, "913938", null, "1090329", "2014-07-05T00:00:00", "22:50", "Property Damage Only", "Struck pedestrian (On Road)", "1", "0", "NORTHBOURNE AVENUE (LONDON -> ALINGA)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.279004", "149.129151", null, false ] ]
+, [ 1877, "3DA9E05C-F5BE-4CAD-A4FF-64D2E84077E6", 1877, 1485493349, "913938", 1485493349, "913938", null, "1078424", "2014-01-10T00:00:00", "17:50", "Injury", "Struck pedestrian (On Road)", "1", "1", "GIRRAHWEEN/LONSDALE INTERSECTION", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.270606", "149.133122", null, false ] ]
+, [ 1878, "8A5982AE-4A81-462F-983C-7D98C40C41A1", 1878, 1485493349, "913938", 1485493349, "913938", null, "1147857", "2016-11-19T00:00:00", "20:00", "Property Damage Only", "Struck pedestrian (Off Road)", "1", "0", "TINDERRY CIRCUIT (KOSCIUSZKO -> TINDERRY)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.198377", "149.122177", null, false ] ]
+, [ 1879, "78EFC453-2254-4E92-9768-269A8F8EA779", 1879, 1485493349, "913938", 1485493349, "913938", null, "1097031", "2014-09-11T00:00:00", "22:30", "Injury", "Struck pedestrian (Off Road)", "1", "1", "BOURKE STREET (NATIONAL -> BURBURY)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.311359", "149.133307", null, false ] ]
+, [ 1880, "B8C58A83-94A8-47D9-BB33-2905E76341FF", 1880, 1485493349, "913938", 1485493349, "913938", null, "1101068", "2014-12-18T00:00:00", "11:05", "Injury", "Struck pedestrian (Off Road)", "1", "1", "GUTHRIDGE CRESCENT (WHEELER -> HANNA)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.400006", "149.08682", null, false ] ]
+, [ 1881, "A447C1EC-9F34-400F-9C8E-E61E357EC6D4", 1881, 1485493349, "913938", 1485493349, "913938", null, "1133758", "2016-04-25T00:00:00", "16:20", "Injury", "Struck pedestrian (On Road)", "1", "1", "CANBERRA AVENUE (GILES -> EYRE/LEFROY)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.320101", "149.137845", null, false ] ]
+, [ 1882, "7A2457F1-A30F-4BA3-8A73-E24D7560F05F", 1882, 1485493349, "913938", 1485493349, "913938", null, "1078844", "2014-01-22T00:00:00", "12:20", "Injury", "Struck pedestrian (On Road)", "1", "1", "MAKIN PLACE (DENISON/NAPIER -> MAKIN)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.321311", "149.093204", null, false ] ]
+, [ 1883, "CE15AD2B-1BA8-468D-9796-CACB5D990080", 1883, 1485493349, "913938", 1485493349, "913938", null, "1147477", "2016-11-01T00:00:00", "12:45", "Property Damage Only", "Struck pedestrian (On Road)", "1", "0", "GILES STREET (TENCH -> JARDINE)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.314994", "149.140979", null, false ] ]
+, [ 1884, "1E4D1BC0-6BCF-4B19-9852-76F148907619", 1884, 1485493349, "913938", 1485493349, "913938", null, "1114827", "2015-07-09T00:00:00", "13:15", "Injury", "Struck pedestrian (On Road)", "1", "1", "HINDMARSH/MELROSE INTERSECTION", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.348789", "149.084257", null, false ] ]
+, [ 1885, "4010A805-58E4-4187-BC27-F6D49CE30520", 1885, 1485493349, "913938", 1485493349, "913938", null, "1099455", "2014-02-21T00:00:00", "16:05", "Injury", "Struck pedestrian (On Road)", "1", "1", "KINGSFORD SMITH/SOUTHERN CROSS INTERSECTION", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.227655", "149.035092", null, false ] ]
+, [ 1886, "38B851F5-AB58-4EDA-B7DC-0C7A548BEC52", 1886, 1485493349, "913938", 1485493349, "913938", null, "1100463", "2014-12-02T00:00:00", "08:20", "Property Damage Only", "Struck pedestrian (Off Road)", "1", "0", "READ PLACE (FITZHARDINGE -> READ)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.216872", "149.067489", null, false ] ]
+, [ 1887, "18D838D0-448E-4E10-B07B-0AD598BF0F2E", 1887, 1485493349, "913938", 1485493349, "913938", null, "1117117", "2015-08-07T00:00:00", "17:15", "Injury", "Struck pedestrian (On Road)", "1", "1", "MARCUS CLARKE STREET (ALINGA -> RUDD)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.277014", "149.126549", null, false ] ]
+, [ 1888, "F2F82EB3-E920-4601-A745-5A8EFBE74311", 1888, 1485493349, "913938", 1485493349, "913938", null, "1103819", "2015-01-31T00:00:00", "23:15", "Property Damage Only", "Struck pedestrian (On Road)", "1", "0", "LONDON/NORTHBOURNE INTERSECTION", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.279585", "149.129057", null, false ] ]
+, [ 1889, "59207BCC-D080-4549-BF27-8C6DA9D55870", 1889, 1485493349, "913938", 1485493349, "913938", null, "1149546", "2016-12-12T00:00:00", "17:45", "Injury", "Right turn into oncoming vehicle", "1", "1", "COLLEGE/EASTERN VALLEY INTERSECTION", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.243", "149.073687", null, false ] ]
+, [ 1890, "B427CE69-1BE4-4C3B-85B6-5D4E6E8BF741", 1890, 1485493349, "913938", 1485493349, "913938", null, "1108347", "2015-04-15T00:00:00", "08:15", "Property Damage Only", "Struck pedestrian (On Road)", "1", "0", "BARRY DRIVE (MARCUS CLARKE -> MOORE)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.27558", "149.127891", null, false ] ]
+, [ 1891, "C28BC547-6D6B-4A47-8EAE-C01FEE2C8857", 1891, 1485493349, "913938", 1485493349, "913938", null, "1094802", "2014-09-02T00:00:00", "09:10", "Property Damage Only", "Struck pedestrian (On Road)", "1", "0", "KREFFT STREET (BARNARD -> EDDY)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.224732", "149.043587", null, false ] ]
+, [ 1892, "F6345F71-3587-4335-8073-2A480E515EC3", 1892, 1485493349, "913938", 1485493349, "913938", null, "1072593", "2013-10-12T00:00:00", "08:20", "Injury", "Struck pedestrian (On Road)", "1", "1", "DAME ZARA STREET (MCCLUNG -> ROSANNA)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.18481", "149.14937", null, false ] ]
+, [ 1893, "714565A1-5381-476A-A338-7D907F768D8D", 1893, 1485493349, "913938", 1485493349, "913938", null, "1079490", "2013-08-18T00:00:00", "12:30", "Injury", "Struck pedestrian (On Road)", "1", "1", "WILLIAMSON STREET (SHEAFFE -> HINDMARSH)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.34144", "149.047114", null, false ] ]
+, [ 1894, "759B2389-6BA1-4BE4-B9A1-ADFE6270B842", 1894, 1485493349, "913938", 1485493349, "913938", null, "1053739", "2013-01-23T00:00:00", "08:58", "Injury", "Struck pedestrian (On Road)", "1", "1", "ALINGA/CITY/EAST/MORT INTERSECTION", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.278543", "149.130627", null, false ] ]
+, [ 1895, "5259C28E-8E8C-4246-9ED8-5C0628EEB38C", 1895, 1485493349, "913938", 1485493349, "913938", null, "1130336", "2015-12-06T00:00:00", "01:35", "Injury", "Struck pedestrian (On Road)", "1", "1", "ASHLEY DRIVE (BUGDEN -> BARRACLOUGH)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.414537", "149.1022", null, false ] ]
+, [ 1896, "3E4CD870-68BE-43BF-AE21-6D361793CCF7", 1896, 1485493349, "913938", 1485493349, "913938", null, "1073294", "2013-02-09T00:00:00", "08:25", "Property Damage Only", "Struck pedestrian (On Road)", "1", "0", "EAST ROW (ALINGA/CITY/MORT -> LONDON)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.279192", "149.130523", null, false ] ]
+, [ 1897, "E964AD81-6162-4FBF-9A02-59A314B36381", 1897, 1485493349, "913938", 1485493349, "913938", null, "1114525", "2015-05-30T00:00:00", "14:55", "Injury", "Struck pedestrian (On Road)", "1", "1", "BATTYE/WATKIN INTERSECTION", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.245717", "149.095277", null, false ] ]
+, [ 1898, "3994D056-B0B4-46E9-A494-A013C440102B", 1898, 1485493349, "913938", 1485493349, "913938", null, "1144828", "2016-09-21T00:00:00", "15:00", "Property Damage Only", "Struck pedestrian (On Road)", "1", "0", "MARR STREET (BEASLEY -> HODGSON)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.362897", "149.087981", null, false ] ]
+, [ 1899, "1869A524-2AEF-45B9-94C7-D00F59A2A1EA", 1899, 1485493349, "913938", 1485493349, "913938", null, "1056959", "2012-11-20T00:00:00", "17:22", "Injury", "Struck pedestrian (On Road)", "1", "1", "CORINNA STREET (CORINNA -> BREWER)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.345953", "149.084185", null, false ] ]
+, [ 1900, "3179FC04-98E3-4340-822A-5739D2809EDC", 1900, 1485493349, "913938", 1485493349, "913938", null, "1057306", "2012-05-03T00:00:00", "16:40", "Fatal", "Struck pedestrian (On Road)", "2", "2", "BATESON/YAMBA INTERSECTION", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.347313", "149.099872", null, false ] ]
+, [ 1901, "B8E3C22D-0B93-4CBB-9718-651AA874E75F", 1901, 1485493349, "913938", 1485493349, "913938", null, "1100406", "2014-12-03T00:00:00", "14:53", "Property Damage Only", "Struck pedestrian (On Road)", "1", "0", "O'HALLORAN CIRCUIT (DRAKEFORD/SUMMERLAND -> JENKE)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.392374", "149.06867", null, false ] ]
+, [ 1902, "6C38D6ED-D183-4C92-9A4D-925F11B522A5", 1902, 1485493349, "913938", 1485493349, "913938", null, "1119969", "2015-09-22T00:00:00", "16:00", "Injury", "Struck pedestrian (On Road)", "1", "1", "ELLERY/MARCUS CLARKE INTERSECTION", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.281751", "149.123662", null, false ] ]
+, [ 1903, "63ADCFEF-7C2F-43D0-BFF5-4434BCFACB05", 1903, 1485493349, "913938", 1485493349, "913938", null, "1084774", "2014-04-16T00:00:00", "17:00", "Injury", "Struck pedestrian (On Road)", "1", "0", "NORTHBOURNE AVENUE (VERNON -> LONDON)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.280328", "149.128937", null, false ] ]
+, [ 1904, "21F104E9-1EBB-40AF-92BB-550918B43963", 1904, 1485493349, "913938", 1485493349, "913938", null, "1054450", "2013-02-01T00:00:00", "02:30", "Injury", "Struck pedestrian (Off Road)", "1", "1", "BARTON HIGHWAY (BELLENDEN -> GUNDAROO/WILLIAM SLIM)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.211336", "149.110676", null, false ] ]
+, [ 1905, "A7B681D2-8B35-4F29-AD41-5716FCF269E8", 1905, 1485493349, "913938", 1485493349, "913938", null, "1057122", "2012-01-21T00:00:00", "21:10", "Injury", "Struck pedestrian (On Road)", "1", "1", "OWEN DIXON DRIVE (COPLAND -> BADENOCH)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.202617", "149.076448", null, false ] ]
+, [ 1906, "52A976FA-5798-4E12-9106-2FB9E9BFBDE0", 1906, 1485493349, "913938", 1485493349, "913938", null, "1112093", "2015-05-29T00:00:00", "08:40", "Property Damage Only", "Struck pedestrian (On Road)", "1", "0", "COOYONG ST (DONALDSON -> SCOTTS CSG)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.276713", "149.13408", null, false ] ]
+, [ 1907, "6FF04026-6BF3-46C9-969C-2903880E0AEB", 1907, 1485493349, "913938", 1485493349, "913938", null, "1127948", "2016-01-26T00:00:00", "22:10", "Injury", "Struck pedestrian (On Road)", "1", "1", "EMU BANK (BENJAMIN -> SOUNDY/VERYARD)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.238182", "149.071064", null, false ] ]
+, [ 1908, "1FF0D8BA-7BFF-4923-A520-B4C6D678CAAC", 1908, 1485493349, "913938", 1485493349, "913938", null, "1125334", "2015-11-20T00:00:00", "11:15", "Property Damage Only", "Struck pedestrian (On Road)", "1", "0", "MAJURA/SPITFIRE/MEDDHUNG INTERSECTION", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.29739", "149.186962", null, false ] ]
+, [ 1909, "4D8600F1-4B32-4758-A27C-F662C731ED64", 1909, 1485493349, "913938", 1485493349, "913938", null, "1074533", "2013-11-04T00:00:00", "18:40", "Injury", "Struck pedestrian (On Road)", "1", "1", "MURDOCH/NORTHBOURNE INTERSECTION", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.252666", "149.133305", null, false ] ]
+, [ 1910, "4AB3B1FA-6F3E-46EF-8F88-AAB3D102425B", 1910, 1485493349, "913938", 1485493349, "913938", null, "1031897", "2012-03-26T00:00:00", "16:02", "Property Damage Only", "Struck pedestrian (On Road)", "1", "0", "LONDON CIRCUIT (AKUNA -> AINSLIE)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.281673", "149.131788", null, false ] ]
+, [ 1911, "E777EA81-9A75-4CBB-B8D7-12640DC7565D", 1911, 1485493349, "913938", 1485493349, "913938", null, "1051926", "2012-10-28T00:00:00", "06:30", "Property Damage Only", "Struck pedestrian (On Road)", "1", "0", "STREETON DRIVE (FREMANTLE -> NAMATJIRA)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.355651", "149.048629", null, false ] ]
+, [ 1912, "F3A1C9A6-FBC7-4D21-8C7C-3F315E55DD3C", 1912, 1485493349, "913938", 1485493349, "913938", null, "1086445", "2014-04-30T00:00:00", "07:40", "Injury", "Struck pedestrian (On Road)", "1", "1", "MARRAWAH/THEODORE INTERSECTION", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.338006", "149.082905", null, false ] ]
+, [ 1913, "8DCBB37C-45F5-4F17-B44C-FD4ACFBCE94C", 1913, 1485493349, "913938", 1485493349, "913938", null, "1102211", "2015-01-09T00:00:00", "10:15", "Property Damage Only", "Struck pedestrian (On Road)", "1", "0", "BUNDA STREET (MURULLA -> MORT)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.277541", "149.131012", null, false ] ]
+, [ 1914, "992C4B4A-B8A5-4145-8530-322CBADB5140", 1914, 1485493349, "913938", 1485493349, "913938", null, "1108881", "2015-04-25T00:00:00", "20:30", "Property Damage Only", "Struck pedestrian (On Road)", "1", "0", "ANTILL STREET (BADHAM -> ANTILL SERV ACCESS )", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.248588", "149.137468", null, false ] ]
+, [ 1915, "C8EF07A1-F5F5-4D79-8A32-A760BA4B3613", 1915, 1485493349, "913938", 1485493349, "913938", null, "1135036", "2016-05-22T00:00:00", "11:45", "Property Damage Only", "Struck pedestrian (On Road)", "1", "0", "CHARNWOOD PLACE SHOPPING CENTER (LHOTSKY -> END)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.205046", "149.034005", null, false ] ]
+, [ 1916, "12DAF894-7DE9-4831-AAF5-DE1196690B8D", 1916, 1485493349, "913938", 1485493349, "913938", null, "1047758", "2012-10-26T00:00:00", "18:00", "Property Damage Only", "Struck pedestrian (On Road)", "1", "0", "BRIERLY STREET (PARKINSON -> TRENERRY)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.341776", "149.052288", null, false ] ]
+, [ 1917, "8BA871D7-4A82-4446-B8FE-D63DFD582F35", 1917, 1485493349, "913938", 1485493349, "913938", null, "1133356", "2016-04-10T00:00:00", "19:00", "Injury", "Struck pedestrian (On Road)", "1", "1", "DOOKIE STREET (CHEEL -> HAWKESBURY)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.376789", "149.109133", null, false ] ]
+, [ 1918, "9582B854-2D0F-4227-966B-A72329A29DA1", 1918, 1485493349, "913938", 1485493349, "913938", null, "1101238", "2014-12-24T00:00:00", "14:15", "Injury", "Struck pedestrian (On Road)", "1", "1", "FURZER STREET / ACCESS ROAD (FURZER -> FURZER)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.344628", "149.084684", null, false ] ]
+, [ 1919, "715D55F3-A8F7-4692-A204-8E5A5910AC39", 1919, 1485493349, "913938", 1485493349, "913938", null, "1123683", "2015-11-17T00:00:00", "22:42", "Injury", "Struck pedestrian (On Road)", "1", "1", "CONDAMINE/IPIMA/NORTHBOURNE INTERSECTION", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.266242", "149.131212", null, false ] ]
+, [ 2000, "1C3DDFDF-D9C4-4BD2-BA3B-D3F22161AE09", 2000, 1485493349, "913938", 1485493349, "913938", null, "1050490", "2012-11-28T00:00:00", "17:47", "Injury", "Struck pedestrian (On Road)", "1", "0", "DEBENHAM STREET (HANNAM -> MERTZ)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.359373", "149.101935", null, false ] ]
+, [ 1920, "A6DF9E48-E91C-4DAE-A3B5-923B661B286D", 1920, 1485493349, "913938", 1485493349, "913938", null, "1105729", "2015-02-24T00:00:00", "12:25", "Property Damage Only", "Struck pedestrian (Off Road)", "1", "0", "PETRIE STREET (BUNDA -> COOYONG)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.278691", "149.134132", null, false ] ]
+, [ 1921, "B874F286-DCFF-47F5-A6ED-4D3E0AB07F19", 1921, 1485493349, "913938", 1485493349, "913938", null, "1086363", "2014-04-29T00:00:00", "18:30", "Property Damage Only", "Struck pedestrian (On Road)", "1", "0", "GUNGAHLIN/SANDFORD INTERSECTION", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.218244", "149.130804", null, false ] ]
+, [ 1922, "1A106A4A-2F50-4B65-8D97-E805FA55AEA0", 1922, 1485493349, "913938", 1485493349, "913938", null, "1099082", "2014-11-11T00:00:00", "17:45", "Property Damage Only", "Struck pedestrian (On Road)", "1", "0", "EYRE/JARDINE INTERSECTION", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.316134", "149.142378", null, false ] ]
+, [ 1923, "E722F052-3BC8-4840-980E-D341E8C25F5A", 1923, 1485493349, "913938", 1485493349, "913938", null, "1121615", "2015-09-30T00:00:00", "16:45", "Injury", "Struck pedestrian (On Road)", "1", "1", "BARTON/FEDERAL/NORTHBOURNE INTERSECTION", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.24063", "149.137135", null, false ] ]
+, [ 1924, "E267C995-ED38-43C4-9CCC-4EE83E1983D5", 1924, 1485493349, "913938", 1485493349, "913938", null, "1068872", "2013-07-20T00:00:00", "23:25", "Injury", "Struck pedestrian (On Road)", "1", "1", "LONDON/NORTHBOURNE INTERSECTION", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.279505", "149.12907", null, false ] ]
+, [ 1925, "8052CBD6-9C39-404E-967E-443AC77D23C5", 1925, 1485493349, "913938", 1485493349, "913938", null, "1146187", "2016-10-12T00:00:00", "16:40", "Property Damage Only", "Struck pedestrian (Off Road)", "1", "0", "NEWMAN-MORRIS CIRCUIT (FARRELLY -> CLUTTERBUCK)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.406792", "149.079122", null, false ] ]
+, [ 1926, "62E18981-B3F2-466D-9CB0-E652B6DFCDD2", 1926, 1485493349, "913938", 1485493349, "913938", null, "1095054", "2014-08-16T00:00:00", "05:50", "Injury", "Struck pedestrian (On Road)", "1", "1", "YAMBA DRIVE (KITCHENER -> BATESON)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.347111", "149.099814", null, false ] ]
+, [ 1927, "3F57DDFE-6E4D-46CC-B4EC-9E9BE76AFA58", 1927, 1485493349, "913938", 1485493349, "913938", null, "1132854", "2016-04-15T00:00:00", "18:00", "Property Damage Only", "Struck pedestrian (On Road)", "1", "0", "BUNDA STREET (GAREMA ->GENGE)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.278018", "149.132666", null, false ] ]
+, [ 1928, "078123E7-2A95-48A9-B601-991963009A4E", 1928, 1485493349, "913938", 1485493349, "913938", null, "1064774", "2013-06-21T00:00:00", "21:10", "Property Damage Only", "Struck pedestrian (On Road)", "1", "0", "BUNDA STREET (AINSLIE -> PETRIE)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.279412", "149.133513", null, false ] ]
+, [ 1929, "F9055F80-0633-4852-A41B-ECE90C006E73", 1929, 1485493349, "913938", 1485493349, "913938", null, "1041927", "2012-08-02T00:00:00", "08:50", "Property Damage Only", "Struck pedestrian (On Road)", "1", "0", "BLAMEY CRESCENT (BUNGEY -> CHAUVEL)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.290574", "149.152872", null, false ] ]
+, [ 1930, "BC6A97AF-87A8-402F-A986-92E050C746D7", 1930, 1485493349, "913938", 1485493349, "913938", null, "1104572", "2015-02-19T00:00:00", "09:10", "Injury", "Struck pedestrian (Off Road)", "1", "1", "CONSTITUTION AVENUE (CORANDERRK -> ANZAC)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.288107", "149.139176", null, false ] ]
+, [ 1931, "5DF88B9A-69E7-4140-85D2-89137C4D889D", 1931, 1485493349, "913938", 1485493349, "913938", null, "1148997", "2016-12-05T00:00:00", "08:59", "Injury", "Struck pedestrian (On Road)", "1", "1", "WIMMERA STREET (MAPLETON AV -> COLLAROY ST)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.195951", "149.152383", null, false ] ]
+, [ 1932, "A95584C1-B2AE-441E-B3D8-792D95C92098", 1932, 1485493349, "913938", 1485493349, "913938", null, "1048768", "2012-11-08T00:00:00", "16:54", "Property Damage Only", "Struck pedestrian (On Road)", "1", "0", "ALLSOP/MARCUS CLARKE INTERSECTION", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.279109", "149.125873", null, false ] ]
+, [ 1933, "8DB07005-4D2E-4935-9231-1F4A0FFC1F60", 1933, 1485493349, "913938", 1485493349, "913938", null, "1136705", "2016-06-09T00:00:00", "18:00", "Injury", "Struck pedestrian (On Road)", "1", "1", "GOZZARD/HIBBERSON INTERSECTION", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.185095", "149.132351", null, false ] ]
+, [ 1934, "D015738D-45C2-4B1A-9EF3-7B129723867E", 1934, 1485493349, "913938", 1485493349, "913938", null, "1128443", "2016-01-14T00:00:00", "14:50", "Injury", "Struck pedestrian (On Road)", "1", "1", "LONDON/WEST INTERSECTION", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.279355", "149.127692", null, false ] ]
+, [ 1935, "61555D88-A34B-4FF8-9C90-79F8E2FBDD80", 1935, 1485493349, "913938", 1485493349, "913938", null, "1141984", "2016-08-10T00:00:00", "18:15", "Property Damage Only", "Struck pedestrian (On Road)", "1", "0", "ATHLLON DRIVE (BEASLEY/MAWSON -> MELROSE)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.363689", "149.092517", null, false ] ]
+, [ 1936, "EFBE811C-9B5A-466F-AC06-0079DE3C7C17", 1936, 1485493349, "913938", 1485493349, "913938", null, "1144495", "2016-09-13T00:00:00", "10:10", "Injury", "Struck pedestrian (On Road)", "1", "1", "BUNDA/NORTHBOURNE/RUDD INTERSECTION", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.277113", "149.129254", null, false ] ]
+, [ 1937, "0836EFE1-7CC0-472B-B5BE-B182F70B9F93", 1937, 1485493349, "913938", 1485493349, "913938", null, "1031331", "2012-03-20T00:00:00", "14:50", "Injury", "Struck pedestrian (On Road)", "1", "1", "HINDMARSH DRIVE (BUTTSHINDNRM -> AINSWORTH)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.349813", "149.09666", null, false ] ]
+, [ 1938, "6469B81F-CEFE-4AE1-BBBA-28C5EDB9FD9F", 1938, 1485493349, "913938", 1485493349, "913938", null, "1083966", "2014-03-14T00:00:00", "08:30", "Property Damage Only", "Struck pedestrian (Off Road)", "1", "0", "AINSWORTH STREET (COLBECK -> AINSWORTH)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.357941", "149.097166", null, false ] ]
+, [ 1939, "CE7530A8-327B-4D5B-90E9-095A6420B6F5", 1939, 1485493349, "913938", 1485493349, "913938", null, "1145323", "2016-09-30T00:00:00", "15:00", "Property Damage Only", "Struck pedestrian (On Road)", "1", "0", "ELLERSTON AVENUE (GALLOWAY -> KADINA)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.432263", "149.093415", null, false ] ]
+, [ 1940, "FD6DF8A2-4619-45C8-9D77-D70ED878C939", 1940, 1485493349, "913938", 1485493349, "913938", null, "1039779", "2012-04-05T00:00:00", "17:30", "Injury", "Struck pedestrian (On Road)", "1", "1", "HINDMARSH/MELROSE INTERSECTION", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.348789", "149.084257", null, false ] ]
+, [ 1941, "0547B7BE-2A9F-4952-9D73-1C3A3DABC2A6", 1941, 1485493349, "913938", 1485493349, "913938", null, "1084203", "2014-04-13T00:00:00", "10:30", "Injury", "Other - Vehicle to Vehicle", "2", "2", "JENKE CIRCUIT (JENKE 1-21 -> JENKE ACC)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.396237", "149.068896", null, false ] ]
+, [ 1942, "27F56315-244B-4222-91AB-EB185C7D1838", 1942, 1485493349, "913938", 1485493349, "913938", null, "1037852", "2012-05-24T00:00:00", "18:30", "Injury", "Struck pedestrian (On Road)", "1", "1", "DALEY ROAD (NORTH -> LINNAEUS)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.274452", "149.117268", null, false ] ]
+, [ 1943, "7DFDB5EC-6936-49E4-82B8-88DC37282256", 1943, 1485493349, "913938", 1485493349, "913938", null, "1131468", "2016-03-29T00:00:00", "23:00", "Property Damage Only", "Struck pedestrian (On Road)", "1", "0", "TRALEE STREET (COURANGA -> TRALEE (END))", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.405938", "149.150021", null, false ] ]
+, [ 1944, "EFD6A67A-43D6-4C83-BF47-77DCFDB1983C", 1944, 1485493349, "913938", 1485493349, "913938", null, "1129178", "2016-02-24T00:00:00", "16:20", "Injury", "Struck pedestrian (On Road)", "1", "1", "ALINGA/MARCUS CLARKE INTERSECTION", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.278067", "149.126379", null, false ] ]
+, [ 1945, "A0453949-A7DA-4971-973F-D691EDF084EF", 1945, 1485493349, "913938", 1485493349, "913938", null, "1036434", "2012-06-03T00:00:00", "11:00", "Injury", "Struck pedestrian (On Road)", "1", "1", "MACLEAN STREET (BENNY -> DYRING)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.417108", "149.127478", null, false ] ]
+, [ 1946, "75255A48-5E57-4BF6-9596-D127B19B61D9", 1946, 1485493349, "913938", 1485493349, "913938", null, "1128157", "2016-01-27T00:00:00", "10:45", "Injury", "Struck pedestrian (On Road)", "1", "1", "EASTLAKE PARADE (GILES -> EYRE)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.313696", "149.146778", null, false ] ]
+, [ 1947, "62E29384-43FA-4B85-9BED-CFA913F8F9E5", 1947, 1485493349, "913938", 1485493349, "913938", null, "1063056", "2013-05-31T00:00:00", "00:30", "Property Damage Only", "Struck pedestrian (On Road)", "1", "0", "BUNDA STREET (MURULLA -> MORT)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.277558", "149.131173", null, false ] ]
+, [ 1948, "A2758C3A-8916-42A4-9B63-CD9ED17325FC", 1948, 1485493349, "913938", 1485493349, "913938", null, "1049958", "2012-11-21T00:00:00", "18:30", "Injury", "Struck pedestrian (On Road)", "1", "1", "COLLEGE STREET (RADFORD COLLEGE ACCESS -> HAYDON)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.242228", "149.089486", null, false ] ]
+, [ 1949, "492555D3-E70B-4D4D-B819-95D4FDB4EC29", 1949, 1485493349, "913938", 1485493349, "913938", null, "1098250", "2014-10-29T00:00:00", "12:45", "Property Damage Only", "Struck pedestrian (On Road)", "1", "0", "BOWES STREET (ATLANTIC/MATILDA -> BOWES)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.342995", "149.086008", null, false ] ]
+, [ 1950, "9C48EFA6-F000-4454-BF35-D69E168D2314", 1950, 1485493349, "913938", 1485493349, "913938", null, "1092381", "2014-08-06T00:00:00", "17:30", "Injury", "Struck pedestrian (On Road)", "1", "1", "EBDEN/WAKEFIELD INTERSECTION", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.262425", "149.147201", null, false ] ]
+, [ 1951, "CC416727-3263-4BED-A57D-08DD92D49C21", 1951, 1485493349, "913938", 1485493349, "913938", null, "1142179", "2016-08-11T00:00:00", "09:30", "Property Damage Only", "Struck pedestrian (On Road)", "1", "0", "HIBBERSON STREET (HINDER -> KATE CRACE/FLEMINGTON)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.186149", "149.138564", null, false ] ]
+, [ 1952, "78262381-3894-49E7-8CDC-C266AE4AD2DD", 1952, 1485493349, "913938", 1485493349, "913938", null, "1082001", "2014-02-18T00:00:00", "08:20", "Injury", "Struck pedestrian (On Road)", "1", "1", "ATHLLON DRIVE (MELROSE -> COLBEE)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.355442", "149.091526", null, false ] ]
+, [ 1953, "6C8267FC-212F-4BB4-91C3-5BF376B7B24D", 1953, 1485493349, "913938", 1485493349, "913938", null, "1120227", "2015-09-29T00:00:00", "18:50", "Injury", "Struck pedestrian (On Road)", "1", "1", "COOYONG/SCOTTS INTERSECTION", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.277449", "149.134532", null, false ] ]
+, [ 1954, "2DCDE669-6216-4826-8AAE-F537193E7A1E", 1954, 1485493349, "913938", 1485493349, "913938", null, "1039979", "2012-07-15T00:00:00", "21:37", "Injury", "Struck pedestrian (On Road)", "1", "1", "MARCHANT/MARCHANT/MARCHANT INTERSECTION", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.190744", "149.024855", null, false ] ]
+, [ 1955, "43E05C4B-FC51-43A5-A2AE-73F1D5EB97D2", 1955, 1485493349, "913938", 1485493349, "913938", null, "1136873", "2016-05-27T00:00:00", "17:35", "Property Damage Only", "Struck pedestrian (On Road)", "1", "0", "GIRRAHWEEN/MASSON/NORTHBOURNE INTERSECTION", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.270316", "149.130454", null, false ] ]
+, [ 1956, "1831D117-CBF4-4183-8F1E-066FAD6DD9F9", 1956, 1485493349, "913938", 1485493349, "913938", null, "1149653", "2016-11-08T00:00:00", "09:30", "Injury", "Other - Vehicle to Vehicle", "1", "1", "DE LACY PLACE (ALSTON -> DE LACY)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.42338", "149.12377", null, false ] ]
+, [ 1957, "E6638FE0-DF4E-490F-99A6-16579592551C", 1957, 1485493349, "913938", 1485493349, "913938", null, "1048184", "2012-10-17T00:00:00", "17:27", "Injury", "Struck pedestrian (On Road)", "1", "1", "MARCUS CLARKE STREET (ALINGA -> RUDD)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.277091", "149.126537", null, false ] ]
+, [ 1958, "7F58F884-6485-45CB-83BF-BC3817C300FF", 1958, 1485493349, "913938", 1485493349, "913938", null, "1095847", "2014-09-10T00:00:00", "15:41", "Fatal", "Struck pedestrian (On Road)", "1", "1", "CANBERRA/CAPTAIN COOK/MANUKA (SW) INTERSECTION", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.319493", "149.135358", null, false ] ]
+, [ 1959, "FB194F29-3A05-4E4E-A4B4-BA738166B7DA", 1959, 1485493349, "913938", 1485493349, "913938", null, "1028427", "2012-02-14T00:00:00", "08:50", "Injury", "Struck pedestrian (On Road)", "1", "1", "ASHBURTON/MARIBYRNONG INTERSECTION", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.224796", "149.111025", null, false ] ]
+, [ 1960, "F6B2B18C-B016-45C9-91BB-E35DEB05E931", 1960, 1485493349, "913938", 1485493349, "913938", null, "1050502", "2012-11-30T00:00:00", "08:35", "Property Damage Only", "Struck pedestrian (On Road)", "1", "0", "WIMMERA STREET (MAPLETON AV -> NULLARBOR/", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.200811", "149.150529", null, false ] ]
+, [ 1961, "98CB86C3-9D9D-4E7C-8332-60CA42202398", 1961, 1485493349, "913938", 1485493349, "913938", null, "1137433", "2016-06-08T00:00:00", "08:35", "Property Damage Only", "Struck pedestrian (On Road)", "1", "0", "COULTER/LUXTON/SOUTHERN CROSS INTERSECTION", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.235828", "149.057992", null, false ] ]
+, [ 1962, "6BA5050F-9C7C-4E97-8C25-19D9A7BF4BE0", 1962, 1485493349, "913938", 1485493349, "913938", null, "1141622", "2016-07-26T00:00:00", "08:37", "Injury", "Struck pedestrian (On Road)", "1", "1", "HARDWICK CRESCENT (FLACK -> KIPPAX)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.224469", "149.020743", null, false ] ]
+, [ 1963, "CEE8396B-9F70-4057-9330-C30439468CA4", 1963, 1485493349, "913938", 1485493349, "913938", null, "1134437", "2016-05-06T00:00:00", "12:38", "Injury", "Struck pedestrian (On Road)", "1", "1", "BUNDA/MORT INTERSECTION", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.277406", "149.130811", null, false ] ]
+, [ 1964, "1D8D4BB6-F195-46FF-801F-4D37A807DF52", 1964, 1485493349, "913938", 1485493349, "913938", null, "1046533", "2012-09-26T00:00:00", "15:20", "Injury", "Struck pedestrian (On Road)", "1", "1", "ELLENBOROUGH STREET (MARIBYRNONG -> DAINTREE)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.230788", "149.113038", null, false ] ]
+, [ 1965, "B4F2374B-0C3B-4EAA-8987-9EC4C012F064", 1965, 1485493349, "913938", 1485493349, "913938", null, "1130243", "2015-01-17T00:00:00", "02:00", "Property Damage Only", "Struck pedestrian (On Road)", "1", "0", "BUNDA STREET (GENGE -> MURULLA)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.277633", "149.131851", null, false ] ]
+, [ 1966, "786192A9-4188-44BA-A839-D2A1A6B23D7D", 1966, 1485493349, "913938", 1485493349, "913938", null, "1032511", "2012-04-13T00:00:00", "14:36", "Injury", "Struck pedestrian (On Road)", "1", "1", "BARRY/COOYONG/NORTHBOURNE INTERSECTION", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.275692", "149.129686", null, false ] ]
+, [ 1967, "CF16605F-E1E3-437F-AF48-DDAFAD90068D", 1967, 1485493349, "913938", 1485493349, "913938", null, "1149756", "2016-10-14T00:00:00", "15:35", "Property Damage Only", "Struck pedestrian (On Road)", "1", "0", "RADFORD COLLEGE ACCESS STH (BATTYE/HAYDON->RADFORD)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.245794", "149.091004", null, false ] ]
+, [ 1968, "DB3274C0-DC7F-45FF-828B-EBBAEFD78B6B", 1968, 1485493349, "913938", 1485493349, "913938", null, "1123998", "2015-11-24T00:00:00", "10:25", "Injury", "Struck pedestrian (On Road)", "1", "1", "NORTHBOURNE AVENUE (MURDOCH -> ANTILL/MOUAT)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.249437", "149.133926", null, false ] ]
+, [ 1969, "2ACD6A62-4771-4C33-835D-D4C28D44AC1E", 1969, 1485493349, "913938", 1485493349, "913938", null, "1091542", "2014-07-26T00:00:00", "00:55", "Property Damage Only", "Struck pedestrian (On Road)", "1", "0", "MELROSE DRIVE (PARRAMATTA -> EGGLESTON)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.35245", "149.085457", null, false ] ]
+, [ 1970, "DF791C1F-5242-4398-9BB4-9E4074AE9B7A", 1970, 1485493349, "913938", 1485493349, "913938", null, "1130250", "2016-02-13T00:00:00", "22:20", "Injury", "Struck pedestrian (On Road)", "1", "1", "KNOX STREET 142-153 (IRVINE -> HIGINBOTHAM)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.242282", "149.158411", null, false ] ]
+, [ 1971, "C79DFACC-7B6A-45F8-AA32-CA8C3618822D", 1971, 1485493349, "913938", 1485493349, "913938", null, "1066319", "2013-07-17T00:00:00", "17:30", "Injury", "Struck pedestrian (On Road)", "1", "1", "LIMESTONE AVENUE (ANZAC/FAIRBAIRN -> EUREE/TRELOAR)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.280376", "149.146126", null, false ] ]
+, [ 1972, "F0EE9562-5D9E-4212-8FA9-B8E710D52B1D", 1972, 1485493349, "913938", 1485493349, "913938", null, "1054203", "2013-01-30T00:00:00", "19:14", "Injury", "Struck pedestrian (On Road)", "1", "1", "KINGSFORD SMITH/WIRRAWAY INTERSECTION", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.230884", "149.034385", null, false ] ]
+, [ 1973, "04804E3B-4D66-4DCF-9456-85B5FACCE06A", 1973, 1485493349, "913938", 1485493349, "913938", null, "1107428", "2015-03-27T00:00:00", "17:20", "Property Damage Only", "Struck pedestrian (Off Road)", "2", "0", "HOBART AVENUE (DOMINION/TASMANIA -> NATIONAL)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.316617", "149.125001", null, false ] ]
+, [ 1974, "80FB0345-968A-462F-B3F4-DEFF745D856F", 1974, 1485493349, "913938", 1485493349, "913938", null, "1143573", "2016-09-09T00:00:00", "16:30", "Injury", "Struck pedestrian (On Road)", "1", "1", "OVERALL AV (BOYER ST -> JOHN CRAWFORD CR)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.175197", "149.090539", null, false ] ]
+, [ 1975, "AADA7901-0B4F-4F68-A6CF-9F4780B2DFA2", 1975, 1485493349, "913938", 1485493349, "913938", null, "1099216", "2014-11-12T00:00:00", "19:33", "Property Damage Only", "Struck pedestrian (Off Road)", "1", "0", "CLUNIES ROSS STREET (BLACK MOUNTAIN -> DICKSON)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.279843", "149.110712", null, false ] ]
+, [ 1976, "94050CD7-C0F9-40C7-AE92-6CD7BDEB6F52", 1976, 1485493349, "913938", 1485493349, "913938", null, "1130092", "2015-04-15T00:00:00", "15:30", "Property Damage Only", "Struck pedestrian (On Road)", "1", "0", "MORT STREET (ALINGA/CITY/EAST -> BUNDA)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.278296", "149.130667", null, false ] ]
+, [ 1977, "83D9101F-B60B-425A-9C0E-E22FEAA2669F", 1977, 1485493349, "913938", 1485493349, "913938", null, "1039982", "2012-07-16T00:00:00", "15:15", "Injury", "Struck pedestrian (On Road)", "1", "1", "BOTANY/HINDMARSH INTERSECTION", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.349011", "149.088312", null, false ] ]
+, [ 1978, "E401EC82-F0C3-4417-BB43-B0DC09C95872", 1978, 1485493349, "913938", 1485493349, "913938", null, "1113380", "2015-06-23T00:00:00", "08:55", "Injury", "Struck pedestrian (On Road)", "1", "1", "ANKETELL STREET (CYNTHEA TEAGUE -> ATHLLON)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.423794", "149.07383", null, false ] ]
+, [ 1979, "00D387BD-C346-4686-8D2B-7294F7452FF9", 1979, 1485493349, "913938", 1485493349, "913938", null, "1070628", "2013-09-14T00:00:00", "07:58", "Property Damage Only", "Struck pedestrian (On Road)", "1", "0", "BELCONNEN/BENJAMIN INTERSECTION", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.247965", "149.067545", null, false ] ]
+, [ 1980, "31F3BA15-8F27-4582-9AD3-C02DF6F819B1", 1980, 1485493349, "913938", 1485493349, "913938", null, "1149369", "2016-12-08T00:00:00", "19:30", "Injury", "Struck pedestrian (On Road)", "1", "1", "PITMAN STREET (ATHLLON/ROWLAND REES -> HOLWELL)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.415916", "149.064012", null, false ] ]
+, [ 1981, "81BE8279-D067-4BD9-89AC-16C3732A138C", 1981, 1485493349, "913938", 1485493349, "913938", null, "1062108", "2013-05-08T00:00:00", "15:05", "Injury", "Struck pedestrian (On Road)", "1", "1", "MAY GIBBS CLOSE (CLIFT -> MAY GIBBS)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.42788", "149.11567", null, false ] ]
+, [ 1982, "D44E23DE-E3D5-41CE-BDF7-B0265834DE50", 1982, 1485493349, "913938", 1485493349, "913938", null, "1105134", "2014-03-24T00:00:00", "15:00", "Property Damage Only", "Struck pedestrian (On Road)", "1", "0", "GUNDAROO/GUNDAROO SRV RD 327-345 INTERSECTION", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.179959", "149.133913", null, false ] ]
+, [ 1983, "696DE7D9-7BA4-4E6C-AC32-AB8F62E5B05D", 1983, 1485493349, "913938", 1485493349, "913938", null, "1052775", "2013-01-01T00:00:00", "03:00", "Injury", "Struck pedestrian (On Road)", "1", "1", "SUMMERLAND CIRCUIT (VANZETTI -> KINGSMILL)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.39055", "149.07258", null, false ] ]
+, [ 1984, "07746D0C-C14E-4BD4-A6EE-5D03BEE331E8", 1984, 1485493349, "913938", 1485493349, "913938", null, "1043588", "2012-08-25T00:00:00", "09:10", "Property Damage Only", "Struck pedestrian (On Road)", "1", "0", "FURNEAUX/MANUKA INTERSECTION", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.319097", "149.133127", null, false ] ]
+, [ 1985, "DBEEBA1E-D078-492F-AC83-D832D59E335F", 1985, 1485493349, "913938", 1485493349, "913938", null, "1038088", "2012-06-13T00:00:00", "14:15", "Injury", "Struck pedestrian (On Road)", "1", "1", "TELOPEA/WENTWORTH/EASTLAKE INTERSECTION", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.311098", "149.141787", null, false ] ]
+, [ 1986, "5D40AECB-8903-41D2-A13F-18E168FD46A4", 1986, 1485493349, "913938", 1485493349, "913938", null, "1112989", "2015-05-22T00:00:00", "18:14", "Injury", "Struck pedestrian (On Road)", "1", "1", "HAMELIN/LA PEROUSE INTERSECTION", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.334435", "149.135552", null, false ] ]
+, [ 1987, "1B2CF548-B802-4CFC-804F-A15ACAC7ACC7", 1987, 1485493349, "913938", 1485493349, "913938", null, "1087388", "2014-05-07T00:00:00", "07:55", "Injury", "Struck pedestrian (On Road)", "1", "1", "RED HILL DRIVE (GOWRIE -> RED HILL)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.323553", "149.109556", null, false ] ]
+, [ 1988, "A0E9BF48-4625-4976-B2D3-EBDE8400F782", 1988, 1485493349, "913938", 1485493349, "913938", null, "1036569", "2012-05-21T00:00:00", "06:35", "Injury", "Struck pedestrian (On Road)", "1", "1", "ALINGA/NORTHBOURNE INTERSECTION", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.278415", "149.129246", null, false ] ]
+, [ 1989, "33553D3F-3ADC-4A5B-9024-1613CA069882", 1989, 1485493349, "913938", 1485493349, "913938", null, "1114831", "2015-07-10T00:00:00", "09:55", "Injury", "Struck pedestrian (Off Road)", "1", "1", "MONANMORSWRM/MORSHEAD INTERSECTION", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.302565", "149.169459", null, false ] ]
+, [ 1990, "1066969D-C541-4EAB-823A-E13FE5018EC8", 1990, 1485493349, "913938", 1485493349, "913938", null, "1062321", "2013-05-25T00:00:00", "14:20", "Property Damage Only", "Struck pedestrian (On Road)", "1", "0", "HINDMARSH DRIVE (AINSWORTH -> ATHLLON)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.349026", "149.091958", null, false ] ]
+, [ 1991, "FAD15F3E-1DD9-4870-A38A-8EB0C2332716", 1991, 1485493349, "913938", 1485493349, "913938", null, "1141527", "2016-08-04T00:00:00", "09:25", "Property Damage Only", "Struck pedestrian (On Road)", "1", "0", "HIBBERSON/GRIBBLE INTERSECTION", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.184858", "149.130785", null, false ] ]
+, [ 1992, "E07B89E9-9C75-453B-AB58-9ABF7BDE33F9", 1992, 1485493349, "913938", 1485493349, "913938", null, "1049098", "2012-10-19T00:00:00", "08:02", "Injury", "Struck pedestrian (On Road)", "1", "1", "ATHLLON/BEASLEY (SW) INTERSECTION", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.371915", "149.092994", null, false ] ]
+, [ 1993, "673088DC-DB95-4572-8AAE-A504EAED54D3", 1993, 1485493349, "913938", 1485493349, "913938", null, "1048754", "2012-11-07T00:00:00", "09:50", "Injury", "Struck pedestrian (Off Road)", "1", "1", "WOLLONGONG STREET (KEMBLA -> GLADSTONE)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.325404", "149.179456", null, false ] ]
+, [ 1994, "80F54CAE-8064-4F9D-8353-543DB5867B1D", 1994, 1485493349, "913938", 1485493349, "913938", null, "1096136", "2014-09-30T00:00:00", "10:30", "Injury", "Struck pedestrian (On Road)", "1", "1", "BENJAMIN WAY (CHANDLER -> SWANSON)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.238335", "149.067477", null, false ] ]
+, [ 1995, "D983AE13-1BA8-4E9B-9372-D1C9A87B923A", 1995, 1485493349, "913938", 1485493349, "913938", null, "1086998", "2014-05-23T00:00:00", "15:38", "Injury", "Struck pedestrian (On Road)", "1", "1", "MONARO HIGHWAY (MUGGA -> ISABELLA)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.401995", "149.147957", null, false ] ]
+, [ 1996, "00B98874-BBD3-4635-92E3-CA9E07C27347", 1996, 1485493349, "913938", 1485493349, "913938", null, "1083540", "2014-03-27T00:00:00", "19:50", "Injury", "Struck pedestrian (On Road)", "1", "1", "GILES STREET (TENCH -> JARDINE)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.314969", "149.141042", null, false ] ]
+, [ 1997, "17A72E98-CA69-419B-87C8-E6B533C90D68", 1997, 1485493349, "913938", 1485493349, "913938", null, "1049962", "2012-11-22T00:00:00", "08:56", "Injury", "Struck pedestrian (On Road)", "1", "1", "CATCHPOLE STREET (BOWMAN -> COLLICOTT)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.251907", "149.06956", null, false ] ]
+, [ 1998, "11B57E28-B048-4B29-A6B4-4BBEC0BCFF74", 1998, 1485493349, "913938", 1485493349, "913938", null, "1079698", "2013-11-20T00:00:00", "08:10", "Property Damage Only", "Struck pedestrian (On Road)", "1", "0", "AINSLIE/COOYONG INTERSECTION", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.279328", "149.135622", null, false ] ]
+, [ 1999, "F7E41B07-211C-4CE1-9847-59A87376EBDD", 1999, 1485493349, "913938", 1485493349, "913938", null, "1052048", "2012-12-26T00:00:00", "15:10", "Injury", "Struck pedestrian (On Road)", "1", "1", "IRON KNOB STREET (BEACONSFIELD -> GERALDTON)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.336638", "149.179568", null, false ] ]
+, [ 2001, "340A9BF3-195B-49C6-B1EF-35536C2C9DB8", 2001, 1485493349, "913938", 1485493349, "913938", null, "1132568", "2016-04-11T00:00:00", "15:40", "Injury", "Struck pedestrian (On Road)", "1", "1", "CROMWELL/NOOROOMA INTERSECTION", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.428445", "149.087345", null, false ] ]
+, [ 2002, "66341B66-EB04-4C2E-9F09-DB83A638A51A", 2002, 1485493349, "913938", 1485493349, "913938", null, "1072173", "2013-09-20T00:00:00", "13:15", "Property Damage Only", "Struck pedestrian (On Road)", "1", "0", "BUNDA STREET (GENGE -> MURULLA)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.277635", "149.131869", null, false ] ]
+, [ 2003, "ED46A135-F920-4CE9-8360-B74A60834615", 2003, 1485493349, "913938", 1485493349, "913938", null, "1037926", "2012-05-29T00:00:00", "16:45", "Property Damage Only", "Struck pedestrian (On Road)", "1", "0", "ANKETELL STREET (PITMAN -> REED)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.415269", "149.067344", null, false ] ]
+, [ 2004, "A7CE5326-7825-49DB-A6BD-42CA36360F97", 2004, 1485493349, "913938", 1485493349, "913938", null, "1077586", "2013-11-27T00:00:00", "09:30", "Injury", "Struck pedestrian (On Road)", "1", "1", "BUNDA/GAREMA/SCOTTS INTERSECTION", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.278174", "149.132794", null, false ] ]
+, [ 2005, "AE6378F1-5E17-427D-A4B6-B0A3B0FA4A1B", 2005, 1485493349, "913938", 1485493349, "913938", null, "1063065", "2013-06-04T00:00:00", "09:00", "Property Damage Only", "Struck pedestrian (On Road)", "1", "0", "CARRUTHERS/DENISON INTERSECTION", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.326899", "149.091732", null, false ] ]
+, [ 2006, "F7B42899-6A97-4412-A295-B96A86A83BC6", 2006, 1485493349, "913938", 1485493349, "913938", null, "1135496", "2016-05-20T00:00:00", "17:00", "Injury", "Struck pedestrian (On Road)", "1", "1", "HINDMARSH DRIVE (CALLAM -> BOTANY)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.348944", "149.088871", null, false ] ]
+, [ 2007, "D4B3AFB0-2BD2-4C8A-BC30-AD4797C8B05B", 2007, 1485493349, "913938", 1485493349, "913938", null, "1037965", "2012-06-24T00:00:00", "10:00", "Injury", "Struck pedestrian (On Road)", "1", "1", "KREFFT/RATCLIFFE INTERSECTION", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.226762", "149.051838", null, false ] ]
+, [ 2008, "65C02A4D-D94F-49BE-BD89-8DC82F43DAC9", 2008, 1485493349, "913938", 1485493349, "913938", null, "1099468", "2014-11-21T00:00:00", "08:20", "Property Damage Only", "Struck pedestrian (On Road)", "1", "0", "KING EDWARD TERRACE (PARKES -> COMMSFLYNERM/FLYNN/KINGWCOMMSRM/LANGTON)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.298037", "149.129249", null, false ] ]
+, [ 2009, "844F0B6F-84D3-4931-990E-0D3AEC625500", 2009, 1485493349, "913938", 1485493349, "913938", null, "1076643", "2013-10-24T00:00:00", "11:35", "Property Damage Only", "Struck pedestrian (On Road)", "1", "0", "NEWCASTLE STREET (MOLONGLO/WOLLONGONG -> COLLIE)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.328952", "149.178307", null, false ] ]
+, [ 2010, "5797D3DB-74E8-4146-9D95-2F445E360D9A", 2010, 1485493349, "913938", 1485493349, "913938", null, "1039925", "2012-05-08T00:00:00", "19:21", "Injury", "Struck pedestrian (On Road)", "1", "1", "BARRY/COOYONG/NORTHBOURNE INTERSECTION", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.275762", "149.129574", null, false ] ]
+, [ 2011, "35A3BE8B-7E20-4CB3-9219-2B4650738AE5", 2011, 1485493349, "913938", 1485493349, "913938", null, "1112981", "2015-04-25T00:00:00", "23:50", "Injury", "Struck pedestrian (On Road)", "1", "1", "ANTILL/MOUAT/NORTHBOURNE INTERSECTION", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.248151", "149.134136", null, false ] ]
+, [ 2012, "3EF8F54C-6EE4-4198-AB27-90E85BD2B8C7", 2012, 1485493349, "913938", 1485493349, "913938", null, "1132069", "2016-03-31T00:00:00", "17:20", "Injury", "Struck pedestrian (On Road)", "1", "1", "HAMBIDGE CRESCENT (HALLEY/HEAGNEY -> PROCTOR)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.415202", "149.130706", null, false ] ]
+, [ 2013, "F07483F8-8849-4207-BDEC-6B1EBDCB0A1F", 2013, 1485493349, "913938", 1485493349, "913938", null, "1037077", "2012-06-15T00:00:00", "19:20", "Property Damage Only", "Struck pedestrian (On Road)", "1", "0", "RICARDO STREET (MCBRYDE -> GARTSIDE)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.405022", "149.098403", null, false ] ]
+, [ 2014, "BB80FE54-D794-42C4-AF8C-8BB7CAB0860F", 2014, 1485493349, "913938", 1485493349, "913938", null, "1086268", "2014-05-07T00:00:00", "08:05", "Injury", "Struck pedestrian (On Road)", "1", "1", "CHUCULBA CRESCENT (CENTAURUS -> CENTAURUS)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.209891", "149.093231", null, false ] ]
+, [ 2015, "5BEDDB49-7A74-4431-B6B8-735F9BDF6F36", 2015, 1485493349, "913938", 1485493349, "913938", null, "1032496", "2012-04-03T00:00:00", "16:45", "Injury", "Struck pedestrian (On Road)", "1", "1", "BUNDA/NORTHBOURNE/RUDD INTERSECTION", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.277054", "149.129466", null, false ] ]
+, [ 2016, "7297D12A-CC32-4C58-A77B-DC4E68CB6463", 2016, 1485493349, "913938", 1485493349, "913938", null, "1130100", "2015-11-17T00:00:00", "14:40", "Injury", "Collision with parked vehicle", "1", "1", "BUNDA STREET (PETRIE -> GAREMA)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.278775", "149.133145", null, false ] ]
+, [ 2017, "A61702D0-B2ED-4308-9732-C33C38F75489", 2017, 1485493349, "913938", 1485493349, "913938", null, "1096692", "2014-10-09T00:00:00", "12:05", "Injury", "Struck pedestrian (Off Road)", "1", "0", "FEDERAL/PHILLIP INTERSECTION", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.236208", "149.143508", null, false ] ]
+, [ 2018, "558BA675-BEB5-464D-AC25-AF77B08FD79A", 2018, 1485493349, "913938", 1485493349, "913938", null, "1111676", "2015-05-28T00:00:00", "22:00", "Injury", "Struck pedestrian (On Road)", "1", "1", "GEEVES/TILLYARD INTERSECTION", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.204811", "149.037593", null, false ] ]
+, [ 2019, "3B225995-6ACE-48D0-9B34-25AEC130E31D", 2019, 1485493349, "913938", 1485493349, "913938", null, "1111844", "2015-05-24T00:00:00", "21:20", "Injury", "Struck pedestrian (On Road)", "1", "1", "MACQUEEN PLACE (CARTWRIGHT -> MACQUEEN)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.20222", "149.031468", null, false ] ]
+, [ 2020, "5E72168D-2F4C-4E08-8B63-28A34F17EE33", 2020, 1485493349, "913938", 1485493349, "913938", null, "1051952", "2012-12-20T00:00:00", "07:00", "Injury", "Struck pedestrian (On Road)", "1", "1", "RUSSELL DRYSDALE CRESCENT (HANDASYDE -> HANDASYDE)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.457657", "149.102602", null, false ] ]
+, [ 2021, "72649F24-447E-429A-96A6-1A9420267184", 2021, 1485493349, "913938", 1485493349, "913938", null, "1079499", "2013-08-08T00:00:00", "08:30", "Property Damage Only", "Struck pedestrian (On Road)", "1", "0", "HINDMARSH DRIVE (MELROSE -> EGGLESTON)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.348161", "149.080947", null, false ] ]
+, [ 2022, "B2A93767-9B46-45A3-970C-06E2DE6D67F6", 2022, 1485493349, "913938", 1485493349, "913938", null, "1122800", "2015-10-31T00:00:00", "00:50", "Property Damage Only", "Struck pedestrian (On Road)", "1", "0", "SHOALHAVEN AVENUE (BURDEKIN/RODERICK -> LENNARD/TYENNA)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.172973", "149.12335", null, false ] ]
+, [ 2023, "BE6ECB75-3088-42D6-9CE6-71F9D451DF8A", 2023, 1485493349, "913938", 1485493349, "913938", null, "1112983", "2015-05-08T00:00:00", "09:08", "Injury", "Struck pedestrian (On Road)", "1", "1", "BRIGALOW STREET (LONGSTAFF -> HALL)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.251237", "149.124908", null, false ] ]
+, [ 2024, "EA957A4B-2DE6-4318-B4A2-2DFB9BCD10CA", 2024, 1485493349, "913938", 1485493349, "913938", null, "1090165", "2014-07-02T00:00:00", "19:30", "Injury", "Struck pedestrian (On Road)", "1", "1", "COOYONG/MORT INTERSECTION", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.275843", "149.131064", null, false ] ]
+, [ 2025, "18A33263-949B-4EA8-9D25-234B8DDB4C2B", 2025, 1485493349, "913938", 1485493349, "913938", null, "1139654", "2016-07-21T00:00:00", "18:04", "Injury", "Struck pedestrian (On Road)", "1", "1", "BURDEKIN/RODERICK/SHOALHAVEN INTERSECTION", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.172903", "149.122918", null, false ] ]
+, [ 2026, "BAE15195-80E6-4CA0-9202-40C30A65BA84", 2026, 1485493349, "913938", 1485493349, "913938", null, "1046959", "2012-09-23T00:00:00", "14:00", "Injury", "Struck pedestrian (On Road)", "1", "0", "MACARTHUR AVENUE (NORTHBOURNE/WAKEFIELD -> DAVID/WATTLE)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.260406", "149.131073", null, false ] ]
+, [ 2027, "F98E9F8D-B383-490D-9C83-FB10740F8447", 2027, 1485493349, "913938", 1485493349, "913938", null, "1073384", "2013-02-09T00:00:00", "19:15", "Injury", "Struck pedestrian (On Road)", "1", "1", "MAINWARING RICH CIRCUIT (FLORA -> MAINWARING RICH)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.193652", "149.125262", null, false ] ]
+, [ 2028, "4DC13607-FFFC-4347-B74D-67C563D0759D", 2028, 1485493349, "913938", 1485493349, "913938", null, "1130524", "2015-01-29T00:00:00", "16:54", "Injury", "Struck pedestrian (On Road)", "1", "1", "GOLDEN GROVE (MONARO -> HICKS)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.33198", "149.128362", null, false ] ]
+, [ 2029, "4FD26618-769E-4E52-91E7-7A20936D1BF8", 2029, 1485493349, "913938", 1485493349, "913938", null, "1139608", "2016-05-11T00:00:00", "12:05", "Property Damage Only", "Struck pedestrian (On Road)", "1", "0", "CURTIN PL EAST CARPARK (CURTIN PL EAST -> CURTIN PL EAST)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.325801", "149.082858", null, false ] ]
+, [ 2030, "1A2DA0CC-6A2D-49C2-BC54-A507D7989445", 2030, 1485493349, "913938", 1485493349, "913938", null, "1146809", "2016-10-30T00:00:00", "00:30", "Injury", "Struck pedestrian (On Road)", "1", "1", "MAHONY COURT / HOUSE NO 2 - HOUSE NO 12", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.340965", "149.053431", null, false ] ]
+, [ 2031, "49B8787E-85B8-4D39-86A7-3B192A6F8F9C", 2031, 1485493349, "913938", 1485493349, "913938", null, "1113684", "2015-06-18T00:00:00", "07:50", "Injury", "Struck pedestrian (On Road)", "1", "1", "BARRY DRIVE (CLUNIES ROSS/FROGGATT -> BOLDREWOOD)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.272894", "149.119504", null, false ] ]
+, [ 2032, "F868C4B6-E885-4837-B70C-FA7A754EBF54", 2032, 1485493349, "913938", 1485493349, "913938", null, "1110354", "2015-05-14T00:00:00", "08:30", "Injury", "Struck pedestrian (On Road)", "1", "1", "NATIONAL CIRCUIT (BLIGH -> KINGS/QUEEN VICTORIA)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.305867", "149.133111", null, false ] ]
+, [ 2033, "77F1D6C0-CA18-4296-BC25-FEA5ED953DC1", 2033, 1485493349, "913938", 1485493349, "913938", null, "1135099", "2016-05-21T00:00:00", "02:00", "Injury", "Struck pedestrian (On Road)", "1", "1", "BODDINGTON CRESCENT (BACCHUS/REYNELL -> DRAKEFORD/MARCONI)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.379537", "149.05485", null, false ] ]
+, [ 2034, "C2DEB20E-0047-469F-912C-A62806C67974", 2034, 1485493349, "913938", 1485493349, "913938", null, "1094984", "2014-09-10T00:00:00", "07:50", "Injury", "Struck pedestrian (On Road)", "1", "1", "SID BARNES CRESCENT (JEROME -> LEWIS LUXTON)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.454599", "149.089865", null, false ] ]
+, [ 2035, "080C3373-8F3C-478E-BADD-14F6AC86897E", 2035, 1485493349, "913938", 1485493349, "913938", null, "1046532", "2012-09-25T00:00:00", "10:16", "Injury", "Struck pedestrian (On Road)", "1", "1", "BRISBANE AVENUE (JOHN MCEWEN -> STATE)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.308829", "149.130814", null, false ] ]
+, [ 2036, "B4977C31-B9CB-464A-99FD-C7C2DA8F92AC", 2036, 1485493349, "913938", 1485493349, "913938", null, "1145550", "2016-10-16T00:00:00", "09:22", "Property Damage Only", "Struck pedestrian (Off Road)", "1", "0", "CORINNA STREET (CORINNA -> JULIANA)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.348075", "149.085474", null, false ] ]
+, [ 2037, "E4F7E149-A650-4778-8247-AD3628B31DF8", 2037, 1485493349, "913938", 1485493349, "913938", null, "1062726", "2013-04-17T00:00:00", "18:00", "Injury", "Struck pedestrian (Off Road)", "1", "1", "BELCONNEN WAY (SPRINGVALE -> SHUMACK)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.24348", "149.049955", null, false ] ]
+, [ 2038, "C89231CC-C8CD-42D1-A5AA-1BB0D8F63C5F", 2038, 1485493349, "913938", 1485493349, "913938", null, "1143322", "2016-09-09T00:00:00", "18:30", "Injury", "Struck pedestrian (On Road)", "1", "1", "MCCLELLAND AVENUE (MORIARTY -> AYERS FOWLER/FLEETWOOD SMITH)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.184465", "149.084288", null, false ] ]
+, [ 2039, "15B45576-412E-4D12-9660-6FC4FE0B4387", 2039, 1485493349, "913938", 1485493349, "913938", null, "1032861", "2012-04-11T00:00:00", "15:10", "Injury", "Struck pedestrian (On Road)", "1", "1", "GOODWIN/MURDOCH INTERSECTION", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.252302", "149.131099", null, false ] ]
+, [ 2040, "D27DA2F7-433A-47C1-B4F7-48B52727CDA3", 2040, 1485493349, "913938", 1485493349, "913938", null, "1076049", "2013-11-27T00:00:00", "12:00", "Property Damage Only", "Struck pedestrian (On Road)", "1", "0", "BUNDA STREET (GAREMA ->GENGE)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.2778", "149.132374", null, false ] ]
+, [ 2041, "987C88D0-B03D-4E3F-B774-CD2ABC29CF23", 2041, 1485493349, "913938", 1485493349, "913938", null, "1076866", "2013-12-14T00:00:00", "10:15", "Injury", "Struck pedestrian (On Road)", "1", "1", "THE VALLEY AVENUE (DELMA -> THE VALLEY)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.186539", "149.124745", null, false ] ]
+, [ 2042, "7EFCC200-6825-4AD2-B5A1-8F1A3F5E17C2", 2042, 1485493349, "913938", 1485493349, "913938", null, "1080009", "2014-02-07T00:00:00", "15:30", "Property Damage Only", "Struck pedestrian (On Road)", "1", "0", "THEODORE STREET (DAWSON -> THEODORE)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.32764", "149.082414", null, false ] ]
+, [ 2043, "9332B69F-54CE-4469-9AD7-28768D6E5B6D", 2043, 1485493349, "913938", 1485493349, "913938", null, "1104731", "2015-01-09T00:00:00", "15:10", "Injury", "Struck pedestrian (On Road)", "1", "1", "TOM ROBERTS AVENUE (BEAUMARIS -> TEMPLESTOWE)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.464535", "149.106279", null, false ] ]
+, [ 2044, "52A1AAB8-8E5B-4F33-855C-1D127D0F5FEC", 2044, 1485493349, "913938", 1485493349, "913938", null, "1094954", "2014-09-08T00:00:00", "17:30", "Injury", "Struck pedestrian (On Road)", "1", "1", "GUNGAHLIN/KOSCIUSZKO INTERSECTION", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.193339", "149.127875", null, false ] ]
+, [ 2045, "F3AC810B-6982-4B31-8BCF-81DEBD01D899", 2045, 1485493349, "913938", 1485493349, "913938", null, "1071403", "2013-09-26T00:00:00", "17:29", "Injury", "Struck pedestrian (On Road)", "1", "1", "HIBBERSON STREET (GOZZARD -> GUNGAHLIN)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.185475", "149.134501", null, false ] ]
+, [ 2046, "0442AA5A-74A0-4FC6-8634-F8B365B11086", 2046, 1485493349, "913938", 1485493349, "913938", null, "1130648", "2015-03-14T00:00:00", "11:38", "Property Damage Only", "Struck pedestrian (On Road)", "1", "0", "O'CONNOR CIRCUIT (PHILLIPSON -> IEVERS)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.443581", "149.112317", null, false ] ]
+, [ 2047, "BCD4C5AF-AA40-4B48-93CD-EA10421FDCEF", 2047, 1485493349, "913938", 1485493349, "913938", null, "1102904", "2015-01-25T00:00:00", "04:10", "Injury", "Struck pedestrian (On Road)", "1", "1", "YAMBA DRIVE (KITCHENER -> BATESON)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.344608", "149.099006", null, false ] ]
+, [ 2048, "BFECEA85-6EBD-43A8-A252-89901080C503", 2048, 1485493349, "913938", 1485493349, "913938", null, "1037940", "2012-06-12T00:00:00", "15:40", "Injury", "Struck pedestrian (On Road)", "1", "1", "MIRRABEI DRIVE (ANTHONY ROLFE/GUNDAROO -> PAUL COE)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.179057", "149.125856", null, false ] ]
+, [ 2049, "DCA62088-0134-49B9-8573-56876C157157", 2049, 1485493349, "913938", 1485493349, "913938", null, "1102083", "2015-01-01T00:00:00", "00:30", "Injury", "Struck pedestrian (On Road)", "2", "2", "LONDON/NORTHBOURNE INTERSECTION", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.279585", "149.129057", null, false ] ]
+, [ 2050, "E19D6BD1-01D2-4DD3-9D29-8EDC1D7D3449", 2050, 1485493349, "913938", 1485493349, "913938", null, "1034835", "2012-05-16T00:00:00", "16:22", "Injury", "Right angle collision", "1", "1", "BARRY/MCCAUGHEY/NORTH INTERSECTION", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.273436", "149.121886", null, false ] ]
+, [ 2051, "88DDF9FE-4CB3-4F95-8360-2FBA54CFDE9F", 2051, 1485493349, "913938", 1485493349, "913938", null, "1122138", "2015-10-26T00:00:00", "16:45", "Injury", "Struck pedestrian (Off Road)", "1", "1", "AMAROO STREET (CORANDERRK -> EUREE)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.285084", "149.138315", null, false ] ]
+, [ 2052, "A059F867-038D-4BF2-ADB0-9B3F61BA03C4", 2052, 1485493349, "913938", 1485493349, "913938", null, "1136085", "2016-05-28T00:00:00", "15:30", "Fatal", "Struck pedestrian (Off Road)", "1", "1", "ARABANOO CRESCENT (WALGA -> WELLINGTON)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.173746", "149.110551", null, false ] ]
+, [ 2053, "0ACDA512-11C3-4587-9593-995D89398D38", 2053, 1485493349, "913938", 1485493349, "913938", null, "1111509", "2015-04-16T00:00:00", "13:30", "Injury", "Struck pedestrian (On Road)", "1", "1", "ARCHIBALD STREET (ASHTON -> MACKENNAL)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.244939", "149.123398", null, false ] ]
+, [ 2054, "CD0F0323-5A4C-4F82-B9F3-2B44644407AF", 2054, 1485493349, "913938", 1485493349, "913938", null, "1065713", "2013-06-25T00:00:00", "15:03", "Property Damage Only", "Struck pedestrian (On Road)", "1", "0", "BOOLEE/CURRONG INTERSECTION", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.280731", "149.138266", null, false ] ]
+, [ 2055, "EA20ACC4-E2B2-4D56-A365-59F23C4EFBB8", 2055, 1485493349, "913938", 1485493349, "913938", null, "1063461", "2013-02-17T00:00:00", "15:00", "Property Damage Only", "Struck pedestrian (On Road)", "1", "0", "BURDEKIN/WANDERER INTERSECTION", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.17004", "149.120262", null, false ] ]
+, [ 2056, "62EA1F2A-A59B-40AC-8858-60724A75B9A5", 2056, 1485493349, "913938", 1485493349, "913938", null, "1131082", "2016-03-22T00:00:00", "20:56", "Injury", "Struck pedestrian (On Road)", "1", "1", "GALLAGHER/SHOLL INTERSECTION", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.38437", "149.065661", null, false ] ]
+, [ 2057, "604DB21B-F9A7-4D91-8626-2BBDD5CE50A6", 2057, 1485493349, "913938", 1485493349, "913938", null, "1084394", "2014-04-17T00:00:00", "18:00", "Injury", "Struck pedestrian (On Road)", "1", "1", "HIBBERSON STREET (GUNGAHLIN -> HINDER", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.185704", "149.135882", null, false ] ]
+, [ 2058, "5053A838-8F23-49F1-A27F-7BC3418D0033", 2058, 1485493349, "913938", 1485493349, "913938", null, "1057071", "2012-09-12T00:00:00", "15:00", "Injury", "Struck pedestrian (On Road)", "1", "1", "TAYLOR STREET (WARRUMBUL -> TAYLOR)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.168867", "149.106279", null, false ] ]
+, [ 2059, "22696057-7155-4441-8A9C-802CDCA953AD", 2059, 1485493349, "913938", 1485493349, "913938", null, "1112998", "2015-06-01T00:00:00", "13:10", "Injury", "Struck pedestrian (On Road)", "1", "1", "NORTHBOURNE AVENUE (ALINGA -> BUNDA/RUDD)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.277666", "149.129367", null, false ] ]
+, [ 2060, "D3C81F82-257A-4F6B-8F8B-DF9630851FBE", 2060, 1485493349, "913938", 1485493349, "913938", null, "1130259", "2016-02-28T00:00:00", "05:10", "Injury", "Struck pedestrian (On Road)", "1", "1", "AINSLIE AVENUE (KOGARAH -> COOYONG)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.279195", "149.135963", null, false ] ]
+, [ 2061, "F24A0BB8-EFEE-48D4-B67E-4C61AC4D6657", 2061, 1485493349, "913938", 1485493349, "913938", null, "1100663", "2014-12-04T00:00:00", "09:50", "Property Damage Only", "Struck pedestrian (Off Road)", "1", "0", "MORT STREET (ELOUERA -> GIRRAHWEEN)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.270744", "149.131887", null, false ] ]
+, [ 2062, "3BFADE25-1CD4-4F11-A648-FA5C4672D88D", 2062, 1485493349, "913938", 1485493349, "913938", null, "1098546", "2014-11-12T00:00:00", "19:54", "Injury", "Struck pedestrian (On Road)", "1", "1", "DORIS TURNER ST ( QUINANE ST -> HUDDY ST)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.166706", "149.145543", null, false ] ]
+, [ 2063, "6F12A541-F153-45EB-9699-03F84411A1C6", 2063, 1485493349, "913938", 1485493349, "913938", null, "1074310", "2013-11-11T00:00:00", "16:00", "Property Damage Only", "Struck pedestrian (On Road)", "1", "0", "SULWOOD DRIVE (DRAKEFORD/TUGGERANONG -> KAMBAH POOL/NAMATJIRA)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.373729", "149.055637", null, false ] ]
+, [ 2064, "81D4DBE0-8B61-4DFF-8029-BDB913FDACCF", 2064, 1485493349, "913938", 1485493349, "913938", null, "1125659", "2015-12-11T00:00:00", "16:00", "Injury", "Struck pedestrian (On Road)", "1", "1", "AKUNA/LONDON INTERSECTION", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.281949", "149.132069", null, false ] ]
+, [ 2065, "B7B08D55-388D-4BC4-B2AB-5C818962E039", 2065, 1485493349, "913938", 1485493349, "913938", null, "1113578", "2015-06-21T00:00:00", "01:45", "Injury", "Struck pedestrian (On Road)", "1", "1", "EAST/LONDON INTERSECTION", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.279774", "149.130474", null, false ] ]
+, [ 2066, "BF330968-94E6-47EE-969B-9E2B1409BFD9", 2066, 1485493349, "913938", 1485493349, "913938", null, "1057061", "2012-10-25T00:00:00", "14:50", "Injury", "Struck pedestrian (On Road)", "1", "1", "ILUKA STREET (KOOTARA -> BOOLIMBA)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.332705", "149.154128", null, false ] ]
+, [ 2067, "183CE437-1ECC-4E2F-8CFD-0B869249E3C5", 2067, 1485493349, "913938", 1485493349, "913938", null, "1101050", "2014-12-05T00:00:00", "00:10", "Injury", "Struck pedestrian (On Road)", "1", "1", "FRANKLIN STREET (NATIONAL -> DOMINION)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.31585", "149.129397", null, false ] ]
+, [ 2068, "73AEC553-86EC-4F4C-8828-4BF39FDF55C2", 2068, 1485493349, "913938", 1485493349, "913938", null, "1130540", "2015-03-06T00:00:00", "19:54", "Property Damage Only", "Struck pedestrian (On Road)", "1", "0", "YARRA GLEN (CARREYARRNRM -> YARRNCARRWRM)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.325783", "149.087426", null, false ] ]
+, [ 2069, "596009D1-8392-4112-B57E-96465EC99324", 2069, 1485493349, "913938", 1485493349, "913938", null, "1065346", "2013-06-24T00:00:00", "12:40", "Injury", "Struck pedestrian (On Road)", "1", "1", "FLINDERS WAY (PALMERSTON -> BOUGAINVILLE)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.321053", "149.133541", null, false ] ]
+, [ 2070, "42EE7620-C6B1-4BED-B6C2-5024A6C9DCC5", 2070, 1485493349, "913938", 1485493349, "913938", null, "1139659", "2016-07-22T00:00:00", "08:20", "Property Damage Only", "Struck pedestrian (On Road)", "1", "0", "ATHLLON/SOWARD INTERSECTION", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.419917", "149.065536", null, false ] ]
+, [ 2071, "197CDF58-F6C5-43B8-B2A1-39DE107F11D7", 2071, 1485493349, "913938", 1485493349, "913938", null, "1128162", "2016-01-28T00:00:00", "06:00", "Injury", "Struck pedestrian (On Road)", "1", "1", "BROWNLEE/VERBRUGGHEN INTERSECTION", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.213605", "149.0532", null, false ] ]
+, [ 2072, "7933D87B-314B-4CB9-A38F-C8FB9388CE33", 2072, 1485493349, "913938", 1485493349, "913938", null, "1052777", "2013-01-03T00:00:00", "10:15", "Property Damage Only", "Struck pedestrian (On Road)", "2", "0", "MACARTHUR/NORTHBOURNE/WAKEFIELD INTERSECTION", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.260511", "149.132038", null, false ] ]
+, [ 2073, "DF854CA7-AF3D-44F0-A23E-D2BCAB90DC29", 2073, 1485493349, "913938", 1485493349, "913938", null, "1123391", "2015-11-13T00:00:00", "15:15", "Property Damage Only", "Struck pedestrian (On Road)", "1", "0", "COLLEGE STREET (RADFORD COLLEGE ACCESS -> HAYDON)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.242254", "149.089359", null, false ] ]
+, [ 2074, "2DC896F6-E1DE-4BCD-BD3B-42F173EE410A", 2074, 1485493349, "913938", 1485493349, "913938", null, "1082751", "2014-03-27T00:00:00", "13:30", "Property Damage Only", "Struck pedestrian (On Road)", "1", "0", "ANKETELL STREET (PITMAN -> REED)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.415841", "149.067779", null, false ] ]
+, [ 2075, "0CC7FD25-00F3-47F6-92F6-0F6CB0C83AAB", 2075, 1485493349, "913938", 1485493349, "913938", null, "1118896", "2015-05-22T00:00:00", "12:30", "Injury", "Struck pedestrian (On Road)", "1", "1", "NEWCASTLE STREET (MOLONGLO/WOLLONGONG -> COLLIE)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.328308", "149.17784", null, false ] ]
+, [ 2076, "38439787-0EE0-48E8-88D1-F09216C5D4A7", 2076, 1485493349, "913938", 1485493349, "913938", null, "1097028", "2014-09-01T00:00:00", "13:30", "Injury", "Struck pedestrian (On Road)", "1", "1", "TOWNSVILLE STREET (GLADSTONE -> BODALLA)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.330009", "149.183362", null, false ] ]
+, [ 2077, "E6F6C07A-A9A3-43D1-B073-BE5C7505AC76", 2077, 1485493349, "913938", 1485493349, "913938", null, "1057318", "2012-11-22T00:00:00", "18:45", "Fatal", "Struck pedestrian (On Road)", "1", "1", "MACNALLY/NAMATJIRA INTERSECTION", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.339313", "149.053079", null, false ] ]
+, [ 2078, "9B16D7D6-DEBD-457A-87F4-C9190551D6B3", 2078, 1485493349, "913938", 1485493349, "913938", null, "1114863", "2015-07-14T00:00:00", "13:15", "Injury", "Struck pedestrian (Off Road)", "1", "1", "HALFORD CRESCENT (CHEWINGS -> KEARTLAND)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.2343", "149.04684", null, false ] ]
+, [ 2079, "353A3077-C2CF-43CC-9417-F27473E637D5", 2079, 1485493349, "913938", 1485493349, "913938", null, "1080015", "2014-02-10T00:00:00", "15:20", "Injury", "Struck pedestrian (On Road)", "1", "1", "BUNDA/NORTHBOURNE/RUDD INTERSECTION", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.277124", "149.129354", null, false ] ]
+, [ 2080, "7D2C34EC-A7F3-4738-B7E6-088271152677", 2080, 1485493349, "913938", 1485493349, "913938", null, "1137078", "2016-06-16T00:00:00", "19:10", "Injury", "Struck pedestrian (On Road)", "1", "1", "DRAKEFORD/SULWOOD/TUGGERANONG INTERSECTION", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.3739", "149.056932", null, false ] ]
+, [ 2081, "5F9B5181-66F5-4AFC-BCC0-DA3A1CB3672F", 2081, 1485493349, "913938", 1485493349, "913938", null, "1098893", "2014-01-05T00:00:00", "11:25", "Injury", "Struck pedestrian (On Road)", "1", "1", "EDGAR STREET (WAKEFIELD -> O'CONNELL)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.262262", "149.145279", null, false ] ]
+, [ 2082, "3885D095-8CC1-46CC-B21F-15479A405DF1", 2082, 1485493349, "913938", 1485493349, "913938", null, "1136951", "2015-01-06T00:00:00", "14:00", "Injury", "Struck pedestrian (Off Road)", "1", "1", "MORT STREET (ALINGA/CITY/EAST -> BUNDA)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.277787", "149.13075", null, false ] ]
+, [ 2083, "6508B7B7-DB73-4EEB-B31F-A599F497D08F", 2083, 1485493349, "913938", 1485493349, "913938", null, "1072866", "2013-10-19T00:00:00", "20:00", "Property Damage Only", "Struck pedestrian (On Road)", "1", "0", "KOSCIUSZKO AVENUE (TIPTREE -> TINDERRY)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.197901", "149.121701", null, false ] ]
+, [ 2084, "15EB493E-8AA7-46F2-8914-61E9B1032417", 2084, 1486601801, "913938", 1486601801, "913938", null, "1152106", "2017-01-23T00:00:00", "16:00", "Injury", "Struck pedestrian (On Road)", "1", "1", "RATCLIFFE CRESCENT (CHALLINOR -> CHALLINOR)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.23191", "149.054575", null, false ] ]
+, [ 2086, "64E4D15E-8F66-4774-AF47-E62032E707AD", 2086, 1486713748, "913938", 1486713748, "913938", null, "1152328", "2016-12-12T00:00:00", "08:15", "Property Damage Only", "Struck pedestrian (On Road)", "1", "0", "WOLSTENHOLME STREET SERVICE ROAD (N)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.419552", "149.116856", null, false ] ]
+, [ 2087, "4F9ED937-835B-4265-9AC2-D4E69B8DD5A8", 2087, 1487145740, "913938", 1487145740, "913938", null, "1152674", "2016-09-05T00:00:00", "10:29", "Injury", "Struck pedestrian (Off Road)", "1", "1", "BORROWDALE STREET (NORFOLK -> BORROWDALE)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.342443", "149.12875", null, false ] ]
+, [ 2088, "A05F023C-F68D-492C-9C0D-CC191B47EA48", 2088, 1487232138, "913938", 1487232138, "913938", null, "1152348", "2017-02-06T00:00:00", "08:30", "Property Damage Only", "Struck pedestrian (On Road)", "1", "0", "MANUKA CIRCLE (CANBERRA -> FURNEAUX)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.318529", "149.132886", null, false ] ]
+, [ 2089, "7F0D4CDB-8979-43A8-88A0-34C17C5CFBE8", 2089, 1491901316, "913938", 1491901316, "913938", null, "1154362", "2016-12-17T00:00:00", "22:30", "Injury", "Struck pedestrian (Off Road)", "1", "1", "CLAREY/OWEN DIXON INTERSECTION", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.19682", "149.070014", null, false ] ]
+, [ 2090, "FA8C124B-061A-4DBE-B4DD-5A550D9EF28F", 2090, 1491901316, "913938", 1491901316, "913938", null, "1153425", "2017-02-18T00:00:00", "15:51", "Injury", "Struck pedestrian (Off Road)", "1", "1", "LUCY GULLETT CIRCUIT (BAINBRIDGE -> LUCY GULLETT)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.420837", "149.129395", null, false ] ]
+, [ 2091, "394D851C-5CA3-4459-AD44-85359D5DA462", 2091, 1491901316, "913938", 1491901316, "913938", null, "1153287", "2017-01-06T00:00:00", "13:00", "Property Damage Only", "Struck pedestrian (On Road)", "1", "0", "DRAKEFORD/ERINDALE/SOWARD INTERSECTION", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.415365", "149.074637", null, false ] ]
+, [ 2092, "1D4CBFA3-42A0-4BE7-9201-33A10D255008", 2092, 1491901316, "913938", 1491901316, "913938", null, "1154539", "2017-03-03T00:00:00", "16:23", "Injury", "Struck pedestrian (On Road)", "1", "1", "BARRY/KINGSLEY INTERSECTION", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.275373", "149.125049", null, false ] ]
+, [ 2093, "E860AB3C-58B4-4065-B6A2-1296CBE495F3", 2093, 1491901316, "913938", 1491901316, "913938", null, "1154361", "2016-12-17T00:00:00", "18:00", "Injury", "Struck pedestrian (Off Road)", "1", "1", "KREFFT STREET (BOSWELL -> THORPE)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.225538", "149.048216", null, false ] ]
+, [ 2094, "2891BA7D-1918-4570-8E8A-8F29F00E35EE", 2094, 1491901316, "913938", 1491901316, "913938", null, "1153629", "2017-01-15T00:00:00", "20:30", "Injury", "Struck pedestrian (On Road)", "1", "1", "ALT/LIMESTONE INTERSECTION", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.273588", "149.14256", null, false ] ]
+, [ 2095, "9FD471A4-073B-48E5-8B73-450134D261FF", 2095, 1491901316, "913938", 1491901316, "913938", null, "1153626", "2016-09-15T00:00:00", "12:26", "Property Damage Only", "Struck pedestrian (On Road)", "1", "0", "HARDWICK CRESCENT (HARDWICK CPAK S-> STARKE)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.220495", "149.017773", null, false ] ]
+, [ 2096, "34C38278-51B4-489C-BDFC-5952DE968D27", 2096, 1491901316, "913938", 1491901316, "913938", null, "1155516", "2017-02-27T00:00:00", "16:10", "Injury", "Struck pedestrian (On Road)", "1", "1", "BELCONNEN/HAYDON INTERSECTION", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.253846", "149.085583", null, false ] ]
+, [ 2097, "3A59D085-AEBC-465D-8537-E5320FC2A11F", 2097, 1491901316, "913938", 1491901316, "913938", null, "1153289", "2017-01-16T00:00:00", "08:20", "Injury", "Struck pedestrian (On Road)", "1", "1", "NORTHBOURNE AVENUE (MACARTHUR/WAKEFIELD -> MORPHETT)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.257777", "149.132579", null, false ] ]
+, [ 2098, "F7D6FB3E-6F8C-403E-8A28-A12FC0B3AC75", 2098, 1491901316, "913938", 1491901316, "913938", null, "1155513", "2017-02-15T00:00:00", "22:55", "Property Damage Only", "Struck pedestrian (On Road)", "1", "0", "HALLORAN CLOSE (BOWMAN -> HALLORAN)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.24957", "149.070075", null, false ] ]
+, [ 2099, "3D329DB1-5854-4A7C-AFAD-884FAB986A1C", 2099, 1492074136, "913938", 1492074136, "913938", null, "1157002", "2017-03-11T00:00:00", "14:50", "Injury", "Struck pedestrian (On Road)", "1", "1", "TIPILOURA STREET (MOKARE -> AHMATT)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.164537", "149.109157", null, false ] ]
+, [ 2100, "EBF0FD42-337E-4E4A-86D0-39636F02D96D", 2100, 1492678930, "913938", 1492678930, "913938", null, "1157245", "2017-03-23T00:00:00", "17:50", "Injury", "Struck pedestrian (On Road)", "1", "1", "MACPHERSON STREET (BLUEBELL -> SARGOOD)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.264221", "149.121866", null, false ] ]
+, [ 2101, "84DE494D-74B4-4415-A733-77FC70C08B6F", 2101, 1493715749, "913938", 1493715749, "913938", null, "1158225", "2017-04-14T00:00:00", "05:50", "Injury", "Struck pedestrian (Off Road)", "1", "1", "LONDON CIRCUIT (AKUNA -> AINSLIE)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.281221", "149.131526", null, false ] ]
+, [ 2102, "A98B1463-51D7-4EE0-AB9D-78250C877E3A", 2102, 1493888530, "913938", 1493888530, "913938", null, "1158943", "2017-03-01T00:00:00", "16:40", "Injury", "Struck pedestrian (On Road)", "2", "2", "MARY POTTER CIRCUIT (IGNATIUS -> HYSON)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.253107", "149.090986", null, false ] ]
+, [ 2103, "A4D81009-B93A-40E0-A80D-A38F1AC7A1B3", 2103, 1494320539, "913938", 1494320539, "913938", null, "1159268", "2017-05-04T00:00:00", "07:38", "Injury", "Struck pedestrian (On Road)", "1", "1", "BARRY DRIVE (MOORE -> COOYONG/NORTHBOURNE)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.275659", "149.128623", null, false ] ]
+, [ 2104, "20025028-DA16-4642-9C7E-4E7A3EFD408D", 2104, 1496307724, "913938", 1496307724, "913938", null, "1160756", "2017-05-10T00:00:00", "15:33", "Property Damage Only", "Struck pedestrian (On Road)", "1", "0", "LAUNCESTON STREET (FURZER -> BOWES)", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.340758", "149.084671", null, false ] ]
+, [ 2106, "346FFFED-67A4-4D54-852D-D6C54BC59D93", 2106, 1496826131, "913938", 1496826131, "913938", null, "1160670", "2017-05-19T00:00:00", "18:10", "Injury", "Struck pedestrian (On Road)", "1", "1", "EDINBURGH/MARCUS CLARKE INTERSECTION", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.283469", "149.124506", null, false ] ]
+, [ 2107, "1E723083-673C-4643-83C2-F945FDA19D07", 2107, 1497517383, "913938", 1497517383, "913938", null, "1162039", "2017-05-27T00:00:00", "22:23", "Property Damage Only", "Struck pedestrian (On Road)", "1", "0", "LONDON/NORTHBOURNE INTERSECTION", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "-35.279596", "149.129155", null, false ] ]
+ ]
+}
