@@ -1,5 +1,5 @@
 package com.example.spingus.pointtopointplus;
-
+//https://maps.googleapis.com/maps/api/directions/json?origin=41.43206,-81.38992&destination=origin=42.43206,-82.38992&waypoints=41.43206,-82.38992&mode=walking&key=AIzaSyDRTMLLebdTv8eaG4YQukxIOnZRjMjC7wU
 import android.app.ActionBar;
 import android.app.FragmentTransaction;
 import android.content.Intent;
@@ -48,12 +48,24 @@ public class Nav extends AppCompatActivity
     private GoogleMap mMap;
     public boolean bike,art,arts,police,drinking,dog,fitness,graffiti,hospital,library,pedestrian,bbq,furniture,toilets,skate,park,traffic = false;
 
+    public static Double originLat = 41.43206;
+    public static Double originLon = -81.38992;
+    public static Double destinationLat = 42.43206;
+    public static Double destinationLon = -82.38992;
+    public static String mode = "walking";
+    public static String[] waypoints = new String[10];
+    public static int numWaypoints = 1;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        waypoints[0] = "41.43206,-82.38992";
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_nav);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
+        Intent i = new Intent(Nav.this, Route.class);
+        startActivity(i);
 
         SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager()
                 .findFragmentById(map);
@@ -162,6 +174,9 @@ public class Nav extends AppCompatActivity
         mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(sydney, 12));
         StringBuilder text = new StringBuilder();
 
+        bike = true;
+        park = true;
+
         if(bike) {
             //Bike crash data
             InputStream inputStream = getResources().openRawResource(R.raw.cyclist_crashes);
@@ -174,7 +189,7 @@ public class Nav extends AppCompatActivity
                 mMap.addMarker(new MarkerOptions()
                         .position(pos)
                         .title("Bike Crash")
-                        .icon(BitmapDescriptorFactory.fromBitmap(resizeMapIcons("pegman", 40, 40))));
+                        .icon(BitmapDescriptorFactory.fromBitmap(resizeMapIcons("locationmarker", 40, 40))));
 
             }
         }
@@ -190,7 +205,7 @@ public class Nav extends AppCompatActivity
                 mMap.addMarker(new MarkerOptions()
                         .position(pos)
                         .title("Playground")
-                        .icon(BitmapDescriptorFactory.fromBitmap(resizeMapIcons("pegman", 40, 40))));
+                        .icon(BitmapDescriptorFactory.fromBitmap(resizeMapIcons("locationmarker", 40, 40))));
             }
         }
     }
