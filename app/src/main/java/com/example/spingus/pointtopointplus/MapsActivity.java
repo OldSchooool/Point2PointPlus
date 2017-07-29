@@ -1,6 +1,7 @@
 package com.example.spingus.pointtopointplus;
 
 import android.content.Intent;
+import android.location.Location;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v4.app.FragmentActivity;
@@ -17,6 +18,8 @@ import com.google.android.gms.maps.model.MarkerOptions;
 
 public class MapsActivity extends AppCompatActivity implements OnMapReadyCallback {
     private GoogleMap mMap;
+
+    static Locations location = new Locations(0.0,0.0,0.0,0.0);
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

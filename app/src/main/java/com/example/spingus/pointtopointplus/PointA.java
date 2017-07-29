@@ -1,22 +1,30 @@
 package com.example.spingus.pointtopointplus;
 
+import android.content.Intent;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v4.app.FragmentActivity;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.View;
 
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
+import com.google.android.gms.maps.model.BitmapDescriptorFactory;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
 
 public class PointA extends AppCompatActivity implements OnMapReadyCallback {
 
     private GoogleMap mMap;
+
+    public Double lat = -34.30850783320357;
+    public Double lon = 149.12460252642632;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,8 +40,10 @@ public class PointA extends AppCompatActivity implements OnMapReadyCallback {
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
+                MapsActivity.location.updateA(lat,lon);
+                Intent intent = new Intent(PointA.this, Nav.class);
+                startActivity(intent);
+                //finish();
             }
         });
     }
@@ -51,9 +61,38 @@ public class PointA extends AppCompatActivity implements OnMapReadyCallback {
     public void onMapReady(GoogleMap googleMap) {
         mMap = googleMap;
 
-        // Add a marker in Sydney and move the camera
-        LatLng sydney = new LatLng(-34, 151);
-        mMap.addMarker(new MarkerOptions().position(sydney).title("Marker in Sydney"));
-        mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney));
+        LatLng a = new LatLng(MapsActivity.location.pointAlon, MapsActivity.location.pointAlat);
+        mMap.addMarker(new MarkerOptions()
+                .position(a)
+                //.title("Marker in Sydney")
+                .icon(BitmapDescriptorFactory.fromBitmap(resizeMapIcons("pegman", 100, 100))));
+
+        LatLng b = new LatLng(MapsActivity.location.pointBlon, MapsActivity.location.pointBlat);
+        mMap.addMarker(new MarkerOptions()
+                .position(b)
+                //.title("Marker in Sydney")
+                .icon(BitmapDescriptorFactory.fromBitmap(resizeMapIcons("pegman", 100, 100))));
+
+        LatLng sydney = new LatLng(-35.30850783320357, 149.12460252642632);
+        mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(sydney, 12));
+        mMap.setOnMapClickListener(new GoogleMap.OnMapClickListener() {
+
+
+            @Override
+            public void onMapClick(LatLng point) {
+
+                MarkerOptions marker = new MarkerOptions().position(
+                        new LatLng(point.latitude, point.longitude)).title("Choose Here");
+                lat = point.latitude;
+                lon = point.longitude;
+                mMap.clear();
+                mMap.addMarker(marker);
+            }
+        });
+    }
+    public Bitmap resizeMapIcons(String iconName, int width, int height){
+        Bitmap imageBitmap = BitmapFactory.decodeResource(getResources(),getResources().getIdentifier(iconName, "drawable", getPackageName()));
+        Bitmap resizedBitmap = Bitmap.createScaledBitmap(imageBitmap, width, height, false);
+        return resizedBitmap;
     }
 }
