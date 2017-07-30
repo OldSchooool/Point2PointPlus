@@ -287,13 +287,13 @@ public class Nav extends AppCompatActivity
         mMap.addMarker(new MarkerOptions()
                 .position(origin)
                 //.title("Marker in Sydney")
-                .icon(BitmapDescriptorFactory.fromBitmap(resizeMapIcons("pegman", 100, 100))));
+                .icon(BitmapDescriptorFactory.fromBitmap(resizeMapIcons("pointmarker", 100, 100))));
 
         LatLng destination = new LatLng(Nav.destinationLat, Nav.destinationLon);
         mMap.addMarker(new MarkerOptions()
                 .position(destination)
                 //.title("Marker in Sydney")
-                .icon(BitmapDescriptorFactory.fromBitmap(resizeMapIcons("pegman", 100, 100))));
+                .icon(BitmapDescriptorFactory.fromBitmap(resizeMapIcons("pointmarker", 100, 100))));
 
     }
 
