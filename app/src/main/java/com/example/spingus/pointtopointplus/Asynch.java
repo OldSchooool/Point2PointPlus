@@ -146,10 +146,11 @@ public class Asynch extends AsyncTask<String, Void, JSONObject>
             inStream.close();
             urlConnection.disconnect();
             object = (JSONObject) new JSONTokener(response).nextValue();
+
         }
         catch (Exception e)
         {
-            this.mException = e;
+            Log.d("fubber", e.toString());
         }
 
         objy = object;

@@ -213,6 +213,20 @@ public class PointB extends AppCompatActivity implements OnMapReadyCallback {
                         .icon(BitmapDescriptorFactory.fromBitmap(resizeMapIcons("locationmarker", 40, 40))));
             }
         }
+
+        LatLng origin = new LatLng(Nav.originLat, Nav.originLon);
+        mMap.addMarker(new MarkerOptions()
+                .position(origin)
+                //.title("Marker in Sydney")
+                .icon(BitmapDescriptorFactory.fromBitmap(resizeMapIcons("pegman", 100, 100))));
+
+        LatLng destination = new LatLng(Nav.destinationLat, Nav.destinationLon);
+        mMap.addMarker(new MarkerOptions()
+                .position(destination)
+                //.title("Marker in Sydney")
+                .icon(BitmapDescriptorFactory.fromBitmap(resizeMapIcons("pegman", 100, 100))));
+        mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(destination, 13));
+
     }
     public Bitmap resizeMapIcons(String iconName, int width, int height){
         Bitmap imageBitmap = BitmapFactory.decodeResource(getResources(),getResources().getIdentifier(iconName, "drawable", getPackageName()));

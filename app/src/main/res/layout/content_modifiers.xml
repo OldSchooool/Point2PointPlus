@@ -15,7 +15,7 @@
             android:orientation="vertical" >
 
             <Switch
-                android:id="@+id/switch2"
+                android:id="@+id/switchBike"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="16dp"
@@ -29,7 +29,7 @@
                 android:textSize="18sp" />
 
             <Switch
-                android:id="@+id/switch6"
+                android:id="@+id/switchWalk"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="16dp"
@@ -43,7 +43,7 @@
                 android:textSize="18sp" />
 
             <Switch
-                android:id="@+id/switch3"
+                android:id="@+id/switchToilets"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="16dp"
@@ -57,7 +57,7 @@
                 android:textSize="18sp" />
 
             <Switch
-                android:id="@+id/switch7"
+                android:id="@+id/switchBenches"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="16dp"
@@ -71,7 +71,7 @@
                 android:textSize="18sp" />
 
             <Switch
-                android:id="@+id/switch1"
+                android:id="@+id/switchPlayground"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="16dp"
@@ -84,7 +84,7 @@
                 android:textSize="18sp" />
 
             <Switch
-                android:id="@+id/switch4"
+                android:id="@+id/switchBarbeque"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="16dp"
@@ -98,7 +98,7 @@
                 android:textSize="18sp" />
 
             <Switch
-                android:id="@+id/switch5"
+                android:id="@+id/switchArt"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="16dp"

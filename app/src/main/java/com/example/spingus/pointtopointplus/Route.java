@@ -92,7 +92,7 @@ public class Route extends FragmentActivity implements OnMapReadyCallback {
                     .position(origin)
                     //.title("Marker in Sydney")
                     .icon(BitmapDescriptorFactory.fromBitmap(resizeMapIcons("pegman", 100, 100))));
-            mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(origin, 11));
+            mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(origin, 13));
 
             LatLng destination = new LatLng(Nav.destinationLat, Nav.destinationLon);
             mMap.addMarker(new MarkerOptions()
@@ -106,13 +106,19 @@ public class Route extends FragmentActivity implements OnMapReadyCallback {
             //}
         }catch(JSONException e) {
             Log.d("Something Broke", e.toString());
-            Double originLat = -35.289893;
-            Double originLon = 149.127515;
-            Double destinationLat = -35.2822;
-            Double destinationLon = 149.1287;
+            Double originLat = -35.304849;
+            Double originLon = 149.12579;
+            Double destinationLat = -35.273449;
+            Double destinationLon = 149.13283;
+            Double waylat1 = -35.289464;
+            Double waylon1 = 149.141405;
+            Double waylat2 = -35.282389;
+            Double waylon2 = 149.147854;
             PolylineOptions rectOptions = new PolylineOptions().width(5)
                     .color(Color.BLACK);
             rectOptions.add(new LatLng(originLat, originLon));
+            rectOptions.add(new LatLng(waylat1, waylon1));
+            rectOptions.add(new LatLng(waylat2, waylon2));
             rectOptions.add(new LatLng(destinationLat, destinationLon));
             Polyline polyline = mMap.addPolyline(rectOptions);
             LatLng origin = new LatLng(originLat, originLon);
@@ -125,7 +131,7 @@ public class Route extends FragmentActivity implements OnMapReadyCallback {
                     .position(destination)
                     //.title("Marker in Sydney")
                     .icon(BitmapDescriptorFactory.fromBitmap(resizeMapIcons("pegman", 100, 100))));
-            mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(origin, 11));
+            mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(origin, 13));
 
         }
             if(Nav.bike) {

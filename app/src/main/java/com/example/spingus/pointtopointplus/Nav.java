@@ -41,7 +41,7 @@ import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
 /*
     -35.304849,149.12579
-    -35.289464,14.9141405
+    -35.289464,149.141405
     -35.282389,149.147854
     -35.273449,149.132838
 */
@@ -52,24 +52,25 @@ public class Nav extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener, OnMapReadyCallback {
 
     private GoogleMap mMap;
-    public static boolean bike,art,arts,police,drinking,dog,fitness,graffiti,hospital,library,pedestrian,bbq,furniture,toilets,skate,park,traffic = false;
+    public static boolean bike,art,bench,walk,arts,police,drinking,dog,fitness,graffiti,hospital,library,pedestrian,bbq,furniture,toilets,skate,park,traffic = false;
 
-    public static Double originLat = -35.289893;
-    public static Double originLon = 149.127515;
-    public static Double destinationLat = -35.2822;
-    public static Double destinationLon = 149.1287;
+    public static Double originLat = -35.304849;
+    public static Double originLon = 149.12579;
+    public static Double destinationLat = -35.273449;
+    public static Double destinationLon = 149.13283;
     public static String mode = "walking";
     public static String[] waypoints = new String[10];
-    public static int numWaypoints = 0;
+    public static int numWaypoints = 2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        //waypoints[0] = "41.43206,-82.38992";
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_nav);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
+        waypoints[0] = "-35.289464,149.141405";
+        waypoints[1] = "-35.282389,149.147854";
         SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager()
                 .findFragmentById(map);
         mapFragment.getMapAsync(this);
@@ -281,6 +282,19 @@ public class Nav extends AppCompatActivity
                         .icon(BitmapDescriptorFactory.fromBitmap(resizeMapIcons("locationmarker", 40, 40))));
             }
         }
+
+        LatLng origin = new LatLng(Nav.originLat, Nav.originLon);
+        mMap.addMarker(new MarkerOptions()
+                .position(origin)
+                //.title("Marker in Sydney")
+                .icon(BitmapDescriptorFactory.fromBitmap(resizeMapIcons("pegman", 100, 100))));
+
+        LatLng destination = new LatLng(Nav.destinationLat, Nav.destinationLon);
+        mMap.addMarker(new MarkerOptions()
+                .position(destination)
+                //.title("Marker in Sydney")
+                .icon(BitmapDescriptorFactory.fromBitmap(resizeMapIcons("pegman", 100, 100))));
+
     }
 
 
