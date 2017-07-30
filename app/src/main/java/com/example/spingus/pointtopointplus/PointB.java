@@ -28,6 +28,8 @@ import com.google.android.gms.maps.model.BitmapDescriptorFactory;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
 
+import java.io.InputStream;
+
 import static android.R.attr.data;
 
 public class PointB extends AppCompatActivity implements OnMapReadyCallback {
@@ -118,6 +120,99 @@ public class PointB extends AppCompatActivity implements OnMapReadyCallback {
                 mMap.addMarker(marker);
             }
         });
+        if(Nav.bike) {
+            //Bike crash data
+            InputStream inputStream = getResources().openRawResource(R.raw.cyclist_crashes);
+            CSVFile csvFile = new CSVFile(inputStream);
+            String[] scoreList = csvFile.read(1110);
+            for (int i = 1; i < 1110; i++) {
+                String[] s = scoreList[i].split(",");
+
+                LatLng pos = new LatLng(Double.parseDouble(s[8]), Double.parseDouble(s[9]));
+                mMap.addMarker(new MarkerOptions()
+                        .position(pos)
+                        .title("Bike Crash")
+                        .icon(BitmapDescriptorFactory.fromBitmap(resizeMapIcons("locationmarker", 40, 40))));
+
+            }
+        }
+        if (Nav.park){
+            //Park Data
+            InputStream inputStream2 = getResources().openRawResource(R.raw.town_and_district_playgrounds);
+            CSVFile csvFile2 = new CSVFile(inputStream2);
+            String[] scoreList2 = csvFile2.read(70);
+            for (int i = 1; i < 69; i++) {
+                String[] s2 = scoreList2[i].split(",");
+                LatLng pos = new LatLng(Double.parseDouble(s2[7]), Double.parseDouble(s2[8]));
+                mMap.addMarker(new MarkerOptions()
+                        .position(pos)
+                        .title("Playground")
+                        .icon(BitmapDescriptorFactory.fromBitmap(resizeMapIcons("locationmarker", 40, 40))));
+            }
+        }
+        //public art
+        if (Nav.bbq){
+            //Park Data
+            InputStream inputStream3 = getResources().openRawResource(R.raw.public_barbeques_in_the_act);
+            CSVFile csvFile3 = new CSVFile(inputStream3);
+            String[] scoreList3 = csvFile3.read(328);
+            for (int i = 1; i < 327; i++) {
+                String[] s3 = scoreList3[i].split(",");
+                LatLng pos = new LatLng(Double.parseDouble(s3[6]), Double.parseDouble(s3[7]));
+                mMap.addMarker(new MarkerOptions()
+                        .position(pos)
+                        .title("Barbeque Location")
+                        .icon(BitmapDescriptorFactory.fromBitmap(resizeMapIcons("locationmarker", 40, 40))));
+            }
+        }
+        //public art
+        if (Nav.toilets){
+            //Park Data
+            InputStream inputStream4 = getResources().openRawResource(R.raw.public_toilets_in_the_act);
+            CSVFile csvFile4 = new CSVFile(inputStream4);
+            String[] scoreList4 = csvFile4.read(134);
+            for (int i = 1; i < 133; i++) {
+                Log.d("hi" , i + "");
+                String[] s4 = scoreList4[i].split(",");
+                LatLng pos = new LatLng(Double.parseDouble(s4[6]), Double.parseDouble(s4[7]));
+                mMap.addMarker(new MarkerOptions()
+                        .position(pos)
+                        .title("Toilets")
+                        .icon(BitmapDescriptorFactory.fromBitmap(resizeMapIcons("locationmarker", 40, 40))));
+            }
+        }
+        //public art
+        if (Nav.furniture){
+            //Park Data
+            InputStream inputStream5 = getResources().openRawResource(R.raw.public_furniture_in_the_act);
+            CSVFile csvFile5 = new CSVFile(inputStream5);
+            String[] scoreList5 = csvFile5.read(4040);
+            for (int i = 1; i < 4039; i++) {
+                String[] s5 = scoreList5[i].split(",");
+                LatLng pos = new LatLng(Double.parseDouble(s5[6]), Double.parseDouble(s5[7]));
+                mMap.addMarker(new MarkerOptions()
+                        .position(pos)
+                        .title("Toilets")
+                        .icon(BitmapDescriptorFactory.fromBitmap(resizeMapIcons("locationmarker", 40, 40))));
+            }
+        }
+        if (Nav.art){
+            //Park Data
+            InputStream inputStream6 = getResources().openRawResource(R.raw.act_public_art_list);
+            CSVFile csvFile6 = new CSVFile(inputStream6);
+            String[] scoreList6 = csvFile6.read(133);
+            for (int i = 1; i < 132; i++) {
+                String[] s6 = scoreList6[i].split("-");
+                String[] thi = s6[1].split(",");
+                String[] lon = thi[1].split(" ");
+                String lony = lon[1].substring(0, lon[1].length() - 2);
+                LatLng pos = new LatLng(Double.parseDouble("-" + thi[0]), Double.parseDouble(lony));
+                mMap.addMarker(new MarkerOptions()
+                        .position(pos)
+                        .title("Public Art")
+                        .icon(BitmapDescriptorFactory.fromBitmap(resizeMapIcons("locationmarker", 40, 40))));
+            }
+        }
     }
     public Bitmap resizeMapIcons(String iconName, int width, int height){
         Bitmap imageBitmap = BitmapFactory.decodeResource(getResources(),getResources().getIdentifier(iconName, "drawable", getPackageName()));
