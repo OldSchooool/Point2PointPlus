@@ -91,14 +91,14 @@ public class Route extends FragmentActivity implements OnMapReadyCallback {
             mMap.addMarker(new MarkerOptions()
                     .position(origin)
                     //.title("Marker in Sydney")
-                    .icon(BitmapDescriptorFactory.fromBitmap(resizeMapIcons("pegman", 100, 100))));
+                    .icon(BitmapDescriptorFactory.fromBitmap(resizeMapIcons("mapmarker", 100, 100))));
             mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(origin, 13));
 
             LatLng destination = new LatLng(Nav.destinationLat, Nav.destinationLon);
             mMap.addMarker(new MarkerOptions()
                     .position(destination)
                     //.title("Marker in Sydney")
-                    .icon(BitmapDescriptorFactory.fromBitmap(resizeMapIcons("pegman", 100, 100))));
+                    .icon(BitmapDescriptorFactory.fromBitmap(resizeMapIcons("mapmarker", 100, 100))));
 
 
             //for (int i = 0; i < routes.length(); i++) {
