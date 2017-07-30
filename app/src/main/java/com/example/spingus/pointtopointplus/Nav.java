@@ -156,8 +156,12 @@ public class Nav extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.nav_camera) {
+            Intent i = new Intent(Nav.this, Instructions.class);
+            startActivity(i);
             // Handle the camera action
         } else if (id == R.id.nav_gallery) {
+            Intent i = new Intent(Nav.this, Credits.class);
+            startActivity(i);
 
         }
 

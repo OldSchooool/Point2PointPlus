@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.spingus.pointtopointplus.Credits">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="\n \n \n To choose a path, select a starting point,and a destination. \n To add additional points to stop, you can tap on points on the main map to add them to your journey \n to find new points to stop at or avoid, use the modifiers section to choose points you want. \n To start your journey press the CALCULATE ROUTE button and enjoy the sights of canberra."
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp" />
+</RelativeLayout>
