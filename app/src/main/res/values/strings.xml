@@ -1,8 +1,8 @@
 <resources>
     <string name="app_name">PointToPointPlus - Team ERM</string>
     <string name="title_activity_maps">Map</string>
-    <string name="title_activity_point">Map</string>
-    <string name="title_activity_point_b">Map</string>
+    <string name="title_activity_point">Select Starting Point</string>
+    <string name="title_activity_point_b">Select Destination Point</string>
     <string name="title_activity_modifiers">Modifiers</string>
     <string name="large_text">hi</string>
     <string name="action_settings">Settings</string>
