@@ -33,22 +33,22 @@
                 android:layout_width="32dp"
                 android:layout_height="32dp"
                 android:drawableStart="@drawable/car_dark"
-                android:text="Car"
-                android:onClick="car"/>
+                android:onClick="car"
+                android:text="Car" />
 
             <android.support.design.widget.TabItem
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@color/colorText"
-                android:text="Ride"
-                android:onClick="ride"/>
+                android:onClick="ride"
+                android:text="Ride" />
 
             <android.support.design.widget.TabItem
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@color/colorText"
-                android:text="Walk"
-                android:onClick="walk"/>
+                android:onClick="walk"
+                android:text="Walk" />
         </android.support.design.widget.TabLayout>
 
         <fragment
@@ -71,10 +71,11 @@
             <Button
                 android:id="@+id/button2"
                 style="@style/Widget.AppCompat.Button"
-                android:layout_width="300dp"
+                android:layout_width="match_parent"
                 android:layout_height="34dp"
                 android:layout_margin="@dimen/activity_horizontal_margin"
                 android:background="@color/colorAccent"
+                android:drawableRight="@drawable/points"
                 android:paddingLeft="8dp"
                 android:text="Select Starting Point..."
                 android:textAlignment="viewStart"
@@ -85,10 +86,11 @@
             <Button
                 android:id="@+id/button3"
                 style="@style/Widget.AppCompat.Button"
-                android:layout_width="300dp"
+                android:layout_width="match_parent"
                 android:layout_height="34dp"
                 android:layout_margin="@dimen/activity_horizontal_margin"
                 android:background="@color/colorAccent"
+                android:drawableRight="@drawable/points"
                 android:elevation="0dp"
                 android:paddingLeft="8dp"
                 android:text="Select Destination Point..."
@@ -100,10 +102,11 @@
             <Button
                 android:id="@+id/button4"
                 style="@style/Widget.AppCompat.Button"
-                android:layout_width="300dp"
+                android:layout_width="match_parent"
                 android:layout_height="34dp"
                 android:layout_margin="@dimen/activity_horizontal_margin"
                 android:background="@color/colorAccent"
+                android:drawableRight="@drawable/plus"
                 android:paddingLeft="8dp"
                 android:text="Select Modifiers..."
                 android:textAlignment="viewStart"
