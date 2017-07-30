@@ -7,4 +7,7 @@
     android:fitsSystemWindows="true"
     tools:context="com.example.spingus.pointtopointplus.Modifiers">
 
+
+    <include layout="@layout/content_modifiers" />
+
 </android.support.design.widget.CoordinatorLayout>
