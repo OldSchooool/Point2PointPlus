@@ -29,9 +29,9 @@
         android:id="@+id/editText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="@color/colorText"
         android:ems="10"
         android:inputType="textPersonName"
-        android:background="@color/colorPrimary"
-        android:text="Where would you like to go?" />
+        android:text="Search..." />
 
 </android.support.design.widget.CoordinatorLayout>
