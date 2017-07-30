@@ -12,64 +12,107 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical" />
+            android:orientation="vertical" >
+
+            <Switch
+                android:id="@+id/switch2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="200dp"
+                android:layout_weight="1"
+                android:background="@drawable/modifier_widget"
+                android:drawableStart="@drawable/bikecrashavoid"
+                android:text="Avoid Risky Bicycle Areas"
+                android:textAlignment="center"
+                android:textSize="18sp" />
+
+            <Switch
+                android:id="@+id/switch6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_weight="1"
+                android:background="@drawable/modifier_widget"
+                android:drawableStart="@drawable/saferwalk"
+                android:text="Safer Walk"
+                android:textAlignment="center"
+                android:textSize="18sp" />
+
+            <Switch
+                android:id="@+id/switch3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_weight="1"
+                android:background="@drawable/modifier_widget"
+                android:drawableStart="@drawable/publictoilets"
+                android:text="Public Toilets"
+                android:textAlignment="center"
+                android:textSize="18sp" />
+
+            <Switch
+                android:id="@+id/switch7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_weight="1"
+                android:background="@drawable/modifier_widget"
+                android:drawableStart="@drawable/parkbenches"
+                android:text="Park Benches"
+                android:textAlignment="center"
+                android:textSize="18sp" />
+
+            <Switch
+                android:id="@+id/switch1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_weight="1"
+                android:background="@drawable/modifier_widget"
+                android:drawableStart="@drawable/playgrounds"
+                android:text="Playground"
+                android:textAlignment="center"
+                android:textSize="18sp" />
+
+            <Switch
+                android:id="@+id/switch4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_weight="1"
+                android:background="@drawable/modifier_widget"
+                android:drawableStart="@drawable/bbq"
+                android:text="Barbeque"
+                android:textAlignment="center"
+                android:textSize="18sp" />
+
+            <Switch
+                android:id="@+id/switch5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_weight="1"
+                android:background="@drawable/modifier_widget"
+                android:drawableStart="@drawable/touristmode"
+                android:text="Tourist"
+                android:textAlignment="center"
+                android:textSize="18sp" />
+
+        </LinearLayout>
     </ScrollView>
-
-    <Switch
-        android:id="@+id/switch1"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="16dp"
-        android:layout_marginRight="16dp"
-        android:layout_marginTop="200dp"
-        android:layout_weight="1"
-        android:background="@drawable/modifier_widget"
-        android:drawableStart="@drawable/car_dark"
-        android:text="Playground"
-        android:textAlignment="center"
-        android:textSize="18sp" />
-
-    <Switch
-        android:id="@+id/switch4"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="16dp"
-        android:layout_marginRight="16dp"
-        android:layout_marginTop="575dp"
-        android:layout_weight="1"
-        android:background="@drawable/modifier_widget"
-        android:drawableStart="@drawable/car_dark"
-        android:text="Barbeque"
-        android:textAlignment="center"
-        android:textSize="18sp" />
-
-    <Switch
-        android:id="@+id/switch3"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="16dp"
-        android:layout_marginRight="16dp"
-        android:layout_marginTop="450dp"
-        android:layout_weight="1"
-        android:background="@drawable/modifier_widget"
-        android:drawableStart="@drawable/car_dark"
-        android:text="Toilets"
-        android:textAlignment="center"
-        android:textSize="18sp" />
-
-    <Switch
-        android:id="@+id/switch2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="16dp"
-        android:layout_marginRight="16dp"
-        android:layout_marginTop="325dp"
-        android:layout_weight="1"
-        android:background="@drawable/modifier_widget"
-        android:drawableStart="@drawable/car_dark"
-        android:text="Avoid Risky Bicycle Areas"
-        android:textAlignment="center"
-        android:textSize="18sp" />
 
     <android.support.design.widget.AppBarLayout
         android:id="@+id/appbar"
